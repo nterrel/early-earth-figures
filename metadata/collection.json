@@ -1,0 +1,8 @@
+{
+  "excluded_source_patterns": [
+    {
+      "pattern": "*isolator*",
+      "reason": "Preceding separate work; excluded from the Early Earth library at Nick's request on 2026-10-04."
+    }
+  ]
+}

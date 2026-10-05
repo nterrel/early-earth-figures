@@ -1,0 +1,570 @@
+{
+  "Dissertation_figures/alanine/ala_conformers": {
+    "title": "Alanine conformers — animation",
+    "description": "Animated ball-and-stick views of alanine configurations, showing changes in the molecular geometry.",
+    "note": "An illustrative coordinate animation; it does not establish interconversion rates or conformer stability."
+  },
+  "Dissertation_figures/cxhy/c5h12_covariance": {
+    "title": "Pentane atomic-energy covariance",
+    "description": "Annotated 17-by-17 covariance matrix for the C5H12 model example, using blue for negative and gold for positive entries."
+  },
+  "Dissertation_figures/cxhy/c5h12_covariance_golden_orange_adjusted": {
+    "title": "Pentane covariance — revised color layout",
+    "description": "Compact blue-and-gold rendering of the C5H12 atomic-energy covariance matrix with integer annotations."
+  },
+  "Dissertation_figures/cxhy/c5h12_covariance_old": {
+    "title": "Pentane covariance — earlier rendering",
+    "description": "Earlier purple-to-yellow matrix rendering of covariance between atoms in the C5H12 example.",
+    "note": "The archived variant is retained for comparison; use the producer notebook before comparing numerical differences between versions."
+  },
+  "Dissertation_figures/cxhy/ch4": {
+    "title": "Methane geometry — covariance example",
+    "description": "Ball-and-stick methane rendering illustrating the carbon and four hydrogen atoms used in the covariance example."
+  },
+  "Dissertation_figures/cxhy/ch4_covariance": {
+    "title": "Methane atomic-energy covariance",
+    "description": "Five-by-five annotated CH4 covariance matrix separating the carbon contribution from the four hydrogen contributions."
+  },
+  "Dissertation_figures/cxhy/ch4_covariance_golden_orange": {
+    "title": "Methane covariance — compact color layout",
+    "description": "Blue-and-gold presentation of the methane atomic-energy covariance matrix, with positive and negative directions marked on the color bar."
+  },
+  "Dissertation_figures/cxhy/ch4_covariance_old": {
+    "title": "Methane covariance — earlier rendering",
+    "description": "Earlier CH4 covariance heatmap with decimal annotations and a purple-to-yellow color scale."
+  },
+  "Dissertation_figures/cxhy/cov_c5h12_labeled": {
+    "title": "Pentane geometry with atom indices",
+    "description": "Indexed C5H12 ball-and-stick illustration showing which carbon and hydrogen atoms correspond to the covariance-matrix rows."
+  },
+  "Dissertation_figures/cxhy/cov_ch4_labeled": {
+    "title": "Methane geometry with atom indices",
+    "description": "Methane illustration labeling carbon as C0 and the hydrogen atoms H1–H4 for the covariance example."
+  },
+  "Dissertation_figures/early_earth/228": {
+    "title": "228-atom development system — animation",
+    "description": "Animated molecular rendering of the small development system used to illustrate changing coordinates and connectivity."
+  },
+  "Dissertation_figures/early_earth/228_kin_e": {
+    "title": "Kinetic energy versus temperature",
+    "description": "Kinetic-energy plot with temperature on the horizontal axis; the displayed relation rises approximately linearly.",
+    "note": "The archive preserves the original axes and energy labels; this is not a new reconstructed thermodynamic result."
+  },
+  "Dissertation_figures/early_earth/228_pot_eng": {
+    "title": "Potential energy through heating and cooling",
+    "description": "Temperature–potential-energy density view, showing the separated paths and the densely sampled high-temperature interval.",
+    "note": "F09 source values are retained, but the transformation behind the historical displayed energy axis remains unresolved."
+  },
+  "Dissertation_figures/early_earth/228_tot_eng": {
+    "title": "Total energy through heating and cooling",
+    "description": "Temperature–total-energy density plot from the energy illustration set, with a color scale indicating plotted counts.",
+    "note": "Interpret the original displayed energy scale only within its archived plotting context."
+  },
+  "Dissertation_figures/early_earth/96_atom_2d": {
+    "title": "96-atom fragment — historical 2D drawing",
+    "description": "Line drawing of the selected 96-atom fragment, displaying the bond orders and nitrogen/oxygen labels.",
+    "note": "The drawn bond orders are historical annotations, not a validated chemical assignment for every detected graph."
+  },
+  "Dissertation_figures/early_earth/96atom": {
+    "title": "96-atom fragment — original coordinates",
+    "description": "Three-dimensional ball-and-stick view of the selected large fragment before the quench comparison."
+  },
+  "Dissertation_figures/early_earth/96atom_quench": {
+    "title": "96-atom fragment — quenched coordinates",
+    "description": "Three-dimensional rendering of the quenched coordinate example corresponding to the 96-atom fragment."
+  },
+  "Dissertation_figures/early_earth/alanine": {
+    "title": "Alanine coordinate illustration",
+    "description": "Ball-and-stick alanine rendering highlighting its carbon framework, amino group and carboxyl group."
+  },
+  "Dissertation_figures/early_earth/alanine_dihedrals_updated": {
+    "title": "Alanine improper-angle distribution",
+    "description": "Histogram of alanine angles with two modes near ±125° and a dashed reference line.",
+    "note": "The producer excludes angles between −10° and +10°. The current F10 reconstruction supplies population and provenance checks; the modes alone do not assign absolute stereochemistry."
+  },
+  "Dissertation_figures/early_earth/alanine_shaded": {
+    "title": "Alanine shaded rendering — dark variant",
+    "description": "Shaded alanine export whose molecular detail is nearly invisible against the black background.",
+    "note": "Retained as an export variant; use the clearly visible alanine coordinate or torsion illustrations for review."
+  },
+  "Dissertation_figures/early_earth/dihedral_alanine": {
+    "title": "Alanine torsion definition — labeled atoms",
+    "description": "Alanine illustration labels N, Cα, the carboxyl carbon and the side-chain carbon to show the atoms used in the angle definition."
+  },
+  "Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time": {
+    "title": "Largest fragment over time — blue historical view",
+    "description": "Time series of the maximum detected fragment atom count, showing the early rise and variation across the later sampled interval."
+  },
+  "Dissertation_figures/early_earth/figures/avg_mol_over_time_more_bins": {
+    "title": "Mean fragment size — densely binned view",
+    "description": "Dense time series of the average atom count per detected fragment, including the late change near the end of the run."
+  },
+  "Dissertation_figures/early_earth/figures/avg_mol_time": {
+    "title": "Mean fragment size — coarse historical view",
+    "description": "Coarser blue marker-and-line presentation of average atoms per detected fragment over the sampled run."
+  },
+  "Dissertation_figures/early_earth/figures/counts_vs_time_CHHHH": {
+    "title": "Two formula-count traces over time",
+    "description": "Two-series formula-count plot showing a large declining trace and a much smaller trace.",
+    "note": "The filename indicates CH4, while the embedded title and legend repeat CHN. That labeling inconsistency is preserved; consult the original producer before assigning each curve."
+  },
+  "Dissertation_figures/early_earth/figures/counts_vs_time_CHN": {
+    "title": "CHN formula counts over time",
+    "description": "Single-series count plot for the CHN formula key, showing the early rise and the later sampled interval.",
+    "note": "A formula-key count does not by itself establish a unique chemically assigned species."
+  },
+  "Dissertation_figures/early_earth/figures/hist2d_counts_natoms_highres": {
+    "title": "Occurrence count versus fragment size",
+    "description": "Two-dimensional histogram of fragment atom count and recorded occurrence count, with bin frequency represented by color."
+  },
+  "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram": {
+    "title": "Fragment-size distribution — linear frequency",
+    "description": "Histogram of fragment atom counts with a linear frequency axis and a displayed range extending to roughly 60 atoms."
+  },
+  "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_log": {
+    "title": "Fragment-size distribution — logarithmic frequency",
+    "description": "Log-frequency histogram of fragment sizes, making the low-count tail of larger fragments visible."
+  },
+  "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_small": {
+    "title": "Small-fragment distribution — linear frequency",
+    "description": "Linear-frequency histogram focused on the small-fragment range, with the most populated bins around a few atoms."
+  },
+  "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_small_log": {
+    "title": "Small-fragment distribution — logarithmic frequency",
+    "description": "Log-frequency counterpart to the small-fragment histogram, showing both common bins and sparse larger sizes within the restricted range."
+  },
+  "Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time": {
+    "title": "Average atom count — archived connected-series view",
+    "description": "Plot of average fragment atom count against time, displayed as a densely connected blue series.",
+    "note": "The broad filled-looking shape comes from the archived plotting order and connections; do not interpret it as an uncertainty band."
+  },
+  "Dissertation_figures/early_earth/figures/unique_signature_vs_time": {
+    "title": "First detection of structural signatures",
+    "description": "Histogram of newly detected signature keys versus time, with dashed markers at 0.2 and 4.2 ns.",
+    "note": "The producer groups unique signature keys by recorded appearance time; first detection is conditioned on the sampled frames."
+  },
+  "Dissertation_figures/early_earth/largest_mol": {
+    "title": "Largest fragment — historical molecular rendering",
+    "description": "Ball-and-stick rendering of the selected large nitrogen- and oxygen-containing fragment from the Early Earth illustration set."
+  },
+  "Dissertation_figures/early_earth/molecule_flat": {
+    "title": "Largest fragment — flat historical drawing",
+    "description": "Two-dimensional drawing of the selected large fragment, displaying the connectivity and bond-order annotations.",
+    "note": "The drawing is an illustration, not independent confirmation of the annotated chemical bond orders."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/gly-ala-before_after_quench": {
+    "title": "Alanine and glycine counts before and after quenching",
+    "description": "Side-by-side appearance counts for the two named query labels retained after requiring at least 50 combined appearances.",
+    "note": "These are archived label/query counts over sampled frames, not yields or validation of every molecular assignment."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/mol_before-after_quench": {
+    "title": "Named-query counts before and after quenching",
+    "description": "Bar chart comparing total appearances of the named-query labels in original and quenched datasets.",
+    "note": "Current assignment and provenance qualifications apply; the labels do not independently prove chemical identity."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/named_mols_before-after_quench": {
+    "title": "Named-query detections over time — quench comparison",
+    "description": "Blue and orange filled traces compare per-frame counts of named-query detections before and after quenching.",
+    "note": "Filled traces follow the archived presentation of separate endpoint counts; they do not describe continuous quench trajectories."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/new_415_quench_formula_vs_frame": {
+    "title": "Signature counts before and after quenching — 415 frames",
+    "description": "Scatter comparison of per-frame formula/signature counts before and after quenching in the later 415-frame dataset.",
+    "note": "The original plot calls these molecular signatures. F11 aggregate reproduction and plot-source/database provenance remain separate checks."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/new_415_violins": {
+    "title": "Named-query counts before and after quenching — 415 frames",
+    "description": "Violin plots compare how many named-query matches occur in each frame before and after quenching.",
+    "note": "The distributions summarize archived query records; they do not establish production yield or molecular stability."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/quench_formula_vs_frame": {
+    "title": "Distinct formula rows before and after quenching",
+    "description": "Scatter plot of the number of formula-table rows at each sampled time for original and quenched 415-frame datasets.",
+    "note": "The original y-axis says unique formulas; the producer counts formula-table rows grouped by time."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/updated_violins": {
+    "title": "Named-query counts per frame — revised violins",
+    "description": "Revised blue/orange violin plots compare the distribution of original and quenched named-query record counts per frame."
+  },
+  "Dissertation_figures/early_earth/quench_analysis/violinplot-mol_counts-before-after-quench": {
+    "title": "Named-query counts per frame — earlier violins",
+    "description": "Earlier violin presentation of the original-versus-quenched per-frame query-count distributions, including internal box summaries."
+  },
+  "Dissertation_figures/early_earth/rmsd_distribution": {
+    "title": "Aligned alanine coordinates — RMSD distribution",
+    "description": "Distribution of RMSD from the mean aligned alanine coordinates, with a dashed line at the sample mean.",
+    "note": "The producer computes distances from an average coordinate set and excludes RMSD ≥50 Å; this is not a stability or equilibrium measure."
+  },
+  "Dissertation_figures/early_earth/steps_vs_temp_quench": {
+    "title": "Historical quench temperature schedule",
+    "description": "Temperature plotted against integration step for the cooling schedule, approaching 300 K after the initial decrease.",
+    "note": "This preserved schedule illustration should be read with its original run context; current production endpoints use their own bound protocol."
+  },
+  "Dissertation_figures/early_earth/test": {
+    "title": "Exploratory nitrogen/oxygen fragment drawing",
+    "description": "Unlabeled two-dimensional drawing of a nitrogen- and oxygen-containing fragment.",
+    "note": "Its selected source graph and intended use are not established by this PNG; it is an exploratory illustration."
+  },
+  "Dissertation_figures/early_earth/updated_avg_n-atoms": {
+    "title": "Mean fragment size — revised purple view",
+    "description": "Revised trace of average atoms per detected fragment across the sampled trajectory, with the early rise and late endpoint change visible."
+  },
+  "Dissertation_figures/early_earth/updated_graphmatcher": {
+    "title": "Named-query counts with graph matching",
+    "description": "Log-scale bars compare named-query counts before and after graph matching across the labeled structures.",
+    "note": "This is a historical query-comparison diagnostic; current graph/chemical-assignment checks determine which labels are supportable."
+  },
+  "Dissertation_figures/early_earth/updated_largest_mol_vs_time": {
+    "title": "Largest fragment over time — revised purple view",
+    "description": "Purple trace of the largest detected fragment atom count versus time, including the sparse high-size excursions."
+  },
+  "Dissertation_figures/early_earth/updated_original_counts": {
+    "title": "Named-query occurrence ranking",
+    "description": "Logarithmic bars rank total appearances of named-query labels, with count annotations above each bar.",
+    "note": "Recorded label matches are sampled query occurrences, not validated species yields."
+  },
+  "Dissertation_figures/figures/228000-after": {
+    "title": "228,000-atom system — evolved perspective view",
+    "description": "Perspective rendering of the large development system after the run, showing the full periodic cell."
+  },
+  "Dissertation_figures/figures/228000-start": {
+    "title": "228,000-atom system — starting perspective view",
+    "description": "Perspective rendering of the starting large development system, paired with the evolved-state image for visual context."
+  },
+  "Dissertation_figures/figures/228_final": {
+    "title": "228-atom system — evolved molecular view",
+    "description": "Molecular rendering of the evolved small development cell, with the connected structures visible against a white background."
+  },
+  "Dissertation_figures/figures/228_initial": {
+    "title": "228-atom system — starting molecular view",
+    "description": "Molecular rendering of the initial small development cell, providing the starting counterpart to the evolved-system illustration."
+  },
+  "Dissertation_figures/figures/228k_head_on": {
+    "title": "228,000-atom system — head-on view",
+    "description": "Head-on rendering of the dense large development cell, preserving the rectangular frame and black surrounding margin."
+  },
+  "Dissertation_figures/figures/228k_lines_fullscreen": {
+    "title": "228,000-atom system — full-frame line rendering",
+    "description": "Full-frame close view of the large development system using the dense atom-and-line representation."
+  },
+  "Dissertation_figures/figures/3d-d-ala": {
+    "title": "D-alanine — historical 3D illustration",
+    "description": "Ball-and-stick depiction labeled D-alanine in the dissertation illustration set.",
+    "note": "This teaching illustration does not assign D/L labels to the simulated alanine population."
+  },
+  "Dissertation_figures/figures/3d-l-ala": {
+    "title": "L-alanine — historical 3D illustration",
+    "description": "Three-dimensional ball-and-stick depiction labeled L-alanine, paired with the D-alanine illustration.",
+    "note": "Absolute stereochemistry in the simulated population requires the separately defined assignment convention."
+  },
+  "Dissertation_figures/figures/aev/AEV_construction": {
+    "title": "ANI atomic-environment vector construction",
+    "description": "Diagram organizes radial channels by element and angular channels by element pair beneath a local-neighborhood illustration.",
+    "note": "ANI descriptor background; this is a schematic rather than an Early Earth population result."
+  },
+  "Dissertation_figures/figures/aev/aev_isolated_cropped": {
+    "title": "Local atomic environment — isolated cropped view",
+    "description": "Cropped molecular illustration inside a single purple neighborhood sphere, from the ANI descriptor teaching set."
+  },
+  "Dissertation_figures/figures/aev/aev_no_radius": {
+    "title": "AEV example molecule without cutoff sphere",
+    "description": "Uncropped ball-and-stick molecule used to illustrate ANI local-environment descriptors before adding neighborhood radii."
+  },
+  "Dissertation_figures/figures/aev/aev_no_radius_cropped": {
+    "title": "AEV example molecule — close view without radius",
+    "description": "Close molecular rendering from the ANI descriptor illustration series, with no surrounding cutoff sphere."
+  },
+  "Dissertation_figures/figures/aev/aev_radius": {
+    "title": "AEV neighborhood — single radius",
+    "description": "Molecular example surrounded by a purple neighborhood sphere to illustrate local spatial coverage in an ANI atomic-environment vector."
+  },
+  "Dissertation_figures/figures/aev/aev_radius_combined": {
+    "title": "AEV neighborhood construction — combined panels",
+    "description": "Side-by-side molecular views show the bare geometry and two single-sphere neighborhood presentations."
+  },
+  "Dissertation_figures/figures/aev/aev_radius_cropped": {
+    "title": "AEV neighborhood — cropped single-radius view",
+    "description": "Tight crop of the molecular example and purple neighborhood sphere, emphasizing which atoms lie near the displayed boundary."
+  },
+  "Dissertation_figures/figures/aev/aev_radius_isolated": {
+    "title": "AEV neighborhood — isolated single-radius view",
+    "description": "Centered molecular example inside a purple neighborhood sphere with the full black surrounding frame visible."
+  },
+  "Dissertation_figures/figures/aev/both_radii_cropped": {
+    "title": "AEV neighborhoods — two radii, cropped",
+    "description": "Cropped illustration overlays inner purple and outer blue spheres around the example molecule to show two neighborhood scales."
+  },
+  "Dissertation_figures/figures/aev/both_radii_test": {
+    "title": "AEV neighborhoods — two-radius draft",
+    "description": "Uncropped two-sphere neighborhood illustration retains the coordinate axes and black background from the draft rendering."
+  },
+  "Dissertation_figures/figures/alanine_dihedral": {
+    "title": "Alanine torsion definition — highlighted atoms",
+    "description": "Ball-and-stick alanine illustration highlights the four central/reference atoms in purple for the improper-angle example."
+  },
+  "Dissertation_figures/figures/alanine_shaded": {
+    "title": "Alanine shaded rendering — second dark variant",
+    "description": "Shaded alanine export with a very dark background and little visible molecular detail.",
+    "note": "The neighboring highlighted-atom illustration is a clearer reading aid; this export is retained as historical context."
+  },
+  "Dissertation_figures/figures/c2h3n7o2-cropped": {
+    "title": "C2H3N7O2 model example — close geometry",
+    "description": "Close ball-and-stick view of the C2H3N7O2 example, with atom indices 11 and 2 labeled.",
+    "note": "An earlier ANI/model illustration, separate from the current Early Earth molecular census."
+  },
+  "Dissertation_figures/figures/c2h3n7o2": {
+    "title": "C2H3N7O2 model example — full frame",
+    "description": "Full-frame rendering of the two linked heteroatom-rich rings in the C2H3N7O2 model example."
+  },
+  "Dissertation_figures/figures/c2h3n7o2_highlighted-cropped": {
+    "title": "C2H3N7O2 — highlighted atoms, close view",
+    "description": "Cropped geometry highlights indexed atoms 11 and 2 in purple within the model-context example."
+  },
+  "Dissertation_figures/figures/c2h3n7o2_highlighted": {
+    "title": "C2H3N7O2 — highlighted atoms, full frame",
+    "description": "White-background rendering of the two linked rings with atom indices 11 and 2 highlighted and labeled."
+  },
+  "Dissertation_figures/figures/c5h12": {
+    "title": "Pentane model example — molecular rendering",
+    "description": "Ball-and-stick C5H12 geometry from the ANI teaching and covariance illustration collection."
+  },
+  "Dissertation_figures/figures/ch4": {
+    "title": "Methane model example — molecular rendering",
+    "description": "Compact ball-and-stick CH4 image used as a model-context illustration."
+  },
+  "Dissertation_figures/figures/cropped_228_final": {
+    "title": "228-atom system — evolved close view",
+    "description": "Cropped evolved-state rendering of the small development cell, emphasizing the molecular structures rather than the surrounding white margin."
+  },
+  "Dissertation_figures/figures/cropped_228_initial": {
+    "title": "228-atom system — starting close view",
+    "description": "Cropped starting-state view of the small development cell, paired with the evolved close view for visual comparison."
+  },
+  "Dissertation_figures/figures/cropped_atom11": {
+    "title": "C2H3N7O2 — atom 11 neighborhood illustration",
+    "description": "Close geometry highlights atom 11 in purple in the heterocyclic model example.",
+    "note": "This archived atom-focused illustration belongs to earlier model work, not the current chemistry census."
+  },
+  "Dissertation_figures/figures/cropped_atom2": {
+    "title": "C2H3N7O2 — atom 2 neighborhood illustration",
+    "description": "Close geometry highlights atom 2 in purple near the oxygen-containing portion of the model example."
+  },
+  "Dissertation_figures/figures/d-ala": {
+    "title": "D-alanine — 2D stereochemical illustration",
+    "description": "Wedge-bond drawing labeled D-alanine, paired with the corresponding L-alanine drawing."
+  },
+  "Dissertation_figures/figures/energies/2xr_1x-first_ae-per-model": {
+    "title": "ANI-2xR / 1x-first — energies by ensemble member",
+    "description": "Four element panels compare predicted atomic-energy contribution distributions for the eight ensemble members on the 1x-first dataset."
+  },
+  "Dissertation_figures/figures/energies/2xr_1x-first_mean-ae-per-atomtype": {
+    "title": "ANI-2xR / 1x-first — mean atomic energies",
+    "description": "Element-separated histograms show ensemble-mean atomic-energy contributions for hydrogen, carbon, nitrogen and oxygen in the 1x-first test set."
+  },
+  "Dissertation_figures/figures/energies/2xr_1x-first_stdev-ae-per-atomtype": {
+    "title": "ANI-2xR / 1x-first — atomic-energy disagreement",
+    "description": "Four panels show the spread of atomic-energy predictions across ensemble members, separated by element in the 1x-first evaluation."
+  },
+  "Dissertation_figures/figures/energies/2xr_1x-first_total-e-qbc": {
+    "title": "ANI-2xR / 1x-first — total-energy QBC",
+    "description": "Histogram of the total-energy ensemble-disagreement score for the 1x-first test dataset.",
+    "note": "QBC measures disagreement between models; it is not a calibrated prediction error or chemical-validation result."
+  },
+  "Dissertation_figures/figures/energies/2xr_comp6v1_ae-per-model": {
+    "title": "ANI-2xR / COMP6v1 — energies by ensemble member",
+    "description": "Hydrogen, carbon, nitrogen and oxygen panels compare per-model atomic-energy contribution densities for the COMP6v1 evaluation."
+  },
+  "Dissertation_figures/figures/energies/2xr_comp6v1_force-highest-force_deviation-vs-energy": {
+    "title": "COMP6v1 — maximum force disagreement versus energy error",
+    "description": "Density plot relates each molecule’s largest relative force-magnitude deviation to the displayed QM–ANI energy prediction error.",
+    "note": "This energy-directory variant uses the original displayed error scale; it differs from the size-weighted force-directory view."
+  },
+  "Dissertation_figures/figures/energies/2xr_comp6v1_mean-ae-per-atomtype": {
+    "title": "ANI-2xR / COMP6v1 — mean atomic energies",
+    "description": "Element-specific distributions of ensemble-mean atomic-energy contributions across the COMP6v1 test molecules."
+  },
+  "Dissertation_figures/figures/energies/2xr_comp6v1_stdev-ae-per-atomtype": {
+    "title": "ANI-2xR / COMP6v1 — atomic-energy disagreement",
+    "description": "Element-separated histograms of atomic-energy standard deviations across the ANI ensemble on the COMP6v1 benchmark set."
+  },
+  "Dissertation_figures/figures/energies/2xr_comp6v1_total-e-qbc": {
+    "title": "ANI-2xR / COMP6v1 — total-energy QBC",
+    "description": "Distribution of the total-energy ensemble-disagreement score across COMP6v1 structures, with a long sparse tail."
+  },
+  "Dissertation_figures/figures/energies/ch4_2xr_stdev-ae": {
+    "title": "Methane reference on atomic-energy disagreement",
+    "description": "Hydrogen and carbon disagreement histograms from the ANI-2xR analysis include dashed methane-reference values for comparison."
+  },
+  "Dissertation_figures/figures/energies/ch4_2xr_total-e-qbc": {
+    "title": "Methane reference on total-energy QBC",
+    "description": "Total-energy disagreement distribution with a dashed methane example score, showing where that reference lies in the population."
+  },
+  "Dissertation_figures/figures/example": {
+    "title": "Epoxide — schematic stereochemical example",
+    "description": "Line drawing of an epoxide example with wedge and dashed bonds, showing an example molecular geometry."
+  },
+  "Dissertation_figures/figures/forces/1x-first-cos_sim-hist2d-insert": {
+    "title": "1x-first — force direction and magnitude error, inset",
+    "description": "Two-dimensional density view compares force-vector cosine similarity with magnitude prediction error; an inset enlarges the high-similarity region."
+  },
+  "Dissertation_figures/figures/forces/1x-first-cosine_sim-bar3d": {
+    "title": "1x-first — force direction and magnitude, 3D bins",
+    "description": "Three-dimensional histogram of force-vector cosine similarity and magnitude prediction error for the 1x-first evaluation."
+  },
+  "Dissertation_figures/figures/forces/1x-first-cosine_sim-hist2d": {
+    "title": "1x-first — force direction and magnitude, 2D bins",
+    "description": "Planar density view of cosine similarity between force vectors versus force-magnitude prediction error on the 1x-first set."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-bar3d-logscale": {
+    "title": "COMP6v1 — force agreement, logarithmic 3D bins",
+    "description": "Three-dimensional force-error/cosine-similarity histogram uses logarithmic bin counts to display the lower-frequency regions."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-bar3d": {
+    "title": "COMP6v1 — force agreement, linear 3D bins",
+    "description": "Three-dimensional histogram presents the same force magnitude/direction comparison with an untransformed count axis."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-hist2d": {
+    "title": "COMP6v1 — force agreement, 2D density",
+    "description": "Two-dimensional density plot relates cosine similarity between predicted and reference force vectors to force-magnitude error."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-dft-vs-mean_ani": {
+    "title": "COMP6v1 — ANI and QM force magnitudes",
+    "description": "Density comparison places ANI force magnitudes on the horizontal axis and QM reference magnitudes on the vertical axis, with a diagonal guide."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-highest-force_deviation-vs-energy": {
+    "title": "COMP6v1 — largest force disagreement and size-weighted error",
+    "description": "Density view compares the maximum relative force-magnitude disagreement per molecule with the size-weighted energy error.",
+    "note": "The archived producer divides its energy-error quantity by the square root of atom count; this is a benchmark diagnostic rather than an Early Earth result."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-mean-uncertainty-vs-energy": {
+    "title": "COMP6v1 — mean relative force spread and energy error",
+    "description": "Paired panels compare mean relative force standard deviation and mean relative force range against QM–ANI energy prediction error."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-uncertainty_violin": {
+    "title": "COMP6v1 — force disagreement by element",
+    "description": "Paired violin plots compare relative force standard deviation and relative force range for H, C, N and O atoms."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_force-weighted-uncertainty-vs-energy": {
+    "title": "COMP6v1 — weighted relative force spread and energy error",
+    "description": "Two density panels plot weighted force relative standard deviation and weighted relative range against the weighted energy-error quantity."
+  },
+  "Dissertation_figures/figures/forces/2xr_comp6v1_mahalanobis-uncertainty-vs-energy": {
+    "title": "COMP6v1 — Mahalanobis force score and energy error",
+    "description": "Paired density views compare maximum and mean per-molecule Mahalanobis force scores against size-weighted energy error.",
+    "note": "An exploratory benchmark score; the plot does not establish a calibrated uncertainty model."
+  },
+  "Dissertation_figures/figures/forces/2xr_force_just_stdev": {
+    "title": "ANI-2xR — mean force-magnitude disagreement",
+    "description": "Histogram of average standard deviation in predicted force magnitude, displaying the ensemble-spread distribution."
+  },
+  "Dissertation_figures/figures/forces/QBC_confusion": {
+    "title": "QBC screening — historical confusion matrix",
+    "description": "Four-cell count matrix compares a total-energy disagreement threshold of 0.23 with an energy-error threshold of 1.5 in the benchmark analysis.",
+    "note": "The displayed thresholds are historical test choices, not approved screening cutoffs for the Early Earth population."
+  },
+  "Dissertation_figures/figures/forces/cos_sim-hist2d-insert": {
+    "title": "COMP6v1 — force direction agreement with close inset",
+    "description": "Force magnitude error versus cosine similarity with an inset enlarging the region above 0.975 similarity and its displayed annotation."
+  },
+  "Dissertation_figures/figures/forces/cos_sim_exponential_weighting-vs-energy": {
+    "title": "Cosine-weighted force spread and energy error",
+    "description": "Density plot compares an exponentially weighted force-magnitude disagreement score with size-weighted energy error."
+  },
+  "Dissertation_figures/figures/forces/force_entropy-vs-energy": {
+    "title": "Force entropy scores and energy error",
+    "description": "Paired density panels compare maximum and average per-molecule force entropy scores with the size-weighted energy-error quantity."
+  },
+  "Dissertation_figures/figures/forces/force_stdev-vs-energy_error": {
+    "title": "Mean force standard deviation and energy error",
+    "description": "Benchmark density view relates average ensemble standard deviation of force magnitude to size-weighted energy error."
+  },
+  "Dissertation_figures/figures/forces/lines_weighted_force_stdev-vs-energy_error": {
+    "title": "Weighted force spread — trial screening thresholds",
+    "description": "Magnitude-weighted force disagreement versus size-weighted energy error, with red dashed lines showing the trial cutoffs."
+  },
+  "Dissertation_figures/figures/forces/max_force_deviation_by_species": {
+    "title": "Force disagreement by element — overlaid densities",
+    "description": "Overlaid H, C, N and O distributions show the maximum force-magnitude deviation quantity across atomic examples."
+  },
+  "Dissertation_figures/figures/forces/max_force_deviation_by_species_filtered": {
+    "title": "Force disagreement by element — upper-tail subset",
+    "description": "Four element panels show only relative force deviations above 0.45, exposing the high-disagreement tail of the benchmark data.",
+    "note": "The threshold selects this historical diagnostic view; it is not an exclusion rule for current Early Earth analysis."
+  },
+  "Dissertation_figures/figures/forces/max_force_deviation_by_species_subplots": {
+    "title": "Force disagreement by element — separate panels",
+    "description": "Hydrogen, carbon, nitrogen and oxygen histograms separately display maximum relative force-magnitude deviations without the upper-tail restriction."
+  },
+  "Dissertation_figures/figures/forces/mean-uncertainty-vs-energy": {
+    "title": "Mean force relative spread — unweighted comparison",
+    "description": "Paired plots relate mean relative force standard deviation and mean relative range to the displayed energy-error quantity."
+  },
+  "Dissertation_figures/figures/forces/qbc-vs-energy_error": {
+    "title": "Total-energy QBC and size-weighted error",
+    "description": "Density plot compares total-energy ensemble disagreement with size-weighted energy error and includes red dashed trial screening lines."
+  },
+  "Dissertation_figures/figures/forces/weighted_force_confusion_matrix": {
+    "title": "Weighted force screening — historical confusion matrix",
+    "description": "Four-cell counts summarize magnitude-weighted force disagreement at a 3.5 cutoff against an energy-error cutoff of 1.5 in the test.",
+    "note": "This is a model-benchmark screening exercise; its thresholds have not been validated for the current simulation catalog."
+  },
+  "Dissertation_figures/figures/forces/weighted_force_stdev-vs-energy_error": {
+    "title": "Magnitude-weighted force spread and energy error",
+    "description": "Density plot relates the total magnitude-weighted standard deviation of predicted force magnitudes to size-weighted energy error."
+  },
+  "Dissertation_figures/figures/forces/weighted_uncertainty-vs-size_weighted_error": {
+    "title": "Size-weighted force spread — paired error views",
+    "description": "Paired panels compare the weighted force relative standard deviation and relative range with size-weighted energy error.",
+    "note": "The producer uses exponential weighting by force magnitude in this saved comparison; the labels alone do not fully define the weighting."
+  },
+  "Dissertation_figures/figures/forces/zoomed_2xr_comp6v1_force-dft-vs-mean_ani": {
+    "title": "COMP6v1 force magnitudes — close comparison",
+    "description": "Zoomed density plot compares ANI and QM force magnitudes in the lower-force region, retaining the diagonal reference and logarithmic count coloring."
+  },
+  "Dissertation_figures/figures/ghost_atoms": {
+    "title": "Periodic ghost atoms — schematic",
+    "description": "Indexed circular markers and cell-edge fragments illustrate the periodic-image/ghost-atom concept."
+  },
+  "Dissertation_figures/figures/l-ala": {
+    "title": "L-alanine — 2D stereochemical illustration",
+    "description": "Dashed-bond drawing labeled L-alanine, providing the counterpart to the D-alanine wedge-bond schematic."
+  },
+  "Dissertation_figures/figures/long-epoxide-cropped": {
+    "title": "Long-chain epoxide example — close geometry",
+    "description": "Cropped ball-and-stick rendering of the long-chain oxygen-containing molecule in the ANI illustration set."
+  },
+  "Dissertation_figures/figures/long-epoxide": {
+    "title": "Long-chain epoxide example — full frame",
+    "description": "Uncropped molecular rendering preserves the full long-chain model example and its black surrounding frame."
+  },
+  "Dissertation_figures/figures/m-epoxide-cropped": {
+    "title": "Small epoxide example — close geometry",
+    "description": "Close ball-and-stick rendering of the compact epoxide model example, emphasizing its ring and substituents."
+  },
+  "Dissertation_figures/figures/m-epoxide": {
+    "title": "Small epoxide example — full frame",
+    "description": "Full-frame version of the compact oxygen-containing model geometry."
+  },
+  "Dissertation_figures/figures/nn_arch": {
+    "title": "Neural-network architecture",
+    "description": "Layered node-and-edge diagram shows a fully connected neural network with a single output node.",
+    "note": "General model background; the diagram is not a bound configuration of the production Early Earth potential."
+  },
+  "Dissertation_figures/non_2xr/figures/2x_1x-first_ae-per-model": {
+    "title": "ANI-2x / 1x-first — energies by ensemble member",
+    "description": "Non-2xR model comparison shows element-specific atomic-energy contribution densities for eight ensemble members on 1x-first."
+  },
+  "Dissertation_figures/non_2xr/figures/2x_1x-first_mean-ae-per-atomtype": {
+    "title": "ANI-2x / 1x-first — mean atomic energies",
+    "description": "Hydrogen, carbon, nitrogen and oxygen histograms show ensemble-mean atomic-energy contributions for the non-2xR comparison."
+  },
+  "Dissertation_figures/non_2xr/figures/2x_1x-first_stdev-ae-per-atomtype": {
+    "title": "ANI-2x / 1x-first — atomic-energy disagreement",
+    "description": "Four element panels display ensemble standard deviations of atomic-energy contributions in the non-2xR evaluation."
+  },
+  "Dissertation_figures/non_2xr/figures/2x_1x-first_total-e-qbc": {
+    "title": "ANI-2x / 1x-first — total-energy QBC",
+    "description": "Total-energy ensemble-disagreement histogram from the non-2xR 1x-first model comparison.",
+    "note": "This score summarizes disagreement across the benchmark ensemble and does not bound current simulation errors."
+  }
+}

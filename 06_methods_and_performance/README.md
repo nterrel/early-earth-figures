@@ -1,6 +1,6 @@
 # Methods and performance
 
-Workflow and bounded performance illustrations. Historical measurements or proposed benchmarks do not establish a validated speedup on the current whole-frame workload.
+Analysis workflows, computational measurements, and method comparisons.
 
 These 4 catalog copies preserve their source bytes. Open [the visual gallery](../index.html) and select this theme for browsing; [the full catalog](../catalog.csv) records original/current source paths, SHA-256 hashes, statuses and figure IDs.
 
@@ -8,7 +8,7 @@ Final manuscript placement remains in [the publication plan](../../early_earth_a
 
 | Figure / file | Origin | Status |
 |---|---|---|
-| [F07 F07.pdf](analysis-figures-publication_revision__F07.pdf) | `early_earth_analysis_v2/figures/publication_revision/F07.pdf` | Working/review asset; author selection open |
-| [F07 F07.png](analysis-figures-publication_revision__F07.png) | `early_earth_analysis_v2/figures/publication_revision/F07.png` | Working/review asset; author selection open |
-| [F01 F01.pdf](analysis-figures-review_v1__F01.pdf) | `early_earth_analysis_v2/figures/review_v1/F01.pdf` | Working/review asset; author selection open |
-| [F01 F01.png](analysis-figures-review_v1__F01.png) | `early_earth_analysis_v2/figures/review_v1/F01.png` | Working/review asset; author selection open |
+| [Starting-frame analysis time and memory (PDF)](analysis-figures-publication_revision__F07.pdf) | `early_earth_analysis_v2/figures/publication_revision/F07.pdf` | Working/review asset; author selection open |
+| [Starting-frame analysis time and memory (PNG)](analysis-figures-publication_revision__F07.png) | `early_earth_analysis_v2/figures/publication_revision/F07.png` | Working/review asset; author selection open |
+| [From reactive dynamics to connectivity comparisons (PDF)](analysis-figures-review_v1__F01.pdf) | `early_earth_analysis_v2/figures/review_v1/F01.pdf` | Working/review asset; author selection open |
+| [From reactive dynamics to connectivity comparisons (PNG)](analysis-figures-review_v1__F01.png) | `early_earth_analysis_v2/figures/review_v1/F01.png` | Working/review asset; author selection open |

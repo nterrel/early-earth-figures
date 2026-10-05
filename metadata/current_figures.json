@@ -1,0 +1,482 @@
+{
+  "data/core/connectivity/stride100_analysis/census_overview": {
+    "title": "Connectivity census at 1.25-ps sampling",
+    "description": "Six panels summarize cumulative exact-graph discovery, graph counts per frame, fragment sizes, recurrence, element content, and reference matches in the dense Hero Run census.",
+    "note": "Counts refer to the retained exact-connectivity census; identities and recurrence depend on the analyzed sampling cadence."
+  },
+  "data/core/connectivity/stride200_analysis/census_overview": {
+    "title": "Connectivity census at 2.50-ps sampling",
+    "description": "The sparse Hero Run census summarizes exact-graph discovery, frame-level richness, size, recurrence, composition, and reference matching across its analyzed frames.",
+    "note": "This independently computed sparse census is distinct from selecting a sparse subset of the dense census."
+  },
+  "data/core/connectivity/stride200_analysis/diversity/chemical_diversity_overview": {
+    "title": "Structural variety and abundance in the sparse census",
+    "description": "Contrasts cumulative exact-connectivity richness with per-frame richness, effective Shannon diversity, mean size, recurrence, and element-specific variety and abundance.",
+    "note": "Structural diversity is defined by the retained connectivity representation; the panels do not establish chemically assigned species counts."
+  },
+  "data/core/connectivity/stride200_analysis/representative_review/index": {
+    "title": "198 representative connectivity graphs",
+    "description": "Searchable structure cards for recurrent, amino-acid-like, cyclic, and large graph selections, with formulas, graph identifiers, and coordinate depictions.",
+    "note": "Nick reviewed these as plausible high-temperature intermediates under the fixed single-bond model. Bond order, charge, names, stereochemistry, and energetic stability remain unassigned."
+  },
+  "data/selected_events/quench/frame_0447_report/hot": {
+    "title": "Hot, 2500 K graph gallery at frame 447",
+    "description": "Hot, 2500 K connectivity cards at source frame 44,700 (558.75 ps), selected for at least 1,000 fragment occurrences or at least 35 atoms and ranked by population.",
+    "note": "The paired hot and quenched galleries share the selection rule. Depictions show connectivity representations rather than validated chemical identities."
+  },
+  "data/selected_events/quench/frame_0447_report/quenched": {
+    "title": "Quenched, 300 K endpoint graph gallery at frame 447",
+    "description": "Quenched, 300 K endpoint connectivity cards at source frame 44,700 (558.75 ps), selected for at least 1,000 fragment occurrences or at least 35 atoms and ranked by population.",
+    "note": "The paired hot and quenched galleries share the selection rule. Depictions show connectivity representations rather than validated chemical identities."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G01_historical_mean_size_time_density": {
+    "title": "Mean fragment size through the 250-fs quench cohort",
+    "description": "Density panels compare mean total atoms per fragment before and after 250-fs quench across 412 paired endpoints.",
+    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G02_historical_largest_time_density": {
+    "title": "Largest fragments through the 250-fs quench cohort",
+    "description": "The largest-fragment atom-count distribution is shown before and after quench across 412 pairs, including the sparse high-size tail.",
+    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G03_historical_paired_density": {
+    "title": "Paired mean and largest sizes after 250-fs quench",
+    "description": "Before/after density plots place mean and largest fragment sizes against the identity line to show the direction and spread of individual endpoint changes.",
+    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G04_historical_delta_time_density": {
+    "title": "250-fs quench changes across simulation time",
+    "description": "Time-density panels show paired changes in fragment count, mean atom count, and largest-fragment size across the shared 412 endpoints.",
+    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G05_historical_named_match_gallery": {
+    "title": "Named-reference match distributions in two libraries",
+    "description": "Distributions compare named-reference match counts before and after quench within each of two search-library generations, without combining their populations.",
+    "note": "Named-reference match rows count component appearances compatible with a finite search library. The two library generations are not pooled."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G06_production_mean_size_time_density": {
+    "title": "Mean fragment size through the complete quench cohort",
+    "description": "Density panels display hot and quenched mean total atom counts over all 3,521 pairs, exposing how the size response varies along the simulation.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G07_production_mean_size_pair_density": {
+    "title": "Paired production mean fragment sizes",
+    "description": "Contrasts hot and quenched means against the identity line and shows their paired differences over time for all 3,521 frame pairs.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G08_production_transition_density": {
+    "title": "How connectivity changes accompany size changes",
+    "description": "Density plots compare changed-atom fractions, bond additions and removals, component-count changes, and mean-size shifts across the complete production cohort.",
+    "note": "Cutoff-connectivity transition counts are descriptive diagnostics, not reaction counts or mechanisms."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G09_production_bond_change_time_density": {
+    "title": "Cutoff connections added and removed across time",
+    "description": "Time-density panels locate added and removed cutoff connections across all 3,521 hot/quench pairs.",
+    "note": "These are endpoint connectivity differences, not a continuous record of reactions or bond lifetimes."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G10_smiles_occurrence_density": {
+    "title": "String occurrences, recurrence, and temporal span",
+    "description": "Full-catalog density panels compare hot and quenched appearances, sampled recurrence, and observed time spans for all 10,259,647 distinct emitted strings.",
+    "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. Sampled recurrence and span do not establish continuous lifetime."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/exploration/G11_historical_production_distribution_comparison": {
+    "title": "Fragment-size distributions in two quench cohorts",
+    "description": "Side-by-side distributions compare size and endpoint-change patterns in the 412-pair/250-fs and 3,521-pair/25-fs cohorts without pooling their observations.",
+    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F12_mean_size_vs_frame": {
+    "title": "Mean total fragment size by frame number",
+    "description": "Hot and quenched mean atom counts show the complete 3,521-pair size response, counting every connected fragment and including hydrogen.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F13_largest_size_vs_frame": {
+    "title": "Largest total fragment size by frame number",
+    "description": "Tracks the largest connected component in each hot and quenched frame across all 3,521 pairs; size counts all atoms, including hydrogen.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d": {
+    "title": "The same ten atoms: aligned 2D comparison",
+    "description": "A shared projection shows frame 447 changing from a nine-atom component plus one H to a ten-atom component after one additional C–H cutoff connection.",
+    "note": "Stable atom IDs and proper heavy-atom alignment bind the two depictions. This selected example does not establish a mechanism or representative frequency."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d": {
+    "title": "The same ten atoms: aligned 3D comparison",
+    "description": "Three-dimensional coordinates and cutoff connections show the hot 9+1 and quenched 10-atom configuration for the same frame-447 atoms.",
+    "note": "Both states use stable atom IDs, a common alignment, and a shared scale; the new C–H connection is an endpoint observation."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_functional_group_counts": {
+    "title": "Representation-dependent functional-group query counts",
+    "description": "Bars compare distinct-string matches with occurrence-weighted matches for functional-group queries on a mostly single-bond encoding. These matches diagnose the representation and do not measure chemical functional-group prevalence.",
+    "note": "F15 is withdrawn as a chemical-group census: general graph edges were encoded as single bonds, producing false negatives and misleading positives in conventional functional-group searches."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_group_overlap": {
+    "title": "Overlap of functional-group queries on stored strings",
+    "description": "The matrix shows which functional-group queries match the same stored strings. Because most edges lack bond-order assignments, query overlap cannot establish co-occurring chemical functional groups.",
+    "note": "F15 is withdrawn as a chemical-group census: general graph edges were encoded as single bonds, producing false negatives and misleading positives in conventional functional-group searches."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance": {
+    "title": "Small fragments dominate repeated occurrences",
+    "description": "Separately normalized size distributions and cumulative curves contrast the 10,259,647-string union with hot and quenched fragment occurrences: medians are 23 versus 3 total atoms.",
+    "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/paired_size_comparison": {
+    "title": "Paired means and maxima after quench",
+    "description": "Density plots compare hot and quenched mean total size and largest-fragment size against the identity line for all 3,521 pairs.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_architecture_variety_abundance": {
+    "title": "Carbon-containing connectivity architectures",
+    "description": "Compares the shares of carbon strings and repeated carbon-fragment occurrences in heavy-skeleton architecture classes.",
+    "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Each series uses its own carbon-containing denominator; H-mediated connections can leave the heavy-only skeleton disconnected."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_composition_variety_abundance": {
+    "title": "Element composition: variety versus abundance",
+    "description": "Separately normalized bars show which element-composition classes supply distinct strings and repeated occurrences across the full hot/quenched union.",
+    "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_connectivity_motifs": {
+    "title": "Local connectivity motifs before and after quench",
+    "description": "Contrasts overlapping element-neighbor motifs using size-matched distinct carbon strings and original carbon-occurrence weights.",
+    "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Overlapping motif percentages do not sum to 100."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_recurrence_variety_abundance": {
+    "title": "Rare strings, recurrent fragment occurrences",
+    "description": "Recurrence bins contrast carbon-string variety with carbon-fragment occurrences; 74.48% of carbon strings appear in one sampled pair, while those in at least 1,000 pairs supply over 99.5% of occurrences.",
+    "note": "Recurrence counts presence in either state across 3,521 pairs; it does not track individual molecules or establish continuous lifetime."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/functional_group_diagnostic/stored_encoding_counts_diagnostic": {
+    "title": "Functional-group query sensitivity to bond encoding",
+    "description": "Distinct-string and occurrence-weighted counts show how conventional functional-group searches behave when most graph edges are encoded as single bonds. They describe query behavior rather than a chemical-group census.",
+    "note": "F15 is withdrawn as a chemical-group census: general graph edges were encoded as single bonds, producing false negatives and misleading positives in conventional functional-group searches."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/functional_group_diagnostic/stored_encoding_overlap_diagnostic": {
+    "title": "Query overlap in a mostly single-bond representation",
+    "description": "Shared query hits reveal overlapping labels in the stored representation. The missing general bond-order information prevents these labels from being interpreted as validated chemical functional groups.",
+    "note": "F15 is withdrawn as a chemical-group census: general graph edges were encoded as single bonds, producing false negatives and misleading positives in conventional functional-group searches."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/smiles_fragment_size/unique_smiles_by_fragment_size": {
+    "title": "Unweighted string variety by total atom count",
+    "description": "Histogram of the full 10,259,647-string union, with each string counted once. Sizes include H, range from 1 to 92 atoms, and peak at 22 atoms.",
+    "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes": {
+    "title": "Quench changes mean and largest fragment sizes",
+    "description": "Four panels show all 3,521 hot/quench pairs by frame number and their paired changes in mean and largest total atom count; the restart is marked.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity": {
+    "title": "A ten-atom connectivity example before and after quench",
+    "description": "Aligned views of the same ten frame-447 atoms show hot 9+1 components becoming one quenched component through one additional C–H cutoff connection.",
+    "note": "This source-bound selected example shows endpoint connectivity, without assigning a reaction mechanism or representative frequency."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F16_unique_strings_by_size": {
+    "title": "Which total sizes supply the most string variety?",
+    "description": "Each of the 10,259,647 union strings counts once in this size histogram; the mode is 22 atoms and the full range is 1–92, including H.",
+    "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance": {
+    "title": "Large string variety, small-fragment abundance",
+    "description": "Size distributions and cumulative curves distinguish union string variety from repeated hot and quenched occurrences: median sizes are 23 and 3 total atoms, respectively.",
+    "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. Each curve has its own denominator."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture": {
+    "title": "Composition and architecture of the string catalog",
+    "description": "Two panels compare distinct-string and occurrence shares by element composition across the full catalog, and by heavy-skeleton architecture among carbon-containing strings.",
+    "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Each series is separately normalized."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs": {
+    "title": "Local element-neighbor motifs in both states",
+    "description": "Overlapping topology motifs are compared using a common size distribution for distinct carbon strings and state-specific carbon-occurrence weights.",
+    "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Motif percentages do not sum to 100."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance": {
+    "title": "Most varieties are rare; most occurrences are recurrent",
+    "description": "Carbon-string recurrence bins show 74.48% of varieties in one sampled pair, while strings present in at least 1,000 pairs account for over 99.5% of carbon-fragment occurrences.",
+    "note": "Presence in either state is counted across 3,521 sampled pairs; recurrence is not lifetime or stability."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only": {
+    "title": "Filtered heavy-atom means: H-only fragments excluded",
+    "description": "Blue hot and orange quenched scatters compare C+N+O atoms per retained heavy-bearing fragment after excluding starting formulas and one-total-atom fragments; means are 2.09970 and 2.52522.",
+    "note": "Removes H2, H2O, CO, NH3, and CH4 compositions, including reformed matches. OH, NH2, and CH3 remain. Frame zero has no eligible fragments and is omitted; 3,520 frame means are defined."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_including_H_only": {
+    "title": "Filtered heavy-atom means: residual H-only fragments included",
+    "description": "Blue hot and orange quenched scatters count residual H-only fragments as zero after starting-formula and one-total-atom exclusions; means are 2.09943 and 2.52496 heavy atoms.",
+    "note": "Removes H2, H2O, CO, NH3, and CH4 compositions, including reformed matches. OH, NH2, and CH3 remain. Frame zero is undefined and omitted; 3,520 frame means remain."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes": {
+    "title": "Heavy-atom means and maxima across the run",
+    "description": "Panels contrast C+N+O means over all fragments, means over heavy-bearing fragments, and per-frame maxima, together with paired quenched-minus-hot changes.",
+    "note": "All 3,521 original-DCD hot/quench pairs. Original component membership and H bridges are retained. H-only fragments contribute zeros only to the all-fragment mean."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame": {
+    "title": "Mean heavy-atom size across simulation frames",
+    "description": "Hot and quenched scatters compare C+N+O atoms per connected fragment across simulation frames, including H-only fragments as zero-heavy components in the averaging population.",
+    "note": "Current matching inclusion/exclusion views are separate exports. This view uses all 3,521 original-DCD hot/quench pairs and retains original connectivity. This first standalone scatter export is preserved alongside later matching denominator comparisons."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only": {
+    "title": "Heavy-atom means among heavy-bearing fragments",
+    "description": "Blue hot and orange quenched points compare C+N+O atoms per fragment after omitting H-only fragments; the cohort means are 1.36426 and 1.37179.",
+    "note": "All 3,521 original-DCD hot/quench pairs; axes match the including-H-only version. Connectivity and H bridges are retained."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_including_H_only": {
+    "title": "Heavy-atom means over all original fragments",
+    "description": "Blue hot and orange quenched points count H-only fragments as zero, giving cohort means of 1.05889 and 1.19189 C+N+O atoms per fragment.",
+    "note": "All 3,521 original-DCD hot/quench pairs; axes match the excluding-H-only version. The contrast exposes the denominator contribution of H-only fragments."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance": {
+    "title": "Heavy-atom variety versus fragment abundance",
+    "description": "Separately normalized distributions and cumulative curves compare distinct strings with repeated occurrences: medians are 11 versus one non-H atom.",
+    "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. This export excludes H-only fragments from all three distributions; the notebook supports their zero-size bin as an alternative."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/advisor_figures": {
+    "title": "Four-figure advisor reading path",
+    "description": "Portable HTML leads through quench size changes, the same ten atoms, total-size variety versus abundance, and sampled recurrence, with saved figures and concise explanations.",
+    "note": "Working figures for presentation review; manuscript selection remains open."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/figure_gallery": {
+    "title": "Fragment sizes, composition, and connectivity patterns",
+    "description": "Thirteen figures in eleven groups compare quench-size changes, paired atom coordinates, total and heavy-atom distributions, sampled recurrence, element composition, architecture, and local topology motifs.",
+    "note": "Includes thirteen current figures; scientific scopes and denominators are stated alongside each group."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/filtered_heavy_atom_mean_vs_frame": {
+    "title": "Filtered heavy-atom trend comparison",
+    "description": "Two HTML figure views compare heavy-atom means with and without residual H-only fragments after excluding starting formulas and one-total-atom components.",
+    "note": "Starting-formula exclusions also remove reformed compositions. The initial frame has no eligible fragments; OH, NH2, and CH3 remain eligible."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_figures": {
+    "title": "Heavy-atom size and abundance supplement",
+    "description": "Portable two-figure HTML compares per-frame heavy means/maxima and heavy-size variety versus occurrence distributions.",
+    "note": "An optional advisor supplement using C+N+O counts, with original component membership preserved."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_mean_vs_frame": {
+    "title": "How H-only fragments change the heavy-size mean",
+    "description": "Two matching HTML scatters show heavy-atom means over all original fragments and over heavy-bearing fragments, sharing blue-hot/orange-quenched colors and axes.",
+    "note": "All 3,521 original-DCD hot/quench pairs. H-only fragments contribute zero to the first mean and are excluded from the second."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F12_mean_fragment_size_preliminary": {
+    "title": "Mean total fragment size before and after quench",
+    "description": "Scatter traces compare mean total atoms per connected fragment in all 3,521 hot/quench pairs, counting hydrogen alongside C, N, and O.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory. A current combined F12/F13 notebook presentation is also available. Early review presentation; the combined notebook presentation uses the same validated means."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F13_largest_fragment_preliminary": {
+    "title": "Largest fragments before and after quench",
+    "description": "The largest connected-component atom count is compared between hot and quenched states across 3,521 paired frames; total size includes hydrogen.",
+    "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory. Current F12/F13 notebook panels use the same validated maxima. Early review presentation; the combined notebook presentation uses the same validated maxima."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary": {
+    "title": "Ten atoms before and after a connectivity change",
+    "description": "Side-by-side frame-447 atom renderings show a nine-atom component and one isolated H in the hot state becoming a single ten-atom component after quench.",
+    "note": "A later notebook view uses proper heavy-atom alignment and a shared projection. The observed new C–H cutoff connection does not assign a mechanism. Early coordinate presentation; the later notebook view improves the shared alignment and projection."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/review_packet/A19_F12_F14_advisor_contact_sheet": {
+    "title": "Quench-size changes and a ten-atom example",
+    "description": "One contact sheet combines mean fragment size, largest-fragment size, and a coordinate comparison of the same ten atoms before and after quench.",
+    "note": "Earlier review packet; current notebook exports provide refined views of the same source-bound analyses."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/review_packet/A19_F12_F14_advisor_review": {
+    "title": "Fragment sizes and paired coordinates after quench",
+    "description": "Three pages show mean and largest total fragment sizes across the hot/quench cohort, followed by the selected ten-atom coordinate comparison.",
+    "note": "Presentation packet, not manuscript approval. The current four-figure advisor reading path adds variety/abundance and recurrence."
+  },
+  "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion": {
+    "title": "Alanine improper-torsion distribution",
+    "description": "The N–Cα–C(carboxyl)–Cβ improper-torsion histogram for 438,986 alanine-reference coordinate blocks has two modes at ±124.2°, describing the orientation of substituents around the central carbon.",
+    "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Independent reconstruction reproduces the population and modes of the historical alanine histogram."
+  },
+  "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw": {
+    "title": "Potential-energy distribution during heating and cooling",
+    "description": "A two-dimensional density plot of 366,067 temperature–potential-energy observations shows separate heating and cooling branches, a dense high-temperature population, and a lower final low-temperature energy region.",
+    "note": "Raw source totals are distinct from the unresolved transformed axis in the historical manuscript image. Energy alone does not identify a reaction or product. This figure was reconstructed independently from retained LAMMPS thermodynamic records; “raw” identifies untransformed energy totals, not a logarithmic vertical axis."
+  },
+  "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_fragment_sizes_preliminary": {
+    "title": "Fragment means and maxima in 412 paired quenches",
+    "description": "Time plots show mean and largest total fragment sizes for 412 paired endpoints, distinguishing randomly sampled and targeted frames in the 250-fs quench cohort.",
+    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses. All connected fragments are counted; this is distinct from named-reference matches."
+  },
+  "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_named_matches_paired": {
+    "title": "Paired reference matches in two search libraries",
+    "description": "Two panels compare before/after named-reference match rows at the same 412 endpoint identifiers against the identity line, keeping the two reference-library generations separate.",
+    "note": "The two reference generations are kept separate. Match rows are component appearances, not unique species or yields; the March database and original plot source remain unbound."
+  },
+  "early_earth_analysis_v2/archive/notebook_edits/20261004/filtered_starting_singletons/figure_gallery.before_filtered_views": {
+    "title": "Fragment sizes, recurrence, and heavy-atom trends",
+    "description": "The gallery combines hot/quench size changes, a paired coordinate example, variety versus abundance, sampled recurrence, composition, local motifs, and heavy-atom size comparisons.",
+    "note": "Historical saved view; use the current notebook gallery for the latest candidate set."
+  },
+  "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_atoms/exports/advisor_figures": {
+    "title": "Quench response, structural variety, and recurrence",
+    "description": "Four figures connect total fragment-size changes to the same-ten-atoms example, the contrast between string variety and occurrence abundance, and sampled carbon-string recurrence.",
+    "note": "Archived output documents the earlier notebook state."
+  },
+  "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_atoms/exports/figure_gallery": {
+    "title": "Total-size distributions and connectivity patterns",
+    "description": "Seven figures show quench size response, paired coordinates, total-size variety and abundance, recurrence, unweighted string sizes, composition/architecture, and local connectivity motifs.",
+    "note": "Archived output; current figures include additional heavy-atom and denominator comparisons."
+  },
+  "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_denominators/figure_gallery.before_denominators": {
+    "title": "Connectivity patterns and heavy-atom fragment sizes",
+    "description": "Figures combine total-size quench response and catalog patterns with per-frame heavy-atom summaries, heavy-size abundance, and a mean-heavy-size scatter that counts H-only fragments as zeros.",
+    "note": "Historical view; current F19 exports explicitly separate the two averaging populations."
+  },
+  "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_denominators/heavy_atom_mean_vs_frame.before_denominators": {
+    "title": "Heavy-atom means including zero-heavy fragments",
+    "description": "The scatter compares C+N+O atoms per connected fragment across hot and quenched frames; hydrogen-only fragments enter the mean as zeros.",
+    "note": "Archived output; use the current heavy-trend HTML to compare all-fragment and heavy-bearing means."
+  },
+  "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_scatter/figure_gallery.before_scatter": {
+    "title": "Total and heavy-atom population comparisons",
+    "description": "The gallery combines the total-size and connectivity-pattern figures with panels of heavy-atom means/maxima and heavy-size variety versus repeated fragment occurrences.",
+    "note": "Historical notebook output; the current gallery includes the later trend and filtering views."
+  },
+  "early_earth_analysis_v2/drafts/manuscript_working_20260927/228_pot_eng": {
+    "title": "Potential-energy branches during heating and cooling",
+    "description": "Temperature–potential-energy density reveals distinct heating and cooling branches in the Hero Run and a dense population near the high-temperature plateau.",
+    "note": "The historical vertical-axis transformation is unresolved. Compare values only within this image; do not convert them to or compare them numerically with raw log totals. The historical filename does not identify a smaller simulation. Catalog copy from the 2026-09-27 working manuscript draft."
+  },
+  "early_earth_analysis_v2/drafts/manuscript_working_20260927/alanine_dihedrals_updated": {
+    "title": "Angular populations around the alanine central carbon",
+    "description": "The histogram shows two angular populations near ±125° for alanine-reference coordinates, describing substituent orientation around the central carbon.",
+    "note": "Independent F10 reconstruction identifies the coordinate as an improper torsion and reproduces 438,986 blocks. The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Catalog copy from the 2026-09-27 working manuscript draft."
+  },
+  "early_earth_analysis_v2/drafts/manuscript_working_20260927/dihedral_alanine": {
+    "title": "Alanine atoms defining the central-carbon orientation",
+    "description": "The molecular rendering labels N, Cα, carboxyl C, and side-chain C, identifying the atom quartet used to characterize substituent orientation.",
+    "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Catalog copy from the 2026-09-27 working manuscript draft."
+  },
+  "early_earth_analysis_v2/figures/publication_revision/F05": {
+    "title": "Reference connectivity coverage and temporal presence",
+    "description": "Compares observed members of a declared 457-reference library across three system sizes, then shows glycine, alanine, cytosine, thymine, and uracil match presence in 100-ps windows.",
+    "note": "Names mean element/connectivity compatibility with searched references. Finite-library coverage is not a complete chemical-species census."
+  },
+  "early_earth_analysis_v2/figures/publication_revision/F07": {
+    "title": "Starting-frame analysis time and memory",
+    "description": "Three fresh-process measurements per size compare end-to-end identification time and peak host memory for supplied 228- and 228,000-atom starting configurations; lines mark medians.",
+    "note": "Bounded same-machine starting-state benchmark, not evolved-frame workload scaling, dynamics performance, or a current speedup claim."
+  },
+  "early_earth_analysis_v2/figures/publication_revision/F08": {
+    "title": "String discovery in hot and quenched states",
+    "description": "Cumulative discovery, complete 100-ps windows, and the final hot-only/shared/quenched-only partition distinguish discoveries in the two states.",
+    "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. Quenched points are independent endpoints, and retrospective overlap differs from first-detection order."
+  },
+  "early_earth_analysis_v2/figures/review_v1/F01": {
+    "title": "From reactive dynamics to connectivity comparisons",
+    "description": "Workflow links three simulation sizes to 3,521 saved frames per size, connectivity identification, and separate 25-fs quench branches for the Hero Run.",
+    "note": "Source-bound schematic; the quenches are independently initialized endpoints. Size/sampling comparisons and quench comparisons use different retained coordinate representations."
+  },
+  "early_earth_analysis_v2/figures/review_v1/F02": {
+    "title": "Per-frame structural diversity across system sizes",
+    "description": "Bars compare mean exact-connectivity richness with abundance-weighted effective Shannon diversity for 228, 228,000, and 22.8-million-atom systems.",
+    "note": "All 3,521 snapshots per size receive equal weight; matched sampling does not establish identical densities or physical conditions."
+  },
+  "early_earth_analysis_v2/figures/review_v1/F03": {
+    "title": "How sampling cadence changes observed variety",
+    "description": "Compares 1.25-ps analysis with its 2.50-ps subset, then separates additionally detected structures into those seen in one versus multiple saved frames.",
+    "note": "A same-source subset comparison; the independently computed sparse census is separate. One sampled occurrence does not establish a short lifetime."
+  },
+  "early_earth_analysis_v2/figures/review_v1/F04": {
+    "title": "Fragment membership changes after quench",
+    "description": "Histograms show the fraction of atoms in changed fragments and relative component-count changes across all 3,521 paired production endpoints, with mean and median markers.",
+    "note": "Per-frame distributions describe cutoff connectivity changes. They do not establish reaction rates, mechanisms, or stability."
+  },
+  "early_earth_analysis_v2/figures/sampling_time/F06": {
+    "title": "Structural presence and first detections across size and time",
+    "description": "Six panels show structures present and first detected in 100-ps windows for each of the three system sizes, excluding the initial frame equally and marking the Hero Run restart.",
+    "note": "Each bin averages 80 analyzed frames and each panel has its own vertical scale. Archived time across the restart is not uninterrupted dynamics; no rates or extrapolations are fitted."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/mol_before-after_quench": {
+    "title": "Named-reference match occurrences before and after quench",
+    "description": "Bars compare hot and quenched component appearances for individual named references in the 250-fs quench cohort.",
+    "note": "The plotted counts are match rows, despite the historical frame-count axis label; they are not distinct-species counts or yields."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/named_mols_before-after_quench": {
+    "title": "Named-reference matches across simulation time",
+    "description": "Filled hot and quenched traces show named-reference match rows per simulation frame in the 250-fs quench comparison.",
+    "note": "The filled area is not a cumulative sum. The original plot compares 415 hot frames with 412 quenched endpoints; corrected paired results use 412 shared identifiers."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/new_415_quench_formula_vs_frame": {
+    "title": "Approximate-signature richness before and after quench",
+    "description": "Hot and quenched scatters compare the number of unique molecular signatures per frame in the 415-frame study.",
+    "note": "Approximate-signature richness differs from total fragment count and named-reference matching. This historical cohort is separate from current exact production analysis."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/new_415_violins": {
+    "title": "Reference-match distributions on the higher-count scale",
+    "description": "Violin distributions compare hot and quenched named-reference match counts on the roughly 240-versus-412 scale.",
+    "note": "This belongs to a different database/code generation from the October roughly 18-versus-30 comparison. The exact March database and original plot producer remain unbound."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/quench_formula_vs_frame": {
+    "title": "Unique-signature counts in paired states",
+    "description": "Hot and quenched scatter traces compare unique-signature counts per frame across simulation time.",
+    "note": "Retained legacy view; signature resolution and source generations differ from later figures and the exact production census."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/steps_vs_temp_quench": {
+    "title": "Temperature relaxation during a quench",
+    "description": "Temperature versus integration step shows rapid cooling toward the thermostat target during the exploratory quench.",
+    "note": "Historical protocol illustration; do not use it as the timeline of the independent 25-fs production endpoints."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time": {
+    "title": "Molecular-signature detections across time",
+    "description": "The time histogram shows signatures reported as newly synthesized along the simulation, with more detections in the early portion of the run.",
+    "note": "Historical signature-based view, with representation and wording inherited from its source. It does not establish reaction yields or rates."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/updated_violins": {
+    "title": "Reference-match distributions on the lower-count scale",
+    "description": "Hot and quenched violin plots compare named-reference match counts per frame on the roughly 18-versus-30 scale.",
+    "note": "The original distributions use 415 hot frames and 412 quenched endpoints. Corrected paired analysis uses the 412 shared identifiers; match rows are not species counts."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/228000-after": {
+    "title": "228,000-atom system after reactive dynamics",
+    "description": "Whole-box rendering shows the 228,000-atom development system after 4.4 ns, paired with its initial configuration.",
+    "note": "Visual system illustration, distinct from the 22.8-million-atom Hero Run and its production quench cohort."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/228000-start": {
+    "title": "Initial 228,000-atom system",
+    "description": "Whole-box rendering of the smaller system at initialization provides the starting counterpart to the post-dynamics view.",
+    "note": "Visual scale/context image; it does not itself quantify connectivity changes or product formation."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/228_kin_e": {
+    "title": "Kinetic energy versus temperature",
+    "description": "The trace shows the kinetic-energy/temperature relationship alongside the Hero Run energetic distributions.",
+    "note": "Historical axis labels and numerical scale are retained; exact plotting/normalization provenance has not been independently reconstructed for this panel."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng": {
+    "title": "Potential-energy hysteresis during heating and cooling",
+    "description": "Density colors reveal separate heating and cooling potential-energy branches, with the final low-temperature branch below the initial branch.",
+    "note": "The historical vertical-axis transformation is unresolved. Compare values only within this image; do not convert them to or compare them numerically with raw log totals. The historical filename does not identify a smaller simulation."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/228_tot_eng": {
+    "title": "Total-energy distribution during heating and cooling",
+    "description": "The density plot shows heating and cooling branches in total energy versus temperature, including the dense high-temperature region.",
+    "note": "The exact original plotting transformation remains unaudited for this panel; do not infer a conversion to raw log totals or a smaller simulation from its filename."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_2d": {
+    "title": "A 96-atom fragment: two-dimensional depiction",
+    "description": "A skeletal drawing of the selected largest hot fragment, observed at 3.21 ns, complements its three-dimensional atom rendering.",
+    "note": "Retained historical chemical drawing; displayed bond orders and functional-group labels are not independently established by cutoff connectivity alone."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d": {
+    "title": "A 96-atom fragment: three-dimensional geometry",
+    "description": "The atom rendering illustrates the selected 96-atom fragment observed at 3.21 ns, complementing its skeletal drawing.",
+    "note": "Selected structure illustration; it does not establish chemical identity, energetic stability, or a formation mechanism."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated": {
+    "title": "Alanine central-carbon orientation histogram",
+    "description": "Two angular populations near ±125° characterize the alanine-reference coordinate ensemble; the N–Cα–C(carboxyl)–Cβ improper-torsion modes are ±124.2° across 438,986 blocks.",
+    "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine": {
+    "title": "Alanine atom quartet for the orientation analysis",
+    "description": "Labeled rendering identifies N–Cα–C(carboxyl)–Cβ around the central carbon, clarifying the independently recovered improper-torsion definition.",
+    "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/updated_largest_mol_vs_time": {
+    "title": "Largest connected-fragment size over time",
+    "description": "The scatter shows the largest connected fragment at each sampled simulation time, counting total atoms including hydrogen.",
+    "note": "Retained historical analysis view; the selected 96-atom illustration and later complete-cohort quench maxima answer different questions."
+  },
+  "paper-early-earth-chemistry-hero-run/figures/placed/updated_original_counts": {
+    "title": "Repeated named-reference match occurrences",
+    "description": "Logarithmic bars summarize component appearances matched to each named reference along the hot trajectory.",
+    "note": "Finite reference-library matching differs from all-fragment exact-connectivity richness; historical identity/confidence varies by reference."
+  }
+}
