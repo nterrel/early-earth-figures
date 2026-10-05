@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-05T01:07:38.355324+00:00",
+  "prepared_utc": "2026-10-05T16:41:13.833221+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
@@ -12,7 +12,7 @@
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "fc877cde0585e0afedad4ad919ad42e38b74ab50848c564ab1d2c581e616ee31",
+  "source_catalog_sha256": "04ec15a41d55265119d451d772335962ef5628f060a5709c12c173e018793f61",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -238,8 +238,8 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-exploration__G05_historical_named_match_gallery.png",
-      "sha256": "24b5473674c84c3b70a52516071f4801d62c91b5204fb47b1b096335600ce473",
-      "bytes": 430442
+      "sha256": "6ccc2f33c194d033c2dd4c3e31c65b2efb7604a5fa2406ffe20c2f904c0f7d85",
+      "bytes": 427908
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-exploration__G06_production_mean_size_time_density.png",
@@ -268,13 +268,13 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F12_mean_size_vs_frame.png",
-      "sha256": "5d6b5a07796199d103d0037fb4186f456d8315ac2c21413d427baa701bfbdb6f",
-      "bytes": 120029
+      "sha256": "78eab1707b260c1ce7e3ec44d70b418fa72de4ecfd4a855768f7d4673e502ace",
+      "bytes": 118471
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F13_largest_size_vs_frame.png",
-      "sha256": "f39bcf824577368975dc926880a44ac9c47bde41f27817641561cc952fcf9929",
-      "bytes": 414873
+      "sha256": "f4472a524572821bda22e85703e5ebbb675b0d524ccc619bf80427b06da8184e",
+      "bytes": 418454
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_2d.png",
@@ -293,13 +293,13 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.pdf",
-      "sha256": "a8b4039a9d309160de5ae1766d43de3895bce7914c1b91d4e1c0121fa469ea9b",
-      "bytes": 673209
+      "sha256": "94a994be82a9667a7225008579353a8a7bda82256c61cf4463e6e24bb4d425ba",
+      "bytes": 686231
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.png",
-      "sha256": "0ed496affbe50d88e3bed7eeb8319a7749abe7a5708facbf98c4c5ab221280f2",
-      "bytes": 1026638
+      "sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "bytes": 1038647
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F14_same_atoms_connectivity.pdf",
@@ -313,7 +313,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
-      "sha256": "10587fb844ebc63ab458065c80f68e449f5d7dc89f6131b89f02dcdbc0a8861b",
+      "sha256": "9d17dbe76e21b2bb5e81da8e25ec54fd6ee3253aea2c858b1e6aa835f67f0d03",
       "bytes": 129184
     },
     {
@@ -323,7 +323,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_filtered_mean_heavy_atoms_vs_frame_including_H_only.pdf",
-      "sha256": "1b311da7ff9b299234d3f6392a2c9ccc30ad5e4fcc420fdcd5efb98fec789c73",
+      "sha256": "7cc7545c3c63b98cc1e1c3471e4af991d2b5b49c4e1b5c3b36b9d53385db70fb",
       "bytes": 128933
     },
     {
@@ -333,13 +333,13 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_heavy_atom_frame_sizes.pdf",
-      "sha256": "9018d0d4d0a01add2ca153e2682fb3b651cdc43ea82f76e07deab50b54ad4741",
-      "bytes": 531121
+      "sha256": "327d17370dcdde10ea7f8b85ed6cace60ed0c616853333c267eaa3c4905c763b",
+      "bytes": 538410
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_heavy_atom_frame_sizes.png",
-      "sha256": "e10413df8cef5bdd86b6d7c0731f84ac043e8b269c6c961d40d3ed58128cb536",
-      "bytes": 920420
+      "sha256": "abeec6f2fe0665d81d2b7b775abaf4dc29b9212e07695cf04b048f35c4daa030",
+      "bytes": 927655
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_mean_heavy_atoms_vs_frame.pdf",
@@ -353,7 +353,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
-      "sha256": "c8e7f92131fdeddd327bc85a2e7d796edabbd3bec2a480769df8eb67a9d62de1",
+      "sha256": "a1d3545e448de216da991ae201df982565cbff75667373519ea4635498348a15",
       "bytes": 57777
     },
     {
@@ -363,7 +363,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_mean_heavy_atoms_vs_frame_including_H_only.pdf",
-      "sha256": "a99628cc3cf1e09f4a09a4454c5b9fca9400ff910c89c03d3b0d850124f37214",
+      "sha256": "6a20c5a8044c298ee62987607bfbf4377e399016658606818f399091f01cf7a5",
       "bytes": 78171
     },
     {
@@ -373,13 +373,13 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__advisor_figures.html",
-      "sha256": "3746f0436e60946c610e9451fa09f73b420f6e0a043c27d22352b2c164a8f7bf",
-      "bytes": 821559
+      "sha256": "9339012f47bcf5ab9a7ce7a4f1c134499272e824c6cd11b510a06de657f135d1",
+      "bytes": 824751
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__figure_gallery.html",
-      "sha256": "91b9306c9624b071e9388f1e5b06fef095f62be6bf5001e7861a9af97055d27c",
-      "bytes": 1680146
+      "sha256": "4104103421e4df2fa0d45f73155c5ad54a7cfab2af1fd0683cb1a1becb2d9f9a",
+      "bytes": 1684754
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__filtered_heavy_atom_mean_vs_frame.html",
@@ -388,8 +388,8 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__heavy_atom_figures.html",
-      "sha256": "919a0365b3b76367edbe68eea638e42c10169e4abe0c409a2965db9978288a89",
-      "bytes": 628332
+      "sha256": "ca1f17b03220fc39096667ca69aa253e762420231158d95918994f0828f0709c",
+      "bytes": 629736
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__heavy_atom_mean_vs_frame.html",
@@ -398,13 +398,13 @@
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-results__F12_mean_fragment_size_preliminary.png",
-      "sha256": "64706067bb200b0be7f9fe801c4709b425f8b9e34d1171ecfa676b9f9788cd1b",
-      "bytes": 220030
+      "sha256": "c36f11286bc5cd372faff1f694265d37d5c7eecbe4fc7f89f09d27d41cfca4b5",
+      "bytes": 218711
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-results__F13_largest_fragment_preliminary.png",
-      "sha256": "4bb91bb13b82ac93bfcb849b6ad95d180b879dafa0c21ad4e8f055fc2ae308a5",
-      "bytes": 436513
+      "sha256": "7c6d15cec17adabf48768e55cadaa49d26a06c43e93bbf999e28279cae4bd71d",
+      "bytes": 433956
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-results__F14_ten_atom_candidate_preliminary.png",
@@ -413,13 +413,13 @@
     },
     {
       "path": "04_quench_and_fragment_size/analysis-figures-publication_revision__F08.pdf",
-      "sha256": "18026ebd6d9be2de30b98cdb89b20e33fbff3d01ecd28aadcf9648f374a48076",
-      "bytes": 21400
+      "sha256": "bb15b3fff8c0a4f511719216191f0a83acebf5169ba6d59693916aab93e1fb50",
+      "bytes": 21405
     },
     {
       "path": "04_quench_and_fragment_size/analysis-figures-publication_revision__F08.png",
-      "sha256": "7365e6c22217fa9cb1ccf5a24aa4dfe0d08eab0cb0ca82cfaa112b79a2a568be",
-      "bytes": 243208
+      "sha256": "45367f0ac5c8cc5d33b0f81954f687a0618babc29b18e4722ea4f3415ce343d2",
+      "bytes": 215245
     },
     {
       "path": "04_quench_and_fragment_size/analysis-figures-review_v1__F04.pdf",
@@ -548,8 +548,8 @@
     },
     {
       "path": "04_quench_and_fragment_size/historical_415-results__F11_historical_415_fragment_sizes_preliminary.png",
-      "sha256": "006376c0d49bfe72e64012634fd81beea23ca0e0f27dba49db0432228d0753c8",
-      "bytes": 452121
+      "sha256": "fe3c3c4c24e4573607bf0abeacad10bbf94c9b3ace2196b97abb3d12ea501306",
+      "bytes": 439177
     },
     {
       "path": "04_quench_and_fragment_size/historical_415-results__F11_historical_415_named_matches_paired.png",
@@ -608,28 +608,28 @@
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-advisor_requests__F17_variety_vs_abundance.png",
-      "sha256": "d9127279f51e393a62b4cb6dc906c2ad06c6fd9825c9bb9a96ee34a4d4afd64d",
-      "bytes": 90973
+      "sha256": "b83dd204ef769c20217ffab25ffb26b1c83603f34f5eae08d5a783e7f8306de9",
+      "bytes": 90610
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-connectivity_patterns__F18_architecture_variety_abundance.png",
-      "sha256": "c04f5b06a17232dfce0f9879d6f4eac4095e40ab908765e754447c507b4b9840",
-      "bytes": 80566
+      "sha256": "a81b2e667fdce0729e503fcc94bb9cbcf87ba5d9ea09aa90ce87c387436505dc",
+      "bytes": 80552
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-connectivity_patterns__F18_composition_variety_abundance.png",
-      "sha256": "70268ea7d47c4c1879458a446e2b4558a82291aef9e3002bf2a244e4608a1111",
-      "bytes": 65489
+      "sha256": "65110ac4d3e6fd775fc8ebb33e2e496f0f51a324ac9edaca6aa2bfeb8debdd71",
+      "bytes": 65459
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-connectivity_patterns__F18_connectivity_motifs.png",
-      "sha256": "1ac5dab5b397c7fe99fdc31ba052e4d213306a3a32d1af06b6ffb07d76176a08",
-      "bytes": 81794
+      "sha256": "768c5656f6dea3846712984bfa74e5270f708cdeaadc751397b5686581c3e632",
+      "bytes": 81559
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-connectivity_patterns__F18_recurrence_variety_abundance.png",
-      "sha256": "dc7ae240cde5dcb9a6b88b51db1c7db58510e42497d444e6e984ab25e2003b0b",
-      "bytes": 69302
+      "sha256": "4632bfbe273f0170d032a0c3f267b1fc5a6bcff78ae000a9d99015900eba6406",
+      "bytes": 69469
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-smiles_fragment_size__unique_smiles_by_fragment_size.png",
@@ -648,53 +648,53 @@
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.pdf",
-      "sha256": "0d2b0a97530cb1a562e914792e92cb95d42695cad9aaf0d51b0050efce8133bb",
-      "bytes": 21835
+      "sha256": "b6a390af0ceb8af5ab0fd98a7831d63b7963387380cd8345bc214a821240a902",
+      "bytes": 21832
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.png",
-      "sha256": "d0414c846649d0e4fe341791f705019b0bf2e2d581616e33e9d028c54f989c18",
-      "bytes": 209929
+      "sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "bytes": 208265
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_composition_architecture.pdf",
-      "sha256": "818bc2936f6616fb28c9c4875cf81f469a73bd573fd8f38d846f016393277189",
-      "bytes": 18462
+      "sha256": "da8686d9436492b7e0c1c1f0fbe1a557ca26585e721f29e1b1776d54144ab61c",
+      "bytes": 18458
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_composition_architecture.png",
-      "sha256": "9f876abbc1659719d8bff83e49068401ae39786d7436833dbcad3df20896e691",
-      "bytes": 160252
+      "sha256": "2ef1fa9d8817e22ed28a2d36b4e423ecb12c6d0d2266412979429305c36e2c35",
+      "bytes": 160636
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_connectivity_motifs.pdf",
-      "sha256": "75d83a1e3e60d41b2a98091ae75d3c7e61ca4c04dfffe61c6a6b0dd1c4a24a5a",
-      "bytes": 19427
+      "sha256": "1489a1820892d1b56e3bdd0167ff7b63cea54ac8904357195a107d139c2b6d09",
+      "bytes": 19424
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_connectivity_motifs.png",
-      "sha256": "f57190ef2ee7df54a9b57e34e15723a30677d6eddfe5e45b58666d281869c468",
-      "bytes": 192946
+      "sha256": "baca1aa51278312c19a1d5e2e5652581cae6f4d2fad2d7003d228c7ab7b109b4",
+      "bytes": 191618
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_recurrence_variety_abundance.pdf",
-      "sha256": "e5768cd3d012018895c0b9ccdf50fa8d6949c5ebf53148cf13005dbf8bb8efe4",
-      "bytes": 18211
+      "sha256": "0496452211f6413f686595af139d0e65cbe39913a868f42889963f70a5fdb5f5",
+      "bytes": 18207
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_recurrence_variety_abundance.png",
-      "sha256": "32246306479949b2cb62aad76a28e2830c395b7e0540c70c4aab59e2d7c65b89",
-      "bytes": 168038
+      "sha256": "eb60c231c197be07ff91ccef436e97dddd38d5fe21d85fc505dbdb15e05a423b",
+      "bytes": 168143
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F20_heavy_atom_variety_abundance.pdf",
-      "sha256": "17afd068ba983ab6c99dbd2ae6a9417fae9c550eeb4145ffc490175821e2faa0",
-      "bytes": 19420
+      "sha256": "6d9146085c1ad8875e9edf2c851e9ccb9139b3d94517f9c7c1352f775d37c6fd",
+      "bytes": 19419
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F20_heavy_atom_variety_abundance.png",
-      "sha256": "1dbaa01b10652239e3c9a7f78a94a7c99f97ada2c8d96030cfe6285033ac6b0d",
-      "bytes": 183960
+      "sha256": "d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb",
+      "bytes": 183678
     },
     {
       "path": "05_composition_recurrence_and_topology/analysis-figures-publication_revision__F05.pdf",
@@ -853,13 +853,13 @@
     },
     {
       "path": "90_historical_and_other_context/advisor_figures-review_packet__A19_F12_F14_advisor_contact_sheet.png",
-      "sha256": "3888d7f11f7d7855e03e1d48f16c36cad2aef93cb7696b76fba2217ae63a0695",
-      "bytes": 1458062
+      "sha256": "efa3e8a7db4d2651864b02551385a26a631a30138b6072091bda45e0777c5492",
+      "bytes": 1457696
     },
     {
       "path": "90_historical_and_other_context/advisor_figures-review_packet__A19_F12_F14_advisor_review.pdf",
-      "sha256": "e3269f471890fcbeeae94124cbde5cf5e255c6342e85b351113f23580cca851c",
-      "bytes": 565615
+      "sha256": "608ff724d44d7247bcdb6e3bbb28d915c3621b09382f155809c9f238afb382cd",
+      "bytes": 564108
     },
     {
       "path": "90_historical_and_other_context/analysis-archive-notebook_edits-20261004-filtered_starting_singletons__figure_gallery.before_filtered_views.html",
@@ -3318,22 +3318,22 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "41aca429c6f8075212513f6de3f2e4e48fbf5691040f7885d9ed0260883cd1c4",
+      "sha256": "166b6435ab7c4e95811149f153cb7496ad2efed8e2726ec6cee0452722e5b733",
       "bytes": 314633
     },
     {
       "path": "catalog.json",
-      "sha256": "dd364c5cd8294747c1651ec3f58c05f9588e17882a617a146ce2d8e60c863136",
+      "sha256": "1600af8c829e70f39b24fa255cabe532da8c2b59843cdbe17d8c4ec84e92b540",
       "bytes": 435675
     },
     {
       "path": "export_manifest.json",
-      "sha256": "3a0bebb2a6a06c4a991ce9b82dd13fea8f09ed30b019ea4cb20c9a84140af98a",
+      "sha256": "3acc9125ac7e85e34b7775fb679fe65fcd6d8bb01fe4d5c00f37cdb9d2c57da2",
       "bytes": 570583
     },
     {
       "path": "index.html",
-      "sha256": "172a4ea1868bb2743a2a3f23a2255d9e0d812ac0fbb8ba0a9c01d8bef2c33988",
+      "sha256": "904d37a05e34c2839865c5367dd426619fe73b89908b76ecf2313f3f4295cc11",
       "bytes": 375614
     },
     {
@@ -3373,13 +3373,13 @@
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.pdf",
-      "sha256": "a8b4039a9d309160de5ae1766d43de3895bce7914c1b91d4e1c0121fa469ea9b",
-      "bytes": 673209
+      "sha256": "94a994be82a9667a7225008579353a8a7bda82256c61cf4463e6e24bb4d425ba",
+      "bytes": 686231
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.png",
-      "sha256": "0ed496affbe50d88e3bed7eeb8319a7749abe7a5708facbf98c4c5ab221280f2",
-      "bytes": 1026638
+      "sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "bytes": 1038647
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F14_same_atoms_connectivity.pdf",
@@ -3393,7 +3393,7 @@
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
-      "sha256": "10587fb844ebc63ab458065c80f68e449f5d7dc89f6131b89f02dcdbc0a8861b",
+      "sha256": "9d17dbe76e21b2bb5e81da8e25ec54fd6ee3253aea2c858b1e6aa835f67f0d03",
       "bytes": 129184
     },
     {
@@ -3403,7 +3403,7 @@
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_filtered_mean_heavy_atoms_vs_frame_including_H_only.pdf",
-      "sha256": "1b311da7ff9b299234d3f6392a2c9ccc30ad5e4fcc420fdcd5efb98fec789c73",
+      "sha256": "7cc7545c3c63b98cc1e1c3471e4af991d2b5b49c4e1b5c3b36b9d53385db70fb",
       "bytes": 128933
     },
     {
@@ -3413,17 +3413,17 @@
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_heavy_atom_frame_sizes.pdf",
-      "sha256": "9018d0d4d0a01add2ca153e2682fb3b651cdc43ea82f76e07deab50b54ad4741",
-      "bytes": 531121
+      "sha256": "327d17370dcdde10ea7f8b85ed6cace60ed0c616853333c267eaa3c4905c763b",
+      "bytes": 538410
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_heavy_atom_frame_sizes.png",
-      "sha256": "e10413df8cef5bdd86b6d7c0731f84ac043e8b269c6c961d40d3ed58128cb536",
-      "bytes": 920420
+      "sha256": "abeec6f2fe0665d81d2b7b775abaf4dc29b9212e07695cf04b048f35c4daa030",
+      "bytes": 927655
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
-      "sha256": "c8e7f92131fdeddd327bc85a2e7d796edabbd3bec2a480769df8eb67a9d62de1",
+      "sha256": "a1d3545e448de216da991ae201df982565cbff75667373519ea4635498348a15",
       "bytes": 57777
     },
     {
@@ -3433,7 +3433,7 @@
     },
     {
       "path": "supplement/04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_mean_heavy_atoms_vs_frame_including_H_only.pdf",
-      "sha256": "a99628cc3cf1e09f4a09a4454c5b9fca9400ff910c89c03d3b0d850124f37214",
+      "sha256": "6a20c5a8044c298ee62987607bfbf4377e399016658606818f399091f01cf7a5",
       "bytes": 78171
     },
     {
@@ -3458,53 +3458,53 @@
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.pdf",
-      "sha256": "0d2b0a97530cb1a562e914792e92cb95d42695cad9aaf0d51b0050efce8133bb",
-      "bytes": 21835
+      "sha256": "b6a390af0ceb8af5ab0fd98a7831d63b7963387380cd8345bc214a821240a902",
+      "bytes": 21832
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.png",
-      "sha256": "d0414c846649d0e4fe341791f705019b0bf2e2d581616e33e9d028c54f989c18",
-      "bytes": 209929
+      "sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "bytes": 208265
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_composition_architecture.pdf",
-      "sha256": "818bc2936f6616fb28c9c4875cf81f469a73bd573fd8f38d846f016393277189",
-      "bytes": 18462
+      "sha256": "da8686d9436492b7e0c1c1f0fbe1a557ca26585e721f29e1b1776d54144ab61c",
+      "bytes": 18458
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_composition_architecture.png",
-      "sha256": "9f876abbc1659719d8bff83e49068401ae39786d7436833dbcad3df20896e691",
-      "bytes": 160252
+      "sha256": "2ef1fa9d8817e22ed28a2d36b4e423ecb12c6d0d2266412979429305c36e2c35",
+      "bytes": 160636
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_connectivity_motifs.pdf",
-      "sha256": "75d83a1e3e60d41b2a98091ae75d3c7e61ca4c04dfffe61c6a6b0dd1c4a24a5a",
-      "bytes": 19427
+      "sha256": "1489a1820892d1b56e3bdd0167ff7b63cea54ac8904357195a107d139c2b6d09",
+      "bytes": 19424
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_connectivity_motifs.png",
-      "sha256": "f57190ef2ee7df54a9b57e34e15723a30677d6eddfe5e45b58666d281869c468",
-      "bytes": 192946
+      "sha256": "baca1aa51278312c19a1d5e2e5652581cae6f4d2fad2d7003d228c7ab7b109b4",
+      "bytes": 191618
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_recurrence_variety_abundance.pdf",
-      "sha256": "e5768cd3d012018895c0b9ccdf50fa8d6949c5ebf53148cf13005dbf8bb8efe4",
-      "bytes": 18211
+      "sha256": "0496452211f6413f686595af139d0e65cbe39913a868f42889963f70a5fdb5f5",
+      "bytes": 18207
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_recurrence_variety_abundance.png",
-      "sha256": "32246306479949b2cb62aad76a28e2830c395b7e0540c70c4aab59e2d7c65b89",
-      "bytes": 168038
+      "sha256": "eb60c231c197be07ff91ccef436e97dddd38d5fe21d85fc505dbdb15e05a423b",
+      "bytes": 168143
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F20_heavy_atom_variety_abundance.pdf",
-      "sha256": "17afd068ba983ab6c99dbd2ae6a9417fae9c550eeb4145ffc490175821e2faa0",
-      "bytes": 19420
+      "sha256": "6d9146085c1ad8875e9edf2c851e9ccb9139b3d94517f9c7c1352f775d37c6fd",
+      "bytes": 19419
     },
     {
       "path": "supplement/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F20_heavy_atom_variety_abundance.png",
-      "sha256": "1dbaa01b10652239e3c9a7f78a94a7c99f97ada2c8d96030cfe6285033ac6b0d",
-      "bytes": 183960
+      "sha256": "d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb",
+      "bytes": 183678
     },
     {
       "path": "supplement/README.md",
@@ -3518,22 +3518,22 @@
     },
     {
       "path": "supplement/catalog.csv",
-      "sha256": "f555bed5f5bd31fcae1a056b777dfddcff0160d3081326a4f935107c0c355602",
+      "sha256": "6ea6a5ff41c841f841f7437bb33b9a8db7db4722585b80ba0b8c123820c57997",
       "bytes": 43241
     },
     {
       "path": "supplement/catalog.json",
-      "sha256": "9b48fff9411ff278329f5e4aaff4444f424925710c8d1b213a04822a3ab1d02b",
+      "sha256": "6a67921d6b3b800eea21c96cacf620a94577a8f30cadc85d118a8ec30654315f",
       "bytes": 58750
     },
     {
       "path": "supplement/export_manifest.json",
-      "sha256": "687f00ed2861f91b90717f7121c81ae9938cd960c42ac11f08f18677c084d9d7",
+      "sha256": "bd7c4a07757531ece2d5e098bdbbc87110daf2db6413093fb69b21aa2fe212c2",
       "bytes": 21189
     },
     {
       "path": "supplement/index.html",
-      "sha256": "efcafec5ca019215116a0081dd248626228c263670afa8f0a3b464f6c8a46256",
+      "sha256": "db59026ce700c972239bb8636255365360a2b4319ea6b6be3a1fab9ed00b9159",
       "bytes": 34806
     }
   ]

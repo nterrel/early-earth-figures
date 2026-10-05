@@ -52,8 +52,8 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes.pdf",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.pdf",
-      "sha256": "a8b4039a9d309160de5ae1766d43de3895bce7914c1b91d4e1c0121fa469ea9b",
-      "bytes": 673209,
+      "sha256": "94a994be82a9667a7225008579353a8a7bda82256c61cf4463e6e24bb4d425ba",
+      "bytes": 686231,
       "format": "pdf",
       "theme": "04_quench_and_fragment_size",
       "theme_label": "Quench and fragment size",
@@ -66,16 +66,16 @@
       "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "a8b4039a9d309160de5ae1766d43de3895bce7914c1b91d4e1c0121fa469ea9b",
-      "share_bytes": 673209
+      "share_sha256": "94a994be82a9667a7225008579353a8a7bda82256c61cf4463e6e24bb4d425ba",
+      "share_bytes": 686231
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes.png",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.png",
-      "sha256": "0ed496affbe50d88e3bed7eeb8319a7749abe7a5708facbf98c4c5ab221280f2",
-      "bytes": 1026638,
+      "sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "bytes": 1038647,
       "format": "png",
       "theme": "04_quench_and_fragment_size",
       "theme_label": "Quench and fragment size",
@@ -88,8 +88,8 @@
       "note": "Quenched points are independent 25-fs endpoints; they do not form a continuous quenched trajectory.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "0ed496affbe50d88e3bed7eeb8319a7749abe7a5708facbf98c4c5ab221280f2",
-      "share_bytes": 1026638
+      "share_sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "share_bytes": 1038647
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity.pdf",
@@ -184,8 +184,8 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance.pdf",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.pdf",
-      "sha256": "0d2b0a97530cb1a562e914792e92cb95d42695cad9aaf0d51b0050efce8133bb",
-      "bytes": 21835,
+      "sha256": "b6a390af0ceb8af5ab0fd98a7831d63b7963387380cd8345bc214a821240a902",
+      "bytes": 21832,
       "format": "pdf",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -198,16 +198,16 @@
       "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. Each curve has its own denominator.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "0d2b0a97530cb1a562e914792e92cb95d42695cad9aaf0d51b0050efce8133bb",
-      "share_bytes": 21835
+      "share_sha256": "b6a390af0ceb8af5ab0fd98a7831d63b7963387380cd8345bc214a821240a902",
+      "share_bytes": 21832
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance.png",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.png",
-      "sha256": "d0414c846649d0e4fe341791f705019b0bf2e2d581616e33e9d028c54f989c18",
-      "bytes": 209929,
+      "sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "bytes": 208265,
       "format": "png",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -220,16 +220,16 @@
       "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. Each curve has its own denominator.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "d0414c846649d0e4fe341791f705019b0bf2e2d581616e33e9d028c54f989c18",
-      "share_bytes": 209929
+      "share_sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "share_bytes": 208265
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.pdf",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.pdf",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_composition_architecture.pdf",
-      "sha256": "818bc2936f6616fb28c9c4875cf81f469a73bd573fd8f38d846f016393277189",
-      "bytes": 18462,
+      "sha256": "da8686d9436492b7e0c1c1f0fbe1a557ca26585e721f29e1b1776d54144ab61c",
+      "bytes": 18458,
       "format": "pdf",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -242,16 +242,16 @@
       "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Each series is separately normalized.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "818bc2936f6616fb28c9c4875cf81f469a73bd573fd8f38d846f016393277189",
-      "share_bytes": 18462
+      "share_sha256": "da8686d9436492b7e0c1c1f0fbe1a557ca26585e721f29e1b1776d54144ab61c",
+      "share_bytes": 18458
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.png",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_composition_architecture.png",
-      "sha256": "9f876abbc1659719d8bff83e49068401ae39786d7436833dbcad3df20896e691",
-      "bytes": 160252,
+      "sha256": "2ef1fa9d8817e22ed28a2d36b4e423ecb12c6d0d2266412979429305c36e2c35",
+      "bytes": 160636,
       "format": "png",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -264,16 +264,16 @@
       "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Each series is separately normalized.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "9f876abbc1659719d8bff83e49068401ae39786d7436833dbcad3df20896e691",
-      "share_bytes": 160252
+      "share_sha256": "2ef1fa9d8817e22ed28a2d36b4e423ecb12c6d0d2266412979429305c36e2c35",
+      "share_bytes": 160636
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.pdf",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.pdf",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_connectivity_motifs.pdf",
-      "sha256": "75d83a1e3e60d41b2a98091ae75d3c7e61ca4c04dfffe61c6a6b0dd1c4a24a5a",
-      "bytes": 19427,
+      "sha256": "1489a1820892d1b56e3bdd0167ff7b63cea54ac8904357195a107d139c2b6d09",
+      "bytes": 19424,
       "format": "pdf",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -286,16 +286,16 @@
       "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Motif percentages do not sum to 100.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "75d83a1e3e60d41b2a98091ae75d3c7e61ca4c04dfffe61c6a6b0dd1c4a24a5a",
-      "share_bytes": 19427
+      "share_sha256": "1489a1820892d1b56e3bdd0167ff7b63cea54ac8904357195a107d139c2b6d09",
+      "share_bytes": 19424
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.png",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_connectivity_motifs.png",
-      "sha256": "f57190ef2ee7df54a9b57e34e15723a30677d6eddfe5e45b58666d281869c468",
-      "bytes": 192946,
+      "sha256": "baca1aa51278312c19a1d5e2e5652581cae6f4d2fad2d7003d228c7ab7b109b4",
+      "bytes": 191618,
       "format": "png",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -308,16 +308,16 @@
       "note": "These classes describe observed connectivity. They do not assign bond orders, chemical functional groups, electronic validity, or stability. Motif percentages do not sum to 100.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "f57190ef2ee7df54a9b57e34e15723a30677d6eddfe5e45b58666d281869c468",
-      "share_bytes": 192946
+      "share_sha256": "baca1aa51278312c19a1d5e2e5652581cae6f4d2fad2d7003d228c7ab7b109b4",
+      "share_bytes": 191618
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.pdf",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.pdf",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_recurrence_variety_abundance.pdf",
-      "sha256": "e5768cd3d012018895c0b9ccdf50fa8d6949c5ebf53148cf13005dbf8bb8efe4",
-      "bytes": 18211,
+      "sha256": "0496452211f6413f686595af139d0e65cbe39913a868f42889963f70a5fdb5f5",
+      "bytes": 18207,
       "format": "pdf",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -330,16 +330,16 @@
       "note": "Presence in either state is counted across 3,521 sampled pairs; recurrence is not lifetime or stability.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "e5768cd3d012018895c0b9ccdf50fa8d6949c5ebf53148cf13005dbf8bb8efe4",
-      "share_bytes": 18211
+      "share_sha256": "0496452211f6413f686595af139d0e65cbe39913a868f42889963f70a5fdb5f5",
+      "share_bytes": 18207
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.png",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F18_recurrence_variety_abundance.png",
-      "sha256": "32246306479949b2cb62aad76a28e2830c395b7e0540c70c4aab59e2d7c65b89",
-      "bytes": 168038,
+      "sha256": "eb60c231c197be07ff91ccef436e97dddd38d5fe21d85fc505dbdb15e05a423b",
+      "bytes": 168143,
       "format": "png",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -352,15 +352,15 @@
       "note": "Presence in either state is counted across 3,521 sampled pairs; recurrence is not lifetime or stability.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "32246306479949b2cb62aad76a28e2830c395b7e0540c70c4aab59e2d7c65b89",
-      "share_bytes": 168038
+      "share_sha256": "eb60c231c197be07ff91ccef436e97dddd38d5fe21d85fc505dbdb15e05a423b",
+      "share_bytes": 168143
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
-      "sha256": "10587fb844ebc63ab458065c80f68e449f5d7dc89f6131b89f02dcdbc0a8861b",
+      "sha256": "9d17dbe76e21b2bb5e81da8e25ec54fd6ee3253aea2c858b1e6aa835f67f0d03",
       "bytes": 129184,
       "format": "pdf",
       "theme": "04_quench_and_fragment_size",
@@ -374,7 +374,7 @@
       "note": "Removes H2, H2O, CO, NH3, and CH4 compositions, including reformed matches. OH, NH2, and CH3 remain. Frame zero has no eligible fragments and is omitted; 3,520 frame means are defined.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "10587fb844ebc63ab458065c80f68e449f5d7dc89f6131b89f02dcdbc0a8861b",
+      "share_sha256": "9d17dbe76e21b2bb5e81da8e25ec54fd6ee3253aea2c858b1e6aa835f67f0d03",
       "share_bytes": 129184
     },
     {
@@ -404,7 +404,7 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_including_H_only.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_including_H_only.pdf",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_filtered_mean_heavy_atoms_vs_frame_including_H_only.pdf",
-      "sha256": "1b311da7ff9b299234d3f6392a2c9ccc30ad5e4fcc420fdcd5efb98fec789c73",
+      "sha256": "7cc7545c3c63b98cc1e1c3471e4af991d2b5b49c4e1b5c3b36b9d53385db70fb",
       "bytes": 128933,
       "format": "pdf",
       "theme": "04_quench_and_fragment_size",
@@ -418,7 +418,7 @@
       "note": "Removes H2, H2O, CO, NH3, and CH4 compositions, including reformed matches. OH, NH2, and CH3 remain. Frame zero is undefined and omitted; 3,520 frame means remain.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_including_H_only",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "1b311da7ff9b299234d3f6392a2c9ccc30ad5e4fcc420fdcd5efb98fec789c73",
+      "share_sha256": "7cc7545c3c63b98cc1e1c3471e4af991d2b5b49c4e1b5c3b36b9d53385db70fb",
       "share_bytes": 128933
     },
     {
@@ -448,8 +448,8 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes.pdf",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_heavy_atom_frame_sizes.pdf",
-      "sha256": "9018d0d4d0a01add2ca153e2682fb3b651cdc43ea82f76e07deab50b54ad4741",
-      "bytes": 531121,
+      "sha256": "327d17370dcdde10ea7f8b85ed6cace60ed0c616853333c267eaa3c4905c763b",
+      "bytes": 538410,
       "format": "pdf",
       "theme": "04_quench_and_fragment_size",
       "theme_label": "Quench and fragment size",
@@ -462,16 +462,16 @@
       "note": "All 3,521 original-DCD hot/quench pairs. Original component membership and H bridges are retained. H-only fragments contribute zeros only to the all-fragment mean.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "9018d0d4d0a01add2ca153e2682fb3b651cdc43ea82f76e07deab50b54ad4741",
-      "share_bytes": 531121
+      "share_sha256": "327d17370dcdde10ea7f8b85ed6cace60ed0c616853333c267eaa3c4905c763b",
+      "share_bytes": 538410
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes.png",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_heavy_atom_frame_sizes.png",
-      "sha256": "e10413df8cef5bdd86b6d7c0731f84ac043e8b269c6c961d40d3ed58128cb536",
-      "bytes": 920420,
+      "sha256": "abeec6f2fe0665d81d2b7b775abaf4dc29b9212e07695cf04b048f35c4daa030",
+      "bytes": 927655,
       "format": "png",
       "theme": "04_quench_and_fragment_size",
       "theme_label": "Quench and fragment size",
@@ -484,15 +484,15 @@
       "note": "All 3,521 original-DCD hot/quench pairs. Original component membership and H bridges are retained. H-only fragments contribute zeros only to the all-fragment mean.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "e10413df8cef5bdd86b6d7c0731f84ac043e8b269c6c961d40d3ed58128cb536",
-      "share_bytes": 920420
+      "share_sha256": "abeec6f2fe0665d81d2b7b775abaf4dc29b9212e07695cf04b048f35c4daa030",
+      "share_bytes": 927655
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
-      "sha256": "c8e7f92131fdeddd327bc85a2e7d796edabbd3bec2a480769df8eb67a9d62de1",
+      "sha256": "a1d3545e448de216da991ae201df982565cbff75667373519ea4635498348a15",
       "bytes": 57777,
       "format": "pdf",
       "theme": "04_quench_and_fragment_size",
@@ -506,7 +506,7 @@
       "note": "All 3,521 original-DCD hot/quench pairs; axes match the including-H-only version. Connectivity and H bridges are retained.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "c8e7f92131fdeddd327bc85a2e7d796edabbd3bec2a480769df8eb67a9d62de1",
+      "share_sha256": "a1d3545e448de216da991ae201df982565cbff75667373519ea4635498348a15",
       "share_bytes": 57777
     },
     {
@@ -536,7 +536,7 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_including_H_only.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_including_H_only.pdf",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exports__F19_mean_heavy_atoms_vs_frame_including_H_only.pdf",
-      "sha256": "a99628cc3cf1e09f4a09a4454c5b9fca9400ff910c89c03d3b0d850124f37214",
+      "sha256": "6a20c5a8044c298ee62987607bfbf4377e399016658606818f399091f01cf7a5",
       "bytes": 78171,
       "format": "pdf",
       "theme": "04_quench_and_fragment_size",
@@ -550,7 +550,7 @@
       "note": "All 3,521 original-DCD hot/quench pairs; axes match the excluding-H-only version. The contrast exposes the denominator contribution of H-only fragments.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_including_H_only",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "a99628cc3cf1e09f4a09a4454c5b9fca9400ff910c89c03d3b0d850124f37214",
+      "share_sha256": "6a20c5a8044c298ee62987607bfbf4377e399016658606818f399091f01cf7a5",
       "share_bytes": 78171
     },
     {
@@ -580,8 +580,8 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance.pdf",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F20_heavy_atom_variety_abundance.pdf",
-      "sha256": "17afd068ba983ab6c99dbd2ae6a9417fae9c550eeb4145ffc490175821e2faa0",
-      "bytes": 19420,
+      "sha256": "6d9146085c1ad8875e9edf2c851e9ccb9139b3d94517f9c7c1352f775d37c6fd",
+      "bytes": 19419,
       "format": "pdf",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -594,16 +594,16 @@
       "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. This export excludes H-only fragments from all three distributions; the notebook supports their zero-size bin as an alternative.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "17afd068ba983ab6c99dbd2ae6a9417fae9c550eeb4145ffc490175821e2faa0",
-      "share_bytes": 19420
+      "share_sha256": "6d9146085c1ad8875e9edf2c851e9ccb9139b3d94517f9c7c1352f775d37c6fd",
+      "share_bytes": 19419
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance.png",
       "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F20_heavy_atom_variety_abundance.png",
-      "sha256": "1dbaa01b10652239e3c9a7f78a94a7c99f97ada2c8d96030cfe6285033ac6b0d",
-      "bytes": 183960,
+      "sha256": "d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb",
+      "bytes": 183678,
       "format": "png",
       "theme": "05_composition_recurrence_and_topology",
       "theme_label": "Composition, recurrence and topology",
@@ -616,8 +616,8 @@
       "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields. This export excludes H-only fragments from all three distributions; the notebook supports their zero-size bin as an alternative.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "1dbaa01b10652239e3c9a7f78a94a7c99f97ada2c8d96030cfe6285033ac6b0d",
-      "share_bytes": 183960
+      "share_sha256": "d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb",
+      "share_bytes": 183678
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
