@@ -5131,6 +5131,22 @@
       "role": "catalog figure",
       "export_sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
       "export_bytes": 356037
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "export_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
+      "source_sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
+      "export_sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
+      "export_bytes": 129783,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "export_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
+      "source_sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
+      "export_sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
+      "export_bytes": 282396,
+      "role": "catalog figure"
     }
   ],
   "generated_files": [
@@ -5144,7 +5160,7 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "04735e888a6731ce5bfc2aa4e4dacca562237677cb3978a3514d2cf915c60fb0"
+      "sha256": "36f4185a0690480055d461ad02b75ea3bbd188b6d65ac7002109a7cff2fb9b2b"
     },
     {
       "path": "03_scale_discovery_and_sampling/README.md",
@@ -5188,15 +5204,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "350955915608db8053e2f30e90c14269d818c9639576bad4cbac70ef7e0b25eb"
+      "sha256": "8c0bd4a28f020b18262390fafc37beefc4943bae0781445d363b7e6248991697"
     },
     {
       "path": "catalog.json",
-      "sha256": "cf3b6c498826ee019469169f2c4e7d79f8f1f29f61b3a797e3eec6967f20010d"
+      "sha256": "051c1e1c4136ee0b52e1742ace90b281fa3476b0f9b68c6c9ef615eb3501cc3e"
     },
     {
       "path": "index.html",
-      "sha256": "17c4af6b632b0ddcfd3807b9076b7122793b2ef6c090441bc3fb36b7190ebdb2"
+      "sha256": "e953017a5d8839869d4606e0acfa665adaf0cd0b07acbdbd8a61e93a6162413c"
     }
   ],
   "repaired_links": [
@@ -7268,33 +7284,16 @@
     "cross_collection_link": "supplement/index.html"
   },
   "scoped_publication": {
-    "parent_bundle": "figures/build/pages-20261005-formation-slow",
-    "description": "Original-only F21 GIF/still; graph-derived F21 2D comparison; rebinned F09; exact duplicate gallery copies removed. Other unpublished drafts remain local.",
-    "removed_duplicate_copies": [
-      "01_energy_evolution/dissertation-early_earth__228_kin_e.png",
-      "01_energy_evolution/dissertation-early_earth__228_pot_eng.png",
-      "01_energy_evolution/dissertation-early_earth__228_tot_eng.png",
-      "04_quench_and_fragment_size/dissertation-early_earth__96_atom_2d.png",
-      "02_alanine_and_conformations/dissertation-early_earth__alanine_dihedrals_updated.png",
-      "02_alanine_and_conformations/dissertation-early_earth__dihedral_alanine.png",
-      "03_scale_discovery_and_sampling/dissertation-early_earth-figures__unique_signature_vs_time.png",
-      "04_quench_and_fragment_size/dissertation-early_earth-quench_analysis__new_415_quench_formula_vs_frame.png",
-      "90_historical_and_other_context/dissertation-early_earth-quench_analysis__new_415_violins.png",
-      "04_quench_and_fragment_size/dissertation-early_earth-quench_analysis__quench_formula_vs_frame.png",
-      "01_energy_evolution/dissertation-early_earth__steps_vs_temp_quench.png",
-      "04_quench_and_fragment_size/dissertation-early_earth__updated_largest_mol_vs_time.png",
-      "07_development_systems/dissertation-figures__228000-after.png",
-      "07_development_systems/dissertation-figures__228000-start.png",
-      "01_energy_evolution/analysis-drafts-manuscript_working_20260927__228_pot_eng.png",
-      "02_alanine_and_conformations/analysis-drafts-manuscript_working_20260927__alanine_dihedrals_updated.png",
-      "02_alanine_and_conformations/analysis-drafts-manuscript_working_20260927__dihedral_alanine.png"
+    "parent_bundle": "figures/build/pages-20261005-figure-review-v2",
+    "description": "Correct the two historical alanine false-positive captions and pair them into one alanine-category diagnostic; sources and all unrelated figures preserved.",
+    "caption_sources": [
+      "Dissertation_figures/early_earth/alanine.png",
+      "Dissertation_figures/early_earth/alanine_shaded.png"
     ],
-    "revised_stems": [
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw"
+    "added_sources": [
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png"
     ],
-    "new_stems": [
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d"
-    ]
+    "supplement_unchanged": true
   }
 }

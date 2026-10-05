@@ -2,7 +2,7 @@
   "schema_version": 2,
   "updated": "2026-10-05",
   "policy": "Copies of retained outputs; source status and historical paths preserved. No scientific recomputation.",
-  "asset_count": 244,
+  "asset_count": 246,
   "source_roots": [
     "Dissertation_figures",
     "early_earth_analysis_v2/figures",
@@ -93,6 +93,18 @@
       {
         "pattern": "Dissertation_figures/figures/228000-start.png",
         "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228000-start.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+      }
+    ],
+    "gallery_bundles": [
+      {
+        "key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
+        "reason": "2026-10-05 Nick requests one paired false-positive example, retained in the alanine category. Original source assets remain separately cataloged and linked.",
+        "members": {
+          "Dissertation_figures/early_earth/alanine.png": "Panel A source",
+          "Dissertation_figures/early_earth/alanine_shaded.png": "Panel B source",
+          "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png": "PNG",
+          "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf": "PDF"
+        }
       }
     ]
   },
@@ -431,13 +443,13 @@
       "format": "png",
       "theme": "02_alanine_and_conformations",
       "theme_label": "Alanine and conformations",
-      "figure_id": "",
+      "figure_id": "F23",
       "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Alanine orientation, improper torsion and coordinate illustrations. F10 reproduces the 438,986-structure population and modes; it does not assign absolute stereochemistry, equilibrium or stability. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "Alanine coordinate illustration",
-      "description": "Ball-and-stick alanine rendering highlighting its carbon framework, amino group and carboxyl group.",
-      "note": "",
+      "status": "Historical false positive; matching corrected before dissertation analysis",
+      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows. Historical producer code and original labels are retained with the full dissertation source tree.",
+      "title": "Fragment misidentified as alanine \u2014 element-colored panel",
+      "description": "Historical false-positive fragment, not alanine. The element-colored view exposes the different bonding pattern that an unlabeled graph comparison failed to distinguish.",
+      "note": "Panel A of dissertation Figure 5-2 (\u00a75.1.2, pp. 103\u2013104). Preserved in the alanine category as a diagnostic, bundled with its identity-hidden view. Element-aware categorical node/edge matching corrected this early error; see Appendix D, p. 129.",
       "caption_key": "Dissertation_figures/early_earth/alanine",
       "origin_policy": "Catalog copy; source remains authoritative",
       "share_sha256": "34daaa83ad8e51eee84f2346ee2accdb72bb5c7cedcf8a25719a23b7d766aa28",
@@ -453,13 +465,13 @@
       "format": "png",
       "theme": "02_alanine_and_conformations",
       "theme_label": "Alanine and conformations",
-      "figure_id": "",
+      "figure_id": "F23",
       "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Alanine orientation, improper torsion and coordinate illustrations. F10 reproduces the 438,986-structure population and modes; it does not assign absolute stereochemistry, equilibrium or stability. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "Alanine shaded rendering \u2014 dark variant",
-      "description": "Shaded alanine export whose molecular detail is nearly invisible against the black background.",
-      "note": "Retained as an export variant; use the clearly visible alanine coordinate or torsion illustrations for review.",
+      "status": "Historical false positive; matching corrected before dissertation analysis",
+      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows. Historical producer code and original labels are retained with the full dissertation source tree.",
+      "title": "Fragment misidentified as alanine \u2014 element identities hidden",
+      "description": "The same historical false-positive fragment with element identities intentionally hidden. This illustrates the unlabeled graph shape used by the early matching procedure.",
+      "note": "Panel B of dissertation Figure 5-2, not a failed dark export. Its transparent background is shown on white. Kept in the alanine category as a diagnostic; the historical error was corrected with categorical node/edge matching.",
       "caption_key": "Dissertation_figures/early_earth/alanine_shaded",
       "origin_policy": "Catalog copy; source remains authoritative",
       "share_sha256": "8272a1e580a6569dae9db459a101e9b4b0391955438944a36b3b3eae39f793cf",
@@ -5502,6 +5514,50 @@
       "origin_policy": "Catalog copy; source remains authoritative",
       "share_sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
       "share_bytes": 356037
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
+      "sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
+      "bytes": 129783,
+      "format": "pdf",
+      "theme": "02_alanine_and_conformations",
+      "theme_label": "Alanine and conformations",
+      "figure_id": "F23",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows.",
+      "title": "Why unlabeled graph matching misidentified alanine",
+      "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
+      "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
+      "share_bytes": 129783
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
+      "sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
+      "bytes": 282396,
+      "format": "png",
+      "theme": "02_alanine_and_conformations",
+      "theme_label": "Alanine and conformations",
+      "figure_id": "F23",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows.",
+      "title": "Why unlabeled graph matching misidentified alanine",
+      "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
+      "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
+      "share_bytes": 282396
     }
   ]
 }
