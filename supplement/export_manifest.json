@@ -50,18 +50,18 @@
     {
       "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
       "export_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.pdf",
-      "source_sha256": "9ea408ff4ab1ab21a21e867cab3c5716f1e0736afb5d805fd715e7e73179a52d",
+      "source_sha256": "06dbf4d052eb9b638251044712c06e8dfa324cd6313867b48c2052cdb5f500fb",
       "role": "catalog figure",
-      "export_sha256": "9ea408ff4ab1ab21a21e867cab3c5716f1e0736afb5d805fd715e7e73179a52d",
-      "export_bytes": 4194975
+      "export_sha256": "06dbf4d052eb9b638251044712c06e8dfa324cd6313867b48c2052cdb5f500fb",
+      "export_bytes": 65372
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
       "export_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.png",
-      "source_sha256": "2e642512aec09c9e078e8ed12c9a630dbb3fd510f270c0e8ff10eed8d4cb173d",
+      "source_sha256": "ac8d005f55ccd53ded6cab6312ee125606d5d425f757c0e46133e0c5742be94a",
       "role": "catalog figure",
-      "export_sha256": "2e642512aec09c9e078e8ed12c9a630dbb3fd510f270c0e8ff10eed8d4cb173d",
-      "export_bytes": 155579
+      "export_sha256": "ac8d005f55ccd53ded6cab6312ee125606d5d425f757c0e46133e0c5742be94a",
+      "export_bytes": 270491
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
@@ -311,15 +311,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "6ea6a5ff41c841f841f7437bb33b9a8db7db4722585b80ba0b8c123820c57997"
+      "sha256": "32e4ae1b50ae738360f934ca839c0c221dbbc7da24a8acce5b7f9bf99c9e0ca3"
     },
     {
       "path": "catalog.json",
-      "sha256": "6a67921d6b3b800eea21c96cacf620a94577a8f30cadc85d118a8ec30654315f"
+      "sha256": "f4a6b5106ec605631c2bcc520862e2eee1cd334e27e3927cc6f458e94a86a5e5"
     },
     {
       "path": "index.html",
-      "sha256": "e22e545c158eeb4fc9b33a4dc3141f4bb68397593b74c863578c88b2f2d37d80"
+      "sha256": "ea0a9564d037994840083e32f888965219530b706e6d9ee68556b99a3d50dc9a"
     }
   ],
   "repaired_links": [],
@@ -328,5 +328,8 @@
     "description": "Hosted reading guides and cross-links between the full library and proposed supplement.",
     "source_figures_unchanged": true,
     "cross_collection_link": "../index.html"
+  },
+  "scoped_publication": {
+    "description": "Refresh only existing F09 panel/caption; all proposal selections unchanged"
   }
 }

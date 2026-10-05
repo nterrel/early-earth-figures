@@ -646,8 +646,8 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
       "central_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.pdf",
-      "sha256": "9ea408ff4ab1ab21a21e867cab3c5716f1e0736afb5d805fd715e7e73179a52d",
-      "bytes": 4194975,
+      "sha256": "06dbf4d052eb9b638251044712c06e8dfa324cd6313867b48c2052cdb5f500fb",
+      "bytes": 65372,
       "format": "pdf",
       "theme": "01_energy_evolution",
       "theme_label": "Energy evolution",
@@ -655,21 +655,21 @@
       "source_family": "analysis-output",
       "status": "Working/review asset; author selection open",
       "qualification": "Energetic evolution through heating, the high-temperature interval and cooling. F09 is source-bound, but the historical displayed-axis transformation remains unresolved; do not compare it numerically with reconstructed raw totals.",
-      "title": "Potential-energy distribution during heating and cooling",
-      "description": "A two-dimensional density plot of 366,067 temperature\u2013potential-energy observations shows separate heating and cooling branches, a dense high-temperature population, and a lower final low-temperature energy region.",
-      "note": "Raw source totals are distinct from the unresolved transformed axis in the historical manuscript image. Energy alone does not identify a reaction or product. This figure was reconstructed independently from retained LAMMPS thermodynamic records; \u201craw\u201d identifies untransformed energy totals, not a logarithmic vertical axis.",
+      "title": "Temperature and potential-energy counts in the 22.8-million-atom run",
+      "description": "The full heating/hot/cooling histogram retains all 366,067 reported records. An enlarged 2500 K panel uses 0.1 K bins to resolve the narrow temperature spread; colors show counts on a logarithmic scale without a saturation cap.",
+      "note": "Full bins: 10 K \u00d7 500,000 kcal mol\u22121; close-up: 0.1 K \u00d7 50,000 kcal mol\u22121. Constant-2500 K stages selected from echoed thermostat commands because restart step counters reset: 334,062 records, temperature SD 0.435 K. Potential energy is the raw total minus the initial 300 K median (\u221252,699,686,000 kcal mol\u22121), displayed in millions; no per-atom or unresolved historical-axis normalization. Repeated/restarted records retained. No measured 228-atom fluctuation comparison, equilibrium claim or product assignment. Receipt: analysis/energy_hysteresis/results/reconstruction.json.",
       "caption_key": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "9ea408ff4ab1ab21a21e867cab3c5716f1e0736afb5d805fd715e7e73179a52d",
-      "share_bytes": 4194975
+      "share_sha256": "06dbf4d052eb9b638251044712c06e8dfa324cd6313867b48c2052cdb5f500fb",
+      "share_bytes": 65372
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
       "current_source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
       "central_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.png",
-      "sha256": "2e642512aec09c9e078e8ed12c9a630dbb3fd510f270c0e8ff10eed8d4cb173d",
-      "bytes": 155579,
+      "sha256": "ac8d005f55ccd53ded6cab6312ee125606d5d425f757c0e46133e0c5742be94a",
+      "bytes": 270491,
       "format": "png",
       "theme": "01_energy_evolution",
       "theme_label": "Energy evolution",
@@ -677,13 +677,13 @@
       "source_family": "analysis-output",
       "status": "Working/review asset; author selection open",
       "qualification": "Energetic evolution through heating, the high-temperature interval and cooling. F09 is source-bound, but the historical displayed-axis transformation remains unresolved; do not compare it numerically with reconstructed raw totals.",
-      "title": "Potential-energy distribution during heating and cooling",
-      "description": "A two-dimensional density plot of 366,067 temperature\u2013potential-energy observations shows separate heating and cooling branches, a dense high-temperature population, and a lower final low-temperature energy region.",
-      "note": "Raw source totals are distinct from the unresolved transformed axis in the historical manuscript image. Energy alone does not identify a reaction or product. This figure was reconstructed independently from retained LAMMPS thermodynamic records; \u201craw\u201d identifies untransformed energy totals, not a logarithmic vertical axis.",
+      "title": "Temperature and potential-energy counts in the 22.8-million-atom run",
+      "description": "The full heating/hot/cooling histogram retains all 366,067 reported records. An enlarged 2500 K panel uses 0.1 K bins to resolve the narrow temperature spread; colors show counts on a logarithmic scale without a saturation cap.",
+      "note": "Full bins: 10 K \u00d7 500,000 kcal mol\u22121; close-up: 0.1 K \u00d7 50,000 kcal mol\u22121. Constant-2500 K stages selected from echoed thermostat commands because restart step counters reset: 334,062 records, temperature SD 0.435 K. Potential energy is the raw total minus the initial 300 K median (\u221252,699,686,000 kcal mol\u22121), displayed in millions; no per-atom or unresolved historical-axis normalization. Repeated/restarted records retained. No measured 228-atom fluctuation comparison, equilibrium claim or product assignment. Receipt: analysis/energy_hysteresis/results/reconstruction.json.",
       "caption_key": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "2e642512aec09c9e078e8ed12c9a630dbb3fd510f270c0e8ff10eed8d4cb173d",
-      "share_bytes": 155579
+      "share_sha256": "ac8d005f55ccd53ded6cab6312ee125606d5d425f757c0e46133e0c5742be94a",
+      "share_bytes": 270491
     }
   ]
 }

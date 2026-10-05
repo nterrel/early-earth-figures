@@ -1,73 +1,17 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-05T22:41:37.720512+00:00",
+  "exported_utc": "2026-10-05T23:09:56.844428+00:00",
   "catalog_sha256": "557d92e692f43f5d0ec222eeec21c000219713bf04fb788e214c546926306704",
   "gallery_sha256": "c352658632920ceb92088bdaf91a2045872fca1bd504afb1a487bf21df03fe37",
-  "asset_count": 259,
+  "asset_count": 244,
   "selection": null,
   "linked_dependency_count": 396,
-  "local_html_links_checked": 1100,
+  "local_html_links_checked": 1053,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
   ],
   "files": [
-    {
-      "source_path": "early_earth_analysis_v2/drafts/manuscript_working_20260927/228_pot_eng.png",
-      "export_path": "01_energy_evolution/analysis-drafts-manuscript_working_20260927__228_pot_eng.png",
-      "source_sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
-      "role": "catalog figure",
-      "export_sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
-      "export_bytes": 137849
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/228_kin_e.png",
-      "export_path": "01_energy_evolution/dissertation-early_earth__228_kin_e.png",
-      "source_sha256": "aa28ce3900fbb95249f2ecc574d2a912741057a198c2cf5d6d3db5347855fc7a",
-      "role": "catalog figure",
-      "export_sha256": "aa28ce3900fbb95249f2ecc574d2a912741057a198c2cf5d6d3db5347855fc7a",
-      "export_bytes": 63974
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/228_pot_eng.png",
-      "export_path": "01_energy_evolution/dissertation-early_earth__228_pot_eng.png",
-      "source_sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
-      "role": "catalog figure",
-      "export_sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
-      "export_bytes": 137849
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/228_tot_eng.png",
-      "export_path": "01_energy_evolution/dissertation-early_earth__228_tot_eng.png",
-      "source_sha256": "ece74b7025f43a242090ca651d86e50d51ec32e48b64a46c57b760cec9cc4dae",
-      "role": "catalog figure",
-      "export_sha256": "ece74b7025f43a242090ca651d86e50d51ec32e48b64a46c57b760cec9cc4dae",
-      "export_bytes": 115884
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/steps_vs_temp_quench.png",
-      "export_path": "01_energy_evolution/dissertation-early_earth__steps_vs_temp_quench.png",
-      "source_sha256": "a86af85c3c52e7f7af0c39d105d0c6b66216fdb1807faeafc52a7f34d49ca962",
-      "role": "catalog figure",
-      "export_sha256": "a86af85c3c52e7f7af0c39d105d0c6b66216fdb1807faeafc52a7f34d49ca962",
-      "export_bytes": 105497
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
-      "export_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.pdf",
-      "source_sha256": "9ea408ff4ab1ab21a21e867cab3c5716f1e0736afb5d805fd715e7e73179a52d",
-      "role": "catalog figure",
-      "export_sha256": "9ea408ff4ab1ab21a21e867cab3c5716f1e0736afb5d805fd715e7e73179a52d",
-      "export_bytes": 4194975
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
-      "export_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.png",
-      "source_sha256": "2e642512aec09c9e078e8ed12c9a630dbb3fd510f270c0e8ff10eed8d4cb173d",
-      "role": "catalog figure",
-      "export_sha256": "2e642512aec09c9e078e8ed12c9a630dbb3fd510f270c0e8ff10eed8d4cb173d",
-      "export_bytes": 155579
-    },
     {
       "source_path": "paper-early-earth-chemistry-hero-run/figures/placed/228_kin_e.png",
       "export_path": "01_energy_evolution/manuscript-placed__228_kin_e.png",
@@ -109,22 +53,6 @@
       "export_bytes": 122334
     },
     {
-      "source_path": "early_earth_analysis_v2/drafts/manuscript_working_20260927/alanine_dihedrals_updated.png",
-      "export_path": "02_alanine_and_conformations/analysis-drafts-manuscript_working_20260927__alanine_dihedrals_updated.png",
-      "source_sha256": "39aa8c98e718244268d8eba35e45c6aeba7826a4bf789f45957d2b17587d939d",
-      "role": "catalog figure",
-      "export_sha256": "39aa8c98e718244268d8eba35e45c6aeba7826a4bf789f45957d2b17587d939d",
-      "export_bytes": 145213
-    },
-    {
-      "source_path": "early_earth_analysis_v2/drafts/manuscript_working_20260927/dihedral_alanine.png",
-      "export_path": "02_alanine_and_conformations/analysis-drafts-manuscript_working_20260927__dihedral_alanine.png",
-      "source_sha256": "504deae41e9da0c6f3e003c2bdf418088ce44942799de5fc11d59fb55bf5fc14",
-      "role": "catalog figure",
-      "export_sha256": "504deae41e9da0c6f3e003c2bdf418088ce44942799de5fc11d59fb55bf5fc14",
-      "export_bytes": 900478
-    },
-    {
       "source_path": "graveyard/references/Dissertation_figures/alanine/ala_conformers.gif",
       "export_path": "02_alanine_and_conformations/dissertation-alanine__ala_conformers.gif",
       "source_sha256": "99e0de77dbd1442a1716e32e1882ef2245a2979c4a4aa18566741edb9ab0154d",
@@ -141,28 +69,12 @@
       "export_bytes": 127122
     },
     {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/alanine_dihedrals_updated.png",
-      "export_path": "02_alanine_and_conformations/dissertation-early_earth__alanine_dihedrals_updated.png",
-      "source_sha256": "39aa8c98e718244268d8eba35e45c6aeba7826a4bf789f45957d2b17587d939d",
-      "role": "catalog figure",
-      "export_sha256": "39aa8c98e718244268d8eba35e45c6aeba7826a4bf789f45957d2b17587d939d",
-      "export_bytes": 145213
-    },
-    {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/alanine_shaded.png",
       "export_path": "02_alanine_and_conformations/dissertation-early_earth__alanine_shaded.png",
       "source_sha256": "8272a1e580a6569dae9db459a101e9b4b0391955438944a36b3b3eae39f793cf",
       "role": "catalog figure",
       "export_sha256": "8272a1e580a6569dae9db459a101e9b4b0391955438944a36b3b3eae39f793cf",
       "export_bytes": 32950
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/dihedral_alanine.png",
-      "export_path": "02_alanine_and_conformations/dissertation-early_earth__dihedral_alanine.png",
-      "source_sha256": "504deae41e9da0c6f3e003c2bdf418088ce44942799de5fc11d59fb55bf5fc14",
-      "role": "catalog figure",
-      "export_sha256": "504deae41e9da0c6f3e003c2bdf418088ce44942799de5fc11d59fb55bf5fc14",
-      "export_bytes": 900478
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/figures/3d-d-ala.png",
@@ -275,14 +187,6 @@
       "role": "catalog figure",
       "export_sha256": "c901d3c2ed8181d78454b6636476eda98c7b7ee5f037262054d786c1eeeb9781",
       "export_bytes": 199101
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/figures/unique_signature_vs_time.png",
-      "export_path": "03_scale_discovery_and_sampling/dissertation-early_earth-figures__unique_signature_vs_time.png",
-      "source_sha256": "198bf3758d2bdf66af3788e9730ed68ea1895e0498adc976193c29c6cef02922",
-      "role": "catalog figure",
-      "export_sha256": "198bf3758d2bdf66af3788e9730ed68ea1895e0498adc976193c29c6cef02922",
-      "export_bytes": 100272
     },
     {
       "source_path": "paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time.png",
@@ -621,22 +525,6 @@
       "export_bytes": 560681
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.gif",
-      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.gif",
-      "source_sha256": "0eb32373a00e4dfc1efe103500b98acd6f6bc95b2b99103171f54d2aeb8becf3",
-      "role": "catalog figure",
-      "export_sha256": "0eb32373a00e4dfc1efe103500b98acd6f6bc95b2b99103171f54d2aeb8becf3",
-      "export_bytes": 5245500
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.png",
-      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.png",
-      "source_sha256": "b5e5b5ba18b7efb4b209748315cde2d46c5c65573351be575e0c6cd7654fb763",
-      "role": "catalog figure",
-      "export_sha256": "b5e5b5ba18b7efb4b209748315cde2d46c5c65573351be575e0c6cd7654fb763",
-      "export_bytes": 96025
-    },
-    {
       "source_path": "early_earth_analysis_v2/figures/publication_revision/F08.pdf",
       "export_path": "04_quench_and_fragment_size/analysis-figures-publication_revision__F08.pdf",
       "source_sha256": "bb15b3fff8c0a4f511719216191f0a83acebf5169ba6d59693916aab93e1fb50",
@@ -765,36 +653,12 @@
       "export_bytes": 376713
     },
     {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/quench_analysis/new_415_quench_formula_vs_frame.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth-quench_analysis__new_415_quench_formula_vs_frame.png",
-      "source_sha256": "b8dfece0bd32ed37a9d8d9ef8e82a686934528d5cb148db6121bf187ef1ff063",
-      "role": "catalog figure",
-      "export_sha256": "b8dfece0bd32ed37a9d8d9ef8e82a686934528d5cb148db6121bf187ef1ff063",
-      "export_bytes": 186690
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/quench_analysis/quench_formula_vs_frame.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth-quench_analysis__quench_formula_vs_frame.png",
-      "source_sha256": "e487625ac77dc9bd10d436a0d03f10125d090cd6bcd2ed6d00057715a3dc54bd",
-      "role": "catalog figure",
-      "export_sha256": "e487625ac77dc9bd10d436a0d03f10125d090cd6bcd2ed6d00057715a3dc54bd",
-      "export_bytes": 179774
-    },
-    {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/quench_analysis/violinplot-mol_counts-before-after-quench.png",
       "export_path": "04_quench_and_fragment_size/dissertation-early_earth-quench_analysis__violinplot-mol_counts-before-after-quench.png",
       "source_sha256": "ef1ea025f8c125a7fef680997899b49b7ef4298a39e80df6c6a21e62e4796d0f",
       "role": "catalog figure",
       "export_sha256": "ef1ea025f8c125a7fef680997899b49b7ef4298a39e80df6c6a21e62e4796d0f",
       "export_bytes": 126574
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/96_atom_2d.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth__96_atom_2d.png",
-      "source_sha256": "1c71589cf9d1f4e7016009633f7de8191300c45ef7ac6a560223c8c8daf3d320",
-      "role": "catalog figure",
-      "export_sha256": "1c71589cf9d1f4e7016009633f7de8191300c45ef7ac6a560223c8c8daf3d320",
-      "export_bytes": 205812
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/96atom.jpg",
@@ -827,14 +691,6 @@
       "role": "catalog figure",
       "export_sha256": "d9d2f9fb3b69fc4a97ef18f31d7d4fd048e5c0db50c3509c5db50fe399a0be79",
       "export_bytes": 291967
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/updated_largest_mol_vs_time.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth__updated_largest_mol_vs_time.png",
-      "source_sha256": "af6fb175f10e90daa1d418552a846f256a032617f1e73176d46c0e3509ff120d",
-      "role": "catalog figure",
-      "export_sha256": "af6fb175f10e90daa1d418552a846f256a032617f1e73176d46c0e3509ff120d",
-      "export_bytes": 292497
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/updated_original_counts.png",
@@ -1229,22 +1085,6 @@
       "export_bytes": 45101545
     },
     {
-      "source_path": "graveyard/references/Dissertation_figures/figures/228000-after.png",
-      "export_path": "07_development_systems/dissertation-figures__228000-after.png",
-      "source_sha256": "ec4d579410b1226e977f507dbb51d10bc9b281ee8488631b2d55c177f5e1276f",
-      "role": "catalog figure",
-      "export_sha256": "ec4d579410b1226e977f507dbb51d10bc9b281ee8488631b2d55c177f5e1276f",
-      "export_bytes": 1952412
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/figures/228000-start.png",
-      "export_path": "07_development_systems/dissertation-figures__228000-start.png",
-      "source_sha256": "4e88a9051a08f7641caa7bed9aed94976b3be919ba2a52339b9157429d581b63",
-      "role": "catalog figure",
-      "export_sha256": "4e88a9051a08f7641caa7bed9aed94976b3be919ba2a52339b9157429d581b63",
-      "export_bytes": 2007458
-    },
-    {
       "source_path": "graveyard/references/Dissertation_figures/figures/228_final.png",
       "export_path": "07_development_systems/dissertation-figures__228_final.png",
       "source_sha256": "8cc5f6061e7836962e700baa5cdda093b85f3aa6e7de6494ff24c8fa23f24284",
@@ -1443,14 +1283,6 @@
       "role": "catalog figure",
       "export_sha256": "788ac96f39f048a149da01b47d753f6089b434acf67831bd3f1e08c2f696366d",
       "export_bytes": 152047
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/quench_analysis/new_415_violins.png",
-      "export_path": "90_historical_and_other_context/dissertation-early_earth-quench_analysis__new_415_violins.png",
-      "source_sha256": "3777b422b4bc6e50db67473915ec872abb571d121974ff82ac27debe6436570d",
-      "role": "catalog figure",
-      "export_sha256": "3777b422b4bc6e50db67473915ec872abb571d121974ff82ac27debe6436570d",
-      "export_bytes": 100478
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/quench_analysis/updated_violins.png",
@@ -5251,6 +5083,54 @@
       "role": "catalog figure",
       "export_sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
       "export_bytes": 63040
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.gif",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.gif",
+      "source_sha256": "aa42392465b35710de7f621ae4b3ef2325637357535deebcd8b91e1093b30dd9",
+      "role": "catalog figure",
+      "export_sha256": "aa42392465b35710de7f621ae4b3ef2325637357535deebcd8b91e1093b30dd9",
+      "export_bytes": 3222336
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.png",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.png",
+      "source_sha256": "5c36b34de154c193fab98d3caf6901e5ca9eaf6839abd00dff303ae82afd10d1",
+      "role": "catalog figure",
+      "export_sha256": "5c36b34de154c193fab98d3caf6901e5ca9eaf6839abd00dff303ae82afd10d1",
+      "export_bytes": 57337
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
+      "export_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.pdf",
+      "source_sha256": "06dbf4d052eb9b638251044712c06e8dfa324cd6313867b48c2052cdb5f500fb",
+      "role": "catalog figure",
+      "export_sha256": "06dbf4d052eb9b638251044712c06e8dfa324cd6313867b48c2052cdb5f500fb",
+      "export_bytes": 65372
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
+      "export_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.png",
+      "source_sha256": "ac8d005f55ccd53ded6cab6312ee125606d5d425f757c0e46133e0c5742be94a",
+      "role": "catalog figure",
+      "export_sha256": "ac8d005f55ccd53ded6cab6312ee125606d5d425f757c0e46133e0c5742be94a",
+      "export_bytes": 270491
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_topology_2d.pdf",
+      "source_sha256": "d66afd6f1e503501579c7c34568eec45f2d79cacb783a082b2cf5ee4dede7b73",
+      "role": "catalog figure",
+      "export_sha256": "d66afd6f1e503501579c7c34568eec45f2d79cacb783a082b2cf5ee4dede7b73",
+      "export_bytes": 31842
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_topology_2d.png",
+      "source_sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
+      "role": "catalog figure",
+      "export_sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
+      "export_bytes": 356037
     }
   ],
   "generated_files": [
@@ -5308,15 +5188,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "69ace6c726f3d4cbab238aaaccb91dc069ccb733acbcef7d0f733c088c98d6c1"
+      "sha256": "350955915608db8053e2f30e90c14269d818c9639576bad4cbac70ef7e0b25eb"
     },
     {
       "path": "catalog.json",
-      "sha256": "3af28f9d532b30816f6bb2e4d4f5411355aebcf3f9a4022abbb1d096bcdd39fe"
+      "sha256": "cf3b6c498826ee019469169f2c4e7d79f8f1f29f61b3a797e3eec6967f20010d"
     },
     {
       "path": "index.html",
-      "sha256": "57deadf481e759e0d73dcf19eb3d93fbed6d589ea69700aa17b8f8ff2a4e5823"
+      "sha256": "17c4af6b632b0ddcfd3807b9076b7122793b2ef6c090441bc3fb36b7190ebdb2"
     }
   ],
   "repaired_links": [
@@ -7388,16 +7268,33 @@
     "cross_collection_link": "supplement/index.html"
   },
   "scoped_publication": {
-    "parent_bundle": "figures/build/pages-20261005-96atom-rotation",
-    "added_source_paths": [
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png"
+    "parent_bundle": "figures/build/pages-20261005-formation-slow",
+    "description": "Original-only F21 GIF/still; graph-derived F21 2D comparison; rebinned F09; exact duplicate gallery copies removed. Other unpublished drafts remain local.",
+    "removed_duplicate_copies": [
+      "01_energy_evolution/dissertation-early_earth__228_kin_e.png",
+      "01_energy_evolution/dissertation-early_earth__228_pot_eng.png",
+      "01_energy_evolution/dissertation-early_earth__228_tot_eng.png",
+      "04_quench_and_fragment_size/dissertation-early_earth__96_atom_2d.png",
+      "02_alanine_and_conformations/dissertation-early_earth__alanine_dihedrals_updated.png",
+      "02_alanine_and_conformations/dissertation-early_earth__dihedral_alanine.png",
+      "03_scale_discovery_and_sampling/dissertation-early_earth-figures__unique_signature_vs_time.png",
+      "04_quench_and_fragment_size/dissertation-early_earth-quench_analysis__new_415_quench_formula_vs_frame.png",
+      "90_historical_and_other_context/dissertation-early_earth-quench_analysis__new_415_violins.png",
+      "04_quench_and_fragment_size/dissertation-early_earth-quench_analysis__quench_formula_vs_frame.png",
+      "01_energy_evolution/dissertation-early_earth__steps_vs_temp_quench.png",
+      "04_quench_and_fragment_size/dissertation-early_earth__updated_largest_mol_vs_time.png",
+      "07_development_systems/dissertation-figures__228000-after.png",
+      "07_development_systems/dissertation-figures__228000-start.png",
+      "01_energy_evolution/analysis-drafts-manuscript_working_20260927__228_pot_eng.png",
+      "02_alanine_and_conformations/analysis-drafts-manuscript_working_20260927__alanine_dihedrals_updated.png",
+      "02_alanine_and_conformations/analysis-drafts-manuscript_working_20260927__dihedral_alanine.png"
     ],
-    "unchanged_prior_catalog_assets": 255,
-    "source_catalog_sha256": "3e44f43d875130fce7561f3454fa7a230811287bea17aa913073992347a54330",
-    "source_gallery_sha256": "9b00309aa9397209e2518fc041bb2bdfc3adf31758aa75097e2e93feaf00b28a",
-    "description": "Preserve previously published snapshot and append only the four author-requested F22 GIF/still assets and their current captions."
+    "revised_stems": [
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw"
+    ],
+    "new_stems": [
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d"
+    ]
   }
 }
