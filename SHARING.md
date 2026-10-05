@@ -54,6 +54,14 @@ Personal-repository collaborators also receive write access; a privately shared
 ZIP is suitable for viewers who only need to review the figures. See
 [GitHub's personal-repository permissions](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/permission-levels-for-a-personal-account-repository).
 
+Git backup tracks the individual figure files. The complete collaborator ZIP is
+about 126 MiB, so distribute that archive through your file-sharing channel or
+attach it as a GitHub release asset after repository creation; it exceeds
+GitHub's 100 MiB ordinary Git file limit. The smaller supplemental ZIP is about
+7.4 MiB. GitHub release assets may be up to 2 GiB each. See
+[large-file guidance](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)
+and [release-asset limits](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases).
+
 ## A shared browser link with GitHub Pages
 
 Once Nick approves public visibility and the figure repository exists, the
