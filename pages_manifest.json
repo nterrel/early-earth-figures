@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-05T17:59:44.509775+00:00",
+  "prepared_utc": "2026-10-05T22:41:54.099938+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
     "path": "index.html",
-    "asset_count": 255
+    "asset_count": 259
   },
   "supplement": {
     "path": "supplement/index.html",
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "557d92e692f43f5d0ec222eeec21c000219713bf04fb788e214c546926306704",
+  "source_catalog_sha256": "3e44f43d875130fce7561f3454fa7a230811287bea17aa913073992347a54330",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -618,7 +618,7 @@
     },
     {
       "path": "05_composition_recurrence_and_topology/README.md",
-      "sha256": "e6714346711269b2e824227f3c757703ddba6c0d2d42c33c910d172cc952503e",
+      "sha256": "fc374068225786342137461032b45c51ac1688a975ef25fa849bb370c05b51c4",
       "bytes": 273
     },
     {
@@ -715,6 +715,26 @@
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F20_heavy_atom_variety_abundance.png",
       "sha256": "d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb",
       "bytes": 183678
+    },
+    {
+      "path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.gif",
+      "sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
+      "bytes": 7504197
+    },
+    {
+      "path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.png",
+      "sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
+      "bytes": 62499
+    },
+    {
+      "path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.gif",
+      "sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
+      "bytes": 6925669
+    },
+    {
+      "path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.png",
+      "sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
+      "bytes": 63040
     },
     {
       "path": "05_composition_recurrence_and_topology/analysis-figures-publication_revision__F05.pdf",
@@ -3338,23 +3358,23 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "7c6d801f1ad52de6de7f3d14c930e8176d1dbf165dfeac43706eed2516d14ec5",
-      "bytes": 322697
+      "sha256": "69ace6c726f3d4cbab238aaaccb91dc069ccb733acbcef7d0f733c088c98d6c1",
+      "bytes": 332147
     },
     {
       "path": "catalog.json",
-      "sha256": "862d52dac758cd884546cad85578647204608c0fe6f34e7e59724ae355831ab1",
-      "bytes": 445603
+      "sha256": "3af28f9d532b30816f6bb2e4d4f5411355aebcf3f9a4022abbb1d096bcdd39fe",
+      "bytes": 456977
     },
     {
       "path": "export_manifest.json",
-      "sha256": "814671a4bcf2f20622b74e8602de8cb9343949695972672629c34369354e26ba",
-      "bytes": 572526
+      "sha256": "862b334602fa9c845a14093e91fcb8e78c33ad93bfb7813b4eb74e6aab942e4e",
+      "bytes": 575324
     },
     {
       "path": "index.html",
-      "sha256": "a5a447e52793788cdd6d0f3dedd11e603f4e8e7c1df4ee7dfdebdaf092b84c43",
-      "bytes": 381275
+      "sha256": "57deadf481e759e0d73dcf19eb3d93fbed6d589ea69700aa17b8f8ff2a4e5823",
+      "bytes": 387226
     },
     {
       "path": "supplement/.nojekyll",
@@ -3556,5 +3576,18 @@
       "sha256": "e22e545c158eeb4fc9b33a4dc3141f4bb68397593b74c863578c88b2f2d37d80",
       "bytes": 34808
     }
-  ]
+  ],
+  "scoped_publication": {
+    "parent_bundle": "figures/build/pages-20261005-96atom-rotation",
+    "added_source_paths": [
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png"
+    ],
+    "unchanged_prior_catalog_assets": 255,
+    "source_catalog_sha256": "3e44f43d875130fce7561f3454fa7a230811287bea17aa913073992347a54330",
+    "source_gallery_sha256": "9b00309aa9397209e2518fc041bb2bdfc3adf31758aa75097e2e93feaf00b28a",
+    "description": "Preserve previously published snapshot and append only the four author-requested F22 GIF/still assets and their current captions."
+  }
 }

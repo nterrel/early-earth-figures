@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-05T17:59:15.970447+00:00",
+  "exported_utc": "2026-10-05T22:41:37.720512+00:00",
   "catalog_sha256": "557d92e692f43f5d0ec222eeec21c000219713bf04fb788e214c546926306704",
   "gallery_sha256": "c352658632920ceb92088bdaf91a2045872fca1bd504afb1a487bf21df03fe37",
-  "asset_count": 255,
+  "asset_count": 259,
   "selection": null,
   "linked_dependency_count": 396,
-  "local_html_links_checked": 1092,
+  "local_html_links_checked": 1100,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
@@ -5219,6 +5219,38 @@
       "role": "reading-view dependency",
       "export_sha256": "3a89c12f00cace187ab1c2e231029103971aa1df4a6db92b815dbef591f8e77b",
       "export_bytes": 1010
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
+      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.gif",
+      "source_sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
+      "role": "catalog figure",
+      "export_sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
+      "export_bytes": 7504197
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
+      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.png",
+      "source_sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
+      "role": "catalog figure",
+      "export_sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
+      "export_bytes": 62499
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
+      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.gif",
+      "source_sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
+      "role": "catalog figure",
+      "export_sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
+      "export_bytes": 6925669
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
+      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.png",
+      "source_sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
+      "role": "catalog figure",
+      "export_sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
+      "export_bytes": 63040
     }
   ],
   "generated_files": [
@@ -5244,7 +5276,7 @@
     },
     {
       "path": "05_composition_recurrence_and_topology/README.md",
-      "sha256": "e6714346711269b2e824227f3c757703ddba6c0d2d42c33c910d172cc952503e"
+      "sha256": "fc374068225786342137461032b45c51ac1688a975ef25fa849bb370c05b51c4"
     },
     {
       "path": "06_methods_and_performance/README.md",
@@ -5276,15 +5308,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "7c6d801f1ad52de6de7f3d14c930e8176d1dbf165dfeac43706eed2516d14ec5"
+      "sha256": "69ace6c726f3d4cbab238aaaccb91dc069ccb733acbcef7d0f733c088c98d6c1"
     },
     {
       "path": "catalog.json",
-      "sha256": "862d52dac758cd884546cad85578647204608c0fe6f34e7e59724ae355831ab1"
+      "sha256": "3af28f9d532b30816f6bb2e4d4f5411355aebcf3f9a4022abbb1d096bcdd39fe"
     },
     {
       "path": "index.html",
-      "sha256": "a5a447e52793788cdd6d0f3dedd11e603f4e8e7c1df4ee7dfdebdaf092b84c43"
+      "sha256": "57deadf481e759e0d73dcf19eb3d93fbed6d589ea69700aa17b8f8ff2a4e5823"
     }
   ],
   "repaired_links": [
@@ -7354,5 +7386,18 @@
     "description": "Hosted reading guides and cross-links between the full library and proposed supplement.",
     "source_figures_unchanged": true,
     "cross_collection_link": "supplement/index.html"
+  },
+  "scoped_publication": {
+    "parent_bundle": "figures/build/pages-20261005-96atom-rotation",
+    "added_source_paths": [
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png"
+    ],
+    "unchanged_prior_catalog_assets": 255,
+    "source_catalog_sha256": "3e44f43d875130fce7561f3454fa7a230811287bea17aa913073992347a54330",
+    "source_gallery_sha256": "9b00309aa9397209e2518fc041bb2bdfc3adf31758aa75097e2e93feaf00b28a",
+    "description": "Preserve previously published snapshot and append only the four author-requested F22 GIF/still assets and their current captions."
   }
 }
