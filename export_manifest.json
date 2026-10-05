@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-05T16:40:42.719152+00:00",
-  "catalog_sha256": "04ec15a41d55265119d451d772335962ef5628f060a5709c12c173e018793f61",
-  "gallery_sha256": "f67aa70ccec318a27e541c1ca1f3d1339fab031aa3d7c7e50d9f72003c93b7cc",
-  "asset_count": 251,
+  "exported_utc": "2026-10-05T17:59:15.970447+00:00",
+  "catalog_sha256": "557d92e692f43f5d0ec222eeec21c000219713bf04fb788e214c546926306704",
+  "gallery_sha256": "c352658632920ceb92088bdaf91a2045872fca1bd504afb1a487bf21df03fe37",
+  "asset_count": 255,
   "selection": null,
   "linked_dependency_count": 396,
-  "local_html_links_checked": 1084,
+  "local_html_links_checked": 1092,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
@@ -603,6 +603,38 @@
       "role": "catalog figure",
       "export_sha256": "2b4bb62cfb2905e1819f83f7a2815b8b2a18a4171625f3a1b3465313e0ced334",
       "export_bytes": 190125
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_comparison.pdf",
+      "source_sha256": "ef24cf40a130b837ddd652cfe39a48012102a31adb49695854a3f874670cb764",
+      "role": "catalog figure",
+      "export_sha256": "ef24cf40a130b837ddd652cfe39a48012102a31adb49695854a3f874670cb764",
+      "export_bytes": 54720
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.png",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_comparison.png",
+      "source_sha256": "49bdeb38366d26e37de13ac948b7646f2b2ebaa9e8254ef2c2d6fb01860472ff",
+      "role": "catalog figure",
+      "export_sha256": "49bdeb38366d26e37de13ac948b7646f2b2ebaa9e8254ef2c2d6fb01860472ff",
+      "export_bytes": 560681
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.gif",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.gif",
+      "source_sha256": "0eb32373a00e4dfc1efe103500b98acd6f6bc95b2b99103171f54d2aeb8becf3",
+      "role": "catalog figure",
+      "export_sha256": "0eb32373a00e4dfc1efe103500b98acd6f6bc95b2b99103171f54d2aeb8becf3",
+      "export_bytes": 5245500
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.png",
+      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.png",
+      "source_sha256": "b5e5b5ba18b7efb4b209748315cde2d46c5c65573351be575e0c6cd7654fb763",
+      "role": "catalog figure",
+      "export_sha256": "b5e5b5ba18b7efb4b209748315cde2d46c5c65573351be575e0c6cd7654fb763",
+      "export_bytes": 96025
     },
     {
       "source_path": "early_earth_analysis_v2/figures/publication_revision/F08.pdf",
@@ -5208,7 +5240,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/README.md",
-      "sha256": "f9b418b6032a196aede7047d9c72a809a5fb800f1ff5a93c54f75e0d828b8d0b"
+      "sha256": "58595fe862259e167347b5a6327e6e3af12467f449268dd38fabe2b2eab3757a"
     },
     {
       "path": "05_composition_recurrence_and_topology/README.md",
@@ -5244,15 +5276,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "166b6435ab7c4e95811149f153cb7496ad2efed8e2726ec6cee0452722e5b733"
+      "sha256": "7c6d801f1ad52de6de7f3d14c930e8176d1dbf165dfeac43706eed2516d14ec5"
     },
     {
       "path": "catalog.json",
-      "sha256": "1600af8c829e70f39b24fa255cabe532da8c2b59843cdbe17d8c4ec84e92b540"
+      "sha256": "862d52dac758cd884546cad85578647204608c0fe6f34e7e59724ae355831ab1"
     },
     {
       "path": "index.html",
-      "sha256": "904d37a05e34c2839865c5367dd426619fe73b89908b76ecf2313f3f4295cc11"
+      "sha256": "a5a447e52793788cdd6d0f3dedd11e603f4e8e7c1df4ee7dfdebdaf092b84c43"
     }
   ],
   "repaired_links": [

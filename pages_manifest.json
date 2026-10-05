@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-05T16:41:13.833221+00:00",
+  "prepared_utc": "2026-10-05T17:59:44.509775+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
     "path": "index.html",
-    "asset_count": 251
+    "asset_count": 255
   },
   "supplement": {
     "path": "supplement/index.html",
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "04ec15a41d55265119d451d772335962ef5628f060a5709c12c173e018793f61",
+  "source_catalog_sha256": "557d92e692f43f5d0ec222eeec21c000219713bf04fb788e214c546926306704",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -213,7 +213,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/README.md",
-      "sha256": "f9b418b6032a196aede7047d9c72a809a5fb800f1ff5a93c54f75e0d828b8d0b",
+      "sha256": "58595fe862259e167347b5a6327e6e3af12467f449268dd38fabe2b2eab3757a",
       "bytes": 272
     },
     {
@@ -410,6 +410,26 @@
       "path": "04_quench_and_fragment_size/advisor_figures-results__F14_ten_atom_candidate_preliminary.png",
       "sha256": "2b4bb62cfb2905e1819f83f7a2815b8b2a18a4171625f3a1b3465313e0ced334",
       "bytes": 190125
+    },
+    {
+      "path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_comparison.pdf",
+      "sha256": "ef24cf40a130b837ddd652cfe39a48012102a31adb49695854a3f874670cb764",
+      "bytes": 54720
+    },
+    {
+      "path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_comparison.png",
+      "sha256": "49bdeb38366d26e37de13ac948b7646f2b2ebaa9e8254ef2c2d6fb01860472ff",
+      "bytes": 560681
+    },
+    {
+      "path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.gif",
+      "sha256": "0eb32373a00e4dfc1efe103500b98acd6f6bc95b2b99103171f54d2aeb8becf3",
+      "bytes": 5245500
+    },
+    {
+      "path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_rotation.png",
+      "sha256": "b5e5b5ba18b7efb4b209748315cde2d46c5c65573351be575e0c6cd7654fb763",
+      "bytes": 96025
     },
     {
       "path": "04_quench_and_fragment_size/analysis-figures-publication_revision__F08.pdf",
@@ -3318,23 +3338,23 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "166b6435ab7c4e95811149f153cb7496ad2efed8e2726ec6cee0452722e5b733",
-      "bytes": 314633
+      "sha256": "7c6d801f1ad52de6de7f3d14c930e8176d1dbf165dfeac43706eed2516d14ec5",
+      "bytes": 322697
     },
     {
       "path": "catalog.json",
-      "sha256": "1600af8c829e70f39b24fa255cabe532da8c2b59843cdbe17d8c4ec84e92b540",
-      "bytes": 435675
+      "sha256": "862d52dac758cd884546cad85578647204608c0fe6f34e7e59724ae355831ab1",
+      "bytes": 445603
     },
     {
       "path": "export_manifest.json",
-      "sha256": "3acc9125ac7e85e34b7775fb679fe65fcd6d8bb01fe4d5c00f37cdb9d2c57da2",
-      "bytes": 570583
+      "sha256": "814671a4bcf2f20622b74e8602de8cb9343949695972672629c34369354e26ba",
+      "bytes": 572526
     },
     {
       "path": "index.html",
-      "sha256": "904d37a05e34c2839865c5367dd426619fe73b89908b76ecf2313f3f4295cc11",
-      "bytes": 375614
+      "sha256": "a5a447e52793788cdd6d0f3dedd11e603f4e8e7c1df4ee7dfdebdaf092b84c43",
+      "bytes": 381275
     },
     {
       "path": "supplement/.nojekyll",
@@ -3528,13 +3548,13 @@
     },
     {
       "path": "supplement/export_manifest.json",
-      "sha256": "bd7c4a07757531ece2d5e098bdbbc87110daf2db6413093fb69b21aa2fe212c2",
+      "sha256": "99a978a077271fc305bc0b9384326fefeba2d0319a22881511367780acf8a807",
       "bytes": 21189
     },
     {
       "path": "supplement/index.html",
-      "sha256": "db59026ce700c972239bb8636255365360a2b4319ea6b6be3a1fab9ed00b9159",
-      "bytes": 34806
+      "sha256": "e22e545c158eeb4fc9b33a4dc3141f4bb68397593b74c863578c88b2f2d37d80",
+      "bytes": 34808
     }
   ]
 }
