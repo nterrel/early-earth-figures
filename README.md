@@ -6,6 +6,7 @@ The folders follow proposed manuscript themes, not final figure order. Every ass
 
 ## Choose a reading path
 
+- For collaborators, browse [the public figure library](https://nterrel.github.io/early-earth-figures/) or [the proposed supplement](https://nterrel.github.io/early-earth-figures/supplement/).
 - For portable collaborator packages and the proposed supplement, use [the sharing guide](SHARING.md).
 - To edit captions or add future figures, use [the editorial metadata guide](metadata/README.md).
 - For Adrian's short reading path, use [advisor-handoff](../advisor-handoff/README.md).

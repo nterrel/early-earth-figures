@@ -1,7 +1,6 @@
 # Share the figure library or proposed supplement
 
-The gallery is a static HTML library. Its current `localhost` link works on
-Nick's computer. Collaborators need a portable copy or a hosted web address.
+The [public figure library](https://nterrel.github.io/early-earth-figures/) is live, with a link to the [proposed supplement](https://nterrel.github.io/early-earth-figures/supplement/). Share those addresses with collaborators. The local `localhost` preview works on Nick's computer; ZIPs provide a fixed downloadable snapshot.
 
 ## Share a review snapshot now
 
@@ -29,7 +28,7 @@ publication plan.
 
 The maintained [supplement selection](metadata/supplement_selection.json) lists
 the proposed assets with publication-friendly titles and descriptions. It is a
-review draft; author selection and publication approval remain open. Build a
+review draft; final manuscript/SI selection and scientific approval remain open. Build a
 smaller standalone gallery from that list:
 
 ```bash
@@ -45,8 +44,7 @@ library, then export to a new directory to review the next version.
 ## GitHub backup and collaborator access
 
 Nick selected **[github.com/nterrel](https://github.com/nterrel)** for the figure
-and documentation repositories. Repository creation/visibility choices are tracked
-in the [author inbox](../NICK_TODO.md). A private repository can give selected
+and documentation repositories. [early-earth-figures](https://github.com/nterrel/early-earth-figures) is public; [early-earth-publication](https://github.com/nterrel/early-earth-publication) is private. Both local histories and their backup tags are uploaded and verified. The [publication plan](../early_earth_analysis_v2/docs/PUBLICATION_PLAN.md) records the backup boundaries. A private repository can give selected
 collaborators access to the files and ZIP without publicly publishing the library.
 GitHub does not render the interactive HTML gallery directly in repository file
 views; recipients can download and open the portable package.
@@ -64,20 +62,20 @@ and [release-asset limits](https://docs.github.com/en/repositories/releasing-pro
 
 ## A shared browser link with GitHub Pages
 
-Once Nick approves public visibility and the figure repository exists, the
-selected supplemental export can become its GitHub Pages publication content. The export uses
-relative links, includes `.nojekyll`, and needs no framework build. A dedicated
-publication branch or a custom Pages workflow can keep generated publication
-files separate from the source catalog. The usual project address would be
-`https://nterrel.github.io/<figure-repository-name>/`; it does not exist until
-publication is configured and completes.
+The approved website uses the full-library homepage and a linked proposed supplement. The final manuscript/SI selection remains under review. GitHub Pages publishes `gh-pages` from **/(root)**; maintained figure sources, captions and tools remain on `main`. Publishing a new `gh-pages` commit updates the site. A push to `main` updates the source backup.
 
-For a simple publication branch, place the export contents at that branch's root,
-including `index.html` and `.nojekyll`. In the repository's **Settings → Pages**,
-choose **Deploy from a branch**, then select that branch and **/(root)**. The
-selected branch is a publication surface: subsequent pushes update the site.
-The maintained catalog can stay on `main`. Creating the branch, pushing it and
-enabling Pages remain separate author-approved publication steps.
+Prepare a new verified website from the current local workspace:
+
+```bash
+python3 figures/tools/sync_catalog.py --write
+python3 figures/tools/sync_catalog.py --check
+python3 figures/tools/prepare_pages.py --output figures/build/pages-YYYYMMDD
+python3 figures/tools/prepare_pages.py --check figures/build/pages-YYYYMMDD
+```
+
+Choose a fresh output name for each version. Inspect `index.html` and `supplement/index.html`, then replace the publication-branch contents with that verified bundle, commit and push `gh-pages`. Keep the maintained source checkout on `main`; use a separate publication checkout or temporary Git index. The bundle includes physical copies, relative links, `.nojekyll`, source/export manifests and reading guides. Its generator reads the owning local sources and their display dependencies; a figure-repository clone alone does not include the sibling retained inputs needed to regenerate every report.
+
+The site is configured in **Settings → Pages → Deploy from a branch → gh-pages → /(root)**. No framework build is required. The published source/manifest hashes and GitHub build commit are bound in the central [backup/Pages receipt](../early_earth_analysis_v2/docs/records/GITHUB_BACKUP_PAGES_20261004.json).
 
 **GitHub Pages on a personal account is publicly accessible, including when its
 source repository is private.** Private hosted Pages access requires an
@@ -91,4 +89,4 @@ GitHub Pages permits a published site up to 1 GB, with a 100 GB/month soft bandw
 limit. The current catalog is comfortably below the site-size limit. See
 [Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)
 and [project-site URL conventions](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
-No repository creation, upload or publication follows from generating the ZIP.
+ZIP or Pages-bundle generation is local; publishing happens when the reviewed bundle is pushed to the configured `gh-pages` branch.
