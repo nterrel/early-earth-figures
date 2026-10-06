@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-05T23:36:52.220325+00:00",
+  "prepared_utc": "2026-10-06T00:02:33.068740+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
@@ -12,7 +12,7 @@
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "9b22636339e6b2d1a52d5e9a411393842dcb86ee547b5cb473d1519a0ca74bd9",
+  "source_catalog_sha256": "c5f372f108e5129ab8f38dce86f2b9f85dfc8fc5812588d99f633f9b641d1675",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -63,13 +63,13 @@
     },
     {
       "path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
-      "sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
-      "bytes": 129783
+      "sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "bytes": 121523
     },
     {
       "path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
-      "sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
-      "bytes": 282396
+      "sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "bytes": 212507
     },
     {
       "path": "02_alanine_and_conformations/alanine_dihedral-results__F10_alanine_improper_torsion.png",
@@ -3293,17 +3293,17 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "8c0bd4a28f020b18262390fafc37beefc4943bae0781445d363b7e6248991697",
+      "sha256": "051283913a0b52a1dd535854518aa334bae6c476ae6bc07068175099dd84f306",
       "bytes": 319683
     },
     {
       "path": "catalog.json",
-      "sha256": "051c1e1c4136ee0b52e1742ace90b281fa3476b0f9b68c6c9ef615eb3501cc3e",
+      "sha256": "45f032117be05d73dd1ce6f86a297c6110d2e29814f7bc786e2007134652b480",
       "bytes": 445375
     },
     {
       "path": "export_manifest.json",
-      "sha256": "15a7ec7a7927436ec645255dcc78a39ca1a9e4fd22869f8568feb03ff870beb7",
+      "sha256": "63158f4417347af3ac8bb83066361402184945ea7995c206c6f9d286a3c00f1e",
       "bytes": 569175
     },
     {
@@ -3513,16 +3513,12 @@
     }
   ],
   "scoped_publication": {
-    "parent_bundle": "figures/build/pages-20261005-figure-review-v2",
-    "description": "Correct the two historical alanine false-positive captions and pair them into one alanine-category diagnostic; sources and all unrelated figures preserved.",
-    "caption_sources": [
-      "Dissertation_figures/early_earth/alanine.png",
-      "Dissertation_figures/early_earth/alanine_shaded.png"
+    "parent_commit": "2644f27f4ea5bba0472f05008005ad079bf3926a",
+    "description": "Remove the embedded F23 explanatory caption and footer; keep the existing webpage caption and all other public content unchanged.",
+    "revised_assets": [
+      "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
+      "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf"
     ],
-    "added_sources": [
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png"
-    ],
-    "supplement_unchanged": true
+    "webpage_and_supplement_unchanged": true
   }
 }

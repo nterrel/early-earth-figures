@@ -5520,8 +5520,8 @@
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
       "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
-      "sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
-      "bytes": 129783,
+      "sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "bytes": 121523,
       "format": "pdf",
       "theme": "02_alanine_and_conformations",
       "theme_label": "Alanine and conformations",
@@ -5534,16 +5534,16 @@
       "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
-      "share_bytes": 129783
+      "share_sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "share_bytes": 121523
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
       "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
-      "sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
-      "bytes": 282396,
+      "sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "bytes": 212507,
       "format": "png",
       "theme": "02_alanine_and_conformations",
       "theme_label": "Alanine and conformations",
@@ -5556,8 +5556,8 @@
       "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
-      "share_bytes": 282396
+      "share_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "share_bytes": 212507
     }
   ]
 }

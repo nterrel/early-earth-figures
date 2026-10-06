@@ -5135,17 +5135,17 @@
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
       "export_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
-      "source_sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
-      "export_sha256": "369d8991977ca9360857464c7d6bd09ede65a1907dea4a205db88ce941257156",
-      "export_bytes": 129783,
+      "source_sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "export_sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "export_bytes": 121523,
       "role": "catalog figure"
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
       "export_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
-      "source_sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
-      "export_sha256": "2a2c10dfadb802d35137fffb673adf3949d6881536a788f81c7d77fef9fab107",
-      "export_bytes": 282396,
+      "source_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "export_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "export_bytes": 212507,
       "role": "catalog figure"
     }
   ],
@@ -5204,11 +5204,11 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "8c0bd4a28f020b18262390fafc37beefc4943bae0781445d363b7e6248991697"
+      "sha256": "051283913a0b52a1dd535854518aa334bae6c476ae6bc07068175099dd84f306"
     },
     {
       "path": "catalog.json",
-      "sha256": "051c1e1c4136ee0b52e1742ace90b281fa3476b0f9b68c6c9ef615eb3501cc3e"
+      "sha256": "45f032117be05d73dd1ce6f86a297c6110d2e29814f7bc786e2007134652b480"
     },
     {
       "path": "index.html",
