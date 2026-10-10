@@ -12,7 +12,7 @@
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "2bc8a71892afd14d5e3f90c530eb546af79896b77c21e443d8ab6628f6cf90d7",
+  "source_catalog_sha256": "8088dbcd9ca350f10adbff971545ed4bb1973bf3c46cd10b3c6491178e99bc5c",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -2783,18 +2783,18 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "152755a8acc96d47e42a592ea4a3388bd1c22b733587eb11ea690c674dfb910c",
+      "sha256": "9df3792473d538ad4164ccf571a04ab2398530707f7bd03f1d602ece7b315bc3",
       "bytes": 311664
     },
     {
       "path": "export_manifest.json",
-      "sha256": "63da4020f1cdb2520f88177cd0a4d0125d23d58af1817da602c6487b6736401b",
+      "sha256": "2dceba24a005d96bf8c998b1e4e89eb0920dfcc1cba6e6773d3b305c18fe8cc0",
       "bytes": 535172
     },
     {
       "path": "index.html",
-      "sha256": "4a4073ac57bb95526f937e45acaf57dabaf1303f3afbbf6eb6461e8c75b927ee",
-      "bytes": 221946
+      "sha256": "ab0739bcb3ab21d559d9d17844fb1eab1ef2cc53f7f998a29ca1f4be6decc8f1",
+      "bytes": 221945
     },
     {
       "path": "supplement/.nojekyll",
@@ -2983,12 +2983,12 @@
     },
     {
       "path": "supplement/catalog.json",
-      "sha256": "8ff9f11ba063733e13f7274a01e9fd7fca9ada141abe6137fb8706f8796a3189",
+      "sha256": "47dbd59defad6ef16c9b52e37317e4432c4c3f960f8e1b4db64a511df32d24f7",
       "bytes": 102199
     },
     {
       "path": "supplement/export_manifest.json",
-      "sha256": "e380a68902a48889133cb0504d9c85a457fac73f47255912974e8c2f3b556b7f",
+      "sha256": "15a4e09c886eb33110cda46b3e7554d13681a64c7bc7c3edc48624a652271a06",
       "bytes": 21188
     },
     {

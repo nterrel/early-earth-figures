@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "exported_utc": "2026-10-10T22:03:03.962271+00:00",
-  "catalog_sha256": "2bc8a71892afd14d5e3f90c530eb546af79896b77c21e443d8ab6628f6cf90d7",
-  "gallery_sha256": "10bc5172467c68f3e7c5f14dd46f7c963fd49a125c06fe7d7bd243d6841318f9",
+  "catalog_sha256": "8088dbcd9ca350f10adbff971545ed4bb1973bf3c46cd10b3c6491178e99bc5c",
+  "gallery_sha256": "6f3512bd7416fa379e6f76b8b0be3b4521b86cfd3eeaef3f84cdb37f41faa07c",
   "asset_count": 29,
   "selection": {
     "title": "Early Earth \u2014 supplementary figures",
@@ -315,7 +315,7 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "8ff9f11ba063733e13f7274a01e9fd7fca9ada141abe6137fb8706f8796a3189"
+      "sha256": "47dbd59defad6ef16c9b52e37317e4432c4c3f960f8e1b4db64a511df32d24f7"
     },
     {
       "path": "index.html",

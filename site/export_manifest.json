@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "exported_utc": "2026-10-10T22:02:54.636981+00:00",
-  "catalog_sha256": "2bc8a71892afd14d5e3f90c530eb546af79896b77c21e443d8ab6628f6cf90d7",
-  "gallery_sha256": "10bc5172467c68f3e7c5f14dd46f7c963fd49a125c06fe7d7bd243d6841318f9",
+  "catalog_sha256": "8088dbcd9ca350f10adbff971545ed4bb1973bf3c46cd10b3c6491178e99bc5c",
+  "gallery_sha256": "6f3512bd7416fa379e6f76b8b0be3b4521b86cfd3eeaef3f84cdb37f41faa07c",
   "asset_count": 144,
   "selection": {
     "title": "Early Earth figure library",
@@ -4540,11 +4540,11 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "152755a8acc96d47e42a592ea4a3388bd1c22b733587eb11ea690c674dfb910c"
+      "sha256": "9df3792473d538ad4164ccf571a04ab2398530707f7bd03f1d602ece7b315bc3"
     },
     {
       "path": "index.html",
-      "sha256": "4a4073ac57bb95526f937e45acaf57dabaf1303f3afbbf6eb6461e8c75b927ee"
+      "sha256": "ab0739bcb3ab21d559d9d17844fb1eab1ef2cc53f7f998a29ca1f4be6decc8f1"
     }
   ],
   "repaired_links": [
