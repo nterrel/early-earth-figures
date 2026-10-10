@@ -62,7 +62,7 @@ and [release-asset limits](https://docs.github.com/en/repositories/releasing-pro
 
 ## A shared browser link with GitHub Pages
 
-The approved website uses the full-library homepage and a linked proposed supplement. The final manuscript/SI selection remains under review. GitHub Pages publishes `gh-pages` from **/(root)**; maintained figure sources, captions and tools remain on `main`. Publishing a new `gh-pages` commit updates the site. A push to `main` updates the source backup.
+The approved website uses the D20-curated library homepage (157 assets/126 groups) and a linked proposed supplement. The 89 approved public groups were removed with original sources preserved; the 19 optional historical Early Earth groups remain. See the [A31 results](../early_earth_analysis_v2/docs/WEBSITE_CURATION_RESULTS_20261010.md). The final manuscript/SI selection remains under review. The site deploys the verified `site/` snapshot through GitHub Actions after each push to `main`. Maintained figure sources, captions and tools remain on `main`; the earlier `gh-pages` history is retained.
 
 Prepare a new verified website from the current local workspace:
 
@@ -73,9 +73,9 @@ python3 figures/tools/prepare_pages.py --output figures/build/pages-YYYYMMDD
 python3 figures/tools/prepare_pages.py --check figures/build/pages-YYYYMMDD
 ```
 
-Choose a fresh output name for each version. Inspect `index.html` and `supplement/index.html`, then replace the publication-branch contents with that verified bundle, commit and push `gh-pages`. Keep the maintained source checkout on `main`; use a separate publication checkout or temporary Git index. The bundle includes physical copies, relative links, `.nojekyll`, source/export manifests and reading guides. Its generator reads the owning local sources and their display dependencies; a figure-repository clone alone does not include the sibling retained inputs needed to regenerate every report.
+Choose a fresh output name for each version. Inspect `index.html` and `supplement/index.html`, archive the previous managed `site/` snapshot, then stage the reviewed bundle under `site/` and commit/push `main`. Preserve the approved curated membership when preparing a targeted replacement. The bundle includes physical copies, relative links, `.nojekyll`, source/export manifests and reading guides. Its generator reads the owning local sources and their display dependencies; a figure-repository clone alone does not include the sibling retained inputs needed to regenerate every report.
 
-The site is configured in **Settings → Pages → Deploy from a branch → gh-pages → /(root)**. No framework build is required. The published source/manifest hashes and GitHub build commit are bound in the central [backup/Pages receipt](../early_earth_analysis_v2/docs/records/GITHUB_BACKUP_PAGES_20261004.json).
+The site is configured in **Settings → Pages → GitHub Actions**. No framework build is required. The published source/manifest hashes and GitHub build commit are bound in the central [backup/Pages receipt](../early_earth_analysis_v2/docs/records/GITHUB_BACKUP_PAGES_20261004.json).
 
 **GitHub Pages on a personal account is publicly accessible, including when its
 source repository is private.** Private hosted Pages access requires an
@@ -89,4 +89,49 @@ GitHub Pages permits a published site up to 1 GB, with a 100 GB/month soft bandw
 limit. The current catalog is comfortably below the site-size limit. See
 [Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)
 and [project-site URL conventions](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
-ZIP or Pages-bundle generation is local; publishing happens when the reviewed bundle is pushed to the configured `gh-pages` branch.
+ZIP or Pages-bundle generation is local; publishing happens when the reviewed `site/` snapshot is committed and pushed to `main`.
+
+## Notebook editing and automatic main-branch deployment (A30)
+
+The [editing guide](EDITING.md) and [energy workshop](../early_earth_analysis_v2/analysis/advisor_figures/notebook/library/energy_evolution.ipynb)
+provide a direct preview → optional save → optional sync/stage path. Their default
+cells do not save or publish. A31 published the approved 89-group cleanup on the retained `gh-pages` branch.
+A32 replaces only F09 in that curated snapshot and activates automatic deployment
+from `main` on 2026-10-10.
+
+For the new workflow, the last notebook cell stages a verified complete website
+under `figures/site/`. Equivalent command after catalog sync/check:
+
+```bash
+python3 figures/tools/stage_notebook_site.py
+python3 figures/tools/prepare_pages.py --check figures/site
+```
+
+An existing managed snapshot is validated and archived under ignored `build/`
+before replacement. Unmanifested or hand-edited snapshot changes are refused.
+Staging exports the entire current catalog and proposed supplement, including
+currently local candidates. A31 subsequently replaced `site/` with the exact
+curated public 610-file snapshot (157 assets/126 groups), excluding local/A32
+candidates. If the default helper is run again, inspect `site/index.html` and
+`site/supplement/index.html` and approve that broader membership before committing. It does not run a Git command, change sharing or upload anything.
+
+**Activation:** GitHub Pages uses **GitHub Actions**, and the `github-pages`
+environment allows `main`. `.github/workflows/publish-library.yml` validates the
+committed snapshot before publishing it on every push to `main`; it also accepts
+manual workflow runs. Earlier `gh-pages` history remains available. See the
+[GitHub workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+Thereafter, save and stage after each edit, inspect the diff, and commit/push
+`main`. Every push to `main` runs snapshot validation and deployment;
+caption/source-only commits need restaging before they reach the website. Check
+the Actions result instead of assuming a fixed build time. The public URL and
+linked supplement layout stay the same. Deploying a full snapshot will include
+all staged library candidates, not only the new energy views.
+
+CI runs `python tools/prepare_pages.py --check site --portable` in a clean figure
+repository checkout. That mode checks exact membership, every file's size/hash,
+exported asset bindings and every local HTML link. It reports that original
+source hashes were **not rechecked** in CI; those were verified locally during
+staging. CI does not need the private analysis repository, logs, scientific Python
+packages or symlinks into another checkout. `site/` is deliberately tracked;
+`build/` remains ignored. Notebook/cache/input receipts stay in the private
+analysis repository and selected manuscript files remain separately controlled.

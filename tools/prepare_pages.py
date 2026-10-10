@@ -50,7 +50,7 @@ def adapt_package(directory: Path, boundary: Path, supplement: bool) -> dict:
     destination = '../index.html' if supplement else 'supplement/index.html'
     label = 'Complete figure library' if supplement else 'Proposed supplement'
     navigation = '<p><a href="START_HERE.html">Reading guide</a></p>'
-    replacement = f'<p><a href="START_HERE.html">Reading guide</a> · <a href="{destination}">{label}</a></p>'
+    replacement = f'<p><a href="START_HERE.html">Reading guide</a> · <a href="{destination}">{label}</a> · <a href="https://github.com/nterrel/early-earth-figures/blob/main/EDITING.md">Edit figures</a></p>'
     if gallery.count(navigation) != 1:
         raise RuntimeError('Portable gallery navigation changed; update Pages adapter')
     gallery = gallery.replace(navigation, replacement)
@@ -103,7 +103,7 @@ The maintained gallery sources are in
     return manifest
 
 
-def check(directory: Path) -> dict:
+def check(directory: Path, *, verify_sources: bool = True) -> dict:
     directory = directory.expanduser().resolve()
     manifest_path = directory / 'pages_manifest.json'
     manifest = json.loads(manifest_path.read_text())
@@ -121,10 +121,11 @@ def check(directory: Path) -> dict:
     for package in (directory, directory / 'supplement'):
         package_manifest = json.loads((package / 'export_manifest.json').read_text())
         for entry in package_manifest['files']:
-            source = (PROJECT / entry['source_path']).resolve()
-            source.relative_to(PROJECT)
-            if export_share.digest(source) != entry['source_sha256']:
-                raise RuntimeError(f'Original source changed: {entry["source_path"]}')
+            if verify_sources:
+                source = (PROJECT / entry['source_path']).resolve()
+                source.relative_to(PROJECT)
+                if export_share.digest(source) != entry['source_sha256']:
+                    raise RuntimeError(f'Original source changed: {entry["source_path"]}')
             if export_share.digest(package / entry['export_path']) != entry['export_sha256']:
                 raise RuntimeError(f'Exported figure changed: {entry["export_path"]}')
             sources += 1
@@ -138,6 +139,7 @@ def check(directory: Path) -> dict:
         'supplement_sha256': export_share.digest(directory / 'supplement/index.html'),
         'pages_manifest_sha256': export_share.digest(manifest_path),
         'verified': True,
+        'source_hashes_rechecked': verify_sources,
     }
 
 
@@ -172,8 +174,11 @@ def main() -> None:
     mode.add_argument('--output', type=Path, help='New GitHub Pages publication directory')
     mode.add_argument('--check', type=Path, help='Verify an existing publication directory')
     parser.add_argument('--selection', type=Path, default=FIGURES / 'metadata/supplement_selection.json')
+    parser.add_argument('--portable', action='store_true', help='Check bundle bytes/links without original sibling repositories (CI)')
     args = parser.parse_args()
-    print(json.dumps(check(args.check) if args.check else prepare(args.output, args.selection), indent=2))
+    if args.portable and not args.check:
+        parser.error('--portable requires --check; preparation always verifies original sources')
+    print(json.dumps(check(args.check, verify_sources=not args.portable) if args.check else prepare(args.output, args.selection), indent=2))
 
 
 if __name__ == '__main__':

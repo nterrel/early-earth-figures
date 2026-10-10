@@ -96,13 +96,13 @@
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d": {
     "title": "The same ten atoms: aligned 2D comparison",
-    "description": "A shared projection shows frame 447 changing from a nine-atom component plus one H to a ten-atom component after one additional C–H cutoff connection.",
+    "description": "A shared projection shows frame 447 changing from a nine-atom component plus one H to a ten-atom component after one additional C\u2013H cutoff connection.",
     "note": "Stable atom IDs and proper heavy-atom alignment bind the two depictions. This selected example does not establish a mechanism or representative frequency."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d": {
     "title": "The same ten atoms: aligned 3D comparison",
     "description": "Three-dimensional coordinates and cutoff connections show the hot 9+1 and quenched 10-atom configuration for the same frame-447 atoms.",
-    "note": "Both states use stable atom IDs, a common alignment, and a shared scale; the new C–H connection is an endpoint observation."
+    "note": "Both states use stable atom IDs, a common alignment, and a shared scale; the new C\u2013H connection is an endpoint observation."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_functional_group_counts": {
     "title": "Representation-dependent functional-group query counts",
@@ -166,12 +166,12 @@
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity": {
     "title": "A ten-atom connectivity example before and after quench",
-    "description": "Aligned views of the same ten frame-447 atoms show hot 9+1 components becoming one quenched component through one additional C–H cutoff connection.",
+    "description": "Aligned views of the same ten frame-447 atoms show hot 9+1 components becoming one quenched component through one additional C\u2013H cutoff connection.",
     "note": "This source-bound selected example shows endpoint connectivity, without assigning a reaction mechanism or representative frequency."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F16_unique_strings_by_size": {
     "title": "Which total sizes supply the most string variety?",
-    "description": "Each of the 10,259,647 union strings counts once in this size histogram; the mode is 22 atoms and the full range is 1–92, including H.",
+    "description": "Each of the 10,259,647 union strings counts once in this size histogram; the mode is 22 atoms and the full range is 1\u201392, including H.",
     "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance": {
@@ -267,7 +267,7 @@
   "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary": {
     "title": "Ten atoms before and after a connectivity change",
     "description": "Side-by-side frame-447 atom renderings show a nine-atom component and one isolated H in the hot state becoming a single ten-atom component after quench.",
-    "note": "A later notebook view uses proper heavy-atom alignment and a shared projection. The observed new C–H cutoff connection does not assign a mechanism. Early coordinate presentation; the later notebook view improves the shared alignment and projection."
+    "note": "A later notebook view uses proper heavy-atom alignment and a shared projection. The observed new C\u2013H cutoff connection does not assign a mechanism. Early coordinate presentation; the later notebook view improves the shared alignment and projection."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/review_packet/A19_F12_F14_advisor_contact_sheet": {
     "title": "Quench-size changes and a ten-atom example",
@@ -281,13 +281,13 @@
   },
   "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion": {
     "title": "Alanine improper-torsion distribution",
-    "description": "The N–Cα–C(carboxyl)–Cβ improper-torsion histogram for 438,986 alanine-reference coordinate blocks has two modes at ±124.2°, describing the orientation of substituents around the central carbon.",
+    "description": "The N\u2013C\u03b1\u2013C(carboxyl)\u2013C\u03b2 improper-torsion histogram for 438,986 alanine-reference coordinate blocks has two modes at \u00b1124.2\u00b0, describing the orientation of substituents around the central carbon.",
     "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Independent reconstruction reproduces the population and modes of the historical alanine histogram."
   },
   "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw": {
-    "title": "Potential-energy distribution during heating and cooling",
-    "description": "A two-dimensional density plot of 366,067 temperature–potential-energy observations shows separate heating and cooling branches, a dense high-temperature population, and a lower final low-temperature energy region.",
-    "note": "Raw source totals are distinct from the unresolved transformed axis in the historical manuscript image. Energy alone does not identify a reaction or product. This figure was reconstructed independently from retained LAMMPS thermodynamic records; “raw” identifies untransformed energy totals, not a logarithmic vertical axis."
+    "title": "Temperature and potential-energy counts in the 22.8-million-atom run",
+    "description": "The full heating/hot/cooling view retains all 366,067 reported records. Both panels use 400\u00d7400 square cells; the dotted box marks the enlarged 2500 K view. Colors show records per bin on a logarithmic scale.",
+    "note": "Full bins: 6.275 K \u00d7 432,500 kcal/mol; zoom: 0.025 K \u00d7 12,500 kcal/mol. Zoom bounds: 2495\u20132505 K and \u22125.2590\u00d710\u00b9\u2070 to \u22125.2585\u00d710\u00b9\u2070 kcal/mol. Of 334,062 constant-2500 K records, 331,366 are visible and 2,696 outside the zoom. Temperature SD 0.435 K. Raw total potential energy in kcal/mol, without reference subtraction or per-atom normalization. Repeated/restarted records retained and correlated. Author-approved rendering; final manuscript selection remains open. Historical normalization and cross-size comparison remain unresolved. Receipt: analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/review_validation.json."
   },
   "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_fragment_sizes_preliminary": {
     "title": "Fragment means and maxima in 412 paired quenches",
@@ -331,17 +331,17 @@
   },
   "early_earth_analysis_v2/drafts/manuscript_working_20260927/228_pot_eng": {
     "title": "Potential-energy branches during heating and cooling",
-    "description": "Temperature–potential-energy density reveals distinct heating and cooling branches in the Hero Run and a dense population near the high-temperature plateau.",
+    "description": "Temperature\u2013potential-energy density reveals distinct heating and cooling branches in the Hero Run and a dense population near the high-temperature plateau.",
     "note": "The historical vertical-axis transformation is unresolved. Compare values only within this image; do not convert them to or compare them numerically with raw log totals. The historical filename does not identify a smaller simulation. Catalog copy from the 2026-09-27 working manuscript draft."
   },
   "early_earth_analysis_v2/drafts/manuscript_working_20260927/alanine_dihedrals_updated": {
     "title": "Angular populations around the alanine central carbon",
-    "description": "The histogram shows two angular populations near ±125° for alanine-reference coordinates, describing substituent orientation around the central carbon.",
+    "description": "The histogram shows two angular populations near \u00b1125\u00b0 for alanine-reference coordinates, describing substituent orientation around the central carbon.",
     "note": "Independent F10 reconstruction identifies the coordinate as an improper torsion and reproduces 438,986 blocks. The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Catalog copy from the 2026-09-27 working manuscript draft."
   },
   "early_earth_analysis_v2/drafts/manuscript_working_20260927/dihedral_alanine": {
     "title": "Alanine atoms defining the central-carbon orientation",
-    "description": "The molecular rendering labels N, Cα, carboxyl C, and side-chain C, identifying the atom quartet used to characterize substituent orientation.",
+    "description": "The molecular rendering labels N, C\u03b1, carboxyl C, and side-chain C, identifying the atom quartet used to characterize substituent orientation.",
     "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Catalog copy from the 2026-09-27 working manuscript draft."
   },
   "early_earth_analysis_v2/figures/publication_revision/F05": {
@@ -461,12 +461,12 @@
   },
   "paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated": {
     "title": "Alanine central-carbon orientation histogram",
-    "description": "Two angular populations near ±125° characterize the alanine-reference coordinate ensemble; the N–Cα–C(carboxyl)–Cβ improper-torsion modes are ±124.2° across 438,986 blocks.",
+    "description": "Two angular populations near \u00b1125\u00b0 characterize the alanine-reference coordinate ensemble; the N\u2013C\u03b1\u2013C(carboxyl)\u2013C\u03b2 improper-torsion modes are \u00b1124.2\u00b0 across 438,986 blocks.",
     "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability."
   },
   "paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine": {
     "title": "Alanine atom quartet for the orientation analysis",
-    "description": "Labeled rendering identifies N–Cα–C(carboxyl)–Cβ around the central carbon, clarifying the independently recovered improper-torsion definition.",
+    "description": "Labeled rendering identifies N\u2013C\u03b1\u2013C(carboxyl)\u2013C\u03b2 around the central carbon, clarifying the independently recovered improper-torsion definition.",
     "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability."
   },
   "paper-early-earth-chemistry-hero-run/figures/placed/updated_largest_mol_vs_time": {
