@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-06T00:02:33.068740+00:00",
+  "prepared_utc": "2026-10-10T19:17:05.093517+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
     "path": "index.html",
-    "asset_count": 246
+    "asset_count": 157
   },
   "supplement": {
     "path": "supplement/index.html",
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "c5f372f108e5129ab8f38dce86f2b9f85dfc8fc5812588d99f633f9b641d1675",
+  "source_catalog_sha256": "bde95e3d7b3d435a9403b93f7803cd936d4bc4f36a083f87ede8a240c6f3a7b4",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -23,8 +23,8 @@
     },
     {
       "path": "01_energy_evolution/README.md",
-      "sha256": "f907e1a08d5ff6d10cc3ff66b1a03991d7c333a0a3175154741acdf4793b27d4",
-      "bytes": 240
+      "sha256": "decb7486c2443a614c39b0c1b80f5286432d666bb592389a807bf6eb49c18c89",
+      "bytes": 239
     },
     {
       "path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.pdf",
@@ -58,8 +58,8 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "36f4185a0690480055d461ad02b75ea3bbd188b6d65ac7002109a7cff2fb9b2b",
-      "bytes": 1559
+      "sha256": "8e3d82f87c3b6cec8c2c170d8b7f3d34b5e536b2e14823b5f62a10edfc87904e",
+      "bytes": 252
     },
     {
       "path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
@@ -133,7 +133,7 @@
     },
     {
       "path": "03_scale_discovery_and_sampling/README.md",
-      "sha256": "db5646724fe01c2434b8079b5e515fd8bf445a17e5a29181dc1a783734c5312e",
+      "sha256": "2c531e62465060228dbbe56052c14409dcecf134943ed526ea78966189683bb8",
       "bytes": 249
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/README.md",
-      "sha256": "58595fe862259e167347b5a6327e6e3af12467f449268dd38fabe2b2eab3757a",
+      "sha256": "468c14f70bd655f89d66c53846083fd5a3530ed3e879e0013beebd88c455d3c2",
       "bytes": 272
     },
     {
@@ -568,7 +568,7 @@
     },
     {
       "path": "05_composition_recurrence_and_topology/README.md",
-      "sha256": "fc374068225786342137461032b45c51ac1688a975ef25fa849bb370c05b51c4",
+      "sha256": "e6714346711269b2e824227f3c757703ddba6c0d2d42c33c910d172cc952503e",
       "bytes": 273
     },
     {
@@ -717,26 +717,6 @@
       "bytes": 238068
     },
     {
-      "path": "05_composition_recurrence_and_topology/dissertation-figures__c2h3n7o2-cropped.png",
-      "sha256": "34c2ced8985cffd094d7a249ecc0d991c96b474acafbddbcb54e5481a7620a0e",
-      "bytes": 96703
-    },
-    {
-      "path": "05_composition_recurrence_and_topology/dissertation-figures__c2h3n7o2.png",
-      "sha256": "2045a7b1d3ab4f8c3ef4ed75e8ad5e78eeca0cde3db5e53147c1c19519a2c1e7",
-      "bytes": 70544
-    },
-    {
-      "path": "05_composition_recurrence_and_topology/dissertation-figures__c2h3n7o2_highlighted-cropped.png",
-      "sha256": "a5ffdde64702122831f64ac7434bd7c82ac7c57c35d485f751565ef5f163d560",
-      "bytes": 372855
-    },
-    {
-      "path": "05_composition_recurrence_and_topology/dissertation-figures__c2h3n7o2_highlighted.png",
-      "sha256": "6a51c16272e25cec91641f153090cd609356344941d4f569d643db81d920b913",
-      "bytes": 5833530
-    },
-    {
       "path": "05_composition_recurrence_and_topology/frozen-core-connectivity-stride100_analysis__census_overview.png",
       "sha256": "d9d5dcd7ab70b2bea9255f1910e1ba4fa8e9b384604f52e93627a2ba620e64be",
       "bytes": 272008
@@ -778,8 +758,8 @@
     },
     {
       "path": "07_development_systems/README.md",
-      "sha256": "d56057e12b0a597df53e98fa023b8dc3888f2561bc067d3344b258e9718d935a",
-      "bytes": 246
+      "sha256": "89867cbaa8dc9da702d65ae602395ffc84dd8fe6c27e88968f83d1903239d458",
+      "bytes": 245
     },
     {
       "path": "07_development_systems/dissertation-early_earth__228.gif",
@@ -828,93 +808,8 @@
     },
     {
       "path": "90_historical_and_other_context/README.md",
-      "sha256": "133b3a5b8ec06b441d0d72fd79a985da918031a47df851914a1e1db19f27df11",
-      "bytes": 280
-    },
-    {
-      "path": "90_historical_and_other_context/advisor_figures-review_packet__A19_F12_F14_advisor_contact_sheet.png",
-      "sha256": "efa3e8a7db4d2651864b02551385a26a631a30138b6072091bda45e0777c5492",
-      "bytes": 1457696
-    },
-    {
-      "path": "90_historical_and_other_context/advisor_figures-review_packet__A19_F12_F14_advisor_review.pdf",
-      "sha256": "608ff724d44d7247bcdb6e3bbb28d915c3621b09382f155809c9f238afb382cd",
-      "bytes": 564108
-    },
-    {
-      "path": "90_historical_and_other_context/analysis-archive-notebook_edits-20261004-filtered_starting_singletons__figure_gallery.before_filtered_views.html",
-      "sha256": "e3bd5c1261c5d93b13a8f6e0797f08844cc79fcee4567fd3051025dfa9910446",
-      "bytes": 1505132
-    },
-    {
-      "path": "90_historical_and_other_context/analysis-archive-notebook_edits-20261004-heavy_atoms-exports__advisor_figures.html",
-      "sha256": "3746f0436e60946c610e9451fa09f73b420f6e0a043c27d22352b2c164a8f7bf",
-      "bytes": 821559
-    },
-    {
-      "path": "90_historical_and_other_context/analysis-archive-notebook_edits-20261004-heavy_atoms-exports__figure_gallery.html",
-      "sha256": "a9f39bedb6405d03ec54f0813299b11d10f627b4207de1a8d9fb29f19e18f220",
-      "bytes": 1020620
-    },
-    {
-      "path": "90_historical_and_other_context/analysis-archive-notebook_edits-20261004-heavy_mean_denominators__figure_gallery.before_denominators.html",
-      "sha256": "50746bbf765d3f32a5ef2e32575ac8a0109e27bc1f41b3e430d725ad61a5780c",
-      "bytes": 1451585
-    },
-    {
-      "path": "90_historical_and_other_context/analysis-archive-notebook_edits-20261004-heavy_mean_denominators__heavy_atom_mean_vs_frame.before_denominators.html",
-      "sha256": "60c247116ce76166f2e7b0f4b8c4de16e5f8fd904ef064b7cef85bb8bcbe4ef5",
-      "bytes": 355646
-    },
-    {
-      "path": "90_historical_and_other_context/analysis-archive-notebook_edits-20261004-heavy_mean_scatter__figure_gallery.before_scatter.html",
-      "sha256": "eb9cd428f41e416c014d7128ebd4a57525d45db3d066b65dabf275aebf8df6d5",
-      "bytes": 1372113
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__c5h12_covariance.png",
-      "sha256": "53d1ca402c46beae9d10ac921d60ed4b9c3687ad8c7451e4c05a8bf134b04363",
-      "bytes": 347485
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__c5h12_covariance_golden_orange_adjusted.png",
-      "sha256": "28aa58e55909e693ee0a77653a876759cac2a92f3636ab7491c79c5c5ce5354d",
-      "bytes": 137483
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__c5h12_covariance_old.png",
-      "sha256": "cd7d4032c04384f63ecd1da17e119a2f9f714900c3214d29a8a83d92dd1bc765",
-      "bytes": 51172
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__ch4.png",
-      "sha256": "b0755e00ea5bd03ea592293f305a51281c3e66f39e918aa023433855df844288",
-      "bytes": 115584
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__ch4_covariance.png",
-      "sha256": "c7e00b0bbd2f19fa26589cda9d7939d4f9ce8ba381c660963bf265aa6ae1859f",
-      "bytes": 52323
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__ch4_covariance_golden_orange.png",
-      "sha256": "1f49bd9e4b7903969f1c7af5cb8557ceba8d54dea8c06010a6c562731b74a43d",
-      "bytes": 27515
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__ch4_covariance_old.png",
-      "sha256": "b5c30693021aefde430e06abf7ad2f8be13dcdf1aa8036ab6c2880275d5c210a",
-      "bytes": 35959
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__cov_c5h12_labeled.png",
-      "sha256": "87f1589ade9f71142703c14ce3d3361c1742293912cce2ecf923581c18c9f6ef",
-      "bytes": 557074
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-cxhy__cov_ch4_labeled.png",
-      "sha256": "788ac96f39f048a149da01b47d753f6089b434acf67831bd3f1e08c2f696366d",
-      "bytes": 152047
+      "sha256": "cd66c35f0dae9e856eed28276ff8c6a761f1c86020cd544e041adba0431e52b8",
+      "bytes": 279
     },
     {
       "path": "90_historical_and_other_context/dissertation-early_earth-quench_analysis__updated_violins.png",
@@ -927,329 +822,9 @@
       "bytes": 106492
     },
     {
-      "path": "90_historical_and_other_context/dissertation-early_earth__test.png",
-      "sha256": "37fc891f66497e6d4a082df1d9c09ffbfe22a0675aabf210ddc8736397c9ddd4",
-      "bytes": 16304
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__AEV_construction.png",
-      "sha256": "053008250a0d4764747b459180269c56846a1b9deef810e872dc122d1809dc2b",
-      "bytes": 751591
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__aev_isolated_cropped.png",
-      "sha256": "6605c5eccc3aa2977f1536cd9a0c42b52ec735b88679816e679085a5af8260ca",
-      "bytes": 257104
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__aev_no_radius.png",
-      "sha256": "62ac0d860bcad70edbf2017939529c83e872a36ae9ab2b4ce63ef7dc6ba8ca5c",
-      "bytes": 66679
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__aev_no_radius_cropped.png",
-      "sha256": "e52bbf5ac0dc3bb0d2403ff13fb54b0bb7062f63288de929b3f65ecf755d57a0",
-      "bytes": 82166
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__aev_radius.png",
-      "sha256": "bcb95405ceb25af3fbbc57a3e675f3d3bf80e37d95ecc733c2ac2751871e9874",
-      "bytes": 201253
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__aev_radius_combined.png",
-      "sha256": "443c2d311293eb272cf79416a96fe59224d1ece9c7f93ba86c160f524acc47b2",
-      "bytes": 2146547
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__aev_radius_cropped.png",
-      "sha256": "baaaffc626df7ece35272e6b29944e7597631db206a6c904b5c10b6f501e09c5",
-      "bytes": 270306
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__aev_radius_isolated.png",
-      "sha256": "27351edbef04f56a089a1791f0e904f65dcc1e37114b3b05df03daf6d6e3ab5a",
-      "bytes": 193497
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__both_radii_cropped.png",
-      "sha256": "0d5101c06de94ceae4a23de08f543a46a1920ea81ce35382247fce9c87d6e28d",
-      "bytes": 302486
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-aev__both_radii_test.png",
-      "sha256": "bcc4e3d2680f1c91018c1683fa962855fbe165673ec7222a9af325bef18be696",
-      "bytes": 212696
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_1x-first_ae-per-model.png",
-      "sha256": "e117bb896b17f7d00c5da0062bdfa3f6dbc709f326a558b83f487da6e3543a0c",
-      "bytes": 532305
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_1x-first_mean-ae-per-atomtype.png",
-      "sha256": "07b383e16baf1c07f5a471c084f5b6f3be3d09f983e7e704397aca972001b9c5",
-      "bytes": 242524
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_1x-first_stdev-ae-per-atomtype.png",
-      "sha256": "23024fabca3ef9a274f8d26a16ff2c14c1f81681ea4175fec8ac1380c2b94554",
-      "bytes": 248215
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_1x-first_total-e-qbc.png",
-      "sha256": "5f9c545d2e938c57ab6d3a1c88f51cd11befa9ef2330482fc6b470f4e114f292",
-      "bytes": 88546
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_comp6v1_ae-per-model.png",
-      "sha256": "1f1c8ba0832deb85244f168295b2a26471c1097172d260f8f4a3a96384978db5",
-      "bytes": 547279
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_comp6v1_force-highest-force_deviation-vs-energy.png",
-      "sha256": "8ca7d0391a45da4e90028e5f5a970b4dcebc04ba796dd861ce7092257d61357c",
-      "bytes": 145139
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_comp6v1_mean-ae-per-atomtype.png",
-      "sha256": "342a5c707033e89590c07fd572dcfcf1c0b39803c931d1be5bea88f13a3a847f",
-      "bytes": 201064
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_comp6v1_stdev-ae-per-atomtype.png",
-      "sha256": "30f1af7668ed65aed1357739773e9c5a84e1d34f48a54918adfd954b44ffda62",
-      "bytes": 190201
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__2xr_comp6v1_total-e-qbc.png",
-      "sha256": "32c90ed24ef5cb19a77634a1a44a77db7d02efb5394a768cda75a79dd422bb70",
-      "bytes": 82451
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__ch4_2xr_stdev-ae.png",
-      "sha256": "8f834033a6a3f7d673ed80cc75559de9a7f501efdfb0fdbd93d8a4f1105b521b",
-      "bytes": 152165
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-energies__ch4_2xr_total-e-qbc.png",
-      "sha256": "80099b0f9c6ecffe3ef55857286ebb7b44b7e5be2363f40b5100d3693e1d8b9e",
-      "bytes": 121850
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__1x-first-cos_sim-hist2d-insert.png",
-      "sha256": "15f6363ecb72aaaad5b3dd08006dc782b546accec3126daec11de5254d6d9367",
-      "bytes": 66637
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__1x-first-cosine_sim-bar3d.png",
-      "sha256": "e236cf2e2841378a6687555a8e9e37ae19e0c2ccdaf9bf06e73dff6ee951e14f",
-      "bytes": 403759
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__1x-first-cosine_sim-hist2d.png",
-      "sha256": "d47095484892fb0a5824f8fa34cafad31e22d2c7af2f48a03571f576b8cf2236",
-      "bytes": 62459
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-cosine_sim-bar3d-logscale.png",
-      "sha256": "ee484c41510f0164bc898375fce29eb8adc61c63920f9be1f173afb732e8e874",
-      "bytes": 507948
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-cosine_sim-bar3d.png",
-      "sha256": "c6ce96cba283cd3c2f07d01fad4a7922226f5eca64a7de5b1ee34a0af2d6369d",
-      "bytes": 554853
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-cosine_sim-hist2d.png",
-      "sha256": "1b6552b882a4f0cb778c4a21b25ece3e7436c35ced211f97412659bf3905f213",
-      "bytes": 65407
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-dft-vs-mean_ani.png",
-      "sha256": "552d6d039adf1328627b77b3af2d4dacb0eb8ee49465f458a57d12075cab74e1",
-      "bytes": 118178
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-highest-force_deviation-vs-energy.png",
-      "sha256": "f1606141cf266745452816a99588fa54c3b6e0542ab4de1fb88f1cc09c399c75",
-      "bytes": 118505
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-mean-uncertainty-vs-energy.png",
-      "sha256": "0f9f20cd7a69ccb8f678429c12574a8decfd3e8f4d62a002e231dd45f4c65f48",
-      "bytes": 172220
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-uncertainty_violin.png",
-      "sha256": "ec119f7dec0afad6b1f11a4d26ee7080fee0e35376478e929b79809b88c0e00a",
-      "bytes": 110902
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_force-weighted-uncertainty-vs-energy.png",
-      "sha256": "c2560b4b3211d01f30cba184c8b0dfdf8340757801f6f804847b0e3554bdfcad",
-      "bytes": 169498
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_comp6v1_mahalanobis-uncertainty-vs-energy.png",
-      "sha256": "46d2aab3a4520211a6a8e6854e7999d6d912d6fbe3539a3aa78718570235f3aa",
-      "bytes": 75551
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__2xr_force_just_stdev.png",
-      "sha256": "23997ecb7d3dddac72c67730d786f9d08f6d947055263960eef21a54f2c2714c",
-      "bytes": 88648
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__QBC_confusion.png",
-      "sha256": "a690d6ef68410da01d914faef0d2cb28e2cb42e1632ceba776558356cf9719b4",
-      "bytes": 43473
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__cos_sim-hist2d-insert.png",
-      "sha256": "49e7cbf3a2c725ce4d4402820d252cfe10a3b51639875634196b74d9255cc8ff",
-      "bytes": 287610
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__cos_sim_exponential_weighting-vs-energy.png",
-      "sha256": "962aae11b84df34dbf0ba68ccb29f8948920c2f512fe1a404aa99863e0118a2f",
-      "bytes": 369821
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__force_entropy-vs-energy.png",
-      "sha256": "78953c1b3cbef6ab764fdb4ac803f9c3566c3e5a369b067c6dcac5ffc2a9dc7b",
-      "bytes": 81369
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__force_stdev-vs-energy_error.png",
-      "sha256": "231b8cbf47b249328612a2f753a2233a62a528d965d3f81bf98a31eec66df5c3",
-      "bytes": 180075
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__lines_weighted_force_stdev-vs-energy_error.png",
-      "sha256": "5d0b5a269b6eeb9046ad3c183915ebc0dfa21501c4820554b4e99e20dbe782fb",
-      "bytes": 165028
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__max_force_deviation_by_species.png",
-      "sha256": "d071b3526e074058dd41997ca81ab3889ae2726d0df2e8e37d71d3732f4e4ecb",
-      "bytes": 93996
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__max_force_deviation_by_species_filtered.png",
-      "sha256": "675720b336bd64476fe48852440ead67b6e93267e4ad6738164365ba276d06e7",
-      "bytes": 183225
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__max_force_deviation_by_species_subplots.png",
-      "sha256": "823db15ea99e0ef0b80e82d2d67c99f7dd668f1e42169435bd4bfbfa585d0307",
-      "bytes": 154984
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__mean-uncertainty-vs-energy.png",
-      "sha256": "defde669711a5624d982fb71c98fda842c3574206261e2843a7c0806aea64eac",
-      "bytes": 117584
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__qbc-vs-energy_error.png",
-      "sha256": "c5da32034a473c1f99f761bf62dc215c9fc96bd7268b6499c549a7ecdc35fc33",
-      "bytes": 161950
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__weighted_force_confusion_matrix.png",
-      "sha256": "7680433a8cb5bf3d5714b138d887594724cae14a703f33d77e9b5e628fdbc163",
-      "bytes": 44019
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__weighted_force_stdev-vs-energy_error.png",
-      "sha256": "f904c8a9324f6b4082cf26cb96bff6d94d398ee2a23687ea161855752cbfadf4",
-      "bytes": 162589
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__weighted_uncertainty-vs-size_weighted_error.png",
-      "sha256": "204a8817d4f67a9094b3e5969d067525f73ee705006f248e9e8a19bda5f892d2",
-      "bytes": 117330
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures-forces__zoomed_2xr_comp6v1_force-dft-vs-mean_ani.png",
-      "sha256": "1269bdf7fae270561759bcdc45a01e6a363dd93e6deaf401575a82464593af18",
-      "bytes": 210086
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__c5h12.png",
-      "sha256": "0da4b83b08c105bd587ca8a9a029dd6fbaf856d68b20a39ff80b48708d784dac",
-      "bytes": 138204
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__ch4.png",
-      "sha256": "d21fe979091f921021e8d7d594444c36b715c0c343d9e355eada829adca84ca4",
-      "bytes": 41670
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__cropped_atom11.png",
-      "sha256": "bc9917dfd18dd43cab5cebc1e35dca42502c508a08300e4b8f776d6145828773",
-      "bytes": 84879
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__cropped_atom2.png",
-      "sha256": "acfc12e6465181834de8c83e6e9e596cf7ab94b9c81689477249613852dd93b1",
-      "bytes": 42120
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__example.png",
-      "sha256": "81a95e8b4b3b2048b01c2fd6f6a2d4b0f0db2987def509d2ac1e7a210378b908",
-      "bytes": 11640
-    },
-    {
       "path": "90_historical_and_other_context/dissertation-figures__ghost_atoms.png",
       "sha256": "07b57cd0b19bf0721ce98183e457f904d431b16ff8d137388afe012df6278e4e",
       "bytes": 161548
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__long-epoxide-cropped.png",
-      "sha256": "ca249b70ca4cd24668838305604fec420f0ead91758c5ddfa178461c0a7791dc",
-      "bytes": 108285
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__long-epoxide.png",
-      "sha256": "82c9c81da0f7998bc8b5283f8acadac067f69116ba087c6aa79c41a4ee6fbe7a",
-      "bytes": 141178
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__m-epoxide-cropped.png",
-      "sha256": "4246f745097ef3cae655552e4da13392da858488a036ae9ad0362c3cc0cc557c",
-      "bytes": 105892
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__m-epoxide.png",
-      "sha256": "61d49a9241f883f8b2f7996d91d27344f469e89590ec27f84cd37c7229cb552e",
-      "bytes": 111649
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-figures__nn_arch.png",
-      "sha256": "2f1f83af51405cd9c4ccbbb97dde25272a038cf0b43bf37a1a6a647799db3d8f",
-      "bytes": 216363
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-non_2xr-figures__2x_1x-first_ae-per-model.png",
-      "sha256": "ef5f271d0c5f7ef6417f04e0fe31e1e5134146e1394e210eca02d4e46521394b",
-      "bytes": 544159
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-non_2xr-figures__2x_1x-first_mean-ae-per-atomtype.png",
-      "sha256": "c7a02f7de442d567c7528a76c8c6a85847e9f1f61bd0ce31c4ebb6751fb7cecf",
-      "bytes": 251248
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-non_2xr-figures__2x_1x-first_stdev-ae-per-atomtype.png",
-      "sha256": "af9558732b4273dabbb11a17d8dd2d38398169de728b85645075464888d098c0",
-      "bytes": 262505
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-non_2xr-figures__2x_1x-first_total-e-qbc.png",
-      "sha256": "e605a34602bcfd986bfa3693ef0846a57ee1fb3290990b568e92f5a62a496c94",
-      "bytes": 56987
     },
     {
       "path": "90_historical_and_other_context/frozen-core-connectivity-stride200_analysis-representative_review__index.html",
@@ -1272,39 +847,14 @@
       "bytes": 154080
     },
     {
-      "path": "99_withdrawn_and_encoding_diagnostics/README.md",
-      "sha256": "e5f242b8f805987eeb7e2a0e12acccad8b72db136f196f616cc38048e3149b1c",
-      "bytes": 272
-    },
-    {
-      "path": "99_withdrawn_and_encoding_diagnostics/advisor_figures-notebook-exploration-advisor_requests__F15_functional_group_counts.png",
-      "sha256": "ba670c8669f2fd414f7e2e421791b6520134683bdecc954d3242ed6222058e2a",
-      "bytes": 69113
-    },
-    {
-      "path": "99_withdrawn_and_encoding_diagnostics/advisor_figures-notebook-exploration-advisor_requests__F15_group_overlap.png",
-      "sha256": "bddfa7617c305f2419550f23fb7f20c9a6a69999d85bc202924c9a9fc0310cda",
-      "bytes": 76828
-    },
-    {
-      "path": "99_withdrawn_and_encoding_diagnostics/advisor_figures-notebook-exploration-functional_group_diagnostic__stored_encoding_counts_diagnostic.png",
-      "sha256": "91498c438a40ca70315859457704a4c73f655cf162f3a659053f8977d2fa6052",
-      "bytes": 70292
-    },
-    {
-      "path": "99_withdrawn_and_encoding_diagnostics/advisor_figures-notebook-exploration-functional_group_diagnostic__stored_encoding_overlap_diagnostic.png",
-      "sha256": "ed93876f0114492a60323ea5e36bd0445587a81aea64692ad073928a3b5c0ea1",
-      "bytes": 77706
-    },
-    {
       "path": "README.md",
-      "sha256": "bcc50f3d9fd9b7611515cf6143cce0b38e9e6c63ff7424f5ffe806dc649c05c9",
-      "bytes": 1508
+      "sha256": "81a6377f8a991e81950116d61c8b54cf6fc676fe316996857739ba9072af54ab",
+      "bytes": 1489
     },
     {
       "path": "START_HERE.html",
-      "sha256": "52519c42be4829d9c9ca2df3d1b8545652e54cef2d8b35e81b2599c8ab73f7f8",
-      "bytes": 1680
+      "sha256": "6b54ecaece06091122c5014496a08981b11e34102eea1e2b5754ccfba7ccf161",
+      "bytes": 1656
     },
     {
       "path": "_support/README.md",
@@ -3293,23 +2843,23 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "051283913a0b52a1dd535854518aa334bae6c476ae6bc07068175099dd84f306",
-      "bytes": 319683
+      "sha256": "4f43382c38722c26294cc91a91b2006cf0469ef54537363aacb7d05a6dc2a9cb",
+      "bytes": 213841
     },
     {
       "path": "catalog.json",
-      "sha256": "45f032117be05d73dd1ce6f86a297c6110d2e29814f7bc786e2007134652b480",
-      "bytes": 445375
+      "sha256": "6a07b61ebb182ab134ccc2ad3b8e882902693e0bb24103077ad4f234c2d9d339",
+      "bytes": 297214
     },
     {
       "path": "export_manifest.json",
-      "sha256": "63158f4417347af3ac8bb83066361402184945ea7995c206c6f9d286a3c00f1e",
-      "bytes": 569175
+      "sha256": "4c79dd33fdfc0e05ce22f123cb9d61f184491a65effc0a8c995d9b05f8096810",
+      "bytes": 523172
     },
     {
       "path": "index.html",
-      "sha256": "e953017a5d8839869d4606e0acfa665adaf0cd0b07acbdbd8a61e93a6162413c",
-      "bytes": 364068
+      "sha256": "ff205c552657278077847bfc65d829249e2f9cb8cbf8a5a6743b9b64d9ffcc11",
+      "bytes": 225741
     },
     {
       "path": "supplement/.nojekyll",
@@ -3511,14 +3061,5 @@
       "sha256": "ea0a9564d037994840083e32f888965219530b706e6d9ee68556b99a3d50dc9a",
       "bytes": 35127
     }
-  ],
-  "scoped_publication": {
-    "parent_commit": "2644f27f4ea5bba0472f05008005ad079bf3926a",
-    "description": "Remove the embedded F23 explanatory caption and footer; keep the existing webpage caption and all other public content unchanged.",
-    "revised_assets": [
-      "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
-      "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf"
-    ],
-    "webpage_and_supplement_unchanged": true
-  }
+  ]
 }
