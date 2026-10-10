@@ -1,12 +1,164 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-10T20:05:17.115418+00:00",
-  "catalog_sha256": "bde95e3d7b3d435a9403b93f7803cd936d4bc4f36a083f87ede8a240c6f3a7b4",
-  "gallery_sha256": "d1d316be79e581f992914659c5c973988053ef7e8e64998a5bc8e142713c934b",
-  "asset_count": 157,
-  "selection": null,
+  "exported_utc": "2026-10-10T21:28:09.911553+00:00",
+  "catalog_sha256": "39194ce1a7e95e18eaec5da1eb0c9cb6f7356a46191d6032da0011542b808788",
+  "gallery_sha256": "7d913841690dddd6bb8babef9112a89e9f5ecfdd713b541ef2e37e1618c4087c",
+  "asset_count": 144,
+  "selection": {
+    "title": "Early Earth figure library",
+    "description": "Explore energy changes, molecular geometry, fragment populations, and structural diversity. Start with guided reading views and animations, then browse related figures by theme or search.",
+    "purpose": "public-library",
+    "source_paths": [
+      "Dissertation_figures/alanine/ala_conformers.gif",
+      "Dissertation_figures/early_earth/228.gif",
+      "Dissertation_figures/early_earth/alanine.png",
+      "Dissertation_figures/early_earth/alanine_shaded.png",
+      "Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time.png",
+      "Dissertation_figures/early_earth/figures/avg_mol_over_time_more_bins.png",
+      "Dissertation_figures/early_earth/figures/avg_mol_time.png",
+      "Dissertation_figures/early_earth/figures/counts_vs_time_CHHHH.png",
+      "Dissertation_figures/early_earth/figures/counts_vs_time_CHN.png",
+      "Dissertation_figures/early_earth/figures/hist2d_counts_natoms_highres.png",
+      "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram.png",
+      "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_log.png",
+      "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_small.png",
+      "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_small_log.png",
+      "Dissertation_figures/early_earth/molecule_flat.png",
+      "Dissertation_figures/early_earth/quench_analysis/gly-ala-before_after_quench.png",
+      "Dissertation_figures/early_earth/quench_analysis/mol_before-after_quench.png",
+      "Dissertation_figures/early_earth/quench_analysis/named_mols_before-after_quench.png",
+      "Dissertation_figures/early_earth/quench_analysis/updated_violins.png",
+      "Dissertation_figures/early_earth/quench_analysis/violinplot-mol_counts-before-after-quench.png",
+      "Dissertation_figures/early_earth/rmsd_distribution.png",
+      "Dissertation_figures/early_earth/updated_avg_n-atoms.png",
+      "Dissertation_figures/early_earth/updated_graphmatcher.png",
+      "Dissertation_figures/figures/228k_head_on.png",
+      "Dissertation_figures/figures/228k_lines_fullscreen.png",
+      "Dissertation_figures/figures/3d-d-ala.png",
+      "Dissertation_figures/figures/3d-l-ala.png",
+      "Dissertation_figures/figures/cropped_228_final.png",
+      "Dissertation_figures/figures/cropped_228_initial.png",
+      "Dissertation_figures/figures/d-ala.png",
+      "Dissertation_figures/figures/ghost_atoms.png",
+      "Dissertation_figures/figures/l-ala.png",
+      "data/core/connectivity/stride100_analysis/census_overview.png",
+      "data/core/connectivity/stride200_analysis/census_overview.png",
+      "data/core/connectivity/stride200_analysis/diversity/chemical_diversity_overview.png",
+      "data/core/connectivity/stride200_analysis/representative_review/index.html",
+      "data/selected_events/quench/frame_0447_report/hot.html",
+      "data/selected_events/quench/frame_0447_report/quenched.html",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G01_historical_mean_size_time_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G02_historical_largest_time_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G03_historical_paired_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G04_historical_delta_time_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G05_historical_named_match_gallery.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G06_production_mean_size_time_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G07_production_mean_size_pair_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G08_production_transition_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G09_production_bond_change_time_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G10_smiles_occurrence_density.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/exploration/G11_historical_production_distribution_comparison.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F12_mean_size_vs_frame.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F13_largest_size_vs_frame.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/paired_size_comparison.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_architecture_variety_abundance.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_composition_variety_abundance.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_connectivity_motifs.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_recurrence_variety_abundance.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/smiles_fragment_size/unique_smiles_by_fragment_size.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F16_unique_strings_by_size.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F16_unique_strings_by_size.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_including_H_only.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_including_H_only.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_including_H_only.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_including_H_only.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/advisor_figures.html",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/figure_gallery.html",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/filtered_heavy_atom_mean_vs_frame.html",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_figures.html",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_mean_vs_frame.html",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F12_mean_fragment_size_preliminary.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F13_largest_fragment_preliminary.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.gif",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
+      "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_fragment_sizes_preliminary.png",
+      "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_named_matches_paired.png",
+      "early_earth_analysis_v2/figures/publication_revision/F05.pdf",
+      "early_earth_analysis_v2/figures/publication_revision/F05.png",
+      "early_earth_analysis_v2/figures/publication_revision/F07.pdf",
+      "early_earth_analysis_v2/figures/publication_revision/F07.png",
+      "early_earth_analysis_v2/figures/publication_revision/F08.pdf",
+      "early_earth_analysis_v2/figures/publication_revision/F08.png",
+      "early_earth_analysis_v2/figures/review_v1/F01.pdf",
+      "early_earth_analysis_v2/figures/review_v1/F01.png",
+      "early_earth_analysis_v2/figures/review_v1/F02.pdf",
+      "early_earth_analysis_v2/figures/review_v1/F02.png",
+      "early_earth_analysis_v2/figures/review_v1/F03.pdf",
+      "early_earth_analysis_v2/figures/review_v1/F03.png",
+      "early_earth_analysis_v2/figures/review_v1/F04.pdf",
+      "early_earth_analysis_v2/figures/review_v1/F04.png",
+      "early_earth_analysis_v2/figures/sampling_time/F06.pdf",
+      "early_earth_analysis_v2/figures/sampling_time/F06.png",
+      "paper-early-earth-chemistry-hero-run/figures/mol_before-after_quench.png",
+      "paper-early-earth-chemistry-hero-run/figures/named_mols_before-after_quench.png",
+      "paper-early-earth-chemistry-hero-run/figures/new_415_quench_formula_vs_frame.png",
+      "paper-early-earth-chemistry-hero-run/figures/new_415_violins.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/228000-after.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/228000-start.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/228_kin_e.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/228_tot_eng.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_2d.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/updated_largest_mol_vs_time.png",
+      "paper-early-earth-chemistry-hero-run/figures/placed/updated_original_counts.png",
+      "paper-early-earth-chemistry-hero-run/figures/quench_formula_vs_frame.png",
+      "paper-early-earth-chemistry-hero-run/figures/steps_vs_temp_quench.png",
+      "paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time.png",
+      "paper-early-earth-chemistry-hero-run/figures/updated_violins.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png"
+    ],
+    "file": "/mnt/x/scratch/EARLY_EARTH_PUBLICATION_v1/figures/metadata/public_library_selection.json",
+    "sha256": "d1efa54d90c4eaa2d7c03c648bde8fba65eacc7c1125d0f42cefc3036434e390"
+  },
   "linked_dependency_count": 396,
-  "local_html_links_checked": 800,
+  "local_html_links_checked": 882,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
@@ -64,25 +216,17 @@
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
       "export_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
       "source_sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "role": "catalog figure",
       "export_sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
-      "export_bytes": 121523,
-      "role": "catalog figure"
+      "export_bytes": 121523
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
       "export_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
       "source_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
-      "export_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
-      "export_bytes": 212507,
-      "role": "catalog figure"
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
-      "export_path": "02_alanine_and_conformations/alanine_dihedral-results__F10_alanine_improper_torsion.png",
-      "source_sha256": "521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3",
       "role": "catalog figure",
-      "export_sha256": "521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3",
-      "export_bytes": 122334
+      "export_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "export_bytes": 212507
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/alanine/ala_conformers.gif",
@@ -123,22 +267,6 @@
       "role": "catalog figure",
       "export_sha256": "827d2c0e1f4b309231631fdb75cc3f9c6377fe1250ff8c161b8b191bf8cdad29",
       "export_bytes": 121470
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/figures/alanine_dihedral.png",
-      "export_path": "02_alanine_and_conformations/dissertation-figures__alanine_dihedral.png",
-      "source_sha256": "7bc28a2666a8a5f9040095ad07a6c76384a4a2ed5ad56f15d9c9fffb49b91fed",
-      "role": "catalog figure",
-      "export_sha256": "7bc28a2666a8a5f9040095ad07a6c76384a4a2ed5ad56f15d9c9fffb49b91fed",
-      "export_bytes": 215694
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/figures/alanine_shaded.png",
-      "export_path": "02_alanine_and_conformations/dissertation-figures__alanine_shaded.png",
-      "source_sha256": "191f5e19f918dd775cbae9b9aa700c458d4ba24e6b24e09b65b368d079d9fa34",
-      "role": "catalog figure",
-      "export_sha256": "191f5e19f918dd775cbae9b9aa700c458d4ba24e6b24e09b65b368d079d9fa34",
-      "export_bytes": 31944
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/figures/d-ala.png",
@@ -325,20 +453,12 @@
       "export_bytes": 418454
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d.png",
-      "export_path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_2d.png",
-      "source_sha256": "0b377454a827141401e41911e70260b305aa21ae79c83e3c25e10a00957c9bc4",
-      "role": "catalog figure",
-      "export_sha256": "0b377454a827141401e41911e70260b305aa21ae79c83e3c25e10a00957c9bc4",
-      "export_bytes": 102703
-    },
-    {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d.png",
       "export_path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_3d.png",
-      "source_sha256": "eb4aae1608710fe114516b36310621ebbc27506fbe21912ee3e1962e6dfe0dd3",
+      "source_sha256": "4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0",
       "role": "catalog figure",
-      "export_sha256": "eb4aae1608710fe114516b36310621ebbc27506fbe21912ee3e1962e6dfe0dd3",
-      "export_bytes": 115090
+      "export_sha256": "4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0",
+      "export_bytes": 240996
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/paired_size_comparison.png",
@@ -533,14 +653,6 @@
       "export_bytes": 433956
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary.png",
-      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F14_ten_atom_candidate_preliminary.png",
-      "source_sha256": "2b4bb62cfb2905e1819f83f7a2815b8b2a18a4171625f3a1b3465313e0ced334",
-      "role": "catalog figure",
-      "export_sha256": "2b4bb62cfb2905e1819f83f7a2815b8b2a18a4171625f3a1b3465313e0ced334",
-      "export_bytes": 190125
-    },
-    {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
       "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_comparison.pdf",
       "source_sha256": "ef24cf40a130b837ddd652cfe39a48012102a31adb49695854a3f874670cb764",
@@ -653,14 +765,6 @@
       "export_bytes": 26613
     },
     {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth-figures-richard_images__average_atom_count_over_time.png",
-      "source_sha256": "730caf38ecfaac9d37c2909f278b02c3347503179b069f10d39996c0ebf652c0",
-      "role": "catalog figure",
-      "export_sha256": "730caf38ecfaac9d37c2909f278b02c3347503179b069f10d39996c0ebf652c0",
-      "export_bytes": 24845
-    },
-    {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time.png",
       "export_path": "04_quench_and_fragment_size/dissertation-early_earth-figures__adjusted_largest_mol_vs_time.png",
       "source_sha256": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
@@ -725,44 +829,12 @@
       "export_bytes": 126574
     },
     {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/96atom.jpg",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth__96atom.jpg",
-      "source_sha256": "03947e1f7297a0d56e6ec20728ad8a7d435028f1cd8817708606dcb33a652d39",
-      "role": "catalog figure",
-      "export_sha256": "03947e1f7297a0d56e6ec20728ad8a7d435028f1cd8817708606dcb33a652d39",
-      "export_bytes": 40085
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/96atom_quench.jpg",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth__96atom_quench.jpg",
-      "source_sha256": "f05303f6c3c34f85240a33ab647d0c91936d0120ed8d5327fe7ca43c54f8e2f3",
-      "role": "catalog figure",
-      "export_sha256": "f05303f6c3c34f85240a33ab647d0c91936d0120ed8d5327fe7ca43c54f8e2f3",
-      "export_bytes": 27496
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/largest_mol.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth__largest_mol.png",
-      "source_sha256": "302cdd4e427a2448b3e76c7c7ce1070f6c68c5425d8119771d695371d7cf4fc4",
-      "role": "catalog figure",
-      "export_sha256": "302cdd4e427a2448b3e76c7c7ce1070f6c68c5425d8119771d695371d7cf4fc4",
-      "export_bytes": 185390
-    },
-    {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/updated_avg_n-atoms.png",
       "export_path": "04_quench_and_fragment_size/dissertation-early_earth__updated_avg_n-atoms.png",
       "source_sha256": "d9d2f9fb3b69fc4a97ef18f31d7d4fd048e5c0db50c3509c5db50fe399a0be79",
       "role": "catalog figure",
       "export_sha256": "d9d2f9fb3b69fc4a97ef18f31d7d4fd048e5c0db50c3509c5db50fe399a0be79",
       "export_bytes": 291967
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/updated_original_counts.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth__updated_original_counts.png",
-      "source_sha256": "d8cff54934edb3bfc13fa9f44a924e9acd24211ef46201834db48c70ad57d6bd",
-      "role": "catalog figure",
-      "export_sha256": "d8cff54934edb3bfc13fa9f44a924e9acd24211ef46201834db48c70ad57d6bd",
-      "export_bytes": 148742
     },
     {
       "source_path": "retained-inputs/release/data/selected_events/quench/frame_0447_report/quenched.html",
@@ -859,14 +931,6 @@
       "role": "catalog figure",
       "export_sha256": "50d98653a6ec92282a7c215217f4d4b6e67a693447d56af01b9f9fa46defdbce",
       "export_bytes": 273088
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance.png",
-      "export_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-advisor_requests__F17_variety_vs_abundance.png",
-      "source_sha256": "b83dd204ef769c20217ffab25ffb26b1c83603f34f5eae08d5a783e7f8306de9",
-      "role": "catalog figure",
-      "export_sha256": "b83dd204ef769c20217ffab25ffb26b1c83603f34f5eae08d5a783e7f8306de9",
-      "export_bytes": 90610
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_architecture_variety_abundance.png",
@@ -1147,22 +1211,6 @@
       "role": "catalog figure",
       "export_sha256": "fd6fb004dba461fe0f1dd88dd238982443a73d40cf5fb3b3e7fe5149fd125659",
       "export_bytes": 45101545
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/figures/228_final.png",
-      "export_path": "07_development_systems/dissertation-figures__228_final.png",
-      "source_sha256": "8cc5f6061e7836962e700baa5cdda093b85f3aa6e7de6494ff24c8fa23f24284",
-      "role": "catalog figure",
-      "export_sha256": "8cc5f6061e7836962e700baa5cdda093b85f3aa6e7de6494ff24c8fa23f24284",
-      "export_bytes": 427392
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/figures/228_initial.png",
-      "export_path": "07_development_systems/dissertation-figures__228_initial.png",
-      "source_sha256": "0b50687f0a1818bd750a0c59a9a16eb3a8c29e7868c43c2e7159807489164d0b",
-      "role": "catalog figure",
-      "export_sha256": "0b50687f0a1818bd750a0c59a9a16eb3a8c29e7868c43c2e7159807489164d0b",
-      "export_bytes": 442350
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/figures/228k_head_on.png",
@@ -4448,7 +4496,7 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "8e3d82f87c3b6cec8c2c170d8b7f3d34b5e536b2e14823b5f62a10edfc87904e"
+      "sha256": "a14fc713c03e2d221fb7448ca540c6ee2622db2bf6cc559c4d0b7e3eef4143dc"
     },
     {
       "path": "03_scale_discovery_and_sampling/README.md",
@@ -4456,11 +4504,11 @@
     },
     {
       "path": "04_quench_and_fragment_size/README.md",
-      "sha256": "468c14f70bd655f89d66c53846083fd5a3530ed3e879e0013beebd88c455d3c2"
+      "sha256": "c9763dcfe8df0a4e4b23814a9a6dce09de1400d0f0d2090d8b2b49a0953d2ee3"
     },
     {
       "path": "05_composition_recurrence_and_topology/README.md",
-      "sha256": "e6714346711269b2e824227f3c757703ddba6c0d2d42c33c910d172cc952503e"
+      "sha256": "ab550985589739f546105643754d5e5bc6df21cf78040978cf5422552dd540ea"
     },
     {
       "path": "06_methods_and_performance/README.md",
@@ -4468,7 +4516,7 @@
     },
     {
       "path": "07_development_systems/README.md",
-      "sha256": "89867cbaa8dc9da702d65ae602395ffc84dd8fe6c27e88968f83d1903239d458"
+      "sha256": "4fddbf2b6f3688fd2b112212489009abc61242ef6ee40acbe35512f5435a177a"
     },
     {
       "path": "90_historical_and_other_context/README.md",
@@ -4476,11 +4524,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "81a6377f8a991e81950116d61c8b54cf6fc676fe316996857739ba9072af54ab"
+      "sha256": "bcc50f3d9fd9b7611515cf6143cce0b38e9e6c63ff7424f5ffe806dc649c05c9"
     },
     {
       "path": "START_HERE.html",
-      "sha256": "6b54ecaece06091122c5014496a08981b11e34102eea1e2b5754ccfba7ccf161"
+      "sha256": "52519c42be4829d9c9ca2df3d1b8545652e54cef2d8b35e81b2599c8ab73f7f8"
     },
     {
       "path": "_support/README.md",
@@ -4488,15 +4536,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "dcfae0553b14dc811b58337c05dbf01279c78c7b5b3e24cd81266477e1027151"
+      "sha256": "fcfb0b145ad8f8b3133901593acad2ef9d57ac547b1153ac03c469dffb032b84"
     },
     {
       "path": "catalog.json",
-      "sha256": "b7ddf4e71b64010fb5a6cf85df5ea2e317a4ec6594ec08dcfd3e54961dfb1b38"
+      "sha256": "987247684731ec5cbcb032ae3b8ed82583cf2a9eed67c71057b5dbbec6641600"
     },
     {
       "path": "index.html",
-      "sha256": "934f41336280838a9f5c84175b272a938cafc19c8a81a6046a4d67cca9d18bfe"
+      "sha256": "6f4f7dbf4ea8c60a5c2f81b132b010788e26924dffdb2483efb3140c3b76ae9b"
     }
   ],
   "repaired_links": [
@@ -6497,8 +6545,38 @@
     },
     {
       "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/advisor_figures.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__advisor_figures.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/advisor_figures.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__advisor_figures.html"
+    },
+    {
+      "page": "index.html",
       "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/figure_gallery.html",
       "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__figure_gallery.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/figure_gallery.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__figure_gallery.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/figure_gallery.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__figure_gallery.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/filtered_heavy_atom_mean_vs_frame.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__filtered_heavy_atom_mean_vs_frame.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/filtered_heavy_atom_mean_vs_frame.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__filtered_heavy_atom_mean_vs_frame.html"
     },
     {
       "page": "index.html",
@@ -6512,6 +6590,26 @@
     },
     {
       "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_figures.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__heavy_atom_figures.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_figures.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__heavy_atom_figures.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_mean_vs_frame.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__heavy_atom_mean_vs_frame.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_mean_vs_frame.html",
+      "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__heavy_atom_mean_vs_frame.html"
+    },
+    {
+      "page": "index.html",
       "original_link": "../early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_mean_vs_frame.html",
       "export_link": "04_quench_and_fragment_size/advisor_figures-notebook-exports__heavy_atom_mean_vs_frame.html"
     },
@@ -6522,8 +6620,38 @@
     },
     {
       "page": "index.html",
+      "original_link": "../retained-inputs/release/data/selected_events/quench/frame_0447_report/quenched.html",
+      "export_link": "04_quench_and_fragment_size/frozen-selected_events-quench-frame_0447_report__quenched.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../retained-inputs/release/data/selected_events/quench/frame_0447_report/quenched.html",
+      "export_link": "04_quench_and_fragment_size/frozen-selected_events-quench-frame_0447_report__quenched.html"
+    },
+    {
+      "page": "index.html",
       "original_link": "../retained-inputs/release/data/core/connectivity/stride200_analysis/representative_review/index.html",
       "export_link": "90_historical_and_other_context/frozen-core-connectivity-stride200_analysis-representative_review__index.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../retained-inputs/release/data/core/connectivity/stride200_analysis/representative_review/index.html",
+      "export_link": "90_historical_and_other_context/frozen-core-connectivity-stride200_analysis-representative_review__index.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../retained-inputs/release/data/core/connectivity/stride200_analysis/representative_review/index.html",
+      "export_link": "90_historical_and_other_context/frozen-core-connectivity-stride200_analysis-representative_review__index.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../retained-inputs/release/data/selected_events/quench/frame_0447_report/hot.html",
+      "export_link": "90_historical_and_other_context/frozen-selected_events-quench-frame_0447_report__hot.html"
+    },
+    {
+      "page": "index.html",
+      "original_link": "../retained-inputs/release/data/selected_events/quench/frame_0447_report/hot.html",
+      "export_link": "90_historical_and_other_context/frozen-selected_events-quench-frame_0447_report__hot.html"
     },
     {
       "page": "index.html",

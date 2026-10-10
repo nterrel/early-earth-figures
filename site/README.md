@@ -8,7 +8,8 @@ share a card. [The reading guide](START_HERE.html) explains the collection.
 Continue to the [proposed supplement](supplement/index.html) for the other collection.
 
 Figure descriptions explain what is shown. Expand **Figure details** for the
-technical notes, source paths and hashes. Historical Early Earth views appear in the full library; they are not all manuscript candidates.
+technical notes, source paths and hashes. Historical views and representation
+diagnostics appear in the full library; they are not all manuscript candidates.
 Distinct strings describe observed connectivity, rather than independently
 confirmed chemical species. Repeated appearances describe sampling recurrence,
 rather than fragment lifetimes.

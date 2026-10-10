@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-10T20:05:17.311059+00:00",
+  "prepared_utc": "2026-10-10T21:28:49.848405+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
     "path": "index.html",
-    "asset_count": 157
+    "asset_count": 144
   },
   "supplement": {
     "path": "supplement/index.html",
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "bde95e3d7b3d435a9403b93f7803cd936d4bc4f36a083f87ede8a240c6f3a7b4",
+  "source_catalog_sha256": "39194ce1a7e95e18eaec5da1eb0c9cb6f7356a46191d6032da0011542b808788",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -58,7 +58,7 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "8e3d82f87c3b6cec8c2c170d8b7f3d34b5e536b2e14823b5f62a10edfc87904e",
+      "sha256": "a14fc713c03e2d221fb7448ca540c6ee2622db2bf6cc559c4d0b7e3eef4143dc",
       "bytes": 252
     },
     {
@@ -70,11 +70,6 @@
       "path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
       "sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
       "bytes": 212507
-    },
-    {
-      "path": "02_alanine_and_conformations/alanine_dihedral-results__F10_alanine_improper_torsion.png",
-      "sha256": "521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3",
-      "bytes": 122334
     },
     {
       "path": "02_alanine_and_conformations/dissertation-alanine__ala_conformers.gif",
@@ -100,16 +95,6 @@
       "path": "02_alanine_and_conformations/dissertation-figures__3d-l-ala.png",
       "sha256": "827d2c0e1f4b309231631fdb75cc3f9c6377fe1250ff8c161b8b191bf8cdad29",
       "bytes": 121470
-    },
-    {
-      "path": "02_alanine_and_conformations/dissertation-figures__alanine_dihedral.png",
-      "sha256": "7bc28a2666a8a5f9040095ad07a6c76384a4a2ed5ad56f15d9c9fffb49b91fed",
-      "bytes": 215694
-    },
-    {
-      "path": "02_alanine_and_conformations/dissertation-figures__alanine_shaded.png",
-      "sha256": "191f5e19f918dd775cbae9b9aa700c458d4ba24e6b24e09b65b368d079d9fa34",
-      "bytes": 31944
     },
     {
       "path": "02_alanine_and_conformations/dissertation-figures__d-ala.png",
@@ -173,7 +158,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/README.md",
-      "sha256": "468c14f70bd655f89d66c53846083fd5a3530ed3e879e0013beebd88c455d3c2",
+      "sha256": "c9763dcfe8df0a4e4b23814a9a6dce09de1400d0f0d2090d8b2b49a0953d2ee3",
       "bytes": 272
     },
     {
@@ -237,14 +222,9 @@
       "bytes": 418454
     },
     {
-      "path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_2d.png",
-      "sha256": "0b377454a827141401e41911e70260b305aa21ae79c83e3c25e10a00957c9bc4",
-      "bytes": 102703
-    },
-    {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_3d.png",
-      "sha256": "eb4aae1608710fe114516b36310621ebbc27506fbe21912ee3e1962e6dfe0dd3",
-      "bytes": 115090
+      "sha256": "4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0",
+      "bytes": 240996
     },
     {
       "path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__paired_size_comparison.png",
@@ -367,11 +347,6 @@
       "bytes": 433956
     },
     {
-      "path": "04_quench_and_fragment_size/advisor_figures-results__F14_ten_atom_candidate_preliminary.png",
-      "sha256": "2b4bb62cfb2905e1819f83f7a2815b8b2a18a4171625f3a1b3465313e0ced334",
-      "bytes": 190125
-    },
-    {
       "path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_comparison.pdf",
       "sha256": "ef24cf40a130b837ddd652cfe39a48012102a31adb49695854a3f874670cb764",
       "bytes": 54720
@@ -442,11 +417,6 @@
       "bytes": 26613
     },
     {
-      "path": "04_quench_and_fragment_size/dissertation-early_earth-figures-richard_images__average_atom_count_over_time.png",
-      "sha256": "730caf38ecfaac9d37c2909f278b02c3347503179b069f10d39996c0ebf652c0",
-      "bytes": 24845
-    },
-    {
       "path": "04_quench_and_fragment_size/dissertation-early_earth-figures__adjusted_largest_mol_vs_time.png",
       "sha256": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
       "bytes": 1104076
@@ -487,29 +457,9 @@
       "bytes": 126574
     },
     {
-      "path": "04_quench_and_fragment_size/dissertation-early_earth__96atom.jpg",
-      "sha256": "03947e1f7297a0d56e6ec20728ad8a7d435028f1cd8817708606dcb33a652d39",
-      "bytes": 40085
-    },
-    {
-      "path": "04_quench_and_fragment_size/dissertation-early_earth__96atom_quench.jpg",
-      "sha256": "f05303f6c3c34f85240a33ab647d0c91936d0120ed8d5327fe7ca43c54f8e2f3",
-      "bytes": 27496
-    },
-    {
-      "path": "04_quench_and_fragment_size/dissertation-early_earth__largest_mol.png",
-      "sha256": "302cdd4e427a2448b3e76c7c7ce1070f6c68c5425d8119771d695371d7cf4fc4",
-      "bytes": 185390
-    },
-    {
       "path": "04_quench_and_fragment_size/dissertation-early_earth__updated_avg_n-atoms.png",
       "sha256": "d9d2f9fb3b69fc4a97ef18f31d7d4fd048e5c0db50c3509c5db50fe399a0be79",
       "bytes": 291967
-    },
-    {
-      "path": "04_quench_and_fragment_size/dissertation-early_earth__updated_original_counts.png",
-      "sha256": "d8cff54934edb3bfc13fa9f44a924e9acd24211ef46201834db48c70ad57d6bd",
-      "bytes": 148742
     },
     {
       "path": "04_quench_and_fragment_size/frozen-selected_events-quench-frame_0447_report__quenched.html",
@@ -568,18 +518,13 @@
     },
     {
       "path": "05_composition_recurrence_and_topology/README.md",
-      "sha256": "e6714346711269b2e824227f3c757703ddba6c0d2d42c33c910d172cc952503e",
+      "sha256": "ab550985589739f546105643754d5e5bc6df21cf78040978cf5422552dd540ea",
       "bytes": 273
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-exploration__G10_smiles_occurrence_density.png",
       "sha256": "50d98653a6ec92282a7c215217f4d4b6e67a693447d56af01b9f9fa46defdbce",
       "bytes": 273088
-    },
-    {
-      "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-advisor_requests__F17_variety_vs_abundance.png",
-      "sha256": "b83dd204ef769c20217ffab25ffb26b1c83603f34f5eae08d5a783e7f8306de9",
-      "bytes": 90610
     },
     {
       "path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-connectivity_patterns__F18_architecture_variety_abundance.png",
@@ -758,23 +703,13 @@
     },
     {
       "path": "07_development_systems/README.md",
-      "sha256": "89867cbaa8dc9da702d65ae602395ffc84dd8fe6c27e88968f83d1903239d458",
+      "sha256": "4fddbf2b6f3688fd2b112212489009abc61242ef6ee40acbe35512f5435a177a",
       "bytes": 245
     },
     {
       "path": "07_development_systems/dissertation-early_earth__228.gif",
       "sha256": "fd6fb004dba461fe0f1dd88dd238982443a73d40cf5fb3b3e7fe5149fd125659",
       "bytes": 45101545
-    },
-    {
-      "path": "07_development_systems/dissertation-figures__228_final.png",
-      "sha256": "8cc5f6061e7836962e700baa5cdda093b85f3aa6e7de6494ff24c8fa23f24284",
-      "bytes": 427392
-    },
-    {
-      "path": "07_development_systems/dissertation-figures__228_initial.png",
-      "sha256": "0b50687f0a1818bd750a0c59a9a16eb3a8c29e7868c43c2e7159807489164d0b",
-      "bytes": 442350
     },
     {
       "path": "07_development_systems/dissertation-figures__228k_head_on.png",
@@ -848,13 +783,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "81a6377f8a991e81950116d61c8b54cf6fc676fe316996857739ba9072af54ab",
-      "bytes": 1489
+      "sha256": "bcc50f3d9fd9b7611515cf6143cce0b38e9e6c63ff7424f5ffe806dc649c05c9",
+      "bytes": 1508
     },
     {
       "path": "START_HERE.html",
-      "sha256": "6b54ecaece06091122c5014496a08981b11e34102eea1e2b5754ccfba7ccf161",
-      "bytes": 1656
+      "sha256": "52519c42be4829d9c9ca2df3d1b8545652e54cef2d8b35e81b2599c8ab73f7f8",
+      "bytes": 1680
     },
     {
       "path": "_support/README.md",
@@ -2843,23 +2778,23 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "dcfae0553b14dc811b58337c05dbf01279c78c7b5b3e24cd81266477e1027151",
-      "bytes": 213971
+      "sha256": "fcfb0b145ad8f8b3133901593acad2ef9d57ac547b1153ac03c469dffb032b84",
+      "bytes": 197697
     },
     {
       "path": "catalog.json",
-      "sha256": "b7ddf4e71b64010fb5a6cf85df5ea2e317a4ec6594ec08dcfd3e54961dfb1b38",
-      "bytes": 297390
+      "sha256": "987247684731ec5cbcb032ae3b8ed82583cf2a9eed67c71057b5dbbec6641600",
+      "bytes": 309610
     },
     {
       "path": "export_manifest.json",
-      "sha256": "1c1aa049ec68794f8b6b794155aa65c756778d91c3d5f7aa500265b9bea4575c",
-      "bytes": 523173
+      "sha256": "5f0137c5381ad792eb186692b114585942cd18e9eeb650ab6c73e462a58e60d6",
+      "bytes": 535175
     },
     {
       "path": "index.html",
-      "sha256": "934f41336280838a9f5c84175b272a938cafc19c8a81a6046a4d67cca9d18bfe",
-      "bytes": 226274
+      "sha256": "6f4f7dbf4ea8c60a5c2f81b132b010788e26924dffdb2483efb3140c3b76ae9b",
+      "bytes": 220330
     },
     {
       "path": "supplement/.nojekyll",
@@ -3048,18 +2983,18 @@
     },
     {
       "path": "supplement/catalog.json",
-      "sha256": "4970e43782de33cb0db552947f04825e0f9ccc048a168bd171161c339f64bee8",
-      "bytes": 59512
+      "sha256": "0f590d7dbabf8e771c66bf0d9676bbaf8a14134a5ea48d97b1e697a834740c06",
+      "bytes": 101089
     },
     {
       "path": "supplement/export_manifest.json",
-      "sha256": "2b2f2a0c01ba84f722adc24f0c84263ca336fd8dd13ad875c2312ceb5135ea3e",
-      "bytes": 21315
+      "sha256": "68db89d3b3370f8af639da0e48bce18a160e44b598dc288a16ddbaafcb8a7834",
+      "bytes": 21188
     },
     {
       "path": "supplement/index.html",
-      "sha256": "44662898f70dd58a403bd9315f42f5ee2f34128555e7e7c91910abd9fe632278",
-      "bytes": 35660
+      "sha256": "62a9e454d6dc43086aebd30da7d875cbf0a5028a7d50468175b4b27ae6ef70f3",
+      "bytes": 39244
     }
   ]
 }

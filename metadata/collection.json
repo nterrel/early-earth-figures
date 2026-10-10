@@ -3,6 +3,516 @@
     {
       "pattern": "*isolator*",
       "reason": "Preceding separate work; excluded from the Early Earth library at Nick's request on 2026-10-04."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/228_kin_e.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228_kin_e.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/228_pot_eng.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/drafts/manuscript_working_20260927/228_pot_eng.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/228_tot_eng.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228_tot_eng.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/96_atom_2d.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/96_atom_2d.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/alanine_dihedrals_updated.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/drafts/manuscript_working_20260927/alanine_dihedrals_updated.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/dihedral_alanine.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/drafts/manuscript_working_20260927/dihedral_alanine.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/figures/unique_signature_vs_time.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/quench_analysis/new_415_quench_formula_vs_frame.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/new_415_quench_formula_vs_frame.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/quench_analysis/new_415_violins.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/new_415_violins.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/quench_analysis/quench_formula_vs_frame.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/quench_formula_vs_frame.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/steps_vs_temp_quench.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/steps_vs_temp_quench.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/updated_largest_mol_vs_time.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/updated_largest_mol_vs_time.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/228000-after.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228000-after.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/228000-start.png",
+      "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228000-start.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/c5h12_covariance.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/c5h12_covariance_golden_orange_adjusted.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/c5h12_covariance_old.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/ch4.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/ch4_covariance.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/ch4_covariance_golden_orange.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/ch4_covariance_old.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/cov_c5h12_labeled.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/cxhy/cov_ch4_labeled.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/test.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/AEV_construction.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/aev_isolated_cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/aev_no_radius.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/aev_no_radius_cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/aev_radius.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/aev_radius_combined.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/aev_radius_cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/aev_radius_isolated.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/both_radii_cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/aev/both_radii_test.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/c2h3n7o2-cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/c2h3n7o2.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/c2h3n7o2_highlighted-cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/c2h3n7o2_highlighted.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/c5h12.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/ch4.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/cropped_atom11.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/cropped_atom2.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_ae-per-model.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_mean-ae-per-atomtype.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_stdev-ae-per-atomtype.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_total-e-qbc.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_ae-per-model.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_force-highest-force_deviation-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_mean-ae-per-atomtype.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_stdev-ae-per-atomtype.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_total-e-qbc.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/ch4_2xr_stdev-ae.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/energies/ch4_2xr_total-e-qbc.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/example.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/1x-first-cos_sim-hist2d-insert.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/1x-first-cosine_sim-bar3d.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/1x-first-cosine_sim-hist2d.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-bar3d-logscale.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-bar3d.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-hist2d.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-dft-vs-mean_ani.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-highest-force_deviation-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-mean-uncertainty-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-uncertainty_violin.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-weighted-uncertainty-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_mahalanobis-uncertainty-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/2xr_force_just_stdev.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/QBC_confusion.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/cos_sim-hist2d-insert.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/cos_sim_exponential_weighting-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/force_entropy-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/force_stdev-vs-energy_error.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/lines_weighted_force_stdev-vs-energy_error.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/max_force_deviation_by_species.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/max_force_deviation_by_species_filtered.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/max_force_deviation_by_species_subplots.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/mean-uncertainty-vs-energy.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/qbc-vs-energy_error.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/weighted_force_confusion_matrix.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/weighted_force_stdev-vs-energy_error.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/weighted_uncertainty-vs-size_weighted_error.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/forces/zoomed_2xr_comp6v1_force-dft-vs-mean_ani.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/long-epoxide-cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/long-epoxide.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/m-epoxide-cropped.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/m-epoxide.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/nn_arch.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_ae-per-model.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_mean-ae-per-atomtype.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_stdev-ae-per-atomtype.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_total-e-qbc.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_functional_group_counts.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_group_overlap.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/functional_group_diagnostic/stored_encoding_counts_diagnostic.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/functional_group_diagnostic/stored_encoding_overlap_diagnostic.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/review_packet/A19_F12_F14_advisor_contact_sheet.png",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/review_packet/A19_F12_F14_advisor_review.pdf",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/filtered_starting_singletons/figure_gallery.before_filtered_views.html",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_atoms/exports/advisor_figures.html",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_atoms/exports/figure_gallery.html",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_denominators/figure_gallery.before_denominators.html",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_denominators/heavy_atom_mean_vs_frame.before_denominators.html",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_scatter/figure_gallery.before_scatter.html",
+      "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved. Proposed supplement source retained until final A19 selection; public allowlist omits this duplicate.",
+      "scope": "public-library"
+    },
+    {
+      "pattern": "Dissertation_figures/figures/alanine_dihedral.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/alanine_shaded.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/largest_mol.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/96atom.jpg",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/96atom_quench.jpg",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/228_final.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/figures/228_initial.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/updated_original_counts.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d.png",
+      "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance.png",
+      "reason": "2026-10-10 author-authorized near-duplicate cleanup: F17 repeats the same PDF/CDF panels, labels and medians; keep the higher-resolution canonical notebook PNG/PDF. Visual comparison documented in A33; original retained."
     }
-  ]
+  ],
+  "gallery_bundles": [
+    {
+      "key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
+      "reason": "2026-10-05 Nick requests one paired false-positive example, retained in the alanine category. Original source assets remain separately cataloged and linked.",
+      "members": {
+        "Dissertation_figures/early_earth/alanine.png": "Panel A source",
+        "Dissertation_figures/early_earth/alanine_shaded.png": "Panel B source",
+        "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png": "PNG",
+        "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf": "PDF"
+      }
+    }
+  ],
+  "gallery_order": [
+    "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation",
+    "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation",
+    "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation",
+    "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d",
+    "Dissertation_figures/alanine/ala_conformers",
+    "Dissertation_figures/early_earth/228",
+    "paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine",
+    "paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated",
+    "Dissertation_figures/figures/3d-d-ala",
+    "Dissertation_figures/figures/3d-l-ala",
+    "Dissertation_figures/figures/d-ala",
+    "Dissertation_figures/figures/l-ala",
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d",
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity",
+    "Dissertation_figures/figures/cropped_228_initial",
+    "Dissertation_figures/figures/cropped_228_final"
+  ],
+  "gallery_sections": {
+    "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d": "animations"
+  }
 }

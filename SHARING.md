@@ -62,7 +62,13 @@ and [release-asset limits](https://docs.github.com/en/repositories/releasing-pro
 
 ## A shared browser link with GitHub Pages
 
-The approved website uses the D20-curated library homepage (157 assets/126 groups) and a linked proposed supplement. The 89 approved public groups were removed with original sources preserved; the 19 optional historical Early Earth groups remain. See the [A31 results](../early_earth_analysis_v2/docs/WEBSITE_CURATION_RESULTS_20261010.md). The final manuscript/SI selection remains under review. The site deploys the verified `site/` snapshot through GitHub Actions after each push to `main`. Maintained figure sources, captions and tools remain on `main`; the earlier `gh-pages` history is retained.
+The public library uses the explicit [public selection](metadata/public_library_selection.json):
+144 assets in 113 groups after the author-requested A33 cleanup. Clickable HTML
+panels form a horizontal reading strip, followed by animations and related still
+figures. The proposed supplement retains its 29 assets; final manuscript/SI
+selection remains A19. The site deploys the verified `site/` snapshot through
+GitHub Actions after every push to `main`. Original sources remain preserved. See
+[the current curation record](../early_earth_analysis_v2/docs/WEBSITE_REORGANIZATION_20261010.md).
 
 Prepare a new verified website from the current local workspace:
 
@@ -109,11 +115,11 @@ python3 figures/tools/prepare_pages.py --check figures/site
 
 An existing managed snapshot is validated and archived under ignored `build/`
 before replacement. Unmanifested or hand-edited snapshot changes are refused.
-Staging exports the entire current catalog and proposed supplement, including
-currently local candidates. A31 subsequently replaced `site/` with the exact
-curated public 610-file snapshot (157 assets/126 groups), excluding local/A32
-candidates. If the default helper is run again, inspect `site/index.html` and
-`site/supplement/index.html` and approve that broader membership before committing. It does not run a Git command, change sharing or upload anything.
+Staging reads `metadata/public_library_selection.json` for exact public membership
+and `metadata/supplement_selection.json` for the proposed supplement. New local
+candidates do not enter either list automatically. Inspect both galleries before
+committing. This prevents a targeted edit from restoring excluded figures or
+publishing unrelated local trials. Preparation does not run Git commands or upload.
 
 **Activation:** GitHub Pages uses **GitHub Actions**, and the `github-pages`
 environment allows `main`. `.github/workflows/publish-library.yml` validates the
@@ -124,8 +130,8 @@ Thereafter, save and stage after each edit, inspect the diff, and commit/push
 `main`. Every push to `main` runs snapshot validation and deployment;
 caption/source-only commits need restaging before they reach the website. Check
 the Actions result instead of assuming a fixed build time. The public URL and
-linked supplement layout stay the same. Deploying a full snapshot will include
-all staged library candidates, not only the new energy views.
+linked supplement layout stay the same. Deployment publishes the exact staged, selected snapshot. Update the public
+selection deliberately when adding an approved figure.
 
 CI runs `python tools/prepare_pages.py --check site --portable` in a clean figure
 repository checkout. That mode checks exact membership, every file's size/hash,

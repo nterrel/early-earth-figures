@@ -43,7 +43,7 @@ def local_link(value: str) -> bool:
 
 def guide(asset_count: int, selection: dict | None = None) -> str:
     title = selection['title'] if selection else 'Early Earth figure library — collaborator copy'
-    draft = '\nThis proposed supplement is a review draft; author selection and publication approval remain open.\n' if selection else ''
+    draft = '\nThis proposed supplement is a review draft; author selection and publication approval remain open.\n' if selection and selection.get('purpose') != 'public-library' else ''
     return f'''# {title}
 {draft}
 
@@ -211,7 +211,8 @@ def export(destination: Path, make_zip: bool, selection_path: Path | None) -> di
         title = html.escape(selection['title'])
         description = html.escape(selection['description'])
         gallery = re.sub(r'<title>.*?</title>', f'<title>{title}</title>', gallery, count=1)
-        gallery = re.sub(r'(<header>)<h1>.*?</h1><p>.*?</p>', lambda match: f'{match[1]}<h1>{title}</h1><p>{description}</p><p class="small" style="color:inherit;opacity:.8">Review draft · proposed supplement; author selection and publication approval remain open.</p>', gallery, count=1, flags=re.DOTALL)
+        review_note = '' if selection.get('purpose') == 'public-library' else '<p class="small" style="color:inherit;opacity:.8">Review draft · proposed supplement; author selection and publication approval remain open.</p>'
+        gallery = re.sub(r'(<header>)<h1>.*?</h1><p>.*?</p>', lambda match: f'{match[1]}<h1>{title}</h1><p>{description}</p>{review_note}', gallery, count=1, flags=re.DOTALL)
         gallery = re.sub(r'<option value="([^"]+)">.*?</option>', lambda match: match[0] if match[1] in catalog['themes'] else '', gallery)
         gallery = re.sub(r'<footer>.*?</footer>', '<footer>Click a preview for full resolution; PNG/PDF versions share a card. Use the reading guide for scientific scope and Figure details for provenance.</footer>', gallery, count=1, flags=re.DOTALL)
     else:
@@ -224,7 +225,7 @@ def export(destination: Path, make_zip: bool, selection_path: Path | None) -> di
     (destination / '.nojekyll').write_text('')
     (destination / 'README.md').write_text(guide(len(records), selection))
     guide_html = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Early Earth collaborator guide</title><style>body{font:17px/1.7 system-ui,sans-serif;max-width:900px;margin:3rem auto;padding:0 1.5rem;color:#202d39}a{color:#126580}</style><h1>Early Earth figure library</h1><p><a href="index.html">Open the gallery</a> · <a href="catalog.csv">Source/hash catalog</a></p><p>Extract the complete ZIP before opening the gallery. Keep the theme folders beside index.html.</p><p>Browse by manuscript theme or search. Click a preview for full resolution. When discussing a figure, include its title and download filename, and explain whether your comment concerns content, presentation or selection.</p><p>Distinct strings encode observed connectivity; repeated appearances are sampling observations. String variety differs from chemical-species identity, and sampled recurrence differs from a fragment lifetime.</p><p>This is a review snapshot. Source paths in the catalog are provenance labels; the original project and its publication plan remain authoritative. The technical origin, status and hash details are available with each figure.</p><p>The main gallery works locally. Some notebook reading views retain external MathJax/RequireJS libraries and may need internet access. If your browser restricts an interactive view, run <code>python3 -m http.server 8765 --bind 127.0.0.1</code> from this directory and open <code>http://localhost:8765/</code>.</p><p><a href="README.md">Full reading guide</a> · <a href="export_manifest.json">Export provenance</a></p></html>'''
-    if selection is not None:
+    if selection is not None and selection.get('purpose') != 'public-library':
         guide_html = guide_html.replace('<h1>Early Earth figure library</h1>', f'<h1>{html.escape(selection["title"])}</h1><p>Review draft · author selection and publication approval remain open.</p>')
     (destination / 'START_HERE.html').write_text(guide_html)
     for theme, info in catalog['themes'].items():

@@ -101,8 +101,8 @@
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d": {
     "title": "The same ten atoms: aligned 3D comparison",
-    "description": "Three-dimensional coordinates and cutoff connections show the hot 9+1 and quenched 10-atom configuration for the same frame-447 atoms.",
-    "note": "Both states use stable atom IDs, a common alignment, and a shared scale; the new C\u2013H connection is an endpoint observation."
+    "description": "The same ten frame-447 atoms share an alignment and scale. The purple C\u2013H separation changes from 1.315 \u00c5 (dashed, above the 1.290 \u00c5 cutoff) to 1.093 \u00c5 (solid, below cutoff), joining the isolated H to the fragment.",
+    "note": "Distances are measured in 3D, not in the projected drawing. All ten atoms and existing endpoint connections are preserved; proper alignment preserves pair distances to 9\u00d710\u207b\u00b9\u2076 \u00c5. Cutoff: frozen 1.09 \u00c5 C\u2013H base length + 0.20 \u00c5 buffer. This selected endpoint comparison does not establish a mechanism or representative frequency. Presentation receipt: analysis/advisor_figures/results/F14_3d_presentation_20261010.json."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_functional_group_counts": {
     "title": "Representation-dependent functional-group query counts",
@@ -478,5 +478,10 @@
     "title": "Repeated named-reference match occurrences",
     "description": "Logarithmic bars summarize component appearances matched to each named reference along the hot trajectory.",
     "note": "Finite reference-library matching differs from all-fragment exact-connectivity richness; historical identity/confidence varies by reference."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation": {
+    "title": "96 atom fragment, shown in 3D",
+    "description": "The original coordinate export turns through 360 degrees. All 96 atoms remain; element colors identify C, H, N and O. The original left-hand geometry, camera, scale and 9.6-second loop are preserved.",
+    "note": "Original coordinates only. Fixed-structure camera rotation; distance-cutoff connections do not assign bond order. Historical lineage limitations remain in the F21 audit. Prior paired render archived under analysis/figure_review/archive/20261005_before. Current original-only rendering receipt: analysis/advisor_figures/results/F21_historical_96atom_rotation_validation.json."
   }
 }

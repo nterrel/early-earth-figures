@@ -145,7 +145,8 @@ def check(directory: Path, *, verify_sources: bool = True) -> dict:
 
 def prepare(directory: Path, selection: Path) -> dict:
     directory = directory.expanduser().resolve()
-    full = export_share.export(directory, False, None)
+    library_selection = FIGURES / 'metadata/public_library_selection.json'
+    full = export_share.export(directory, False, library_selection if library_selection.exists() else None)
     selected = export_share.export(directory / 'supplement', False, selection.resolve())
     full_manifest = adapt_package(directory, directory, False)
     supplement_manifest = adapt_package(directory / 'supplement', directory, True)

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-10T20:05:17.277582+00:00",
-  "catalog_sha256": "557d92e692f43f5d0ec222eeec21c000219713bf04fb788e214c546926306704",
-  "gallery_sha256": "c352658632920ceb92088bdaf91a2045872fca1bd504afb1a487bf21df03fe37",
+  "exported_utc": "2026-10-10T21:28:18.712887+00:00",
+  "catalog_sha256": "39194ce1a7e95e18eaec5da1eb0c9cb6f7356a46191d6032da0011542b808788",
+  "gallery_sha256": "7d913841690dddd6bb8babef9112a89e9f5ecfdd713b541ef2e37e1618c4087c",
   "asset_count": 29,
   "selection": {
     "title": "Early Earth \u2014 supplementary figures",
@@ -44,7 +44,7 @@
     "sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3"
   },
   "linked_dependency_count": 0,
-  "local_html_links_checked": 68,
+  "local_html_links_checked": 83,
   "external_html_links": [],
   "files": [
     {
@@ -315,11 +315,11 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "4970e43782de33cb0db552947f04825e0f9ccc048a168bd171161c339f64bee8"
+      "sha256": "0f590d7dbabf8e771c66bf0d9676bbaf8a14134a5ea48d97b1e697a834740c06"
     },
     {
       "path": "index.html",
-      "sha256": "44662898f70dd58a403bd9315f42f5ee2f34128555e7e7c91910abd9fe632278"
+      "sha256": "62a9e454d6dc43086aebd30da7d875cbf0a5028a7d50468175b4b27ae6ef70f3"
     }
   ],
   "repaired_links": [],
@@ -328,8 +328,5 @@
     "description": "Hosted reading guides and cross-links between the full library and proposed supplement.",
     "source_figures_unchanged": true,
     "cross_collection_link": "../index.html"
-  },
-  "scoped_publication": {
-    "description": "Refresh only existing F09 panel/caption; all proposal selections unchanged"
   }
 }

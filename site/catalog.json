@@ -2,7 +2,7 @@
   "schema_version": 2,
   "updated": "2026-10-10",
   "policy": "Copies of retained outputs; source status and historical paths preserved. No scientific recomputation.",
-  "asset_count": 157,
+  "asset_count": 144,
   "source_roots": [
     "Dissertation_figures",
     "early_earth_analysis_v2/figures",
@@ -93,6 +93,411 @@
       {
         "pattern": "Dissertation_figures/figures/228000-start.png",
         "reason": "2026-10-05 author-requested clear duplicate: byte_identical; retained gallery source paper-early-earth-chemistry-hero-run/figures/placed/228000-start.png. All source provenance preserved; analysis/figure_review/results/duplicate_audit.json."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/c5h12_covariance.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/c5h12_covariance_golden_orange_adjusted.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/c5h12_covariance_old.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/ch4.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/ch4_covariance.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/ch4_covariance_golden_orange.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/ch4_covariance_old.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/cov_c5h12_labeled.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/cxhy/cov_ch4_labeled.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/early_earth/test.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/AEV_construction.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/aev_isolated_cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/aev_no_radius.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/aev_no_radius_cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/aev_radius.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/aev_radius_combined.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/aev_radius_cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/aev_radius_isolated.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/both_radii_cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/aev/both_radii_test.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/c2h3n7o2-cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/c2h3n7o2.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/c2h3n7o2_highlighted-cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/c2h3n7o2_highlighted.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/c5h12.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/ch4.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/cropped_atom11.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/cropped_atom2.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_ae-per-model.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_mean-ae-per-atomtype.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_stdev-ae-per-atomtype.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_1x-first_total-e-qbc.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_ae-per-model.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_force-highest-force_deviation-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_mean-ae-per-atomtype.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_stdev-ae-per-atomtype.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/2xr_comp6v1_total-e-qbc.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/ch4_2xr_stdev-ae.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/energies/ch4_2xr_total-e-qbc.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/example.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/1x-first-cos_sim-hist2d-insert.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/1x-first-cosine_sim-bar3d.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/1x-first-cosine_sim-hist2d.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-bar3d-logscale.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-bar3d.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-cosine_sim-hist2d.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-dft-vs-mean_ani.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-highest-force_deviation-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-mean-uncertainty-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-uncertainty_violin.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_force-weighted-uncertainty-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_comp6v1_mahalanobis-uncertainty-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/2xr_force_just_stdev.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/QBC_confusion.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/cos_sim-hist2d-insert.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/cos_sim_exponential_weighting-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/force_entropy-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/force_stdev-vs-energy_error.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/lines_weighted_force_stdev-vs-energy_error.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/max_force_deviation_by_species.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/max_force_deviation_by_species_filtered.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/max_force_deviation_by_species_subplots.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/mean-uncertainty-vs-energy.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/qbc-vs-energy_error.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/weighted_force_confusion_matrix.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/weighted_force_stdev-vs-energy_error.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/weighted_uncertainty-vs-size_weighted_error.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/forces/zoomed_2xr_comp6v1_force-dft-vs-mean_ani.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/long-epoxide-cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/long-epoxide.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/m-epoxide-cropped.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/m-epoxide.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/nn_arch.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_ae-per-model.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_mean-ae-per-atomtype.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_stdev-ae-per-atomtype.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "Dissertation_figures/non_2xr/figures/2x_1x-first_total-e-qbc.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_functional_group_counts.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F15_group_overlap.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/functional_group_diagnostic/stored_encoding_counts_diagnostic.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/functional_group_diagnostic/stored_encoding_overlap_diagnostic.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/review_packet/A19_F12_F14_advisor_contact_sheet.png",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/review_packet/A19_F12_F14_advisor_review.pdf",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/filtered_starting_singletons/figure_gallery.before_filtered_views.html",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_atoms/exports/advisor_figures.html",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_atoms/exports/figure_gallery.html",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_denominators/figure_gallery.before_denominators.html",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_denominators/heavy_atom_mean_vs_frame.before_denominators.html",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/archive/notebook_edits/20261004/heavy_mean_scatter/figure_gallery.before_scatter.html",
+        "reason": "D20/A31 author-approved public curation 2026-10-10: remove the reviewed training/benchmark, obsolete-wrapper or withdrawn-diagnostic group from the gallery; original source and historical provenance retained."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved. Proposed supplement source retained until final A19 selection; public allowlist omits this duplicate.",
+        "scope": "public-library"
+      },
+      {
+        "pattern": "Dissertation_figures/figures/alanine_dihedral.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/alanine_shaded.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/early_earth/largest_mol.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/early_earth/96atom.jpg",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/early_earth/96atom_quench.jpg",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/228_final.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/figures/228_initial.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "Dissertation_figures/early_earth/updated_original_counts.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
+      },
+      {
+        "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d.png",
+        "reason": "Author-approved public gallery simplification, 2026-10-10; preferred labeled/combined/current view retained; original source preserved."
       }
     ],
     "gallery_bundles": [
@@ -106,7 +511,28 @@
           "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf": "PDF"
         }
       }
-    ]
+    ],
+    "gallery_order": [
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation",
+      "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d",
+      "Dissertation_figures/alanine/ala_conformers",
+      "Dissertation_figures/early_earth/228",
+      "paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine",
+      "paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated",
+      "Dissertation_figures/figures/3d-d-ala",
+      "Dissertation_figures/figures/3d-l-ala",
+      "Dissertation_figures/figures/d-ala",
+      "Dissertation_figures/figures/l-ala",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d",
+      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity",
+      "Dissertation_figures/figures/cropped_228_initial",
+      "Dissertation_figures/figures/cropped_228_final"
+    ],
+    "gallery_sections": {
+      "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d": "animations"
+    }
   },
   "themes": {
     "01_energy_evolution": {
@@ -186,50 +612,6 @@
       "origin_policy": "Catalog copy; source remains authoritative",
       "share_sha256": "fd6fb004dba461fe0f1dd88dd238982443a73d40cf5fb3b3e7fe5149fd125659",
       "share_bytes": 45101545
-    },
-    {
-      "source_path": "Dissertation_figures/early_earth/96atom.jpg",
-      "historical_source_path": "Dissertation_figures/early_earth/96atom.jpg",
-      "current_source_path": "graveyard/references/Dissertation_figures/early_earth/96atom.jpg",
-      "central_path": "04_quench_and_fragment_size/dissertation-early_earth__96atom.jpg",
-      "sha256": "03947e1f7297a0d56e6ec20728ad8a7d435028f1cd8817708606dcb33a652d39",
-      "bytes": 40085,
-      "format": "jpg",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "96-atom fragment \u2014 original coordinates",
-      "description": "Three-dimensional ball-and-stick view of the selected large fragment before the quench comparison.",
-      "note": "Historical JPG preserved. XYZ files for a 96-atom pair are available, but their exact correspondence to these image renders has not been recovered. The quenched XYZ has 25 element-label mismatches; a separate 97-atom minimized XYZ/MOL also exists. The new F21 comparison uses topology-reconciled labels and is provisional; see HISTORICAL_96ATOM_COMPARISON_20261005.json.",
-      "caption_key": "Dissertation_figures/early_earth/96atom",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "03947e1f7297a0d56e6ec20728ad8a7d435028f1cd8817708606dcb33a652d39",
-      "share_bytes": 40085
-    },
-    {
-      "source_path": "Dissertation_figures/early_earth/96atom_quench.jpg",
-      "historical_source_path": "Dissertation_figures/early_earth/96atom_quench.jpg",
-      "current_source_path": "graveyard/references/Dissertation_figures/early_earth/96atom_quench.jpg",
-      "central_path": "04_quench_and_fragment_size/dissertation-early_earth__96atom_quench.jpg",
-      "sha256": "f05303f6c3c34f85240a33ab647d0c91936d0120ed8d5327fe7ca43c54f8e2f3",
-      "bytes": 27496,
-      "format": "jpg",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "96-atom fragment \u2014 quenched coordinates",
-      "description": "Three-dimensional rendering of the quenched coordinate example corresponding to the 96-atom fragment.",
-      "note": "Historical JPG preserved. XYZ files for a 96-atom pair are available, but their exact correspondence to these image renders has not been recovered. The quenched XYZ has 25 element-label mismatches; a separate 97-atom minimized XYZ/MOL also exists. The new F21 comparison uses topology-reconciled labels and is provisional; see HISTORICAL_96ATOM_COMPARISON_20261005.json.",
-      "caption_key": "Dissertation_figures/early_earth/96atom_quench",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "f05303f6c3c34f85240a33ab647d0c91936d0120ed8d5327fe7ca43c54f8e2f3",
-      "share_bytes": 27496
     },
     {
       "source_path": "Dissertation_figures/early_earth/alanine.png",
@@ -496,50 +878,6 @@
       "share_bytes": 26613
     },
     {
-      "source_path": "Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time.png",
-      "historical_source_path": "Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time.png",
-      "current_source_path": "graveyard/references/Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time.png",
-      "central_path": "04_quench_and_fragment_size/dissertation-early_earth-figures-richard_images__average_atom_count_over_time.png",
-      "sha256": "730caf38ecfaac9d37c2909f278b02c3347503179b069f10d39996c0ebf652c0",
-      "bytes": 24845,
-      "format": "png",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "Average atom count \u2014 archived connected-series view",
-      "description": "Plot of average fragment atom count against time, displayed as a densely connected blue series.",
-      "note": "The broad filled-looking shape comes from the archived plotting order and connections; do not interpret it as an uncertainty band.",
-      "caption_key": "Dissertation_figures/early_earth/figures/richard_images/average_atom_count_over_time",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "730caf38ecfaac9d37c2909f278b02c3347503179b069f10d39996c0ebf652c0",
-      "share_bytes": 24845
-    },
-    {
-      "source_path": "Dissertation_figures/early_earth/largest_mol.png",
-      "historical_source_path": "Dissertation_figures/early_earth/largest_mol.png",
-      "current_source_path": "graveyard/references/Dissertation_figures/early_earth/largest_mol.png",
-      "central_path": "04_quench_and_fragment_size/dissertation-early_earth__largest_mol.png",
-      "sha256": "302cdd4e427a2448b3e76c7c7ce1070f6c68c5425d8119771d695371d7cf4fc4",
-      "bytes": 185390,
-      "format": "png",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "Largest fragment \u2014 historical molecular rendering",
-      "description": "Ball-and-stick rendering of the selected large nitrogen- and oxygen-containing fragment from the Early Earth illustration set.",
-      "note": "",
-      "caption_key": "Dissertation_figures/early_earth/largest_mol",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "302cdd4e427a2448b3e76c7c7ce1070f6c68c5425d8119771d695371d7cf4fc4",
-      "share_bytes": 185390
-    },
-    {
       "source_path": "Dissertation_figures/early_earth/molecule_flat.png",
       "historical_source_path": "Dissertation_figures/early_earth/molecule_flat.png",
       "current_source_path": "graveyard/references/Dissertation_figures/early_earth/molecule_flat.png",
@@ -738,72 +1076,6 @@
       "share_bytes": 238068
     },
     {
-      "source_path": "Dissertation_figures/early_earth/updated_original_counts.png",
-      "historical_source_path": "Dissertation_figures/early_earth/updated_original_counts.png",
-      "current_source_path": "graveyard/references/Dissertation_figures/early_earth/updated_original_counts.png",
-      "central_path": "04_quench_and_fragment_size/dissertation-early_earth__updated_original_counts.png",
-      "sha256": "d8cff54934edb3bfc13fa9f44a924e9acd24211ef46201834db48c70ad57d6bd",
-      "bytes": 148742,
-      "format": "png",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "Named-query occurrence ranking",
-      "description": "Logarithmic bars rank total appearances of named-query labels, with count annotations above each bar.",
-      "note": "Recorded label matches are sampled query occurrences, not validated species yields.",
-      "caption_key": "Dissertation_figures/early_earth/updated_original_counts",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "d8cff54934edb3bfc13fa9f44a924e9acd24211ef46201834db48c70ad57d6bd",
-      "share_bytes": 148742
-    },
-    {
-      "source_path": "Dissertation_figures/figures/228_final.png",
-      "historical_source_path": "Dissertation_figures/figures/228_final.png",
-      "current_source_path": "graveyard/references/Dissertation_figures/figures/228_final.png",
-      "central_path": "07_development_systems/dissertation-figures__228_final.png",
-      "sha256": "8cc5f6061e7836962e700baa5cdda093b85f3aa6e7de6494ff24c8fa23f24284",
-      "bytes": 427392,
-      "format": "png",
-      "theme": "07_development_systems",
-      "theme_label": "Development systems",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "228/228k starting and evolved system views. Figure S1 provides illustrative development context, not molecular-identification evidence. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "228-atom system \u2014 evolved molecular view",
-      "description": "Molecular rendering of the evolved small development cell, with the connected structures visible against a white background.",
-      "note": "",
-      "caption_key": "Dissertation_figures/figures/228_final",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "8cc5f6061e7836962e700baa5cdda093b85f3aa6e7de6494ff24c8fa23f24284",
-      "share_bytes": 427392
-    },
-    {
-      "source_path": "Dissertation_figures/figures/228_initial.png",
-      "historical_source_path": "Dissertation_figures/figures/228_initial.png",
-      "current_source_path": "graveyard/references/Dissertation_figures/figures/228_initial.png",
-      "central_path": "07_development_systems/dissertation-figures__228_initial.png",
-      "sha256": "0b50687f0a1818bd750a0c59a9a16eb3a8c29e7868c43c2e7159807489164d0b",
-      "bytes": 442350,
-      "format": "png",
-      "theme": "07_development_systems",
-      "theme_label": "Development systems",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "228/228k starting and evolved system views. Figure S1 provides illustrative development context, not molecular-identification evidence. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "228-atom system \u2014 starting molecular view",
-      "description": "Molecular rendering of the initial small development cell, providing the starting counterpart to the evolved-system illustration.",
-      "note": "",
-      "caption_key": "Dissertation_figures/figures/228_initial",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "0b50687f0a1818bd750a0c59a9a16eb3a8c29e7868c43c2e7159807489164d0b",
-      "share_bytes": 442350
-    },
-    {
       "source_path": "Dissertation_figures/figures/228k_head_on.png",
       "historical_source_path": "Dissertation_figures/figures/228k_head_on.png",
       "current_source_path": "graveyard/references/Dissertation_figures/figures/228k_head_on.png",
@@ -892,50 +1164,6 @@
       "share_bytes": 121470
     },
     {
-      "source_path": "Dissertation_figures/figures/alanine_dihedral.png",
-      "historical_source_path": "Dissertation_figures/figures/alanine_dihedral.png",
-      "current_source_path": "graveyard/references/Dissertation_figures/figures/alanine_dihedral.png",
-      "central_path": "02_alanine_and_conformations/dissertation-figures__alanine_dihedral.png",
-      "sha256": "7bc28a2666a8a5f9040095ad07a6c76384a4a2ed5ad56f15d9c9fffb49b91fed",
-      "bytes": 215694,
-      "format": "png",
-      "theme": "02_alanine_and_conformations",
-      "theme_label": "Alanine and conformations",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Alanine orientation, improper torsion and coordinate illustrations. F10 reproduces the 438,986-structure population and modes; it does not assign absolute stereochemistry, equilibrium or stability. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "Alanine torsion definition \u2014 highlighted atoms",
-      "description": "Ball-and-stick alanine illustration highlights the four central/reference atoms in purple for the improper-angle example.",
-      "note": "",
-      "caption_key": "Dissertation_figures/figures/alanine_dihedral",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "7bc28a2666a8a5f9040095ad07a6c76384a4a2ed5ad56f15d9c9fffb49b91fed",
-      "share_bytes": 215694
-    },
-    {
-      "source_path": "Dissertation_figures/figures/alanine_shaded.png",
-      "historical_source_path": "Dissertation_figures/figures/alanine_shaded.png",
-      "current_source_path": "graveyard/references/Dissertation_figures/figures/alanine_shaded.png",
-      "central_path": "02_alanine_and_conformations/dissertation-figures__alanine_shaded.png",
-      "sha256": "191f5e19f918dd775cbae9b9aa700c458d4ba24e6b24e09b65b368d079d9fa34",
-      "bytes": 31944,
-      "format": "png",
-      "theme": "02_alanine_and_conformations",
-      "theme_label": "Alanine and conformations",
-      "figure_id": "",
-      "source_family": "inherited-dissertation",
-      "status": "Historical source; approval/provenance varies",
-      "qualification": "Alanine orientation, improper torsion and coordinate illustrations. F10 reproduces the 438,986-structure population and modes; it does not assign absolute stereochemistry, equilibrium or stability. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "Alanine shaded rendering \u2014 second dark variant",
-      "description": "Shaded alanine export with a very dark background and little visible molecular detail.",
-      "note": "The neighboring highlighted-atom illustration is a clearer reading aid; this export is retained as historical context.",
-      "caption_key": "Dissertation_figures/figures/alanine_shaded",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "191f5e19f918dd775cbae9b9aa700c458d4ba24e6b24e09b65b368d079d9fa34",
-      "share_bytes": 31944
-    },
-    {
       "source_path": "Dissertation_figures/figures/cropped_228_final.png",
       "historical_source_path": "Dissertation_figures/figures/cropped_228_final.png",
       "current_source_path": "graveyard/references/Dissertation_figures/figures/cropped_228_final.png",
@@ -949,8 +1177,8 @@
       "source_family": "inherited-dissertation",
       "status": "Historical source; approval/provenance varies",
       "qualification": "228/228k starting and evolved system views. Figure S1 provides illustrative development context, not molecular-identification evidence. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "228-atom system \u2014 evolved close view",
-      "description": "Cropped evolved-state rendering of the small development cell, emphasizing the molecular structures rather than the surrounding white margin.",
+      "title": "228-atom system \u2014 evolved configuration",
+      "description": "Evolved configuration of the 228-atom development cell, showing the resulting molecular structures.",
       "note": "",
       "caption_key": "Dissertation_figures/figures/cropped_228_final",
       "origin_policy": "Catalog copy; source remains authoritative",
@@ -971,8 +1199,8 @@
       "source_family": "inherited-dissertation",
       "status": "Historical source; approval/provenance varies",
       "qualification": "228/228k starting and evolved system views. Figure S1 provides illustrative development context, not molecular-identification evidence. Historical producer code and original labels are retained with the full dissertation source tree.",
-      "title": "228-atom system \u2014 starting close view",
-      "description": "Cropped starting-state view of the small development cell, paired with the evolved close view for visual comparison.",
+      "title": "228-atom system \u2014 starting configuration",
+      "description": "Starting configuration of the 228-atom development cell, showing the molecular mixture before evolution.",
       "note": "",
       "caption_key": "Dissertation_figures/figures/cropped_228_initial",
       "origin_policy": "Catalog copy; source remains authoritative",
@@ -1130,8 +1358,8 @@
       "note": "Nick reviewed these as plausible high-temperature intermediates under the fixed single-bond model. Bond order, charge, names, stereochemistry, and energetic stability remain unassigned.",
       "caption_key": "data/core/connectivity/stride200_analysis/representative_review/index",
       "origin_policy": "Immutable copy; retained original unchanged",
-      "share_sha256": "327a84e3ed56a324c65ca1efc093e590dd26224b9d1b1a945e8982139949fbdf",
-      "share_bytes": 2196670
+      "share_sha256": "f06da484b1e9ba0a3cf3bf95ae3bdc527eec667ee2e473f78213ce1b1a02aba8",
+      "share_bytes": 2226370
     },
     {
       "source_path": "data/selected_events/quench/frame_0447_report/hot.html",
@@ -1152,8 +1380,8 @@
       "note": "The paired hot and quenched galleries share the selection rule. Depictions show connectivity representations rather than validated chemical identities.",
       "caption_key": "data/selected_events/quench/frame_0447_report/hot",
       "origin_policy": "Immutable copy; retained original unchanged",
-      "share_sha256": "b23da7766f7734a75ac85867f59733bfd6c0f4b08f7b2d5cdd9e89f62cd00353",
-      "share_bytes": 1145880
+      "share_sha256": "5bcb81f493ef429badaf56d3eb097f6c2b5db3ad795817745cf5ed71ef01c95c",
+      "share_bytes": 1145960
     },
     {
       "source_path": "data/selected_events/quench/frame_0447_report/quenched.html",
@@ -1174,8 +1402,8 @@
       "note": "The paired hot and quenched galleries share the selection rule. Depictions show connectivity representations rather than validated chemical identities.",
       "caption_key": "data/selected_events/quench/frame_0447_report/quenched",
       "origin_policy": "Immutable copy; retained original unchanged",
-      "share_sha256": "c364bc22c1bce121003e8abf27ff1866da5df65f78848e0c9a564d2caa45157c",
-      "share_bytes": 1633522
+      "share_sha256": "23eb5524c84c62e875024753a7a0ae952bac08f774f59759f46ead14f0ad6eb9",
+      "share_bytes": 1633606
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/exploration/G01_historical_mean_size_time_density.png",
@@ -1464,34 +1692,12 @@
       "share_bytes": 418454
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d.png",
-      "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_2d.png",
-      "sha256": "0b377454a827141401e41911e70260b305aa21ae79c83e3c25e10a00957c9bc4",
-      "bytes": 102703,
-      "format": "png",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "F14",
-      "source_family": "notebook-exploration",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
-      "title": "The same ten atoms: aligned 2D comparison",
-      "description": "A shared projection shows frame 447 changing from a nine-atom component plus one H to a ten-atom component after one additional C\u2013H cutoff connection.",
-      "note": "Stable atom IDs and proper heavy-atom alignment bind the two depictions. This selected example does not establish a mechanism or representative frequency.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_2d",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "0b377454a827141401e41911e70260b305aa21ae79c83e3c25e10a00957c9bc4",
-      "share_bytes": 102703
-    },
-    {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d.png",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d.png",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d.png",
       "central_path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_3d.png",
-      "sha256": "eb4aae1608710fe114516b36310621ebbc27506fbe21912ee3e1962e6dfe0dd3",
-      "bytes": 115090,
+      "sha256": "4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0",
+      "bytes": 240996,
       "format": "png",
       "theme": "04_quench_and_fragment_size",
       "theme_label": "Quench and fragment size",
@@ -1500,34 +1706,12 @@
       "status": "Working/review asset; author selection open",
       "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
       "title": "The same ten atoms: aligned 3D comparison",
-      "description": "Three-dimensional coordinates and cutoff connections show the hot 9+1 and quenched 10-atom configuration for the same frame-447 atoms.",
-      "note": "Both states use stable atom IDs, a common alignment, and a shared scale; the new C\u2013H connection is an endpoint observation.",
+      "description": "The same ten frame-447 atoms share an alignment and scale. The purple C\u2013H separation changes from 1.315 \u00c5 (dashed, above the 1.290 \u00c5 cutoff) to 1.093 \u00c5 (solid, below cutoff), joining the isolated H to the fragment.",
+      "note": "Distances are measured in 3D, not in the projected drawing. All ten atoms and existing endpoint connections are preserved; proper alignment preserves pair distances to 9\u00d710\u207b\u00b9\u2076 \u00c5. Cutoff: frozen 1.09 \u00c5 C\u2013H base length + 0.20 \u00c5 buffer. This selected endpoint comparison does not establish a mechanism or representative frequency. Presentation receipt: analysis/advisor_figures/results/F14_3d_presentation_20261010.json.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "eb4aae1608710fe114516b36310621ebbc27506fbe21912ee3e1962e6dfe0dd3",
-      "share_bytes": 115090
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance.png",
-      "central_path": "05_composition_recurrence_and_topology/advisor_figures-notebook-exploration-advisor_requests__F17_variety_vs_abundance.png",
-      "sha256": "b83dd204ef769c20217ffab25ffb26b1c83603f34f5eae08d5a783e7f8306de9",
-      "bytes": 90610,
-      "format": "png",
-      "theme": "05_composition_recurrence_and_topology",
-      "theme_label": "Composition, recurrence and topology",
-      "figure_id": "F17",
-      "source_family": "notebook-exploration",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
-      "title": "Small fragments dominate repeated occurrences",
-      "description": "Separately normalized size distributions and cumulative curves contrast the 10,259,647-string union with hot and quenched fragment occurrences: medians are 23 versus 3 total atoms.",
-      "note": "Distinct emitted strings are representation-dependent; repeated occurrences are sampled observations, not confirmed species or yields.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "b83dd204ef769c20217ffab25ffb26b1c83603f34f5eae08d5a783e7f8306de9",
-      "share_bytes": 90610
+      "share_sha256": "4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0",
+      "share_bytes": 240996
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/paired_size_comparison.png",
@@ -2432,28 +2616,6 @@
       "share_bytes": 433956
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary.png",
-      "central_path": "04_quench_and_fragment_size/advisor_figures-results__F14_ten_atom_candidate_preliminary.png",
-      "sha256": "2b4bb62cfb2905e1819f83f7a2815b8b2a18a4171625f3a1b3465313e0ced334",
-      "bytes": 190125,
-      "format": "png",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "F14",
-      "source_family": "analysis-output",
-      "status": "Preliminary; current notebook preferred",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
-      "title": "Ten atoms before and after a connectivity change",
-      "description": "Side-by-side frame-447 atom renderings show a nine-atom component and one isolated H in the hot state becoming a single ten-atom component after quench.",
-      "note": "A later notebook view uses proper heavy-atom alignment and a shared projection. The observed new C\u2013H cutoff connection does not assign a mechanism. Early coordinate presentation; the later notebook view improves the shared alignment and projection.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F14_ten_atom_candidate_preliminary",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "2b4bb62cfb2905e1819f83f7a2815b8b2a18a4171625f3a1b3465313e0ced334",
-      "share_bytes": 190125
-    },
-    {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
       "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
       "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
@@ -2511,7 +2673,7 @@
       "source_family": "analysis-output",
       "status": "Working/review asset; author selection open",
       "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
-      "title": "The original historical 96-atom fragment in rotating 3D",
+      "title": "96 atom fragment, shown in 3D",
       "description": "The original coordinate export turns through 360 degrees. All 96 atoms remain; element colors identify C, H, N and O. The original left-hand geometry, camera, scale and 9.6-second loop are preserved.",
       "note": "Original coordinates only. Fixed-structure camera rotation; distance-cutoff connections do not assign bond order. Historical lineage limitations remain in the F21 audit. Prior paired render archived under analysis/figure_review/archive/20261005_before. Current original-only rendering receipt: analysis/advisor_figures/results/F21_historical_96atom_rotation_validation.json.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation",
@@ -2533,7 +2695,7 @@
       "source_family": "analysis-output",
       "status": "Working/review asset; author selection open",
       "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
-      "title": "The original historical 96-atom fragment in rotating 3D",
+      "title": "96 atom fragment, shown in 3D",
       "description": "The original coordinate export turns through 360 degrees. All 96 atoms remain; element colors identify C, H, N and O. The original left-hand geometry, camera, scale and 9.6-second loop are preserved.",
       "note": "Original coordinates only. Fixed-structure camera rotation; distance-cutoff connections do not assign bond order. Historical lineage limitations remain in the F21 audit. Prior paired render archived under analysis/figure_review/archive/20261005_before. Current original-only rendering receipt: analysis/advisor_figures/results/F21_historical_96atom_rotation_validation.json.",
       "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation",
@@ -2542,26 +2704,180 @@
       "share_bytes": 57337
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion.png",
-      "central_path": "02_alanine_and_conformations/alanine_dihedral-results__F10_alanine_improper_torsion.png",
-      "sha256": "521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3",
-      "bytes": 122334,
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
+      "central_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_topology_2d.pdf",
+      "sha256": "d66afd6f1e503501579c7c34568eec45f2d79cacb783a082b2cf5ee4dede7b73",
+      "bytes": 31842,
+      "format": "pdf",
+      "theme": "04_quench_and_fragment_size",
+      "theme_label": "Quench and fragment size",
+      "figure_id": "F21",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
+      "title": "Historical 96-atom connectivity before and after quenching: true 2D",
+      "description": "A shared graph-derived heavy-atom layout compares all 96 selected atoms before and after quenching, with every hydrogen retained. Purple highlights the two cutoff connections present only in the original export.",
+      "note": "RDKit lays out adjacency in two dimensions without a supplied 3D conformer or geometric projection. Line lengths are schematic; lines encode cutoff connections without assigned bond orders, charge or electronic validity. Historical export pairing remains provisional; selected-set components are not full-box fragment counts. Receipt: analysis/advisor_figures/results/F21_historical_96atom_topology_2d_validation.json.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "d66afd6f1e503501579c7c34568eec45f2d79cacb783a082b2cf5ee4dede7b73",
+      "share_bytes": 31842
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
+      "central_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_topology_2d.png",
+      "sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
+      "bytes": 356037,
+      "format": "png",
+      "theme": "04_quench_and_fragment_size",
+      "theme_label": "Quench and fragment size",
+      "figure_id": "F21",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
+      "title": "Historical 96-atom connectivity before and after quenching: true 2D",
+      "description": "A shared graph-derived heavy-atom layout compares all 96 selected atoms before and after quenching, with every hydrogen retained. Purple highlights the two cutoff connections present only in the original export.",
+      "note": "RDKit lays out adjacency in two dimensions without a supplied 3D conformer or geometric projection. Line lengths are schematic; lines encode cutoff connections without assigned bond orders, charge or electronic validity. Historical export pairing remains provisional; selected-set components are not full-box fragment counts. Receipt: analysis/advisor_figures/results/F21_historical_96atom_topology_2d_validation.json.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
+      "share_bytes": 356037
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
+      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.gif",
+      "sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
+      "bytes": 7504197,
+      "format": "gif",
+      "theme": "05_composition_recurrence_and_topology",
+      "theme_label": "Composition, recurrence and topology",
+      "figure_id": "F22",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
+      "title": "Alanine \u2014 saved formation window and final 360\u00b0 view",
+      "description": "148 archived coordinate snapshots show the fragments containing the eventual alanine atoms, followed by a closer view and full rotation of the final saved conformation.",
+      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 129\u2013147 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
+      "share_bytes": 7504197
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
+      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.png",
+      "sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
+      "bytes": 62499,
+      "format": "png",
+      "theme": "05_composition_recurrence_and_topology",
+      "theme_label": "Composition, recurrence and topology",
+      "figure_id": "F22",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
+      "title": "Alanine \u2014 saved formation window and final 360\u00b0 view",
+      "description": "148 archived coordinate snapshots show the fragments containing the eventual alanine atoms, followed by a closer view and full rotation of the final saved conformation.",
+      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 129\u2013147 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
+      "share_bytes": 62499
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
+      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.gif",
+      "sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
+      "bytes": 6925669,
+      "format": "gif",
+      "theme": "05_composition_recurrence_and_topology",
+      "theme_label": "Composition, recurrence and topology",
+      "figure_id": "F22",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
+      "title": "Glycine \u2014 saved formation window and final 360\u00b0 view",
+      "description": "103 archived coordinate snapshots show the fragments containing the eventual glycine atoms, followed by a closer view and full rotation of the final saved conformation.",
+      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 84\u2013102 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
+      "share_bytes": 6925669
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
+      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.png",
+      "sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
+      "bytes": 63040,
+      "format": "png",
+      "theme": "05_composition_recurrence_and_topology",
+      "theme_label": "Composition, recurrence and topology",
+      "figure_id": "F22",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
+      "title": "Glycine \u2014 saved formation window and final 360\u00b0 view",
+      "description": "103 archived coordinate snapshots show the fragments containing the eventual glycine atoms, followed by a closer view and full rotation of the final saved conformation.",
+      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 84\u2013102 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
+      "share_bytes": 63040
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
+      "sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "bytes": 121523,
+      "format": "pdf",
+      "theme": "02_alanine_and_conformations",
+      "theme_label": "Alanine and conformations",
+      "figure_id": "F23",
+      "source_family": "analysis-output",
+      "status": "Working/review asset; author selection open",
+      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows.",
+      "title": "Why unlabeled graph matching misidentified alanine",
+      "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
+      "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
+      "origin_policy": "Catalog copy; source remains authoritative",
+      "share_sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
+      "share_bytes": 121523
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
+      "sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "bytes": 212507,
       "format": "png",
       "theme": "02_alanine_and_conformations",
       "theme_label": "Alanine and conformations",
-      "figure_id": "F10",
+      "figure_id": "F23",
       "source_family": "analysis-output",
       "status": "Working/review asset; author selection open",
-      "qualification": "Alanine orientation, improper torsion and coordinate illustrations. F10 reproduces the 438,986-structure population and modes; it does not assign absolute stereochemistry, equilibrium or stability.",
-      "title": "Alanine improper-torsion distribution",
-      "description": "The N\u2013C\u03b1\u2013C(carboxyl)\u2013C\u03b2 improper-torsion histogram for 438,986 alanine-reference coordinate blocks has two modes at \u00b1124.2\u00b0, describing the orientation of substituents around the central carbon.",
-      "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Independent reconstruction reproduces the population and modes of the historical alanine histogram.",
-      "caption_key": "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion",
+      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows.",
+      "title": "Why unlabeled graph matching misidentified alanine",
+      "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
+      "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
+      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
       "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3",
-      "share_bytes": 122334
+      "share_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
+      "share_bytes": 212507
     },
     {
       "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
@@ -3420,182 +3736,6 @@
       "origin_policy": "Catalog copy; source remains authoritative",
       "share_sha256": "76a50fe6a932954b24ae4f1910164e8697fd5aff29c309ca6c69be2e3d219a50",
       "share_bytes": 154080
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
-      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.gif",
-      "sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
-      "bytes": 7504197,
-      "format": "gif",
-      "theme": "05_composition_recurrence_and_topology",
-      "theme_label": "Composition, recurrence and topology",
-      "figure_id": "F22",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
-      "title": "Alanine \u2014 saved formation window and final 360\u00b0 view",
-      "description": "148 archived coordinate snapshots show the fragments containing the eventual alanine atoms, followed by a closer view and full rotation of the final saved conformation.",
-      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 129\u2013147 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
-      "share_bytes": 7504197
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
-      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.png",
-      "sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
-      "bytes": 62499,
-      "format": "png",
-      "theme": "05_composition_recurrence_and_topology",
-      "theme_label": "Composition, recurrence and topology",
-      "figure_id": "F22",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
-      "title": "Alanine \u2014 saved formation window and final 360\u00b0 view",
-      "description": "148 archived coordinate snapshots show the fragments containing the eventual alanine atoms, followed by a closer view and full rotation of the final saved conformation.",
-      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 129\u2013147 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
-      "share_bytes": 62499
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
-      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.gif",
-      "sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
-      "bytes": 6925669,
-      "format": "gif",
-      "theme": "05_composition_recurrence_and_topology",
-      "theme_label": "Composition, recurrence and topology",
-      "figure_id": "F22",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
-      "title": "Glycine \u2014 saved formation window and final 360\u00b0 view",
-      "description": "103 archived coordinate snapshots show the fragments containing the eventual glycine atoms, followed by a closer view and full rotation of the final saved conformation.",
-      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 84\u2013102 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
-      "share_bytes": 6925669
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
-      "central_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.png",
-      "sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
-      "bytes": 63040,
-      "format": "png",
-      "theme": "05_composition_recurrence_and_topology",
-      "theme_label": "Composition, recurrence and topology",
-      "figure_id": "F22",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Variety versus abundance, compositions, architecture, recurrence and topology motifs. Emitted strings, exact graphs and fragment occurrences have different denominators. F18 motifs are topology and clusters are browsing aids.",
-      "title": "Glycine \u2014 saved formation window and final 360\u00b0 view",
-      "description": "103 archived coordinate snapshots show the fragments containing the eventual glycine atoms, followed by a closer view and full rotation of the final saved conformation.",
-      "note": "Historical first named-match window, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the legacy zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 84\u2013102 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
-      "share_bytes": 63040
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
-      "central_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_topology_2d.pdf",
-      "sha256": "d66afd6f1e503501579c7c34568eec45f2d79cacb783a082b2cf5ee4dede7b73",
-      "bytes": 31842,
-      "format": "pdf",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "F21",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
-      "title": "Historical 96-atom connectivity before and after quenching: true 2D",
-      "description": "A shared graph-derived heavy-atom layout compares all 96 selected atoms before and after quenching, with every hydrogen retained. Purple highlights the two cutoff connections present only in the original export.",
-      "note": "RDKit lays out adjacency in two dimensions without a supplied 3D conformer or geometric projection. Line lengths are schematic; lines encode cutoff connections without assigned bond orders, charge or electronic validity. Historical export pairing remains provisional; selected-set components are not full-box fragment counts. Receipt: analysis/advisor_figures/results/F21_historical_96atom_topology_2d_validation.json.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "d66afd6f1e503501579c7c34568eec45f2d79cacb783a082b2cf5ee4dede7b73",
-      "share_bytes": 31842
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
-      "central_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_topology_2d.png",
-      "sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
-      "bytes": 356037,
-      "format": "png",
-      "theme": "04_quench_and_fragment_size",
-      "theme_label": "Quench and fragment size",
-      "figure_id": "F21",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Paired hot/quench sizes and connectivity examples, including heavy-atom alternatives. Production endpoints are independent 25-fs quenches; historical shared-412 comparisons use 250-fs endpoints. Author selection remains open.",
-      "title": "Historical 96-atom connectivity before and after quenching: true 2D",
-      "description": "A shared graph-derived heavy-atom layout compares all 96 selected atoms before and after quenching, with every hydrogen retained. Purple highlights the two cutoff connections present only in the original export.",
-      "note": "RDKit lays out adjacency in two dimensions without a supplied 3D conformer or geometric projection. Line lengths are schematic; lines encode cutoff connections without assigned bond orders, charge or electronic validity. Historical export pairing remains provisional; selected-set components are not full-box fragment counts. Receipt: analysis/advisor_figures/results/F21_historical_96atom_topology_2d_validation.json.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101",
-      "share_bytes": 356037
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
-      "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.pdf",
-      "sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
-      "bytes": 121523,
-      "format": "pdf",
-      "theme": "02_alanine_and_conformations",
-      "theme_label": "Alanine and conformations",
-      "figure_id": "F23",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows.",
-      "title": "Why unlabeled graph matching misidentified alanine",
-      "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
-      "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "f996b754af516eb958b951d8eb5a77e606c2607447c13c37ca79458ddbb00428",
-      "share_bytes": 121523
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
-      "historical_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
-      "current_source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
-      "central_path": "02_alanine_and_conformations/advisor_figures-results__F23_alanine_matching_diagnostic.png",
-      "sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
-      "bytes": 212507,
-      "format": "png",
-      "theme": "02_alanine_and_conformations",
-      "theme_label": "Alanine and conformations",
-      "figure_id": "F23",
-      "source_family": "analysis-output",
-      "status": "Working/review asset; author selection open",
-      "qualification": "Historical fragment misidentified as alanine, not an alanine conformation. Dissertation Figure 5-2 and Appendix D document the unlabeled graph matching failure and categorical element/element-pair correction. Retain the alanine-category association; no bond-order, charge, stereochemistry or GPU-speedup claim follows.",
-      "title": "Why unlabeled graph matching misidentified alanine",
-      "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
-      "note": "Both panels show the historical non-alanine fragment. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw.",
-      "caption_key": "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic",
-      "origin_policy": "Catalog copy; source remains authoritative",
-      "share_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae",
-      "share_bytes": 212507
     }
   ]
 }

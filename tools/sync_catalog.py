@@ -118,7 +118,9 @@ def classify(source: str) -> tuple[str, str, str, str]:
         theme = '01_energy_evolution'
         if name == '228_pot_eng.png':
             figure_id = 'F09'
-    elif figure_id == 'F10' or any(x in name for x in ('alanine', 'dihedral', 'ala_conformer', 'ala.png', 'ala_shaded')):
+    elif figure_id == 'F22':
+        theme = '05_composition_recurrence_and_topology'
+    elif figure_id in {'F10', 'F23'} or any(x in name for x in ('alanine', 'dihedral', 'ala_conformer', 'ala.png', 'ala_shaded')):
         theme = '02_alanine_and_conformations'
         if name in {'dihedral_alanine.png', 'alanine_dihedrals_updated.png'}:
             figure_id = 'F10'
@@ -128,7 +130,7 @@ def classify(source: str) -> tuple[str, str, str, str]:
         theme = '03_scale_discovery_and_sampling'
     elif figure_id in {'F16', 'F17', 'F18', 'F20', 'G10', 'F05'} or 'smiles' in name:
         theme = '05_composition_recurrence_and_topology'
-    elif figure_id in {'F04', 'F08', 'F11', 'F12', 'F13', 'F14', 'F19', 'G01', 'G02', 'G03', 'G04', 'G05', 'G06', 'G07', 'G08', 'G09', 'G11'} or name.startswith('heavy_atom') or any(x in name for x in ('quench', 'largest', 'mean_size', 'size_comparison', 'size_time', 'fragment_size', 'atom_count', 'avg_n-atoms', 'avg_mol', 'average_atom', 'average_atoms', 'mean_heavy', 'heavy_atom_frame', 'heavy_atom_mean', 'natoms', '96_atom', '96atom', 'mol_before-after', 'original_counts')):
+    elif figure_id in {'F04', 'F08', 'F11', 'F12', 'F13', 'F14', 'F19', 'F21', 'G01', 'G02', 'G03', 'G04', 'G05', 'G06', 'G07', 'G08', 'G09', 'G11'} or name.startswith('heavy_atom') or any(x in name for x in ('quench', 'largest', 'mean_size', 'size_comparison', 'size_time', 'fragment_size', 'atom_count', 'avg_n-atoms', 'avg_mol', 'average_atom', 'average_atoms', 'mean_heavy', 'heavy_atom_frame', 'heavy_atom_mean', 'natoms', '96_atom', '96atom', 'mol_before-after', 'original_counts')):
         theme = '04_quench_and_fragment_size'
     elif figure_id in {'F16', 'F17', 'F18', 'F20', 'G10'} or any(x in name for x in ('smiles', 'formula', 'counts_vs_time', 'graphmatcher', 'census_overview', 'diversity_overview', 'molecule_flat', 'c2h3n7o2')):
         theme = '05_composition_recurrence_and_topology'
@@ -158,7 +160,23 @@ def classify(source: str) -> tuple[str, str, str, str]:
         state = 'Validated working candidate; author selection open'
     else:
         state = 'Working/review asset; author selection open'
+    if source.startswith('early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.'):
+        state = 'Author-approved rendering; final manuscript selection open'
     qualification = TECHNICAL_CONTEXT[theme][1]
+    if figure_id == 'F23' or source in {
+        'Dissertation_figures/early_earth/alanine.png',
+        'Dissertation_figures/early_earth/alanine_shaded.png',
+    }:
+        figure_id = 'F23'
+        qualification = (
+            'Historical fragment misidentified as alanine, not an alanine conformation. '
+            'Dissertation Figure 5-2 and Appendix D document the unlabeled graph '
+            'matching failure and categorical element/element-pair correction. '
+            'Retain the alanine-category association; no bond-order, charge, '
+            'stereochemistry or GPU-speedup claim follows.'
+        )
+        if family == 'inherited-dissertation':
+            state = 'Historical false positive; matching corrected before dissertation analysis'
     if figure_id == 'F11' or 'historical_415' in source:
         qualification += ' F11 aggregates are reproduced; database/plot-source provenance and supplementary approval remain open.'
     if 'filtered' in name:
@@ -176,7 +194,7 @@ def collection_settings() -> dict:
 
 def excluded(source: str) -> bool:
     return any(fnmatch.fnmatchcase(source.lower(), row['pattern'].lower())
-               for row in collection_settings()['excluded_source_patterns'])
+               for row in collection_settings()['excluded_source_patterns'] if row.get('scope') != 'public-library')
 
 
 def captions() -> dict[str, dict]:
@@ -261,7 +279,7 @@ def make_records() -> list[dict]:
 
 
 def write_readmes(records: list[dict]) -> None:
-    text = '''# Figure library\n\nStart with **[the visual gallery](index.html)**. Open it in a browser and filter by topic or search by title, figure ID or filename. Each figure has a specific caption; scientific caveats and provenance are under Figure details. Images open at full resolution; PDF and HTML variants are linked alongside them. Local HTML links open the original reading views so neighboring previews and data resolve; portable exports include repaired copies and their dependencies.\n\nThe folders follow proposed manuscript themes, not final figure order. Every asset keeps its original filename after a readable source prefix. Copies from multiple generations are deliberately retained so a matching picture does not erase different provenance.\n\n## Choose a reading path\n\n- For collaborators, browse [the public figure library](https://nterrel.github.io/early-earth-figures/) or [the proposed supplement](https://nterrel.github.io/early-earth-figures/supplement/).\n- For portable collaborator packages and the proposed supplement, use [the sharing guide](SHARING.md).\n- To edit captions or add future figures, use [the editorial metadata guide](metadata/README.md).\n- For Adrian's short reading path, use [advisor-handoff](../advisor-handoff/README.md).\n- For current editable figures, use [the maintained notebook guide](../early_earth_analysis_v2/analysis/advisor_figures/notebook/README.md).\n- For approval/readiness, use [the publication plan](../early_earth_analysis_v2/docs/PUBLICATION_PLAN.md).\n- For exact origin/hash/status mappings, use [catalog.csv](catalog.csv) or [catalog.json](catalog.json).\n\n'''
+    text = '''# Figure library\n\nStart with **[the visual gallery](index.html)**. Open it in a browser and filter by topic or search by title, figure ID or filename. Each figure has a specific caption; scientific caveats and provenance are under Figure details. Images open at full resolution; PDF and HTML variants are linked alongside them. Local HTML links open the original reading views so neighboring previews and data resolve; portable exports include repaired copies and their dependencies.\n\nThe folders follow proposed manuscript themes, not final figure order. Every asset keeps its original filename after a readable source prefix. Distinct variants retain their source provenance. Exact duplicate gallery copies are excluded through metadata/collection.json; authoritative source assets are preserved.\n\n## Choose a reading path\n\n- For collaborators, browse [the public figure library](https://nterrel.github.io/early-earth-figures/) or [the proposed supplement](https://nterrel.github.io/early-earth-figures/supplement/).\n- For portable collaborator packages and the proposed supplement, use [the sharing guide](SHARING.md).\n- To edit captions or add future figures, use [the editorial metadata guide](metadata/README.md).\n- For Adrian's short reading path, use [advisor-handoff](../advisor-handoff/README.md).\n- For energy editing and the preview/save/push workflow, use [the category editing guide](EDITING.md).\n- For current editable figures, use [the maintained notebook guide](../early_earth_analysis_v2/analysis/advisor_figures/notebook/README.md).\n- For approval/readiness, use [the publication plan](../early_earth_analysis_v2/docs/PUBLICATION_PLAN.md).\n- For exact origin/hash/status mappings, use [catalog.csv](catalog.csv) or [catalog.json](catalog.json).\n\n'''
     for theme, (title, description) in THEMES.items():
         rows = [record for record in records if record['theme'] == theme]
         text += f'- [{title}]({theme}/README.md): {len(rows)} files. {description}\n'
@@ -272,47 +290,114 @@ def write_readmes(records: list[dict]) -> None:
         (FIGURES / theme / 'README.md').write_text(theme_readme)
     text += '''\n## Scientific boundaries\n\nF09's historical displayed-axis transformation remains unresolved. F10's modes and population are reconstructed within the stated stereochemical limits. F15 is withdrawn as a chemical-group census and appears only under diagnostics. F18 motifs describe topology; string diversity/occurrence, exact graphs and chemical species are different quantities. Independent quench endpoints do not establish a continuous trajectory, stability, yield, equilibrium, kinetics or mechanism. Older preliminary and retired figures are labeled so they cannot silently substitute for current working views.\n\n## Refresh and verify\n\n```bash\npython3 figures/tools/sync_catalog.py --write\npython3 figures/tools/sync_catalog.py --check\n```\n\nThe refresh script copies existing outputs; it does not run production or regenerate scientific plots. It scans the declared scientific output/source folders, excludes AppleDouble metadata, software assets and writing-reference PDFs, and never deletes source assets. Explicit collection exclusions are tracked in `metadata/collection.json`; the separate isolator work is preserved in the graveyard rather than shown here. Use the owning analysis script/notebook to change a figure, then refresh. Do not edit catalog copies as source files. Frozen originals remain retained release members; current paths are recorded separately from their historical paths.\n'''
     (FIGURES / 'README.md').write_text(text)
-    (FIGURES / 'tools/README.md').write_text('''# Figure catalog maintenance\n\n[`sync_catalog.py`](sync_catalog.py) discovers the declared project figure-output folders, copies assets into manuscript-theme directories, and records source paths, SHA-256 hashes and scientific status. It builds a local gallery and README navigation using the reader-facing titles and descriptions in [metadata](../metadata/README.md).\n\nRun `python3 figures/tools/sync_catalog.py --write` from the project root after existing figures change. Run the same command with `--check` to verify source/copy hashes, catalog membership and gallery links. This is a documentation/output synchronization step; it never reruns analysis or production. Update `SOURCE_ROOTS` and `CURRENT_PREFIXES` only when an approved folder move or new output family changes navigation. Historical paths are never overwritten. Add a title and specific description for each new source stem before refreshing; generation fails if a caption is missing.\n\n[`export_share.py`](export_share.py) builds self-contained collaborator or proposed supplement packages from this library. See [SHARING.md](../SHARING.md) for the commands, visibility choices and later GitHub Pages setup. Exports are derived, ignored build outputs; they do not alter original scientific assets.\n\n[`prepare_pages.py`](prepare_pages.py) creates the hosted full library with its linked proposed supplement. Use a fresh destination: `python3 figures/tools/prepare_pages.py --output figures/build/pages-YYYYMMDD`, then `--check` with that directory. The live site uses the separate `gh-pages` branch; a push to `main` updates the source backup. See [sharing instructions](../SHARING.md) before updating the published branch.\n''')
+    (FIGURES / 'tools/README.md').write_text('''# Figure catalog maintenance\n\n[`sync_catalog.py`](sync_catalog.py) discovers the declared project figure-output folders, copies assets into manuscript-theme directories, and records source paths, SHA-256 hashes and scientific status. It builds a local gallery and README navigation using the reader-facing titles and descriptions in [metadata](../metadata/README.md).\n\nRun `python3 figures/tools/sync_catalog.py --write` from the project root after existing figures change. Run the same command with `--check` to verify source/copy hashes, catalog membership and gallery links. This is a documentation/output synchronization step; it never reruns analysis or production. Update `SOURCE_ROOTS` and `CURRENT_PREFIXES` only when an approved folder move or new output family changes navigation. Historical paths are never overwritten. Add a title and specific description for each new source stem before refreshing; generation fails if a caption is missing.\n\n[`export_share.py`](export_share.py) builds self-contained collaborator or proposed supplement packages from this library. See [SHARING.md](../SHARING.md) for the commands, visibility choices and later GitHub Pages setup. Exports are derived, ignored build outputs; they do not alter original scientific assets.\n\n[`prepare_pages.py`](prepare_pages.py) creates the hosted full library with its linked proposed supplement. Use a fresh destination: `python3 figures/tools/prepare_pages.py --output figures/build/pages-YYYYMMDD`, then `--check` with that directory. The live site deploys the reviewed `site/` snapshot after every push to `main`. The explicit public selection preserves approved membership; local candidates remain outside that selection. See [sharing instructions](../SHARING.md) before updating the published branch.\n''')
+
+
+def gallery_groups(records: list[dict]) -> dict[str, list[dict]]:
+    """Bundle approved complementary panels without deleting catalog assets."""
+    mapping = {}
+    for bundle in collection_settings().get('gallery_bundles', []):
+        for source in bundle['members']:
+            if source in mapping:
+                raise RuntimeError(f'Source belongs to multiple bundles: {source}')
+            mapping[source] = bundle['key']
+    groups = {}
+    for record in records:
+        key = mapping.get(record['source_path'], record['caption_key'])
+        groups.setdefault(key, []).append(record)
+    for key, variants in groups.items():
+        if not any(record['caption_key'] == key for record in variants):
+            raise RuntimeError(f'Bundle is missing its primary figure: {key}')
+        variants.sort(key=lambda record: record['caption_key'] != key)
+        if len({record['theme'] for record in variants}) != 1:
+            raise RuntimeError(f'Bundle crosses themes: {key}')
+    return groups
+
+
+def gallery_link_label(record: dict) -> str:
+    for bundle in collection_settings().get('gallery_bundles', []):
+        label = bundle['members'].get(record['source_path'])
+        if label:
+            return label
+    return record['format'].upper()
 
 
 def write_gallery(records: list[dict]) -> None:
-    groups = {}
-    for record in records:
-        key = str(Path(record['source_path']).with_suffix(''))
-        groups.setdefault(key, []).append(record)
-    cards = []
+    groups = gallery_groups(records)
+    cards = {'documents': [], 'animations': [], 'stills': []}
+    settings = collection_settings()
+    order = {key: position for position, key in enumerate(settings.get('gallery_order', []))}
     priority = {'current-notebook-export': 0, 'analysis-output': 1,
                 'frozen-evidence': 2, 'notebook-exploration': 3,
                 'exploration-gallery': 3, 'manuscript-build-input': 4,
                 'preliminary-review-packet': 5, 'earlier-draft': 5,
                 'inherited-dissertation': 6, 'retired-notebook-view': 7}
-    ordered = sorted(groups.values(), key=lambda rows: (
-        rows[0]['theme'], priority.get(rows[0]['source_family'], 8), rows[0]['source_path']))
+    def display_order(rows):
+        key = rows[0]['caption_key']
+        animated_section = any(r['format'] == 'gif' for r in rows) or settings.get('gallery_sections', {}).get(key) == 'animations'
+        return ('' if animated_section else rows[0]['theme'], order.get(key, 1000),
+                rows[0]['figure_id'], priority.get(rows[0]['source_family'], 8), rows[0]['source_path'])
+
+    ordered = sorted(groups.values(), key=display_order)
     for variants in ordered:
         record = variants[0]
-        preview = next((r for r in variants if r['format'] in {'png', 'jpg', 'jpeg', 'webp', 'gif', 'svg'}), None)
+        document = next((r for r in variants if r['format'] == 'html'), None)
+        animation = next((r for r in variants if r['format'] == 'gif'), None)
+        section = settings.get('gallery_sections', {}).get(record['caption_key'])
+        section = section or ('documents' if document else 'animations' if animation else 'stills')
+        preview = animation or next((r for r in variants if r['format'] in {'png', 'jpg', 'jpeg', 'webp', 'svg'}), None)
         # Reading views resolve dependencies beside their original source. Portable
         # exports rebind these links to repaired, dependency-complete share copies.
-        links = ' '.join(f'<a href="{html.escape("../" + r["current_source_path"] if r["format"] == "html" else r["central_path"], quote=True)}">{r["format"].upper()}</a>' for r in variants)
-        image = f'<a href="{html.escape(preview["central_path"], quote=True)}"><img loading="lazy" src="{html.escape(preview["central_path"], quote=True)}" alt="{html.escape(record["title"], quote=True)}"></a>' if preview else '<div class="document">Portable reading view<br>Open HTML below</div>'
+        links = ' '.join(f'<a href="{html.escape("../" + r["current_source_path"] if r["format"] == "html" else r["central_path"], quote=True)}">{html.escape(gallery_link_label(r))}</a>' for r in variants)
+        target = '../' + document['current_source_path'] if document else (preview or record)['central_path']
+        escaped_target = html.escape(target, quote=True)
+        if document:
+            image = f'<a class="document" href="{escaped_target}"><span class="document-icon" aria-hidden="true">↗</span><strong>{html.escape(record["title"])}</strong><span>Explore this reading view →</span></a>'
+        elif preview:
+            loading = 'eager' if section == 'animations' else 'lazy'
+            image = f'<a href="{escaped_target}"><img loading="{loading}" src="{html.escape(preview["central_path"], quote=True)}" alt="{html.escape(record["title"], quote=True)}"></a>'
+        else:
+            image = f'<a class="document" href="{escaped_target}">Open {record["format"].upper()} →</a>'
         search = ' '.join(str(record[k]) for k in ('title', 'description', 'source_path', 'figure_id', 'theme_label', 'status', 'source_family')).lower()
         note = f'<p>{html.escape(record["note"])}</p>' if record['note'] else ''
         identifier = f'<p>Internal reference: {html.escape(record["figure_id"])}</p>' if record['figure_id'] else ''
-        cards.append(f'<article data-theme="{record["theme"]}" data-search="{html.escape(search, quote=True)}"><div class="preview">{image}</div><div class="body"><div class="small">{html.escape(record["theme_label"])}</div><h2>{html.escape(record["title"])}</h2><p class="caption">{html.escape(record["description"])}</p><details><summary>Figure details</summary>{note}{identifier}<p class="status">{html.escape(record["status"])}</p><p class="path">Historical: {html.escape(record["source_path"])}<br>Current: {html.escape(record["current_source_path"])}<br>SHA-256: {record["sha256"]}</p></details><div class="links">{links}</div></div></article>')
-    options = ''.join(f'<option value="{key}">{html.escape(value[0])}</option>' for key, value in THEMES.items())
+        companions = []
+        seen_companions = set()
+        for companion in variants:
+            if companion['caption_key'] == record['caption_key'] or companion['caption_key'] in seen_companions:
+                continue
+            seen_companions.add(companion['caption_key'])
+            companions.append(
+                f'<p>{html.escape(companion["title"])}: {html.escape(companion["description"])}</p>'
+                f'<p class="path">Historical: {html.escape(companion["source_path"])}<br>'
+                f'Current: {html.escape(companion["current_source_path"])}<br>'
+                f'SHA-256: {companion["sha256"]}</p>'
+            )
+        companion_details = ''.join(companions)
+        cards[section].append(f'<article data-theme="{record["theme"]}" data-search="{html.escape(search, quote=True)}"><div class="preview">{image}</div><div class="body"><div class="small">{html.escape(record["theme_label"])}</div><h3><a href="{escaped_target}">{html.escape(record["title"])}</a></h3><p class="caption">{html.escape(record["description"])}</p><details><summary>Figure details</summary>{note}{identifier}<p class="status">{html.escape(record["status"])}</p><p class="path">Historical: {html.escape(record["source_path"])}<br>Current: {html.escape(record["current_source_path"])}<br>SHA-256: {record["sha256"]}</p>{companion_details}</details><div class="links">{links}</div></div></article>')
+    options = ''.join(f'<option value="{key}">{html.escape(value[0])}</option>' for key, value in THEMES.items() if any(record['theme'] == key for record in records))
     page = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Early Earth figure library</title><style>
 :root{font-family:system-ui,sans-serif;color:#202d39;background:#f5f7fa}body{margin:0}header{background:#102b3a;color:white;padding:2rem max(1.5rem,5vw)}h1{margin:0 0 .5rem;font-size:2rem}header p{max-width:75rem;line-height:1.6}header a{color:#aee2f0}main{padding:1.5rem max(1.5rem,5vw)}nav{display:flex;gap:1rem;flex-wrap:wrap;align-items:center;position:sticky;top:0;background:#f5f7fa;padding:1rem 0;z-index:2}input,select{font:inherit;padding:.65rem;border:1px solid #bec8d4;border-radius:.4rem}input{flex:1;min-width:15rem}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.3rem}article{background:white;border:1px solid #d8e0e8;border-radius:.6rem;overflow:hidden}article[hidden]{display:none}.preview{height:240px;background:#fff;display:grid;place-items:center;padding:.6rem}.preview img{max-width:100%;max-height:230px;object-fit:contain}.preview a{display:contents}.body{padding:1rem}h2{font-size:1.1rem;overflow-wrap:anywhere;margin:.5rem 0}.small{font-size:.8rem;color:#566977}.status{font-weight:650;font-size:.86rem;color:#294f65}.body p{font-size:.88rem;line-height:1.5}.links{display:flex;gap:1rem;margin-top:1rem}.links a{font-weight:650}.path{overflow-wrap:anywhere;font-family:monospace;font-size:.76rem!important}a{color:#126580}.document{text-align:center;color:#647787;font-weight:600;line-height:2}summary{cursor:pointer;font-size:.85rem}footer{padding:2rem;color:#647787}label{font-size:.88rem}
-</style><header><h1>Early Earth figure library</h1><p>Explore energy changes, molecular geometry, fragment populations, and structural diversity from the Early Earth simulations, alongside earlier model illustrations. Choose a theme or search for a topic. Each card explains the view; expandable details contain its scientific qualifications and source record.</p><p><a href="README.md">Library guide</a> · <a href="../advisor-handoff/README.md">Short advisor handoff</a> · <a href="../early_earth_analysis_v2/docs/PUBLICATION_PLAN.md">Publication plan</a> · <a href="SHARING.md">Share the gallery</a></p></header><main><nav><label for="theme">Theme</label><select id="theme"><option value="">All themes</option>OPTIONS</select><input id="search" type="search" placeholder="Search energy, alanine, heavy atoms…" aria-label="Search figures"><span id="count"></span></nav><div class="grid">CARDS</div></main><footer>Click an image for full resolution; PNG/PDF versions share a card. Earlier work and representation checks are included for context. For a proposed supplementary collection and portable sharing packages, follow the sharing guide.</footer><script>
+</style><header><h1>Early Earth figure library</h1><p>Explore energy changes, molecular geometry, fragment populations, and structural diversity from the Early Earth simulations, alongside historical Early Earth views. Choose a theme or search for a topic. Each card explains the view; expandable details contain its scientific qualifications and source record.</p><p><a href="README.md">Library guide</a> · <a href="../advisor-handoff/README.md">Short advisor handoff</a> · <a href="../early_earth_analysis_v2/docs/PUBLICATION_PLAN.md">Publication plan</a> · <a href="SHARING.md">Share the gallery</a> · <a href="EDITING.md">Edit figures</a></p></header><main><nav><label for="theme">Theme</label><select id="theme"><option value="">All themes</option>OPTIONS</select><input id="search" type="search" placeholder="Search energy, alanine, heavy atoms…" aria-label="Search figures"><span id="count"></span></nav><div class="grid">CARDS</div></main><footer>Click an image for full resolution; PNG/PDF versions share a card. Earlier work and representation checks are included for context. For a proposed supplementary collection and portable sharing packages, follow the sharing guide.</footer><script>
 const theme=document.querySelector('#theme'),search=document.querySelector('#search'),cards=[...document.querySelectorAll('article')];function filter(){let n=0;const q=search.value.toLowerCase().trim();for(const c of cards){const show=(!theme.value||c.dataset.theme===theme.value)&&(!q||c.dataset.search.includes(q));c.hidden=!show;if(show)n++}document.querySelector('#count').textContent=n+' figure groups'}theme.addEventListener('change',filter);search.addEventListener('input',filter);filter();
 </script></html>'''
-    (FIGURES / 'index.html').write_text(page.replace('OPTIONS', options).replace('CARDS', '\n'.join(cards)))
+    section_info = [('documents', 'Reading views', 'Open a guided HTML view. Scroll sideways for more.'),
+                    ('animations', 'Simulations and rotating structures', 'Explore saved atomic motion and rotating views; each caption explains what moves.'),
+                    ('stills', 'Figure collection', 'Related structures and distributions are grouped together. Filter or search across every section.')]
+    sections = ''.join(f'<section id="{key}"><h2>{title}</h2><p class="section-description">{description}</p><div class="{"document-strip" if key == "documents" else "grid"}">{chr(10).join(cards[key])}</div></section>' for key, title, description in section_info if cards[key])
+    page = page.replace('<div class="grid">CARDS</div>', sections)
+    page = page.replace('</style>', '''
+section{margin:0 0 2.5rem}section[hidden]{display:none}section>h2{font-size:1.45rem;margin:1rem 0 .35rem}.section-description{color:#566977;font-size:.92rem}.document-strip{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x proximity;padding:.2rem .1rem 1rem}.document-strip article{flex:0 0 300px;scroll-snap-align:start}.document-strip .preview{height:135px;background:linear-gradient(135deg,#e6f2f5,#eff0fb)}.document-strip .body{padding:.65rem}.document-strip .body>.small,.document-strip .links{display:none}.document-strip .caption{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0 0 .45rem}.document-strip .preview{height:110px}header{padding:1.4rem max(1.5rem,5vw)}.document-strip .body>h3{display:none}.preview a.document{display:flex;flex-direction:column;gap:.45rem;width:100%;height:100%;align-items:center;justify-content:center;box-sizing:border-box;padding:1rem;text-decoration:none;color:#234f64;line-height:1.4}.document-icon{font-size:1.4rem;line-height:1}.document-strip .preview a.document{padding:.4rem;gap:.2rem}.document strong{font-size:.95rem}.document span:last-child{font-size:.8rem}h3{font-size:1.1rem;overflow-wrap:anywhere;margin:.5rem 0}h3 a{text-decoration:none}h3 a:hover,.document:hover{text-decoration:underline}.document:focus-visible,h3 a:focus-visible{outline:3px solid #967bb6;outline-offset:2px}#animations .preview{height:280px}#animations .preview img{max-height:270px}.grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))}nav{gap:.6rem}input{min-width:min(15rem,90vw)}
+</style>''')
+    page = page.replace("document.querySelector('#count').textContent=n+' figure groups'", "for(const section of document.querySelectorAll('main>section')){section.hidden=![...section.querySelectorAll('article')].some(c=>!c.hidden)}document.querySelector('#count').textContent=n+' figure groups'")
+    (FIGURES / 'index.html').write_text(page.replace('OPTIONS', options))
 
 
 def write() -> dict:
     records = make_records()
     payload = {
         'schema_version': 2,
-        'updated': '2026-10-04',
+        'updated': '2026-10-10',
         'policy': 'Copies of retained outputs; source status and historical paths preserved. No scientific recomputation.',
         'asset_count': len(records),
         'source_roots': list(SOURCE_ROOTS),
@@ -364,12 +449,13 @@ def check() -> dict:
             raise RuntimeError(f'Broken gallery asset link: {path}')
     if not all((FIGURES / theme / 'README.md').exists() for theme in THEMES):
         raise RuntimeError('Missing theme README')
-    groups = {r['caption_key'] for r in records}
+    groups = set(gallery_groups(records))
+    caption_keys = {r['caption_key'] for r in records}
     if gallery.count('<article ') != len(groups):
         raise RuntimeError('Gallery card count differs from caption groups')
-    if any(html.escape(editorial[key]['description']) not in gallery for key in groups):
+    if any(html.escape(editorial[key]['description']) not in gallery for key in caption_keys):
         raise RuntimeError('Gallery is missing a reader-facing description')
-    return {'assets': len(records), 'figure_groups': len(groups), 'captions_checked': len(groups), 'source_and_copy_hashes_checked': len(records) * 2, 'gallery_asset_links_checked': len(gallery_assets), 'membership': 'pass', 'theme_readmes': 'pass', 'collection_exclusions': 'pass'}
+    return {'assets': len(records), 'figure_groups': len(groups), 'captions_checked': len(caption_keys), 'source_and_copy_hashes_checked': len(records) * 2, 'gallery_asset_links_checked': len(gallery_assets), 'membership': 'pass', 'theme_readmes': 'pass', 'collection_exclusions': 'pass'}
 
 
 def main() -> None:
