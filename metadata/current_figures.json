@@ -32,22 +32,22 @@
   "early_earth_analysis_v2/analysis/advisor_figures/exploration/G01_historical_mean_size_time_density": {
     "title": "Mean fragment size through the 250-fs quench cohort",
     "description": "Density panels compare mean total atoms per fragment before and after 250-fs quench across 412 paired endpoints.",
-    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+    "note": "The 250-fs quench analysis and the later 3,521-pair/25-fs production cohort are separate analyses."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/exploration/G02_historical_largest_time_density": {
     "title": "Largest fragments through the 250-fs quench cohort",
     "description": "The largest-fragment atom-count distribution is shown before and after quench across 412 pairs, including the sparse high-size tail.",
-    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+    "note": "The 250-fs quench analysis and the later 3,521-pair/25-fs production cohort are separate analyses."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/exploration/G03_historical_paired_density": {
     "title": "Paired mean and largest sizes after 250-fs quench",
     "description": "Before/after density plots place mean and largest fragment sizes against the identity line to show the direction and spread of individual endpoint changes.",
-    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+    "note": "The 250-fs quench analysis and the later 3,521-pair/25-fs production cohort are separate analyses."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/exploration/G04_historical_delta_time_density": {
     "title": "250-fs quench changes across simulation time",
     "description": "Time-density panels show paired changes in fragment count, mean atom count, and largest-fragment size across the shared 412 endpoints.",
-    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+    "note": "The 250-fs quench analysis and the later 3,521-pair/25-fs production cohort are separate analyses."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/exploration/G05_historical_named_match_gallery": {
     "title": "Named-reference match distributions in two libraries",
@@ -82,7 +82,7 @@
   "early_earth_analysis_v2/analysis/advisor_figures/exploration/G11_historical_production_distribution_comparison": {
     "title": "Fragment-size distributions in two quench cohorts",
     "description": "Side-by-side distributions compare size and endpoint-change patterns in the 412-pair/250-fs and 3,521-pair/25-fs cohorts without pooling their observations.",
-    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses."
+    "note": "The 250-fs quench analysis and the later 3,521-pair/25-fs production cohort are separate analyses."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F12_mean_size_vs_frame": {
     "title": "Mean total fragment size by frame number",
@@ -282,17 +282,17 @@
   "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion": {
     "title": "Alanine improper-torsion distribution",
     "description": "The N\u2013C\u03b1\u2013C(carboxyl)\u2013C\u03b2 improper-torsion histogram for 438,986 alanine-reference coordinate blocks has two modes at \u00b1124.2\u00b0, describing the orientation of substituents around the central carbon.",
-    "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Independent reconstruction reproduces the population and modes of the historical alanine histogram."
+    "note": "The coordinate distribution does not assign absolute stereochemistry, equilibrium populations, or thermodynamic stability. Independent reconstruction reproduces the population and modes of the alanine histogram."
   },
   "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw": {
     "title": "Temperature and potential-energy counts in the 22.8-million-atom run",
     "description": "The full heating/hot/cooling view retains all 366,067 reported records. Both panels use 400\u00d7400 square cells; the dotted box marks the enlarged 2500 K view. Colors show records per bin on a logarithmic scale.",
-    "note": "Full bins: 6.275 K \u00d7 432,500 kcal/mol; zoom: 0.025 K \u00d7 12,500 kcal/mol. Zoom bounds: 2495\u20132505 K and \u22125.2590\u00d710\u00b9\u2070 to \u22125.2585\u00d710\u00b9\u2070 kcal/mol. Of 334,062 constant-2500 K records, 331,366 are visible and 2,696 outside the zoom. Temperature SD 0.435 K. Raw total potential energy in kcal/mol, without reference subtraction or per-atom normalization. Repeated/restarted records retained and correlated. Author-approved rendering; final manuscript selection remains open. Historical normalization and cross-size comparison remain unresolved. Receipt: analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/review_validation.json."
+    "note": "Full bins: 6.275 K \u00d7 432,500 kcal/mol; zoom: 0.025 K \u00d7 12,500 kcal/mol. Zoom bounds: 2495\u20132505 K and \u22125.2590\u00d710\u00b9\u2070 to \u22125.2585\u00d710\u00b9\u2070 kcal/mol. Of 334,062 constant-2500 K records, 331,366 are visible and 2,696 outside the zoom. Temperature SD 0.435 K. Raw total potential energy in kcal/mol, without reference subtraction or per-atom normalization. Repeated/restarted records retained and correlated. Author-approved rendering; final manuscript selection remains open. Reference-figure normalization and cross-size comparison remain unresolved. Receipt: analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/review_validation.json."
   },
   "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_fragment_sizes_preliminary": {
     "title": "Fragment means and maxima in 412 paired quenches",
     "description": "Time plots show mean and largest total fragment sizes for 412 paired endpoints, distinguishing randomly sampled and targeted frames in the 250-fs quench cohort.",
-    "note": "Historical 250-fs quenches and the later 3,521-pair/25-fs production cohort are separate analyses. All connected fragments are counted; this is distinct from named-reference matches."
+    "note": "The 250-fs quench analysis and the later 3,521-pair/25-fs production cohort are separate analyses. All connected fragments are counted; this is distinct from named-reference matches."
   },
   "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_named_matches_paired": {
     "title": "Paired reference matches in two search libraries",
@@ -382,12 +382,12 @@
   "early_earth_analysis_v2/figures/sampling_time/F06": {
     "title": "Structural presence and first detections across size and time",
     "description": "Six panels show structures present and first detected in 100-ps windows for each of the three system sizes, excluding the initial frame equally and marking the Hero Run restart.",
-    "note": "Each bin averages 80 analyzed frames and each panel has its own vertical scale. Archived time across the restart is not uninterrupted dynamics; no rates or extrapolations are fitted."
+    "note": "Each bin averages 80 analyzed frames and each panel has its own vertical scale. Recorded time across the restart is not uninterrupted dynamics; no rates or extrapolations are fitted."
   },
   "paper-early-earth-chemistry-hero-run/figures/mol_before-after_quench": {
     "title": "Named-reference match occurrences before and after quench",
     "description": "Bars compare hot and quenched component appearances for individual named references in the 250-fs quench cohort.",
-    "note": "The plotted counts are match rows, despite the historical frame-count axis label; they are not distinct-species counts or yields."
+    "note": "The plotted counts are match rows, despite the original frame-count axis label; they are not distinct-species counts or yields."
   },
   "paper-early-earth-chemistry-hero-run/figures/named_mols_before-after_quench": {
     "title": "Named-reference matches across simulation time",
@@ -397,7 +397,7 @@
   "paper-early-earth-chemistry-hero-run/figures/new_415_quench_formula_vs_frame": {
     "title": "Approximate-signature richness before and after quench",
     "description": "Hot and quenched scatters compare the number of unique molecular signatures per frame in the 415-frame study.",
-    "note": "Approximate-signature richness differs from total fragment count and named-reference matching. This historical cohort is separate from current exact production analysis."
+    "note": "Approximate-signature richness differs from total fragment count and named-reference matching. This signature-based cohort is separate from current exact production analysis."
   },
   "paper-early-earth-chemistry-hero-run/figures/new_415_violins": {
     "title": "Reference-match distributions on the higher-count scale",
@@ -407,17 +407,17 @@
   "paper-early-earth-chemistry-hero-run/figures/quench_formula_vs_frame": {
     "title": "Unique-signature counts in paired states",
     "description": "Hot and quenched scatter traces compare unique-signature counts per frame across simulation time.",
-    "note": "Retained legacy view; signature resolution and source generations differ from later figures and the exact production census."
+    "note": "Signature-based view; signature resolution and source generations differ from later figures and the exact production census."
   },
   "paper-early-earth-chemistry-hero-run/figures/steps_vs_temp_quench": {
     "title": "Temperature relaxation during a quench",
     "description": "Temperature versus integration step shows rapid cooling toward the thermostat target during the exploratory quench.",
-    "note": "Historical protocol illustration; do not use it as the timeline of the independent 25-fs production endpoints."
+    "note": "Quench protocol illustration; do not use it as the timeline of the independent 25-fs production endpoints."
   },
   "paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time": {
     "title": "Molecular-signature detections across time",
     "description": "The time histogram shows signatures reported as newly synthesized along the simulation, with more detections in the early portion of the run.",
-    "note": "Historical signature-based view, with representation and wording inherited from its source. It does not establish reaction yields or rates."
+    "note": "Signature-based analysis with its original representation and terminology. It does not establish reaction yields or rates."
   },
   "paper-early-earth-chemistry-hero-run/figures/updated_violins": {
     "title": "Reference-match distributions on the lower-count scale",
@@ -437,12 +437,12 @@
   "paper-early-earth-chemistry-hero-run/figures/placed/228_kin_e": {
     "title": "Kinetic energy versus temperature",
     "description": "The trace shows the kinetic-energy/temperature relationship alongside the Hero Run energetic distributions.",
-    "note": "Historical axis labels and numerical scale are retained; exact plotting/normalization provenance has not been independently reconstructed for this panel."
+    "note": "Original axis labels and numerical scale are retained; exact plotting/normalization provenance has not been independently reconstructed for this panel."
   },
   "paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng": {
     "title": "Potential-energy hysteresis during heating and cooling",
     "description": "Density colors reveal separate heating and cooling potential-energy branches, with the final low-temperature branch below the initial branch.",
-    "note": "The historical vertical-axis transformation is unresolved. Compare values only within this image; do not convert them to or compare them numerically with raw log totals. The historical filename does not identify a smaller simulation."
+    "note": "The original vertical-axis transformation is unresolved. Compare values only within this image; do not convert them to or compare them numerically with raw log totals. The filename does not identify a smaller simulation."
   },
   "paper-early-earth-chemistry-hero-run/figures/placed/228_tot_eng": {
     "title": "Total-energy distribution during heating and cooling",
@@ -452,7 +452,7 @@
   "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_2d": {
     "title": "A 96-atom fragment: two-dimensional depiction",
     "description": "A skeletal drawing of the selected largest hot fragment, observed at 3.21 ns, complements its three-dimensional atom rendering.",
-    "note": "Retained historical chemical drawing; displayed bond orders and functional-group labels are not independently established by cutoff connectivity alone."
+    "note": "Chemical drawing; displayed bond orders and functional-group labels are not independently established by cutoff connectivity alone."
   },
   "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d": {
     "title": "A 96-atom fragment: three-dimensional geometry",
@@ -472,16 +472,41 @@
   "paper-early-earth-chemistry-hero-run/figures/placed/updated_largest_mol_vs_time": {
     "title": "Largest connected-fragment size over time",
     "description": "The scatter shows the largest connected fragment at each sampled simulation time, counting total atoms including hydrogen.",
-    "note": "Retained historical analysis view; the selected 96-atom illustration and later complete-cohort quench maxima answer different questions."
+    "note": "Fragment-size analysis view; the selected 96-atom illustration and later complete-cohort quench maxima answer different questions."
   },
   "paper-early-earth-chemistry-hero-run/figures/placed/updated_original_counts": {
     "title": "Repeated named-reference match occurrences",
     "description": "Logarithmic bars summarize component appearances matched to each named reference along the hot trajectory.",
-    "note": "Finite reference-library matching differs from all-fragment exact-connectivity richness; historical identity/confidence varies by reference."
+    "note": "Finite reference-library matching differs from all-fragment exact-connectivity richness; assignment confidence varies by reference."
   },
   "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation": {
     "title": "96 atom fragment, shown in 3D",
     "description": "The original coordinate export turns through 360 degrees. All 96 atoms remain; element colors identify C, H, N and O. The original left-hand geometry, camera, scale and 9.6-second loop are preserved.",
-    "note": "Original coordinates only. Fixed-structure camera rotation; distance-cutoff connections do not assign bond order. Historical lineage limitations remain in the F21 audit. Prior paired render archived under analysis/figure_review/archive/20261005_before. Current original-only rendering receipt: analysis/advisor_figures/results/F21_historical_96atom_rotation_validation.json."
+    "note": "Original coordinates only. Fixed-structure camera rotation; distance-cutoff connections do not assign bond order. Coordinate-source limitations remain in the F21 audit. Prior paired render archived under analysis/figure_review/archive/20261005_before. Current original-only rendering receipt: analysis/advisor_figures/results/F21_historical_96atom_rotation_validation.json."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison": {
+    "title": "96-atom coordinates side by side",
+    "description": "A shared alignment, projection and scale compare the original and quenched 96-row XYZ exports. Element colors follow the retained topology; purple marks changed distance-based connections.",
+    "note": "Coordinate comparison with provisional row/export lineage. The quenched XYZ has 25 element-label mismatches, reconciled only in this new render/table against the topology and identical extraction-index vectors. The separate minimized export has 97 atoms. No verified duration, full-box connectivity, mechanism or correspondence to the source JPGs is claimed. Receipt: early_earth_analysis_v2/docs/records/HISTORICAL_96ATOM_COMPARISON_20261005.json."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d": {
+    "title": "96-atom connectivity before and after quenching: true 2D",
+    "description": "A shared graph-derived heavy-atom layout compares all 96 selected atoms before and after quenching, with every hydrogen retained. Purple highlights the two cutoff connections present only in the original export.",
+    "note": "RDKit lays out adjacency in two dimensions without a supplied 3D conformer or geometric projection. Line lengths are schematic; lines encode cutoff connections without assigned bond orders, charge or electronic validity. Coordinate-export pairing remains provisional; selected-set components are not full-box fragment counts. Receipt: analysis/advisor_figures/results/F21_historical_96atom_topology_2d_validation.json."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation": {
+    "title": "Alanine \u2014 saved formation window and final 360\u00b0 view",
+    "description": "148 saved coordinate snapshots show the fragments containing the eventual alanine atoms, followed by a closer view and full rotation of the final saved conformation.",
+    "note": "First named-match window in the saved tracking record, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the source zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 129\u2013147 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation": {
+    "title": "Glycine \u2014 saved formation window and final 360\u00b0 view",
+    "description": "103 saved coordinate snapshots show the fragments containing the eventual glycine atoms, followed by a closer view and full rotation of the final saved conformation.",
+    "note": "First named-match window in the saved tracking record, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the source zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 84\u2013102 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json."
+  },
+  "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic": {
+    "title": "Why unlabeled graph matching misidentified alanine",
+    "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
+    "note": "Both panels show the fragment incorrectly matched as alanine. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw."
   }
 }

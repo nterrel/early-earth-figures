@@ -74,8 +74,9 @@
     "description": "Three-dimensional rendering of the quenched coordinate example corresponding to the 96-atom fragment."
   },
   "Dissertation_figures/early_earth/alanine": {
-    "title": "Alanine coordinate illustration",
-    "description": "Ball-and-stick alanine rendering highlighting its carbon framework, amino group and carboxyl group."
+    "title": "Fragment misidentified as alanine \u2014 element-colored panel",
+    "description": "False-positive fragment from the initial matching procedure, not alanine. The element-colored view exposes the different bonding pattern that an unlabeled graph comparison failed to distinguish.",
+    "note": "Panel A of dissertation Figure 5-2 (\u00a75.1.2, pp. 103\u2013104). Preserved in the alanine category as a diagnostic, bundled with its identity-hidden view. Element-aware categorical node/edge matching corrected this early error; see Appendix D, p. 129."
   },
   "Dissertation_figures/early_earth/alanine_dihedrals_updated": {
     "title": "Alanine improper-angle distribution",
@@ -83,16 +84,16 @@
     "note": "The producer excludes angles between \u221210\u00b0 and +10\u00b0. The current F10 reconstruction supplies population and provenance checks; the modes alone do not assign absolute stereochemistry."
   },
   "Dissertation_figures/early_earth/alanine_shaded": {
-    "title": "Alanine shaded rendering \u2014 dark variant",
-    "description": "Shaded alanine export whose molecular detail is nearly invisible against the black background.",
-    "note": "Retained as an export variant; use the clearly visible alanine coordinate or torsion illustrations for review."
+    "title": "Fragment misidentified as alanine \u2014 element identities hidden",
+    "description": "The same false-positive fragment with element identities intentionally hidden. This illustrates the unlabeled graph shape used by the early matching procedure.",
+    "note": "Panel B of dissertation Figure 5-2, not a failed dark export. Its transparent background is shown on white. Kept in the alanine category as a diagnostic; the initial matching error was corrected with categorical node/edge matching."
   },
   "Dissertation_figures/early_earth/dihedral_alanine": {
     "title": "Alanine torsion definition \u2014 labeled atoms",
     "description": "Alanine illustration labels N, C\u03b1, the carboxyl carbon and the side-chain carbon to show the atoms used in the angle definition."
   },
   "Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time": {
-    "title": "Largest fragment over time \u2014 blue historical view",
+    "title": "Largest fragment over time \u2014 blue trace",
     "description": "Time series of the maximum detected fragment atom count, showing the early rise and variation across the later sampled interval."
   },
   "Dissertation_figures/early_earth/figures/avg_mol_over_time_more_bins": {
@@ -100,7 +101,7 @@
     "description": "Dense time series of the average atom count per detected fragment, including the late change near the end of the run."
   },
   "Dissertation_figures/early_earth/figures/avg_mol_time": {
-    "title": "Mean fragment size \u2014 coarse historical view",
+    "title": "Mean fragment size \u2014 coarse time bins",
     "description": "Coarser blue marker-and-line presentation of average atoms per detected fragment over the sampled run."
   },
   "Dissertation_figures/early_earth/figures/counts_vs_time_CHHHH": {
@@ -148,14 +149,14 @@
     "description": "Ball-and-stick rendering of the selected large nitrogen- and oxygen-containing fragment from the Early Earth illustration set."
   },
   "Dissertation_figures/early_earth/molecule_flat": {
-    "title": "Largest fragment \u2014 flat historical drawing",
+    "title": "Largest fragment \u2014 flat drawing",
     "description": "Two-dimensional drawing of the selected large fragment, displaying the connectivity and bond-order annotations.",
     "note": "The drawing is an illustration, not independent confirmation of the annotated chemical bond orders."
   },
   "Dissertation_figures/early_earth/quench_analysis/gly-ala-before_after_quench": {
     "title": "Alanine and glycine counts before and after quenching",
     "description": "Side-by-side appearance counts for the two named query labels retained after requiring at least 50 combined appearances.",
-    "note": "These are archived label/query counts over sampled frames, not yields or validation of every molecular assignment."
+    "note": "These are reference-label/query counts over sampled frames, not yields or validation of every molecular assignment."
   },
   "Dissertation_figures/early_earth/quench_analysis/mol_before-after_quench": {
     "title": "Named-query counts before and after quenching",
@@ -165,7 +166,7 @@
   "Dissertation_figures/early_earth/quench_analysis/named_mols_before-after_quench": {
     "title": "Named-query detections over time \u2014 quench comparison",
     "description": "Blue and orange filled traces compare per-frame counts of named-query detections before and after quenching.",
-    "note": "Filled traces follow the archived presentation of separate endpoint counts; they do not describe continuous quench trajectories."
+    "note": "Filled traces follow the plotted presentation of separate endpoint counts; they do not describe continuous quench trajectories."
   },
   "Dissertation_figures/early_earth/quench_analysis/new_415_quench_formula_vs_frame": {
     "title": "Signature counts before and after quenching \u2014 415 frames",
@@ -212,7 +213,7 @@
   "Dissertation_figures/early_earth/updated_graphmatcher": {
     "title": "Named-query counts with graph matching",
     "description": "Log-scale bars compare named-query counts before and after graph matching across the labeled structures.",
-    "note": "This is a historical query-comparison diagnostic; current graph/chemical-assignment checks determine which labels are supportable."
+    "note": "This is a query-comparison diagnostic; current graph/chemical-assignment checks determine which labels are supportable."
   },
   "Dissertation_figures/early_earth/updated_largest_mol_vs_time": {
     "title": "Largest fragment over time \u2014 revised purple view",
@@ -248,12 +249,12 @@
     "description": "Full-frame close view of the large development system using the dense atom-and-line representation."
   },
   "Dissertation_figures/figures/3d-d-ala": {
-    "title": "D-alanine \u2014 historical 3D illustration",
+    "title": "D-alanine \u2014 3D illustration",
     "description": "Ball-and-stick depiction labeled D-alanine in the dissertation illustration set.",
     "note": "This teaching illustration does not assign D/L labels to the simulated alanine population."
   },
   "Dissertation_figures/figures/3d-l-ala": {
-    "title": "L-alanine \u2014 historical 3D illustration",
+    "title": "L-alanine \u2014 3D illustration",
     "description": "Three-dimensional ball-and-stick depiction labeled L-alanine, paired with the D-alanine illustration.",
     "note": "Absolute stereochemistry in the simulated population requires the separately defined assignment convention."
   },

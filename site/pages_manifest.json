@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-10T21:28:49.848405+00:00",
+  "prepared_utc": "2026-10-10T22:03:33.615119+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
@@ -12,7 +12,7 @@
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "39194ce1a7e95e18eaec5da1eb0c9cb6f7356a46191d6032da0011542b808788",
+  "source_catalog_sha256": "2bc8a71892afd14d5e3f90c530eb546af79896b77c21e443d8ab6628f6cf90d7",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -58,7 +58,7 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "a14fc713c03e2d221fb7448ca540c6ee2622db2bf6cc559c4d0b7e3eef4143dc",
+      "sha256": "6744b8793a49c2097c87477e0ca62ec6a2ed9b740250743d66e2248fb1904863",
       "bytes": 252
     },
     {
@@ -85,6 +85,11 @@
       "path": "02_alanine_and_conformations/dissertation-early_earth__alanine_shaded.png",
       "sha256": "8272a1e580a6569dae9db459a101e9b4b0391955438944a36b3b3eae39f793cf",
       "bytes": 32950
+    },
+    {
+      "path": "02_alanine_and_conformations/dissertation-early_earth__rmsd_distribution.png",
+      "sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
+      "bytes": 106492
     },
     {
       "path": "02_alanine_and_conformations/dissertation-figures__3d-d-ala.png",
@@ -743,18 +748,13 @@
     },
     {
       "path": "90_historical_and_other_context/README.md",
-      "sha256": "cd66c35f0dae9e856eed28276ff8c6a761f1c86020cd544e041adba0431e52b8",
-      "bytes": 279
+      "sha256": "942ea4884dc53fe310cf109b1ef9d80dfdca6714ca71998d258c6ef65f779c3d",
+      "bytes": 260
     },
     {
       "path": "90_historical_and_other_context/dissertation-early_earth-quench_analysis__updated_violins.png",
       "sha256": "bc04dd65f818df9b3e3df85ea95f1aabebf6a113085e7f80a4a1270cca389d33",
       "bytes": 109328
-    },
-    {
-      "path": "90_historical_and_other_context/dissertation-early_earth__rmsd_distribution.png",
-      "sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
-      "bytes": 106492
     },
     {
       "path": "90_historical_and_other_context/dissertation-figures__ghost_atoms.png",
@@ -783,13 +783,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "bcc50f3d9fd9b7611515cf6143cce0b38e9e6c63ff7424f5ffe806dc649c05c9",
-      "bytes": 1508
+      "sha256": "e67649ee184e54e4f894cef2a0293fdfef53f90ceec435b205344b340b3fbd75",
+      "bytes": 1487
     },
     {
       "path": "START_HERE.html",
-      "sha256": "52519c42be4829d9c9ca2df3d1b8545652e54cef2d8b35e81b2599c8ab73f7f8",
-      "bytes": 1680
+      "sha256": "b1e63fbea03b0178269b7902951be9bf0c8d6cd1e364d9c59621f75c3063899e",
+      "bytes": 1693
     },
     {
       "path": "_support/README.md",
@@ -2778,23 +2778,23 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "fcfb0b145ad8f8b3133901593acad2ef9d57ac547b1153ac03c469dffb032b84",
-      "bytes": 197697
+      "sha256": "105d4523c274c667ecba3ad08c91d0d2c2e98b537918bf80ba42bd7f7a9e35d4",
+      "bytes": 198937
     },
     {
       "path": "catalog.json",
-      "sha256": "987247684731ec5cbcb032ae3b8ed82583cf2a9eed67c71057b5dbbec6641600",
-      "bytes": 309610
+      "sha256": "152755a8acc96d47e42a592ea4a3388bd1c22b733587eb11ea690c674dfb910c",
+      "bytes": 311664
     },
     {
       "path": "export_manifest.json",
-      "sha256": "5f0137c5381ad792eb186692b114585942cd18e9eeb650ab6c73e462a58e60d6",
-      "bytes": 535175
+      "sha256": "63da4020f1cdb2520f88177cd0a4d0125d23d58af1817da602c6487b6736401b",
+      "bytes": 535172
     },
     {
       "path": "index.html",
-      "sha256": "6f4f7dbf4ea8c60a5c2f81b132b010788e26924dffdb2483efb3140c3b76ae9b",
-      "bytes": 220330
+      "sha256": "4a4073ac57bb95526f937e45acaf57dabaf1303f3afbbf6eb6461e8c75b927ee",
+      "bytes": 221946
     },
     {
       "path": "supplement/.nojekyll",
@@ -2968,33 +2968,33 @@
     },
     {
       "path": "supplement/README.md",
-      "sha256": "d31ec53fb2d9e9f2acd491c66854983f782fe020b025bd120b84c6ca58557f92",
-      "bytes": 1578
+      "sha256": "054adb888b0fe3bccd2ba5e73d38324830d6e113bd0b010b7d717d1a951cce39",
+      "bytes": 1567
     },
     {
       "path": "supplement/START_HERE.html",
-      "sha256": "220d63750878e451267a3c64151071e48c0dfae9df9669eeeb6b14afa8371908",
-      "bytes": 1770
+      "sha256": "dcc1f6f36baa8f722f872299cad0ff10c93bffdeb52d330c1d2f8e5fc8cad57f",
+      "bytes": 1793
     },
     {
       "path": "supplement/catalog.csv",
-      "sha256": "8db729f97d2c0273e8cf5a9b0bc8222401fc713e5aa8b894db0815cb18cee666",
-      "bytes": 43935
+      "sha256": "5de74553899d9890e0331442ee83b1d907b43ffaf275efdfffecc39d252219de",
+      "bytes": 44212
     },
     {
       "path": "supplement/catalog.json",
-      "sha256": "0f590d7dbabf8e771c66bf0d9676bbaf8a14134a5ea48d97b1e697a834740c06",
-      "bytes": 101089
+      "sha256": "8ff9f11ba063733e13f7274a01e9fd7fca9ada141abe6137fb8706f8796a3189",
+      "bytes": 102199
     },
     {
       "path": "supplement/export_manifest.json",
-      "sha256": "68db89d3b3370f8af639da0e48bce18a160e44b598dc288a16ddbaafcb8a7834",
+      "sha256": "e380a68902a48889133cb0504d9c85a457fac73f47255912974e8c2f3b556b7f",
       "bytes": 21188
     },
     {
       "path": "supplement/index.html",
-      "sha256": "62a9e454d6dc43086aebd30da7d875cbf0a5028a7d50468175b4b27ae6ef70f3",
-      "bytes": 39244
+      "sha256": "d1a022f8db3cdbfd67086e5b10396fa032f057d4ce82f5f9106e0d1fdb886aae",
+      "bytes": 39464
     }
   ]
 }

@@ -25,3 +25,9 @@ Pages preparation and notebook staging use it automatically. `gallery_order` and
 and GIFs first. A source with `scope: public-library` is omitted from that public
 selection while remaining available to the proposed supplement (currently F10's
 reconstruction PNG). Source removal is not part of gallery curation.
+
+Reader-facing titles, categories and captions present one ongoing project. Use
+analysis stages or documented dates when chronology matters; preserve source
+paths, version lineage and scientific qualifications in the provenance records.
+The A33 follow-up groups RMSD with alanine, keeps the static 96-atom views in the
+figure collection and records the author-selected energy order in `gallery_order`.

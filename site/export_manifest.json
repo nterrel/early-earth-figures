@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-10T21:28:09.911553+00:00",
-  "catalog_sha256": "39194ce1a7e95e18eaec5da1eb0c9cb6f7356a46191d6032da0011542b808788",
-  "gallery_sha256": "7d913841690dddd6bb8babef9112a89e9f5ecfdd713b541ef2e37e1618c4087c",
+  "exported_utc": "2026-10-10T22:02:54.636981+00:00",
+  "catalog_sha256": "2bc8a71892afd14d5e3f90c530eb546af79896b77c21e443d8ab6628f6cf90d7",
+  "gallery_sha256": "10bc5172467c68f3e7c5f14dd46f7c963fd49a125c06fe7d7bd243d6841318f9",
   "asset_count": 144,
   "selection": {
     "title": "Early Earth figure library",
@@ -251,6 +251,14 @@
       "role": "catalog figure",
       "export_sha256": "8272a1e580a6569dae9db459a101e9b4b0391955438944a36b3b3eae39f793cf",
       "export_bytes": 32950
+    },
+    {
+      "source_path": "graveyard/references/Dissertation_figures/early_earth/rmsd_distribution.png",
+      "export_path": "02_alanine_and_conformations/dissertation-early_earth__rmsd_distribution.png",
+      "source_sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
+      "role": "catalog figure",
+      "export_sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
+      "export_bytes": 106492
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/figures/3d-d-ala.png",
@@ -1267,14 +1275,6 @@
       "role": "catalog figure",
       "export_sha256": "bc04dd65f818df9b3e3df85ea95f1aabebf6a113085e7f80a4a1270cca389d33",
       "export_bytes": 109328
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/rmsd_distribution.png",
-      "export_path": "90_historical_and_other_context/dissertation-early_earth__rmsd_distribution.png",
-      "source_sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
-      "role": "catalog figure",
-      "export_sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
-      "export_bytes": 106492
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/figures/ghost_atoms.png",
@@ -4496,7 +4496,7 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "a14fc713c03e2d221fb7448ca540c6ee2622db2bf6cc559c4d0b7e3eef4143dc"
+      "sha256": "6744b8793a49c2097c87477e0ca62ec6a2ed9b740250743d66e2248fb1904863"
     },
     {
       "path": "03_scale_discovery_and_sampling/README.md",
@@ -4520,15 +4520,15 @@
     },
     {
       "path": "90_historical_and_other_context/README.md",
-      "sha256": "cd66c35f0dae9e856eed28276ff8c6a761f1c86020cd544e041adba0431e52b8"
+      "sha256": "942ea4884dc53fe310cf109b1ef9d80dfdca6714ca71998d258c6ef65f779c3d"
     },
     {
       "path": "README.md",
-      "sha256": "bcc50f3d9fd9b7611515cf6143cce0b38e9e6c63ff7424f5ffe806dc649c05c9"
+      "sha256": "e67649ee184e54e4f894cef2a0293fdfef53f90ceec435b205344b340b3fbd75"
     },
     {
       "path": "START_HERE.html",
-      "sha256": "52519c42be4829d9c9ca2df3d1b8545652e54cef2d8b35e81b2599c8ab73f7f8"
+      "sha256": "b1e63fbea03b0178269b7902951be9bf0c8d6cd1e364d9c59621f75c3063899e"
     },
     {
       "path": "_support/README.md",
@@ -4536,15 +4536,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "fcfb0b145ad8f8b3133901593acad2ef9d57ac547b1153ac03c469dffb032b84"
+      "sha256": "105d4523c274c667ecba3ad08c91d0d2c2e98b537918bf80ba42bd7f7a9e35d4"
     },
     {
       "path": "catalog.json",
-      "sha256": "987247684731ec5cbcb032ae3b8ed82583cf2a9eed67c71057b5dbbec6641600"
+      "sha256": "152755a8acc96d47e42a592ea4a3388bd1c22b733587eb11ea690c674dfb910c"
     },
     {
       "path": "index.html",
-      "sha256": "6f4f7dbf4ea8c60a5c2f81b132b010788e26924dffdb2483efb3140c3b76ae9b"
+      "sha256": "4a4073ac57bb95526f937e45acaf57dabaf1303f3afbbf6eb6461e8c75b927ee"
     }
   ],
   "repaired_links": [

@@ -58,7 +58,7 @@ def adapt_package(directory: Path, boundary: Path, supplement: bool) -> dict:
     index.write_text(gallery)
 
     title = 'Early Earth — proposed supplementary figures' if supplement else 'Early Earth figure library'
-    purpose = ('This selection brings together energy changes, alanine geometry and fragment populations before and after quenching. It is a proposed supplement; the final manuscript figure selection remains under review.' if supplement else 'Browse the current figures and earlier research illustrations by manuscript theme. The proposed supplement offers a smaller selection of current views.')
+    purpose = ('This selection brings together energy changes, alanine geometry and fragment populations before and after quenching. It is a proposed supplement; the final manuscript figure selection remains under review.' if supplement else 'Browse figures from the ongoing Early Earth project by manuscript theme. The proposed supplement offers a smaller selection of current views.')
     readme = f'''# {title}
 
 {purpose}
@@ -69,7 +69,7 @@ share a card. [The reading guide](START_HERE.html) explains the collection.
 Continue to the [{label.lower()}]({destination}) for the other collection.
 
 Figure descriptions explain what is shown. Expand **Figure details** for the
-technical notes, source paths and hashes. Historical views and representation
+technical notes, source paths and hashes. Simulation views and representation
 diagnostics appear in the full library; they are not all manuscript candidates.
 Distinct strings describe observed connectivity, rather than independently
 confirmed chemical species. Repeated appearances describe sampling recurrence,
@@ -80,14 +80,14 @@ whether the comment concerns scientific content, presentation or selection.
 
 [catalog.csv](catalog.csv) and [export_manifest.json](export_manifest.json)
 record figure provenance. This website contains portable figure copies and
-their reading-view dependencies. Source figures are unchanged. Some historical
-HTML views load external MathJax/RequireJS libraries and need internet access.
+their reading-view dependencies. Source figures are unchanged. Some HTML
+views load external MathJax/RequireJS libraries and need internet access.
 
 The maintained gallery sources are in
 [nterrel/early-earth-figures](https://github.com/nterrel/early-earth-figures).
 '''
     (directory / 'README.md').write_text(readme)
-    guide = f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)} — reading guide</title><style>body{{font:17px/1.7 system-ui,sans-serif;max-width:900px;margin:3rem auto;padding:0 1.5rem;color:#202d39}}a{{color:#126580}}</style><h1>{html.escape(title)}</h1><p>{html.escape(purpose)}</p><p><a href="index.html">Open the gallery</a> · <a href="{destination}">{label}</a></p><p>Filter by manuscript theme or search a title, figure ID or filename. Click a preview for full resolution. PNG/PDF versions of the same view share a card.</p><p>Each description explains what the figure shows. Expand Figure details to see technical notes and provenance. The full library includes earlier illustrations and representation diagnostics alongside current work.</p><p>Distinct strings describe observed connectivity, rather than independently confirmed chemical species. Repeated appearances describe sampling recurrence, rather than fragment lifetimes.</p><p>When commenting, include the figure title and exact download filename, then explain whether your comment concerns scientific content, presentation or selection.</p><p>Some historical HTML views use external display libraries and need internet access. If downloading this website, keep its folders together and open index.html.</p><p><a href="README.md">Full reading guide</a> · <a href="catalog.csv">Source/hash catalog</a> · <a href="export_manifest.json">Export provenance</a></p></html>'''
+    guide = f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)} — reading guide</title><style>body{{font:17px/1.7 system-ui,sans-serif;max-width:900px;margin:3rem auto;padding:0 1.5rem;color:#202d39}}a{{color:#126580}}</style><h1>{html.escape(title)}</h1><p>{html.escape(purpose)}</p><p><a href="index.html">Open the gallery</a> · <a href="{destination}">{label}</a></p><p>Filter by manuscript theme or search a title, figure ID or filename. Click a preview for full resolution. PNG/PDF versions of the same view share a card.</p><p>Each description explains what the figure shows. Expand Figure details to see technical notes and provenance. The full library brings together simulation results, method development and representation checks from successive stages of the project.</p><p>Distinct strings describe observed connectivity, rather than independently confirmed chemical species. Repeated appearances describe sampling recurrence, rather than fragment lifetimes.</p><p>When commenting, include the figure title and exact download filename, then explain whether your comment concerns scientific content, presentation or selection.</p><p>Some HTML views use external display libraries and need internet access. If downloading this website, keep its folders together and open index.html.</p><p><a href="README.md">Full reading guide</a> · <a href="catalog.csv">Source/hash catalog</a> · <a href="export_manifest.json">Export provenance</a></p></html>'''
     (directory / 'START_HERE.html').write_text(guide)
 
     # Bind the adapted reader files without replacing the original source hashes.

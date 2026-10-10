@@ -52,7 +52,7 @@ the theme folders must stay alongside the HTML file. This copy contains
 {asset_count} figure assets and their linked local reading-view dependencies.
 
 Filter by manuscript theme or search a figure ID, title or filename. Click a
-preview for full resolution; PNG/PDF variants share a card. Historical sources,
+preview for full resolution; PNG/PDF variants share a card. Project source figures,
 working candidates and withdrawn diagnostics retain their status labels.
 
 Distinct strings encode observed connectivity; repeated appearances are sampling
@@ -216,7 +216,7 @@ def export(destination: Path, make_zip: bool, selection_path: Path | None) -> di
         gallery = re.sub(r'<option value="([^"]+)">.*?</option>', lambda match: match[0] if match[1] in catalog['themes'] else '', gallery)
         gallery = re.sub(r'<footer>.*?</footer>', '<footer>Click a preview for full resolution; PNG/PDF versions share a card. Use the reading guide for scientific scope and Figure details for provenance.</footer>', gallery, count=1, flags=re.DOTALL)
     else:
-        gallery = re.sub(r'<footer>.*?</footer>', '<footer>Click an image for full resolution; PNG/PDF versions share a card. Earlier work and representation checks are included for context. Use the reading guide for browsing and figure comments.</footer>', gallery, count=1, flags=re.DOTALL)
+        gallery = re.sub(r'<footer>.*?</footer>', '<footer>Click an image for full resolution; PNG/PDF versions share a card. The collection brings together simulation results, method development and representation checks. Use the reading guide for browsing and figure comments.</footer>', gallery, count=1, flags=re.DOTALL)
     navigation = '<p><a href="START_HERE.html">Reading guide</a></p><details><summary>Technical provenance</summary><p><a href="catalog.csv">Source/hash catalog</a> · <a href="export_manifest.json">Export manifest</a></p></details>'
     gallery, substitutions = re.subn(r'<p><a href="README\.md">.*?</p>', navigation, gallery, count=1, flags=re.DOTALL)
     if substitutions != 1:

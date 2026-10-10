@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-10T21:28:18.712887+00:00",
-  "catalog_sha256": "39194ce1a7e95e18eaec5da1eb0c9cb6f7356a46191d6032da0011542b808788",
-  "gallery_sha256": "7d913841690dddd6bb8babef9112a89e9f5ecfdd713b541ef2e37e1618c4087c",
+  "exported_utc": "2026-10-10T22:03:03.962271+00:00",
+  "catalog_sha256": "2bc8a71892afd14d5e3f90c530eb546af79896b77c21e443d8ab6628f6cf90d7",
+  "gallery_sha256": "10bc5172467c68f3e7c5f14dd46f7c963fd49a125c06fe7d7bd243d6841318f9",
   "asset_count": 29,
   "selection": {
     "title": "Early Earth \u2014 supplementary figures",
@@ -303,23 +303,23 @@
     },
     {
       "path": "README.md",
-      "sha256": "d31ec53fb2d9e9f2acd491c66854983f782fe020b025bd120b84c6ca58557f92"
+      "sha256": "054adb888b0fe3bccd2ba5e73d38324830d6e113bd0b010b7d717d1a951cce39"
     },
     {
       "path": "START_HERE.html",
-      "sha256": "220d63750878e451267a3c64151071e48c0dfae9df9669eeeb6b14afa8371908"
+      "sha256": "dcc1f6f36baa8f722f872299cad0ff10c93bffdeb52d330c1d2f8e5fc8cad57f"
     },
     {
       "path": "catalog.csv",
-      "sha256": "8db729f97d2c0273e8cf5a9b0bc8222401fc713e5aa8b894db0815cb18cee666"
+      "sha256": "5de74553899d9890e0331442ee83b1d907b43ffaf275efdfffecc39d252219de"
     },
     {
       "path": "catalog.json",
-      "sha256": "0f590d7dbabf8e771c66bf0d9676bbaf8a14134a5ea48d97b1e697a834740c06"
+      "sha256": "8ff9f11ba063733e13f7274a01e9fd7fca9ada141abe6137fb8706f8796a3189"
     },
     {
       "path": "index.html",
-      "sha256": "62a9e454d6dc43086aebd30da7d875cbf0a5028a7d50468175b4b27ae6ef70f3"
+      "sha256": "d1a022f8db3cdbfd67086e5b10396fa032f057d4ce82f5f9106e0d1fdb886aae"
     }
   ],
   "repaired_links": [],

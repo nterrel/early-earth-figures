@@ -8,7 +8,7 @@ share a card. [The reading guide](START_HERE.html) explains the collection.
 Continue to the [complete figure library](../index.html) for the other collection.
 
 Figure descriptions explain what is shown. Expand **Figure details** for the
-technical notes, source paths and hashes. Historical views and representation
+technical notes, source paths and hashes. Simulation views and representation
 diagnostics appear in the full library; they are not all manuscript candidates.
 Distinct strings describe observed connectivity, rather than independently
 confirmed chemical species. Repeated appearances describe sampling recurrence,
@@ -19,8 +19,8 @@ whether the comment concerns scientific content, presentation or selection.
 
 [catalog.csv](catalog.csv) and [export_manifest.json](export_manifest.json)
 record figure provenance. This website contains portable figure copies and
-their reading-view dependencies. Source figures are unchanged. Some historical
-HTML views load external MathJax/RequireJS libraries and need internet access.
+their reading-view dependencies. Source figures are unchanged. Some HTML
+views load external MathJax/RequireJS libraries and need internet access.
 
 The maintained gallery sources are in
 [nterrel/early-earth-figures](https://github.com/nterrel/early-earth-figures).
