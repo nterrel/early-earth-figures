@@ -63,12 +63,12 @@ and [release-asset limits](https://docs.github.com/en/repositories/releasing-pro
 ## A shared browser link with GitHub Pages
 
 The public library uses the explicit [public selection](metadata/public_library_selection.json):
-144 assets in 113 groups after the author-requested A33 cleanup. Clickable HTML
+154 assets in 118 groups after the author-requested A33 cleanup and the five energy/time figure additions published on 2026-10-12. Clickable HTML
 panels form a horizontal reading strip, followed by animations and related still
 figures. The proposed supplement retains its 29 assets; final manuscript/SI
 selection remains A19. The site deploys the verified `site/` snapshot through
 GitHub Actions after every push to `main`. Original sources remain preserved. See
-[the current curation record](../early_earth_analysis_v2/docs/WEBSITE_REORGANIZATION_20261010.md).
+[the curation record](../early_earth_analysis_v2/docs/WEBSITE_REORGANIZATION_20261010.md) and [the five energy additions](../early_earth_analysis_v2/docs/ENERGY_FIGURES_WEBSITE_20261012.md).
 
 Prepare a new verified website from the current local workspace:
 

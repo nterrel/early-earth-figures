@@ -508,5 +508,30 @@
     "title": "Why unlabeled graph matching misidentified alanine",
     "description": "Early molfind assigned this fragment to alanine after matching its formula and unlabeled graph shape. (A) Element colors reveal different chemical connectivity. (B) Hiding element identity illustrates the false positive. The correction required categorical atom-element and bonded-element-pair matching. GPU pipelines can screen candidates with counts or fingerprints, but named identities require element-aware connectivity verification.",
     "note": "Both panels show the fragment incorrectly matched as alanine. Dissertation \u00a75.1.2 / Fig. 5-2 (pp. 103\u2013104) and Appendix D (p. 129) document the early NetworkX error and its correction. Unlabeled isomorphism checks graph shape, not just atom/bond totals. The exact matcher ran on CPU in the GPU-accelerated workflow; hardware did not cause the failure. Edge labels were element pairs, not recovered bond orders/charge/stereochemistry. Original panel images remain available below; no source deletion or molecular redraw."
+  },
+  "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228": {
+    "title": "Temperature and potential-energy histories: 228 atoms",
+    "description": "Energy/temperature density and existing hot detail above measured temperature/time and a new raw potential-energy/time subplot. Four matched source milestones and transparent callouts connect the views.",
+    "note": "Local F09/A34/A19 diagnostic; all full source energy observations plotted separately by source block. Times New Roman, prior density counts/crops and line styles retained. Whole-hold energy standard deviation includes slow variation, not only equilibrium fluctuations. Receipt: early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/potential_energy_validation.json."
+  },
+  "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000": {
+    "title": "Temperature and potential-energy histories: 228,000 atoms",
+    "description": "Energy/temperature density and existing hot detail above measured temperature/time and a new raw potential-energy/time subplot. Four matched source milestones and transparent callouts connect the views.",
+    "note": "Local F09/A34/A19 diagnostic; all full source energy observations plotted separately by source block. Times New Roman, prior density counts/crops and line styles retained. Whole-hold energy standard deviation includes slow variation, not only equilibrium fluctuations. Receipt: early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/potential_energy_validation.json."
+  },
+  "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000": {
+    "title": "Temperature and potential-energy histories: 22.8 million atoms",
+    "description": "Energy/temperature density and existing hot detail above measured temperature/time and a new raw potential-energy/time subplot. Four matched source milestones and transparent callouts connect the views.",
+    "note": "Local F09/A34/A19 diagnostic; all full source energy observations plotted separately by source block. Times New Roman, prior density counts/crops and line styles retained. Whole-hold energy standard deviation includes slow variation, not only equilibrium fluctuations. Receipt: early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/potential_energy_validation.json."
+  },
+  "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms": {
+    "title": "Potential energy versus time: complete simulations",
+    "description": "Three 2D histograms show raw total potential energy against the full 0\u20134.4 ns simulation time for 228, 228,000 and 22.8 million atoms. Independent energy axes and inset count bars share a common time axis; color denotes logged observations per bin.",
+    "note": "All 1,070,075 observations retained, including all phases and repeated/restarted records. 400 \u00d7 400 bins per panel, logarithmic count color, Times New Roman. No centering, per-atom normalization or smoothing. Local F09/A34/A19 candidate; source models/densities/sampling differ. Validation: early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/time_energy_validation.json."
+  },
+  "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms": {
+    "title": "Potential energy versus time: full 2500 K hold",
+    "description": "Three 2D count histograms of raw total potential energy versus time during the programmed 2500 K hold, 0.2\u20134.2 ns. Independent hot-stage energy ranges expose variation; outside count bars keep data clear.",
+    "note": "Setup phase 2, not an instantaneous-temperature filter. All 320,001 / 320,001 / 334,062 hot observations retained, including overlaps. 400 \u00d7 400 bins; logarithmic count colors; Times New Roman. No local centering or per-atom normalization. F09/A34/A19 local candidate; no equilibrium or matched-condition claim. Receipt: early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/time_energy_validation.json."
   }
 }

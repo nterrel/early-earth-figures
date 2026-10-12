@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "exported_utc": "2026-10-10T22:02:54.636981+00:00",
-  "catalog_sha256": "8088dbcd9ca350f10adbff971545ed4bb1973bf3c46cd10b3c6491178e99bc5c",
-  "gallery_sha256": "6f3512bd7416fa379e6f76b8b0be3b4521b86cfd3eeaef3f84cdb37f41faa07c",
-  "asset_count": 144,
+  "exported_utc": "2026-10-12T21:11:25.246153+00:00",
+  "catalog_sha256": "7ce2c5ab525979bc87b7d74cb922d0b4967a5c0f5544d395db8936fafbfdb301",
+  "gallery_sha256": "3bccba5ade384a827fc543abcca104c217591a07dc5715a9761e37794b3f89b5",
+  "asset_count": 154,
   "selection": {
     "title": "Early Earth figure library",
     "description": "Explore energy changes, molecular geometry, fragment populations, and structural diversity. Start with guided reading views and animations, then browse related figures by theme or search.",
@@ -152,18 +152,108 @@
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
       "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png"
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.png"
     ],
-    "file": "/mnt/x/scratch/EARLY_EARTH_PUBLICATION_v1/figures/metadata/public_library_selection.json",
-    "sha256": "d1efa54d90c4eaa2d7c03c648bde8fba65eacc7c1125d0f42cefc3036434e390"
+    "file": "/mnt/x/scratch/early_earth_publication_v1/figures/metadata/public_library_selection.json",
+    "sha256": "0d11df66c2ece686b342b2a63546e11a1fb3468c7ccb05ed241f45e1896fd3af"
   },
   "linked_dependency_count": 396,
-  "local_html_links_checked": 882,
+  "local_html_links_checked": 907,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
   ],
   "files": [
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.pdf",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-full_run_time_energy_histograms_20261011-iteration1__F09_full_run_potential_energy_time_histograms.pdf",
+      "source_sha256": "3e837dcabbf35b93389ba0e2134a37c9fb1eb9ea91130089e9ce70b764933973",
+      "role": "catalog figure",
+      "export_sha256": "3e837dcabbf35b93389ba0e2134a37c9fb1eb9ea91130089e9ce70b764933973",
+      "export_bytes": 163187
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.png",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-full_run_time_energy_histograms_20261011-iteration1__F09_full_run_potential_energy_time_histograms.png",
+      "source_sha256": "e982d95d94f4cc3f61581e3267cd53c9d33d42549c4bdaf8832a9443c2b77968",
+      "role": "catalog figure",
+      "export_sha256": "e982d95d94f4cc3f61581e3267cd53c9d33d42549c4bdaf8832a9443c2b77968",
+      "export_bytes": 586686
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.pdf",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-hot_hold_time_energy_histograms_20261012-iteration1__F09_hot_hold_potential_energy_time_histograms.pdf",
+      "source_sha256": "b4eb404385997add056de05192b519a8461121a996d03579b3afee382d33eb44",
+      "role": "catalog figure",
+      "export_sha256": "b4eb404385997add056de05192b519a8461121a996d03579b3afee382d33eb44",
+      "export_bytes": 251322
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.png",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-hot_hold_time_energy_histograms_20261012-iteration1__F09_hot_hold_potential_energy_time_histograms.png",
+      "source_sha256": "440da5302f591dce52e967abf35048d39c6fc857a2c4ce1fc869fdcb3f514a96",
+      "role": "catalog figure",
+      "export_sha256": "440da5302f591dce52e967abf35048d39c6fc857a2c4ce1fc869fdcb3f514a96",
+      "export_bytes": 775799
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.pdf",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228.pdf",
+      "source_sha256": "62e3c09db8271ce57964c787f95fb09b3a3a86adfd05570ae6537fde561b0f33",
+      "role": "catalog figure",
+      "export_sha256": "62e3c09db8271ce57964c787f95fb09b3a3a86adfd05570ae6537fde561b0f33",
+      "export_bytes": 222805
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.png",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228.png",
+      "source_sha256": "84d2cc560713807d5eaeb978205a44197acd91701bdacdc2322b7472a0149618",
+      "role": "catalog figure",
+      "export_sha256": "84d2cc560713807d5eaeb978205a44197acd91701bdacdc2322b7472a0149618",
+      "export_bytes": 743329
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.pdf",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228000.pdf",
+      "source_sha256": "d89771720b3a0d097da7c0db765fd96501131668fc181f09ff8a9c0e221da6f6",
+      "role": "catalog figure",
+      "export_sha256": "d89771720b3a0d097da7c0db765fd96501131668fc181f09ff8a9c0e221da6f6",
+      "export_bytes": 181400
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.png",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228000.png",
+      "source_sha256": "3b49009438e3fd0c97f4fc4c32d82db832699cd520d5054cdcdd00628bcb47f9",
+      "role": "catalog figure",
+      "export_sha256": "3b49009438e3fd0c97f4fc4c32d82db832699cd520d5054cdcdd00628bcb47f9",
+      "export_bytes": 910643
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.pdf",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_22800000.pdf",
+      "source_sha256": "4bed9944a40b01919332f2262b5edcfd5b770a08943401ef87a05996dc918559",
+      "role": "catalog figure",
+      "export_sha256": "4bed9944a40b01919332f2262b5edcfd5b770a08943401ef87a05996dc918559",
+      "export_bytes": 177359
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.png",
+      "export_path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_22800000.png",
+      "source_sha256": "7a9d972dbf07a66b8217de69bfdb525fb7972d3cafca689a094c374ae4e5fdea",
+      "role": "catalog figure",
+      "export_sha256": "7a9d972dbf07a66b8217de69bfdb525fb7972d3cafca689a094c374ae4e5fdea",
+      "export_bytes": 916735
+    },
     {
       "source_path": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
       "export_path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.pdf",
@@ -4492,7 +4582,7 @@
     },
     {
       "path": "01_energy_evolution/README.md",
-      "sha256": "decb7486c2443a614c39b0c1b80f5286432d666bb592389a807bf6eb49c18c89"
+      "sha256": "f5ac336319d85cd8f1829c9e9410e05223f0d6db3b23066d20b9f951d815f948"
     },
     {
       "path": "02_alanine_and_conformations/README.md",
@@ -4536,15 +4626,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "105d4523c274c667ecba3ad08c91d0d2c2e98b537918bf80ba42bd7f7a9e35d4"
+      "sha256": "6cb98539287709f46fe3f8a53102ed5e31ca3fe84fa05498a8a05c555e92b924"
     },
     {
       "path": "catalog.json",
-      "sha256": "9df3792473d538ad4164ccf571a04ab2398530707f7bd03f1d602ece7b315bc3"
+      "sha256": "c6cbae1d6028788f705f2766167ef0ba5cd1c4433d13eeccc3211fdf631a41ba"
     },
     {
       "path": "index.html",
-      "sha256": "ab0739bcb3ab21d559d9d17844fb1eab1ef2cc53f7f998a29ca1f4be6decc8f1"
+      "sha256": "1b096c00e3ae87650091ca8deb533878ddb006558dc2dd0c06d7e8e7982539ef"
     }
   ],
   "repaired_links": [

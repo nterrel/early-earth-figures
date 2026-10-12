@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-10T22:03:33.615119+00:00",
+  "prepared_utc": "2026-10-12T21:12:06.131644+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
     "path": "index.html",
-    "asset_count": 144
+    "asset_count": 154
   },
   "supplement": {
     "path": "supplement/index.html",
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "8088dbcd9ca350f10adbff971545ed4bb1973bf3c46cd10b3c6491178e99bc5c",
+  "source_catalog_sha256": "7ce2c5ab525979bc87b7d74cb922d0b4967a5c0f5544d395db8936fafbfdb301",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static publication bundle. Contains catalog figures and linked display dependencies; source files are unchanged. Preparation does not upload or enable GitHub Pages.",
   "files": [
@@ -23,8 +23,58 @@
     },
     {
       "path": "01_energy_evolution/README.md",
-      "sha256": "decb7486c2443a614c39b0c1b80f5286432d666bb592389a807bf6eb49c18c89",
-      "bytes": 239
+      "sha256": "f5ac336319d85cd8f1829c9e9410e05223f0d6db3b23066d20b9f951d815f948",
+      "bytes": 240
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-full_run_time_energy_histograms_20261011-iteration1__F09_full_run_potential_energy_time_histograms.pdf",
+      "sha256": "3e837dcabbf35b93389ba0e2134a37c9fb1eb9ea91130089e9ce70b764933973",
+      "bytes": 163187
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-full_run_time_energy_histograms_20261011-iteration1__F09_full_run_potential_energy_time_histograms.png",
+      "sha256": "e982d95d94f4cc3f61581e3267cd53c9d33d42549c4bdaf8832a9443c2b77968",
+      "bytes": 586686
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-hot_hold_time_energy_histograms_20261012-iteration1__F09_hot_hold_potential_energy_time_histograms.pdf",
+      "sha256": "b4eb404385997add056de05192b519a8461121a996d03579b3afee382d33eb44",
+      "bytes": 251322
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-hot_hold_time_energy_histograms_20261012-iteration1__F09_hot_hold_potential_energy_time_histograms.png",
+      "sha256": "440da5302f591dce52e967abf35048d39c6fc857a2c4ce1fc869fdcb3f514a96",
+      "bytes": 775799
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228.pdf",
+      "sha256": "62e3c09db8271ce57964c787f95fb09b3a3a86adfd05570ae6537fde561b0f33",
+      "bytes": 222805
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228.png",
+      "sha256": "84d2cc560713807d5eaeb978205a44197acd91701bdacdc2322b7472a0149618",
+      "bytes": 743329
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228000.pdf",
+      "sha256": "d89771720b3a0d097da7c0db765fd96501131668fc181f09ff8a9c0e221da6f6",
+      "bytes": 181400
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_228000.png",
+      "sha256": "3b49009438e3fd0c97f4fc4c32d82db832699cd520d5054cdcdd00628bcb47f9",
+      "bytes": 910643
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_22800000.pdf",
+      "sha256": "4bed9944a40b01919332f2262b5edcfd5b770a08943401ef87a05996dc918559",
+      "bytes": 177359
+    },
+    {
+      "path": "01_energy_evolution/energy_hysteresis-results-potential_energy_fluctuations_20261011-iteration3__F09_workshop_schedule_subplot_22800000.png",
+      "sha256": "7a9d972dbf07a66b8217de69bfdb525fb7972d3cafca689a094c374ae4e5fdea",
+      "bytes": 916735
     },
     {
       "path": "01_energy_evolution/energy_hysteresis-results__F09_energy_hysteresis_raw.pdf",
@@ -2778,23 +2828,23 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "105d4523c274c667ecba3ad08c91d0d2c2e98b537918bf80ba42bd7f7a9e35d4",
-      "bytes": 198937
+      "sha256": "6cb98539287709f46fe3f8a53102ed5e31ca3fe84fa05498a8a05c555e92b924",
+      "bytes": 218753
     },
     {
       "path": "catalog.json",
-      "sha256": "9df3792473d538ad4164ccf571a04ab2398530707f7bd03f1d602ece7b315bc3",
-      "bytes": 311664
+      "sha256": "c6cbae1d6028788f705f2766167ef0ba5cd1c4433d13eeccc3211fdf631a41ba",
+      "bytes": 336972
     },
     {
       "path": "export_manifest.json",
-      "sha256": "2dceba24a005d96bf8c998b1e4e89eb0920dfcc1cba6e6773d3b305c18fe8cc0",
-      "bytes": 535172
+      "sha256": "b4fb95050a5a9dcc74132a9abf9dc70203888c0e47bf23e85e2bd1cd8a2e33cd",
+      "bytes": 542808
     },
     {
       "path": "index.html",
-      "sha256": "ab0739bcb3ab21d559d9d17844fb1eab1ef2cc53f7f998a29ca1f4be6decc8f1",
-      "bytes": 221945
+      "sha256": "1b096c00e3ae87650091ca8deb533878ddb006558dc2dd0c06d7e8e7982539ef",
+      "bytes": 236365
     },
     {
       "path": "supplement/.nojekyll",
