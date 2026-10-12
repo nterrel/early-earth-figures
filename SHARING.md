@@ -24,6 +24,29 @@ source hashes, share-copy hashes and repaired links. Comments should identify th
 figure ID, title and exact download filename; final selection remains in the
 publication plan.
 
+## Comments directly in the hosted gallery
+
+Choose **Comments** beneath a figure, sign in with GitHub, and leave feedback or
+reply in the gallery. Comments are public and stored in this repository's GitHub
+Discussions through giscus; saving does not require a commit or website rebuild.
+Matching PNG/PDF and supplement cards share a discussion. Threads are tied to
+the published preview's SHA-256 and source-group identity, so changed artwork
+gets its own thread. Unsent drafts survive switching figures within the same page.
+
+`metadata/gallery_comments.json` contains public repository/category identifiers;
+`giscus.json` limits embedding origins. No repository token is shipped. Future
+`tools/prepare_pages.py` builds include the controls automatically; portable ZIP
+exports keep their offline behavior. The comments-only overlay can preserve an
+already published snapshot without refreshing unpublished plots:
+
+```bash
+python3 figures/tools/gallery_comments.py --stage figures/build/comments-preview
+```
+
+Use this overlay only on a snapshot without comments. Inspect/validate the
+result before staging it under `site/`. GitHub moderates the discussions;
+review feedback does not itself select or approve manuscript figures.
+
 ## Preview the proposed supplemental material
 
 The maintained [supplement selection](metadata/supplement_selection.json) lists

@@ -14,8 +14,9 @@ Distinct strings describe observed connectivity, rather than independently
 confirmed chemical species. Repeated appearances describe sampling recurrence,
 rather than fragment lifetimes.
 
-When commenting, identify the figure title and exact download filename. Explain
-whether the comment concerns scientific content, presentation or selection.
+Choose **Comments** beneath a figure, sign in with GitHub, and leave feedback
+or reply in the gallery. Comments are public and attached to the reviewed artwork
+version. PNG/PDF variants and matching supplement cards share a discussion.
 
 [catalog.csv](catalog.csv) and [export_manifest.json](export_manifest.json)
 record figure provenance. This website contains portable figure copies and

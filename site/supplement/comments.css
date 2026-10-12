@@ -1,0 +1,16 @@
+.figure-comments-button{display:block;margin-top:1rem;padding:.6rem .9rem;border:1px solid #9cb7c5;border-radius:.4rem;background:#edf5f8;color:#16475f;font:600 .88rem system-ui;cursor:pointer}
+.figure-comments-button:hover{background:#dcecf3}
+.figure-comments-button:focus-visible,.comment-close:focus-visible{outline:3px solid #967bb6;outline-offset:3px}
+.comment-dialog{box-sizing:border-box;width:min(760px,calc(100vw - 24px));max-height:90dvh;padding:1.3rem;border:1px solid #bccbd6;border-radius:.7rem;color:#202d39;background:white;overflow:auto}
+.comment-dialog::backdrop{background:rgba(16,43,58,.6)}
+.comment-heading{display:flex;align-items:start;gap:1rem;justify-content:space-between}
+.comment-heading h2{font-size:1.25rem;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.comment-close{flex-shrink:0;border:1px solid #bdcbd3;border-radius:.35rem;background:white;padding:.5rem .7rem;font:inherit;cursor:pointer;color:#234f64}
+.comment-help,.comment-version{font:.85rem/1.5 system-ui;color:#566977}
+.comment-version a{color:#126580}
+.comment-host{margin-top:1rem;min-height:100px}
+.comment-host[hidden]{display:none}
+.comment-host iframe{display:block;width:100%;min-height:280px;border:0;color-scheme:light}
+.comment-status{font:.9rem/1.5 system-ui;color:#566977}
+.comment-retry{font:inherit;cursor:pointer;padding:.4rem .7rem}
+@media(max-width:480px){.comment-dialog{padding:1rem}.comment-heading h2{font-size:1.1rem}}

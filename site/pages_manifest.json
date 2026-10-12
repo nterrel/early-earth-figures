@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "prepared_utc": "2026-10-12T21:12:06.131644+00:00",
+  "prepared_utc": "2026-10-12T21:33:41.978814+00:00",
   "repository": "https://github.com/nterrel/early-earth-figures",
   "intended_url": "https://nterrel.github.io/early-earth-figures/",
   "homepage": {
@@ -833,13 +833,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "e67649ee184e54e4f894cef2a0293fdfef53f90ceec435b205344b340b3fbd75",
-      "bytes": 1487
+      "sha256": "c98bd84c835643ac91b25e97c1400fc5424a46d7a97424f5019c29bfc667aacc",
+      "bytes": 1567
     },
     {
       "path": "START_HERE.html",
-      "sha256": "b1e63fbea03b0178269b7902951be9bf0c8d6cd1e364d9c59621f75c3063899e",
-      "bytes": 1693
+      "sha256": "22ed01c34d03269621161a257d47ddf236f55bc06a4286e2b6fb66b4d429403e",
+      "bytes": 1682
     },
     {
       "path": "_support/README.md",
@@ -2837,14 +2837,24 @@
       "bytes": 336972
     },
     {
+      "path": "comments.css",
+      "sha256": "6af217ba298575d6c8b0f326a558c329ae0c1474a6a199ca655f8e17dc2d77e7",
+      "bytes": 1434
+    },
+    {
+      "path": "comments.js",
+      "sha256": "a60a45747ad46ee38e51a4c70a986676d81af51d47214b4c43d771c268de0f16",
+      "bytes": 7073
+    },
+    {
       "path": "export_manifest.json",
-      "sha256": "b4fb95050a5a9dcc74132a9abf9dc70203888c0e47bf23e85e2bd1cd8a2e33cd",
-      "bytes": 542808
+      "sha256": "a27d745b461cd09f8d9474270c3ec305ca1d315f5ba8d1894e8e40e4b7e6a039",
+      "bytes": 543263
     },
     {
       "path": "index.html",
-      "sha256": "1b096c00e3ae87650091ca8deb533878ddb006558dc2dd0c06d7e8e7982539ef",
-      "bytes": 236365
+      "sha256": "58ca6f7ee78530cd337e042796526c1977b228561f54b3c80f0863f9ce6dea2e",
+      "bytes": 363953
     },
     {
       "path": "supplement/.nojekyll",
@@ -3018,13 +3028,13 @@
     },
     {
       "path": "supplement/README.md",
-      "sha256": "054adb888b0fe3bccd2ba5e73d38324830d6e113bd0b010b7d717d1a951cce39",
-      "bytes": 1567
+      "sha256": "c60420b837ff7645303aa3642d9977cc62886fa665533e708209ac30f1da3a1a",
+      "bytes": 1647
     },
     {
       "path": "supplement/START_HERE.html",
-      "sha256": "dcc1f6f36baa8f722f872299cad0ff10c93bffdeb52d330c1d2f8e5fc8cad57f",
-      "bytes": 1793
+      "sha256": "7ce3ff8d0d68ab9b561fef9fc3d2a8436c8f48cc84bd9e986380410f86488fbf",
+      "bytes": 1782
     },
     {
       "path": "supplement/catalog.csv",
@@ -3037,14 +3047,29 @@
       "bytes": 102199
     },
     {
+      "path": "supplement/comments.css",
+      "sha256": "6af217ba298575d6c8b0f326a558c329ae0c1474a6a199ca655f8e17dc2d77e7",
+      "bytes": 1434
+    },
+    {
+      "path": "supplement/comments.js",
+      "sha256": "a60a45747ad46ee38e51a4c70a986676d81af51d47214b4c43d771c268de0f16",
+      "bytes": 7073
+    },
+    {
       "path": "supplement/export_manifest.json",
-      "sha256": "15a4e09c886eb33110cda46b3e7554d13681a64c7bc7c3edc48624a652271a06",
-      "bytes": 21188
+      "sha256": "686b285705fccdc82dc85a580127b93286c67e2ca53b5098132ab576242fdde1",
+      "bytes": 21643
     },
     {
       "path": "supplement/index.html",
-      "sha256": "d1a022f8db3cdbfd67086e5b10396fa032f057d4ce82f5f9106e0d1fdb886aae",
-      "bytes": 39464
+      "sha256": "b80dab9815a3a1935e2c03f8240659b6b8422a9c836aae79d88999c66b2036c9",
+      "bytes": 58572
     }
-  ]
+  ],
+  "comments_overlay": {
+    "previous_manifest_sha256": "cfa8d5a615de7556aa94781bf99263c0ca0de286d11b6e06b9aa7bbf8623f66b",
+    "source_assets_unchanged": true,
+    "configuration_sha256": "8d6c5e15fda10259c9c6073bad89e08ca5ea986c36cb1f2f19e6b7cbe92adef9"
+  }
 }

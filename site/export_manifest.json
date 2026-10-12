@@ -168,7 +168,7 @@
     "sha256": "0d11df66c2ece686b342b2a63546e11a1fb3468c7ccb05ed241f45e1896fd3af"
   },
   "linked_dependency_count": 396,
-  "local_html_links_checked": 907,
+  "local_html_links_checked": 909,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
@@ -4614,11 +4614,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "e67649ee184e54e4f894cef2a0293fdfef53f90ceec435b205344b340b3fbd75"
+      "sha256": "c98bd84c835643ac91b25e97c1400fc5424a46d7a97424f5019c29bfc667aacc"
     },
     {
       "path": "START_HERE.html",
-      "sha256": "b1e63fbea03b0178269b7902951be9bf0c8d6cd1e364d9c59621f75c3063899e"
+      "sha256": "22ed01c34d03269621161a257d47ddf236f55bc06a4286e2b6fb66b4d429403e"
     },
     {
       "path": "_support/README.md",
@@ -4634,7 +4634,15 @@
     },
     {
       "path": "index.html",
-      "sha256": "1b096c00e3ae87650091ca8deb533878ddb006558dc2dd0c06d7e8e7982539ef"
+      "sha256": "58ca6f7ee78530cd337e042796526c1977b228561f54b3c80f0863f9ce6dea2e"
+    },
+    {
+      "path": "comments.js",
+      "sha256": "a60a45747ad46ee38e51a4c70a986676d81af51d47214b4c43d771c268de0f16"
+    },
+    {
+      "path": "comments.css",
+      "sha256": "6af217ba298575d6c8b0f326a558c329ae0c1474a6a199ca655f8e17dc2d77e7"
     }
   ],
   "repaired_links": [
@@ -6754,5 +6762,11 @@
     "description": "Hosted reading guides and cross-links between the full library and proposed supplement.",
     "source_figures_unchanged": true,
     "cross_collection_link": "supplement/index.html"
+  },
+  "gallery_comments": {
+    "provider": "giscus",
+    "repository": "nterrel/early-earth-figures",
+    "visibility": "public",
+    "storage": "GitHub Discussions; saves do not redeploy the website."
   }
 }
