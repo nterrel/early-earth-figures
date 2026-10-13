@@ -44,7 +44,7 @@
     "sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3"
   },
   "linked_dependency_count": 0,
-  "local_html_links_checked": 85,
+  "local_html_links_checked": 87,
   "external_html_links": [],
   "files": [
     {
@@ -319,7 +319,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "b80dab9815a3a1935e2c03f8240659b6b8422a9c836aae79d88999c66b2036c9"
+      "sha256": "170a0ee39bb7af1308fb2770bb0ee8489aca9f83d8c4218101cdece168e998dd"
     },
     {
       "path": "comments.js",
@@ -328,6 +328,18 @@
     {
       "path": "comments.css",
       "sha256": "6af217ba298575d6c8b0f326a558c329ae0c1474a6a199ca655f8e17dc2d77e7"
+    },
+    {
+      "path": "preview.js",
+      "sha256": "f2675828d85a2aa45f91643a56123529d936ac4a56955bbdb520b7eddfce4c73"
+    },
+    {
+      "path": "preview.css",
+      "sha256": "4533892ff9df20b2501308a9edea3c3e7bb8ca33a950bc9e53d7380ba5a3d4b0"
+    },
+    {
+      "path": "228k-background.png",
+      "sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190"
     }
   ],
   "repaired_links": [],
@@ -341,6 +353,16 @@
     "provider": "giscus",
     "repository": "nterrel/early-earth-figures",
     "visibility": "public",
-    "storage": "GitHub Discussions; saves do not redeploy the website."
+    "storage": "GitHub Discussions; saves do not redeploy the website.",
+    "groups": 15
+  },
+  "gallery_presentation": {
+    "background_source": "graveyard/references/Dissertation_figures/figures/228k_lines_fullscreen.png",
+    "background_sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190",
+    "background_opacity": 0.8,
+    "image_dialog": "Escape-close, focus restoration, original download links",
+    "numbering_sha256": "b16b461ab8c6d615028c42f2e41019f668f16f851b17bd1d1ac371d4ae83f65f",
+    "displayed_panels": 0,
+    "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
   }
 }

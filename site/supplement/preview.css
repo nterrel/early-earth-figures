@@ -1,0 +1,23 @@
+body{background:#e7eef0;isolation:isolate}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:url("228k-background.png") center top/cover no-repeat;opacity:.8;pointer-events:none}
+header{background:#102b3a}article,.body,.preview{background:#fff}
+.preview a:has(img){display:flex;align-items:center;justify-content:center;width:100%;height:100%}
+nav{background:#fff;padding:1rem;border-radius:.5rem;box-sizing:border-box}
+section>h2,.section-description,footer{background:#fff;color:#202d39;padding:.65rem 1rem;border-radius:.4rem}
+.section-description{margin-top:0}section>h2{margin-bottom:0;border-radius:.4rem .4rem 0 0}
+.local-preview{font-size:.85rem;margin:0 0 .7rem;color:#cde5ee}
+.review-access{display:flex;align-items:center;gap:.65rem;flex-wrap:wrap;margin-top:1rem}
+.review-access button,.rating-star,.image-close,.review-login button{font:inherit;cursor:pointer;border:1px solid #9cb7c5;border-radius:.35rem;padding:.5rem .7rem;background:white;color:#16475f}
+.figure-rating{margin-top:1rem;border-top:1px solid #d8e0e8;padding-top:.75rem}
+.rating-stars{display:flex;gap:.25rem;flex-wrap:wrap}.rating-star{font-size:1.4rem;line-height:1;padding:.5rem;color:#69511a}
+.rating-star[aria-pressed=true]{background:#fff1bd;border-color:#9a7115}.rating-star:disabled{cursor:default;opacity:.55}
+.rating-summary,.rating-status{font-size:.82rem;color:#465968;margin:.4rem 0}
+.gallery-reference{margin:0 0 .5rem;font-weight:650}.gallery-reference a{color:#62417f}article[id]{scroll-margin-top:100px}
+.image-dialog,.review-login{box-sizing:border-box;border:1px solid #aabcc7;border-radius:.6rem;background:white;color:#202d39;width:min(96vw,1200px);max-height:94dvh;padding:1rem;overflow:auto}
+dialog::backdrop{background:rgba(9,25,35,.82)}
+.image-heading{display:flex;gap:1rem;align-items:start;justify-content:space-between}.image-heading h2{margin:0;font-size:1.1rem}
+.image-dialog img{display:block;max-width:100%;max-height:72dvh;width:auto;height:auto;object-fit:contain;margin:1rem auto}
+.image-original{display:inline-block;margin:.5rem 0}.image-close{flex-shrink:0}
+.review-login{width:min(460px,94vw)}.review-login label{display:block;margin:.8rem 0}.review-login input{display:block;width:100%;box-sizing:border-box;min-width:0;margin-top:.3rem}
+button:focus-visible,a:focus-visible{outline:3px solid #76549b;outline-offset:3px}
+@media(max-width:500px){main{padding:1rem}.image-dialog{padding:.65rem}.image-dialog img{max-height:68dvh}nav{position:static}body{background-attachment:scroll}.links{flex-wrap:wrap}.review-access{font-size:.85rem}}

@@ -24,6 +24,54 @@ source hashes, share-copy hashes and repaired links. Comments should identify th
 figure ID, title and exact download filename; final selection remains in the
 publication plan.
 
+## A37 local ratings and enlarged previews
+
+The original local A37 preview is a retained review snapshot. New previews use
+the current staged gallery and unchanged proposed supplement figure membership.
+It preserves source figures, the existing Comments controls and download links.
+Click a figure image to enlarge it; Escape closes the popup and returns focus.
+The 228k system image supplies the background behind opaque cards.
+The local preview also displays A39's agreed Gallery 2a/2b and 3a/3b references
+with shareable anchors; these are separate from manuscript/SI numbering.
+Public builds use an explicit 80%-opacity background layer and versioned CSS/JS
+URLs. Public star ratings remain deferred; public Comments retain giscus.
+
+From the project root:
+
+```bash
+python3 figures/tools/gallery_preview.py --output figures/build/a37-preview
+python3 figures/tools/serve_gallery_preview.py
+```
+
+The prepared preview already exists in this workspace; run only the server to
+use it. Open `http://127.0.0.1:8765/` and choose **Set up local reviewer** on first
+use. Choose a name and password. The preview owner can add further accounts:
+
+```bash
+python3 figures/tools/serve_gallery_preview.py --add-reviewer Adrian
+python3 figures/tools/serve_gallery_preview.py --add-reviewer Richard
+```
+
+These commands prompt for passwords and exit; restart the server if needed.
+One reviewer can save one 1–5 star rating per figure artwork version. Choosing
+another star replaces that reviewer's prior rating. The displayed average and
+reviewer count include all saved local votes; **Your rating** is account-specific.
+PNG/PDF and matching supplement cards share the comment source/version identity.
+Changed artwork starts a separate rating population and preserves old votes.
+
+Ratings and accounts persist in ignored `build/a37-feedback.sqlite`, outside the
+served snapshot; restarting the server or refreshing the page retains them.
+The server accepts only loopback connections. This is local review storage, not
+shared advisor feedback. Hosted ratings/access integration awaits A36/D25; static
+GitHub Pages alone cannot save these ratings. Existing Comments still use the
+public GitHub/giscus model. The public presentation includes the popup, background, labels and approved cuts; reviewer ratings remain local until D25 selects shared access/storage.
+Opening its HTML directly provides the gallery and popup but disables saving.
+
+For interface-only revisions use `gallery_preview.py --refresh-interface
+figures/build/a37-preview`; for a new baseline choose a fresh output directory
+and pass it to the server with `--directory`. Keep the feedback database path
+stable to retain votes. See the [A37 implementation record](../early_earth_analysis_v2/docs/WEBSITE_PREVIEW_A37_20261012.md).
+
 ## Comments directly in the hosted gallery
 
 Choose **Comments** beneath a figure, sign in with GitHub, and leave feedback or
@@ -86,7 +134,7 @@ and [release-asset limits](https://docs.github.com/en/repositories/releasing-pro
 ## A shared browser link with GitHub Pages
 
 The public library uses the explicit [public selection](metadata/public_library_selection.json):
-154 assets in 118 groups after the author-requested A33 cleanup and the five energy/time figure additions published on 2026-10-12. Clickable HTML
+149 assets in 113 groups after the approved A37 cuts and retirement of two superseded preliminary cards; all retained artwork and scientific captions remain unchanged. Clickable HTML
 panels form a horizontal reading strip, followed by animations and related still
 figures. The proposed supplement retains its 29 assets; final manuscript/SI
 selection remains A19. The site deploys the verified `site/` snapshot through

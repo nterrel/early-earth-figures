@@ -3,7 +3,7 @@
   "exported_utc": "2026-10-12T21:11:25.246153+00:00",
   "catalog_sha256": "7ce2c5ab525979bc87b7d74cb922d0b4967a5c0f5544d395db8936fafbfdb301",
   "gallery_sha256": "3bccba5ade384a827fc543abcca104c217591a07dc5715a9761e37794b3f89b5",
-  "asset_count": 154,
+  "asset_count": 149,
   "selection": {
     "title": "Early Earth figure library",
     "description": "Explore energy changes, molecular geometry, fragment populations, and structural diversity. Start with guided reading views and animations, then browse related figures by theme or search.",
@@ -14,7 +14,6 @@
       "Dissertation_figures/early_earth/alanine.png",
       "Dissertation_figures/early_earth/alanine_shaded.png",
       "Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time.png",
-      "Dissertation_figures/early_earth/figures/avg_mol_over_time_more_bins.png",
       "Dissertation_figures/early_earth/figures/avg_mol_time.png",
       "Dissertation_figures/early_earth/figures/counts_vs_time_CHHHH.png",
       "Dissertation_figures/early_earth/figures/counts_vs_time_CHN.png",
@@ -29,7 +28,6 @@
       "Dissertation_figures/early_earth/quench_analysis/named_mols_before-after_quench.png",
       "Dissertation_figures/early_earth/quench_analysis/updated_violins.png",
       "Dissertation_figures/early_earth/quench_analysis/violinplot-mol_counts-before-after-quench.png",
-      "Dissertation_figures/early_earth/rmsd_distribution.png",
       "Dissertation_figures/early_earth/updated_avg_n-atoms.png",
       "Dissertation_figures/early_earth/updated_graphmatcher.png",
       "Dissertation_figures/figures/228k_head_on.png",
@@ -59,7 +57,6 @@
       "early_earth_analysis_v2/analysis/advisor_figures/exploration/G10_smiles_occurrence_density.png",
       "early_earth_analysis_v2/analysis/advisor_figures/exploration/G11_historical_production_distribution_comparison.png",
       "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F12_mean_size_vs_frame.png",
-      "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F13_largest_size_vs_frame.png",
       "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d.png",
       "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/paired_size_comparison.png",
       "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_architecture_variety_abundance.png",
@@ -100,8 +97,6 @@
       "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/filtered_heavy_atom_mean_vs_frame.html",
       "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_figures.html",
       "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_mean_vs_frame.html",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F12_mean_fragment_size_preliminary.png",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F13_largest_fragment_preliminary.png",
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.png",
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.gif",
@@ -165,10 +160,10 @@
       "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.png"
     ],
     "file": "/mnt/x/scratch/early_earth_publication_v1/figures/metadata/public_library_selection.json",
-    "sha256": "0d11df66c2ece686b342b2a63546e11a1fb3468c7ccb05ed241f45e1896fd3af"
+    "sha256": "794eb61c8836ec04e872186c8a1c26e49a929cbe218f8d2ad2b6d7bf62825cfc"
   },
   "linked_dependency_count": 396,
-  "local_html_links_checked": 909,
+  "local_html_links_checked": 891,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
@@ -341,14 +336,6 @@
       "role": "catalog figure",
       "export_sha256": "8272a1e580a6569dae9db459a101e9b4b0391955438944a36b3b3eae39f793cf",
       "export_bytes": 32950
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/rmsd_distribution.png",
-      "export_path": "02_alanine_and_conformations/dissertation-early_earth__rmsd_distribution.png",
-      "source_sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
-      "role": "catalog figure",
-      "export_sha256": "0e3a4d532a4da395176bc44f4d4ea2de40e527c28c3cab53b70b6b030eea5714",
-      "export_bytes": 106492
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/figures/3d-d-ala.png",
@@ -543,14 +530,6 @@
       "export_bytes": 118471
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F13_largest_size_vs_frame.png",
-      "export_path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F13_largest_size_vs_frame.png",
-      "source_sha256": "f4472a524572821bda22e85703e5ebbb675b0d524ccc619bf80427b06da8184e",
-      "role": "catalog figure",
-      "export_sha256": "f4472a524572821bda22e85703e5ebbb675b0d524ccc619bf80427b06da8184e",
-      "export_bytes": 418454
-    },
-    {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d.png",
       "export_path": "04_quench_and_fragment_size/advisor_figures-notebook-exploration-advisor_requests__F14_coordinates_3d.png",
       "source_sha256": "4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0",
@@ -735,22 +714,6 @@
       "export_bytes": 409193
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F12_mean_fragment_size_preliminary.png",
-      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F12_mean_fragment_size_preliminary.png",
-      "source_sha256": "c36f11286bc5cd372faff1f694265d37d5c7eecbe4fc7f89f09d27d41cfca4b5",
-      "role": "catalog figure",
-      "export_sha256": "c36f11286bc5cd372faff1f694265d37d5c7eecbe4fc7f89f09d27d41cfca4b5",
-      "export_bytes": 218711
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F13_largest_fragment_preliminary.png",
-      "export_path": "04_quench_and_fragment_size/advisor_figures-results__F13_largest_fragment_preliminary.png",
-      "source_sha256": "7c6d15cec17adabf48768e55cadaa49d26a06c43e93bbf999e28279cae4bd71d",
-      "role": "catalog figure",
-      "export_sha256": "7c6d15cec17adabf48768e55cadaa49d26a06c43e93bbf999e28279cae4bd71d",
-      "export_bytes": 433956
-    },
-    {
       "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.pdf",
       "export_path": "04_quench_and_fragment_size/advisor_figures-results__F21_historical_96atom_comparison.pdf",
       "source_sha256": "ef24cf40a130b837ddd652cfe39a48012102a31adb49695854a3f874670cb764",
@@ -869,14 +832,6 @@
       "role": "catalog figure",
       "export_sha256": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
       "export_bytes": 1104076
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/early_earth/figures/avg_mol_over_time_more_bins.png",
-      "export_path": "04_quench_and_fragment_size/dissertation-early_earth-figures__avg_mol_over_time_more_bins.png",
-      "source_sha256": "fea9f6e07a0e9e0fd2829e2f2f4e81e313f28b520f1dc0731678247dcfdaa1fd",
-      "role": "catalog figure",
-      "export_sha256": "fea9f6e07a0e9e0fd2829e2f2f4e81e313f28b520f1dc0731678247dcfdaa1fd",
-      "export_bytes": 296544
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/figures/avg_mol_time.png",
@@ -4586,7 +4541,7 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "6744b8793a49c2097c87477e0ca62ec6a2ed9b740250743d66e2248fb1904863"
+      "sha256": "a14fc713c03e2d221fb7448ca540c6ee2622db2bf6cc559c4d0b7e3eef4143dc"
     },
     {
       "path": "03_scale_discovery_and_sampling/README.md",
@@ -4594,7 +4549,7 @@
     },
     {
       "path": "04_quench_and_fragment_size/README.md",
-      "sha256": "c9763dcfe8df0a4e4b23814a9a6dce09de1400d0f0d2090d8b2b49a0953d2ee3"
+      "sha256": "ca8f02ec72d1580fd5bcc68918853baaec24724e866559c84b92b2dcfdded538"
     },
     {
       "path": "05_composition_recurrence_and_topology/README.md",
@@ -4626,15 +4581,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "6cb98539287709f46fe3f8a53102ed5e31ca3fe84fa05498a8a05c555e92b924"
+      "sha256": "0d867b7385671f53674c791f12b6d8c08c6d8ec3616907ebf63a515c0a6b1212"
     },
     {
       "path": "catalog.json",
-      "sha256": "c6cbae1d6028788f705f2766167ef0ba5cd1c4433d13eeccc3211fdf631a41ba"
+      "sha256": "f8bb9ca6c02611f25ef1bc4df90e8049fa161129d95fac6ba9f53999db592708"
     },
     {
       "path": "index.html",
-      "sha256": "58ca6f7ee78530cd337e042796526c1977b228561f54b3c80f0863f9ce6dea2e"
+      "sha256": "2446ab21c0858a4f8e0e185e80a00e8e61fb6623b03b16bf8ede9388d8b86a5a"
     },
     {
       "path": "comments.js",
@@ -4643,6 +4598,18 @@
     {
       "path": "comments.css",
       "sha256": "6af217ba298575d6c8b0f326a558c329ae0c1474a6a199ca655f8e17dc2d77e7"
+    },
+    {
+      "path": "preview.js",
+      "sha256": "f2675828d85a2aa45f91643a56123529d936ac4a56955bbdb520b7eddfce4c73"
+    },
+    {
+      "path": "preview.css",
+      "sha256": "4533892ff9df20b2501308a9edea3c3e7bb8ca33a950bc9e53d7380ba5a3d4b0"
+    },
+    {
+      "path": "228k-background.png",
+      "sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190"
     }
   ],
   "repaired_links": [
@@ -6767,6 +6734,16 @@
     "provider": "giscus",
     "repository": "nterrel/early-earth-figures",
     "visibility": "public",
-    "storage": "GitHub Discussions; saves do not redeploy the website."
+    "storage": "GitHub Discussions; saves do not redeploy the website.",
+    "groups": 113
+  },
+  "gallery_presentation": {
+    "background_source": "graveyard/references/Dissertation_figures/figures/228k_lines_fullscreen.png",
+    "background_sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190",
+    "background_opacity": 0.8,
+    "image_dialog": "Escape-close, focus restoration, original download links",
+    "numbering_sha256": "b16b461ab8c6d615028c42f2e41019f668f16f851b17bd1d1ac371d4ae83f65f",
+    "displayed_panels": 4,
+    "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
   }
 }

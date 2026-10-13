@@ -21,6 +21,7 @@ from urllib.parse import unquote, urlsplit
 
 import export_share
 import gallery_comments
+import gallery_presentation
 
 FIGURES = Path(__file__).resolve().parents[1]
 PROJECT = FIGURES.parent
@@ -94,6 +95,9 @@ The maintained gallery sources are in
     # Comments belong only to hosted galleries, not disconnected ZIP snapshots.
     comment_result = gallery_comments.attach(directory, boundary)
     gallery_comments.bind_generated(directory)
+    manifest = json.loads(manifest_path.read_text())
+
+    gallery_presentation.attach(directory)
     manifest = json.loads(manifest_path.read_text())
     manifest['gallery_comments'].update(comment_result)
 

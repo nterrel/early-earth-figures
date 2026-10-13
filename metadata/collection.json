@@ -480,6 +480,337 @@
     {
       "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F17_variety_vs_abundance.png",
       "reason": "2026-10-10 author-authorized near-duplicate cleanup: F17 repeats the same PDF/CDF panels, labels and medians; keep the higher-resolution canonical notebook PNG/PDF. Visual comparison documented in A33; original retained."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/rmsd_distribution.*",
+      "scope": "public-library",
+      "reason": "A37 author-requested curated main-gallery exclusion, 2026-10-12. Nick: does not add much. Originals, central assets and manuscript inputs retained. Proposed supplement checked: no matching source group. Presentation publication authorized by Nick, 2026-10-12; shared ratings/access remain pending D25."
+    },
+    {
+      "pattern": "Dissertation_figures/early_earth/figures/avg_mol_over_time_more_bins.*",
+      "scope": "public-library",
+      "reason": "A37 author-requested curated main-gallery exclusion, 2026-10-12. Nick: misrepresents fragment-size mean; denominator-audit qualification retained. Originals, central assets and manuscript inputs retained. Proposed supplement checked: no matching source group. Presentation publication authorized by Nick, 2026-10-12; shared ratings/access remain pending D25."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F13_largest_size_vs_frame.*",
+      "scope": "public-library",
+      "reason": "A37 author-requested curated main-gallery exclusion, 2026-10-12. Nick: inferior adjacent duplicate. Originals, central assets and manuscript inputs retained. Proposed supplement checked: no matching source group. Presentation publication authorized by Nick, 2026-10-12; shared ratings/access remain pending D25."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/F09_square_bins_400.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. D21 explicitly selects iteration 7 of the 400-bin presentation.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/F09_square_bins_400",
+      "evidence": "early_earth_analysis_v2/docs/F09_SQUARE_BIN_REVIEW_20261010.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration2/F09_square_bins_400.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. D21 explicitly selects iteration 7 of the 400-bin presentation.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/F09_square_bins_400",
+      "evidence": "early_earth_analysis_v2/docs/F09_SQUARE_BIN_REVIEW_20261010.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration3/F09_square_bins_400.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. D21 explicitly selects iteration 7 of the 400-bin presentation.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/F09_square_bins_400",
+      "evidence": "early_earth_analysis_v2/docs/F09_SQUARE_BIN_REVIEW_20261010.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration4/F09_square_bins_400.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. D21 explicitly selects iteration 7 of the 400-bin presentation.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/F09_square_bins_400",
+      "evidence": "early_earth_analysis_v2/docs/F09_SQUARE_BIN_REVIEW_20261010.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration5/F09_square_bins_400.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. D21 explicitly selects iteration 7 of the 400-bin presentation.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/F09_square_bins_400",
+      "evidence": "early_earth_analysis_v2/docs/F09_SQUARE_BIN_REVIEW_20261010.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration6/F09_square_bins_400.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. D21 explicitly selects iteration 7 of the 400-bin presentation.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/square_bin_review_20261010/iteration7/F09_square_bins_400",
+      "evidence": "early_earth_analysis_v2/docs/F09_SQUARE_BIN_REVIEW_20261010.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration1/F09_workshop_schedule_subplot_228.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration1/F09_workshop_schedule_subplot_228000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration1/F09_workshop_schedule_subplot_22800000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration1/F09_workshop_schedule_subplots.pdf",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current five-page review includes the revised three system panels.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration2/F09_workshop_schedule_subplot_228.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration2/F09_workshop_schedule_subplot_228000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration2/F09_workshop_schedule_subplot_22800000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration2/F09_workshop_schedule_subplots.pdf",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current five-page review includes the revised three system panels.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration3/F09_workshop_schedule_subplot_228.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration3/F09_workshop_schedule_subplot_228000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration3/F09_workshop_schedule_subplot_22800000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration3/F09_workshop_schedule_subplots.pdf",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current five-page review includes the revised three system panels.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration4/F09_workshop_schedule_subplot_228.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration4/F09_workshop_schedule_subplot_228000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration4/F09_workshop_schedule_subplot_22800000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration4/F09_workshop_schedule_subplots.pdf",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current five-page review includes the revised three system panels.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration5/F09_workshop_schedule_subplot_228.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration5/F09_workshop_schedule_subplot_228000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration5/F09_workshop_schedule_subplot_22800000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current system figure adds raw PE/time to the preceding temperature-only schedule layout.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_schedule_20261011/iteration5/F09_workshop_schedule_subplots.pdf",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current five-page review includes the revised three system panels.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration2/F09_workshop_schedule_subplot_228.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current iteration 3 system panel supersedes the preceding system panel; separate late-window fluctuation results are retained.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration2/F09_workshop_schedule_subplot_228000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current iteration 3 system panel supersedes the preceding system panel; separate late-window fluctuation results are retained.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration2/F09_workshop_schedule_subplot_22800000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current iteration 3 system panel supersedes the preceding system panel; separate late-window fluctuation results are retained.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000",
+      "evidence": "early_earth_analysis_v2/docs/POTENTIAL_ENERGY_FLUCTUATIONS_20261011.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_energy_per_atom.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_linear_vs_signed_log.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_right_axis_time.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_shared_signed_log.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_stages_228.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_stages_228000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_stages_22800000.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_temperature_time.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/energy_hysteresis/results/energy_workshop_20261011/iteration3/F09_workshop_experiments.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Author explicitly removed these eight obsolete trial figures from the active reading path; the bundled experiment PDF is their wrapper.",
+      "replacement": "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_potential_energy_time_and_fluctuations.pdf",
+      "evidence": "early_earth_analysis_v2/docs/ENERGY_NOTEBOOK_CLEANUP_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/fragment_size_denominators_20261012/F12_F13_fragment_size_denominators.*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Iteration 2 binds identical figures plus additional independent validation.",
+      "replacement": "early_earth_analysis_v2/analysis/advisor_figures/results/fragment_size_denominators_20261012_iteration2/F12_F13_fragment_size_denominators",
+      "evidence": "early_earth_analysis_v2/docs/FRAGMENT_SIZE_DENOMINATOR_AUDIT_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/F12_mean_fragment_size_preliminary.png",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current complete-cohort notebook presentation supersedes the preliminary packet layouts.",
+      "replacement": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes",
+      "evidence": "early_earth_analysis_v2/docs/ADVISOR_FIGURE_WISHLIST.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/F13_largest_fragment_preliminary.png",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current complete-cohort notebook presentation supersedes the preliminary packet layouts.",
+      "replacement": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes",
+      "evidence": "early_earth_analysis_v2/docs/ADVISOR_FIGURE_WISHLIST.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/histogram_binning_review_20261012/*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current iteration 4 fixes the preceding rendering/review packets; original source packets remain local provenance.",
+      "replacement": "early_earth_analysis_v2/analysis/advisor_figures/results/histogram_binning_review_20261012_iteration4/review.html",
+      "evidence": "early_earth_analysis_v2/docs/HISTOGRAM_BINNING_REVIEW_A41_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/histogram_binning_review_20261012_iteration2/*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current iteration 4 fixes the preceding rendering/review packets; original source packets remain local provenance.",
+      "replacement": "early_earth_analysis_v2/analysis/advisor_figures/results/histogram_binning_review_20261012_iteration4/review.html",
+      "evidence": "early_earth_analysis_v2/docs/HISTOGRAM_BINNING_REVIEW_A41_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/histogram_binning_review_20261012_iteration3/*",
+      "reason": "2026-10-12 author-requested obsolete Codex-copy cleanup. Current iteration 4 fixes the preceding rendering/review packets; original source packets remain local provenance.",
+      "replacement": "early_earth_analysis_v2/analysis/advisor_figures/results/histogram_binning_review_20261012_iteration4/review.html",
+      "evidence": "early_earth_analysis_v2/docs/HISTOGRAM_BINNING_REVIEW_A41_20261012.md",
+      "cleanup_manifest": "early_earth_analysis_v2/analysis/figure_review/results/superseded_cleanup_20261012/cleanup_manifest.json"
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/histogram_binning_review_20261012_iteration4/*",
+      "reason": "Current A41 candidates remain analysis-local pending A19/A37 selection; not obsolete. Review linked in WEBSITE_FIGURE_REVIEW_20261012.md. Remove this collector exclusion when integrating selected captioned exports."
+    },
+    {
+      "pattern": "early_earth_analysis_v2/analysis/advisor_figures/results/fragment_size_histograms_20261012_iteration2/*",
+      "reason": "Current fragment-size histogram candidates remain analysis-local pending A19/A37 selection; not obsolete. Review linked in WEBSITE_FIGURE_REVIEW_20261012.md. Remove this collector exclusion when integrating selected captioned exports."
     }
   ],
   "gallery_bundles": [

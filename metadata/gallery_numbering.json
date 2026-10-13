@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source_map": "early_earth_analysis_v2/docs/records/GALLERY_NUMBERING_A39_D26_20261012_v3.json",
+  "source_map_sha256": "84714165a3c16310034ce38521a0de16f6c1b842d4a2adf880d24bfa3fb7d74f",
+  "namespace": "Gallery; separate from manuscript/SI numbering",
+  "reserved_family": 1,
+  "panels": {
+    "paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine": {
+      "label": "Gallery 2a",
+      "anchor": "gallery-alanine-quartet",
+      "approved_artwork_sha256": "504deae41e9da0c6f3e003c2bdf418088ce44942799de5fc11d59fb55bf5fc14"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated": {
+      "label": "Gallery 2b",
+      "anchor": "gallery-alanine-orientation",
+      "approved_artwork_sha256": "39aa8c98e718244268d8eba35e45c6aeba7826a4bf789f45957d2b17587d939d"
+    },
+    "Dissertation_figures/figures/3d-d-ala": {
+      "label": "Gallery 3a",
+      "anchor": "gallery-alanine-d",
+      "approved_artwork_sha256": "e7b4e63062fcfd1733fea906eff6daaa761e46a79ca0527830d6754cbdcd0716"
+    },
+    "Dissertation_figures/figures/3d-l-ala": {
+      "label": "Gallery 3b",
+      "anchor": "gallery-alanine-l",
+      "approved_artwork_sha256": "827d2c0e1f4b309231631fdb75cc3f9c6377fe1250ff8c161b8b191bf8cdad29"
+    }
+  }
+}

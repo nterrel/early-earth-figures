@@ -31,3 +31,15 @@ analysis stages or documented dates when chronology matters; preserve source
 paths, version lineage and scientific qualifications in the provenance records.
 The A33 follow-up groups RMSD with alanine, keeps the static 96-atom views in the
 figure collection and records the author-selected energy order in `gallery_order`.
+
+The approved A37 publication selection contains 149 assets/113 groups: three
+requested source-group cuts plus two retired preliminary F12/F13 cards. Original
+source files remain preserved; retained artwork and scientific captions are unchanged.
+The proposed supplement keeps all 29 assets. `gallery_numbering.json` binds only
+the four A39-agreed labels and anchors; Gallery 1 is reserved and other families
+remain unassigned. Labels do not change source/version feedback identities.
+The [local preview workflow](../SHARING.md#a37-local-ratings-and-enlarged-previews)
+uses durable reviewer accounts/ratings outside the static bundle; shared hosted
+feedback remains gated by A36/D25.
+
+The 2026-10-12 [obsolete-copy cleanup and website review list](../../early_earth_analysis_v2/docs/WEBSITE_FIGURE_REVIEW_20261012.md) archive 82 specifically superseded central copies and retain their original sources. Direct-replacement exclusions prevent recollection. The active catalog has 232 assets; the local public draft has 149 assets/113 groups after retiring the two preliminary F12/F13 images in favor of their already-selected combined plot. The original local A37 preview retains its earlier snapshot; the public presentation uses the 149-asset selection. Current A41 and fragment-size histogram candidates remain analysis-local until selected caption integration; their collector exclusions are deferrals, not obsolescence findings.
