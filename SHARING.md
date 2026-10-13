@@ -95,6 +95,18 @@ Use this overlay only on a snapshot without comments. Inspect/validate the
 result before staging it under `site/`. GitHub moderates the discussions;
 review feedback does not itself select or approve manuscript figures.
 
+For a prompted correction pass, Codex reads the complete version-bound thread,
+revises the figure, checks and publishes the correction, then closes resolved
+requests through GitHub CLI. Closed discussions remain on GitHub; their comments
+are hidden in the gallery after the refreshed status snapshot deploys. Current
+artwork receives its own discussion when its SHA-256 changes.
+
+Use `python3 figures/tools/gallery_feedback.py list --use-git-credential` and
+`read --number N --use-git-credential` to retrieve feedback. After a verified
+correction, use `close --number N --verified-change RECEIPT_OR_COMMIT --site figures/site --use-git-credential`,
+then commit/push the updated status and manifests. `sync` refreshes status without
+closing anything; `reopen --number N` reverses closure. Credentials stay in memory.
+
 ## Preview the proposed supplemental material
 
 The maintained [supplement selection](metadata/supplement_selection.json) lists

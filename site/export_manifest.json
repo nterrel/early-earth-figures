@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "exported_utc": "2026-10-12T21:11:25.246153+00:00",
-  "catalog_sha256": "7ce2c5ab525979bc87b7d74cb922d0b4967a5c0f5544d395db8936fafbfdb301",
+  "catalog_sha256": "c6f9e4c077e65c40fa9bd9bba1d38ac81c0d594f8b96fdb738565fba3bb8ccaa",
   "gallery_sha256": "3bccba5ade384a827fc543abcca104c217591a07dc5715a9761e37794b3f89b5",
-  "asset_count": 149,
+  "asset_count": 152,
   "selection": {
     "title": "Early Earth figure library",
     "description": "Explore energy changes, molecular geometry, fragment populations, and structural diversity. Start with guided reading views and animations, then browse related figures by theme or search.",
@@ -160,10 +160,10 @@
       "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.png"
     ],
     "file": "/mnt/x/scratch/early_earth_publication_v1/figures/metadata/public_library_selection.json",
-    "sha256": "794eb61c8836ec04e872186c8a1c26e49a929cbe218f8d2ad2b6d7bf62825cfc"
+    "sha256": "40dcf4769e2bb58e84c3f2e5daee5e2b249a6910a22d24a98b3e2037702df176"
   },
   "linked_dependency_count": 396,
-  "local_html_links_checked": 891,
+  "local_html_links_checked": 894,
   "external_html_links": [
     "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe",
     "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"
@@ -314,14 +314,6 @@
       "export_bytes": 212507
     },
     {
-      "source_path": "graveyard/references/Dissertation_figures/alanine/ala_conformers.gif",
-      "export_path": "02_alanine_and_conformations/dissertation-alanine__ala_conformers.gif",
-      "source_sha256": "99e0de77dbd1442a1716e32e1882ef2245a2979c4a4aa18566741edb9ab0154d",
-      "role": "catalog figure",
-      "export_sha256": "99e0de77dbd1442a1716e32e1882ef2245a2979c4a4aa18566741edb9ab0154d",
-      "export_bytes": 15138851
-    },
-    {
       "source_path": "graveyard/references/Dissertation_figures/early_earth/alanine.png",
       "export_path": "02_alanine_and_conformations/dissertation-early_earth__alanine.png",
       "source_sha256": "34daaa83ad8e51eee84f2346ee2accdb72bb5c7cedcf8a25719a23b7d766aa28",
@@ -336,22 +328,6 @@
       "role": "catalog figure",
       "export_sha256": "8272a1e580a6569dae9db459a101e9b4b0391955438944a36b3b3eae39f793cf",
       "export_bytes": 32950
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/figures/3d-d-ala.png",
-      "export_path": "02_alanine_and_conformations/dissertation-figures__3d-d-ala.png",
-      "source_sha256": "e7b4e63062fcfd1733fea906eff6daaa761e46a79ca0527830d6754cbdcd0716",
-      "role": "catalog figure",
-      "export_sha256": "e7b4e63062fcfd1733fea906eff6daaa761e46a79ca0527830d6754cbdcd0716",
-      "export_bytes": 129652
-    },
-    {
-      "source_path": "graveyard/references/Dissertation_figures/figures/3d-l-ala.png",
-      "export_path": "02_alanine_and_conformations/dissertation-figures__3d-l-ala.png",
-      "source_sha256": "827d2c0e1f4b309231631fdb75cc3f9c6377fe1250ff8c161b8b191bf8cdad29",
-      "role": "catalog figure",
-      "export_sha256": "827d2c0e1f4b309231631fdb75cc3f9c6377fe1250ff8c161b8b191bf8cdad29",
-      "export_bytes": 121470
     },
     {
       "source_path": "graveyard/references/Dissertation_figures/figures/d-ala.png",
@@ -1120,38 +1096,6 @@
       "role": "catalog figure",
       "export_sha256": "d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb",
       "export_bytes": 183678
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
-      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.gif",
-      "source_sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
-      "role": "catalog figure",
-      "export_sha256": "796fa684927f5a6ad3c573cc2320d011d0859835f21dd7561b471f67774ceb14",
-      "export_bytes": 7504197
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
-      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_alanine_formation.png",
-      "source_sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
-      "role": "catalog figure",
-      "export_sha256": "1a44312f0082baf1ace9a622f3560407df5038eb1a006b57ebd588325a3b57e3",
-      "export_bytes": 62499
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
-      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.gif",
-      "source_sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
-      "role": "catalog figure",
-      "export_sha256": "cf99b26a9fab4d812e1d95e2d9103ff9b89bcf09514586aeb4521e1bab0f354c",
-      "export_bytes": 6925669
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
-      "export_path": "05_composition_recurrence_and_topology/advisor_figures-results__F22_glycine_formation.png",
-      "source_sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
-      "role": "catalog figure",
-      "export_sha256": "f88ecb58cc39780a1556daf28535b338385d6d9ffc3fb797a961c9d01069668c",
-      "export_bytes": 63040
     },
     {
       "source_path": "early_earth_analysis_v2/figures/publication_revision/F05.pdf",
@@ -4528,6 +4472,86 @@
       "role": "reading-view dependency",
       "export_sha256": "3a89c12f00cace187ab1c2e231029103971aa1df4a6db92b815dbef591f8e77b",
       "export_bytes": 1010
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/recovered_XYZ_20261013/alanine_conformers_recovered_XYZ_standard.gif",
+      "export_path": "02_alanine_and_conformations/alanine_illustrations-results-recovered_XYZ_20261013__alanine_conformers_recovered_XYZ_standard.gif",
+      "source_sha256": "9d5d8ea456f4ac01558a43c774b407c4c7686518c31ba3c4362f058308b7793d",
+      "export_sha256": "9d5d8ea456f4ac01558a43c774b407c4c7686518c31ba3c4362f058308b7793d",
+      "export_bytes": 10356668,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/recovered_XYZ_20261013/alanine_conformers_recovered_XYZ_standard.png",
+      "export_path": "02_alanine_and_conformations/alanine_illustrations-results-recovered_XYZ_20261013__alanine_conformers_recovered_XYZ_standard.png",
+      "source_sha256": "9589820bad25c6a91815c85495f10b8a6fb9806157878270d8552b2023ca8d02",
+      "export_sha256": "9589820bad25c6a91815c85495f10b8a6fb9806157878270d8552b2023ca8d02",
+      "export_bytes": 86810,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/D_alanine_standard.pdf",
+      "export_path": "02_alanine_and_conformations/alanine_illustrations-results-standard_orientation_20261013__D_alanine_standard.pdf",
+      "source_sha256": "b77d2ca692c264bc092ab4e85eb865f46446dd319fd5e247f0211b7b1414b68c",
+      "export_sha256": "b77d2ca692c264bc092ab4e85eb865f46446dd319fd5e247f0211b7b1414b68c",
+      "export_bytes": 26839,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/D_alanine_standard.png",
+      "export_path": "02_alanine_and_conformations/alanine_illustrations-results-standard_orientation_20261013__D_alanine_standard.png",
+      "source_sha256": "25a27e54d66faf7a8521a748bb2e88b758a038476c303ce6998fa075ca47b424",
+      "export_sha256": "25a27e54d66faf7a8521a748bb2e88b758a038476c303ce6998fa075ca47b424",
+      "export_bytes": 52751,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.gif",
+      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_alanine_formation_standard.gif",
+      "source_sha256": "4c1b3b64becf5c60fbb74a94e3f1adc20dbdb00917b537eb198200910f0ca4ab",
+      "export_sha256": "4c1b3b64becf5c60fbb74a94e3f1adc20dbdb00917b537eb198200910f0ca4ab",
+      "export_bytes": 9115394,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.png",
+      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_alanine_formation_standard.png",
+      "source_sha256": "8e5fc495750e92b977cde3c9172c082e7d86a24b73c98e8268313e0928f648db",
+      "export_sha256": "8e5fc495750e92b977cde3c9172c082e7d86a24b73c98e8268313e0928f648db",
+      "export_bytes": 54261,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard.gif",
+      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_glycine_formation_standard.gif",
+      "source_sha256": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52",
+      "export_sha256": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52",
+      "export_bytes": 8404069,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard.png",
+      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_glycine_formation_standard.png",
+      "source_sha256": "385b4c672443d9e7a050bba4d6342a09f006cfb46a188b52fb2794d83634f6cf",
+      "export_sha256": "385b4c672443d9e7a050bba4d6342a09f006cfb46a188b52fb2794d83634f6cf",
+      "export_bytes": 55897,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/L_alanine_standard.pdf",
+      "export_path": "02_alanine_and_conformations/alanine_illustrations-results-standard_orientation_20261013__L_alanine_standard.pdf",
+      "source_sha256": "f6614d771382230e69260e6b9f7af0dae65916a3f97907168217c97e44a638eb",
+      "export_sha256": "f6614d771382230e69260e6b9f7af0dae65916a3f97907168217c97e44a638eb",
+      "export_bytes": 27518,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/L_alanine_standard.png",
+      "export_path": "02_alanine_and_conformations/alanine_illustrations-results-standard_orientation_20261013__L_alanine_standard.png",
+      "source_sha256": "2485b5e636f1d7d2d2f9078a5674bf595263d454a78ec9b49b79c66bd3223922",
+      "export_sha256": "2485b5e636f1d7d2d2f9078a5674bf595263d454a78ec9b49b79c66bd3223922",
+      "export_bytes": 54171,
+      "role": "catalog figure"
     }
   ],
   "generated_files": [
@@ -4541,7 +4565,7 @@
     },
     {
       "path": "02_alanine_and_conformations/README.md",
-      "sha256": "a14fc713c03e2d221fb7448ca540c6ee2622db2bf6cc559c4d0b7e3eef4143dc"
+      "sha256": "8e3d82f87c3b6cec8c2c170d8b7f3d34b5e536b2e14823b5f62a10edfc87904e"
     },
     {
       "path": "03_scale_discovery_and_sampling/README.md",
@@ -4581,19 +4605,19 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "0d867b7385671f53674c791f12b6d8c08c6d8ec3616907ebf63a515c0a6b1212"
+      "sha256": "1c105c70b5a225d54163c4689518c379b046f086154911070719d8ebc67adbc6"
     },
     {
       "path": "catalog.json",
-      "sha256": "f8bb9ca6c02611f25ef1bc4df90e8049fa161129d95fac6ba9f53999db592708"
+      "sha256": "c6f9e4c077e65c40fa9bd9bba1d38ac81c0d594f8b96fdb738565fba3bb8ccaa"
     },
     {
       "path": "index.html",
-      "sha256": "2446ab21c0858a4f8e0e185e80a00e8e61fb6623b03b16bf8ede9388d8b86a5a"
+      "sha256": "78f1c4e8cf61532492e924eb70bccdf040b17c135d3e3f4e7b9f496310a6bb1d"
     },
     {
       "path": "comments.js",
-      "sha256": "a60a45747ad46ee38e51a4c70a986676d81af51d47214b4c43d771c268de0f16"
+      "sha256": "1593d2cf0b756fdc8338285daeb178c8d1077119a0621fa150ce7a6c3d659551"
     },
     {
       "path": "comments.css",
@@ -4610,6 +4634,10 @@
     {
       "path": "228k-background.png",
       "sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190"
+    },
+    {
+      "path": "feedback_status.json",
+      "sha256": "c263b3a8cee229fa2507532e3cce445aa9ca44aa2086d8a7c0270686fffc0e34"
     }
   ],
   "repaired_links": [
@@ -6734,16 +6762,19 @@
     "provider": "giscus",
     "repository": "nterrel/early-earth-figures",
     "visibility": "public",
-    "storage": "GitHub Discussions; saves do not redeploy the website.",
-    "groups": 113
+    "storage": "GitHub Discussions; saves do not redeploy the website."
   },
   "gallery_presentation": {
     "background_source": "graveyard/references/Dissertation_figures/figures/228k_lines_fullscreen.png",
     "background_sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190",
     "background_opacity": 0.8,
     "image_dialog": "Escape-close, focus restoration, original download links",
-    "numbering_sha256": "b16b461ab8c6d615028c42f2e41019f668f16f851b17bd1d1ac371d4ae83f65f",
-    "displayed_panels": 4,
+    "numbering_sha256": "accc9e45a5320dba8b73924f5be796a2d97a95b477e4e66e0b35bc2ea5472125",
+    "displayed_panels": 113,
     "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
+  },
+  "amino_acid_review": {
+    "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
+    "previous_catalog_sha256": "f8bb9ca6c02611f25ef1bc4df90e8049fa161129d95fac6ba9f53999db592708"
   }
 }

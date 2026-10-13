@@ -8,6 +8,7 @@
   const config = JSON.parse(configElement.textContent);
   const provider = 'https://giscus.app';
   const frames = new Map();
+  const resolvedHosts = new Map();
   const buttons = new Map();
   let activeKey = null;
   let returnFocus = null;
@@ -89,7 +90,7 @@
     return entry;
   }
 
-  function openComments(key, button) {
+  async function openComments(key, button) {
     const review = config.figures[key];
     if (!review) return;
     activeKey = key;
@@ -103,11 +104,41 @@
     link.rel = 'noopener';
     version.append(link);
     for (const entry of frames.values()) entry.host.hidden = true;
-    const entry = frames.get(key) || createFrame(key, review);
-    entry.host.hidden = false;
+    for (const host of resolvedHosts.values()) host.hidden = true;
     history.replaceState(null, '', cleanUrl(key));
     if (!dialog.open) dialog.showModal();
     dialog.scrollTop = 0;
+    let resolved = null;
+    if (config.feedback_status_url) {
+      try {
+        const response = await fetch(config.feedback_status_url, {cache: 'no-store', signal: AbortSignal.timeout(3000)});
+        if (response.ok) {
+          const state = await response.json();
+          if (state.repository === config.repository) resolved = state.threads?.[review.term];
+        }
+      } catch (_) { /* Keep feedback available when the status snapshot cannot load. */ }
+    }
+    if (activeKey !== key || !dialog.open) return;
+    if (resolved?.closed === true && /^https:\/\/github\.com\/nterrel\/early-earth-figures\/discussions\/\d+$/.test(resolved.url)) {
+      let host = resolvedHosts.get(key);
+      if (!host) {
+        host = document.createElement('p');
+        host.className = 'comment-resolved';
+        host.textContent = 'Resolved feedback is hidden. ';
+        const archive = document.createElement('a');
+        archive.href = resolved.url;
+        archive.target = '_blank';
+        archive.rel = 'noopener';
+        archive.textContent = 'View discussion history on GitHub';
+        host.append(archive);
+        frameContainer.append(host);
+        resolvedHosts.set(key, host);
+      }
+      host.hidden = false;
+      return;
+    }
+    const entry = frames.get(key) || createFrame(key, review);
+    entry.host.hidden = false;
   }
 
   window.addEventListener('message', event => {

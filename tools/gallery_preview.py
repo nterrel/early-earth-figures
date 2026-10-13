@@ -62,8 +62,8 @@ def update_theme_counts(directory: Path, catalog: dict) -> None:
             path.write_text(re.sub(r'Browse these \d+ assets', f'Browse these {count} assets', path.read_text()))
 
 
-def prepare(destination: Path) -> dict:
-    source = FIGURES / 'site'
+def prepare(destination: Path, source_directory: Path | None = None) -> dict:
+    source = source_directory.resolve() if source_directory else FIGURES / 'site'
     prepare_pages.check(source, verify_sources=False)
     if destination.exists() or source in destination.parents:
         raise RuntimeError('Choose a fresh output directory outside site/')
@@ -95,7 +95,7 @@ def prepare(destination: Path) -> dict:
                       page, flags=re.DOTALL)
         page = page.replace('</style>', '</style><link rel="stylesheet" href="preview.css?v=' + export_share.digest(INTERFACE / 'preview.css')[:12] + '">', 1)
         page = page.replace('</html>', '<script src="preview.js?v=' + export_share.digest(INTERFACE / 'preview.js')[:12] + '" defer></script></html>')
-        page = page.replace('<header>', '<header><p class="local-preview">Local review preview · shared hosting awaits the access decision</p>', 1)
+        page = page.replace('<header>', '<header><p class="local-preview">Local review preview · provisional gallery numbers</p>', 1)
         page = page.replace('Click a preview for full resolution', 'Click a preview to enlarge; original downloads remain below each card')
         numbering = json.loads(NUMBERING.read_text())
         page = numbered_page(page, numbering)
@@ -146,13 +146,18 @@ def prepare(destination: Path) -> dict:
 
 
 def main() -> None:
+    global NUMBERING
     parser = argparse.ArgumentParser(description=__doc__)
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument('--output', type=Path)
     mode.add_argument('--refresh-interface', type=Path, help='Update only CSS/JS in an existing verified local overlay')
+    parser.add_argument('--source', type=Path, help='Optional selected review snapshot instead of site/')
+    parser.add_argument('--numbering', type=Path, help='Optional provisional numbering metadata')
     args = parser.parse_args()
+    if args.numbering:
+        NUMBERING = args.numbering.resolve()
     if args.output:
-        result = prepare(args.output.resolve())
+        result = prepare(args.output.resolve(), args.source)
     else:
         directory = args.refresh_interface.resolve()
         prepare_pages.check(directory, verify_sources=False)

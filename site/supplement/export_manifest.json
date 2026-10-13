@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "exported_utc": "2026-10-10T22:03:03.962271+00:00",
-  "catalog_sha256": "8088dbcd9ca350f10adbff971545ed4bb1973bf3c46cd10b3c6491178e99bc5c",
+  "catalog_sha256": "ed97c3bf83f6133185b6fb2c5323e4527d79c7e9512a3cc8af2328a7ecb8ed13",
   "gallery_sha256": "6f3512bd7416fa379e6f76b8b0be3b4521b86cfd3eeaef3f84cdb37f41faa07c",
   "asset_count": 29,
   "selection": {
@@ -315,15 +315,15 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "47dbd59defad6ef16c9b52e37317e4432c4c3f960f8e1b4db64a511df32d24f7"
+      "sha256": "ed97c3bf83f6133185b6fb2c5323e4527d79c7e9512a3cc8af2328a7ecb8ed13"
     },
     {
       "path": "index.html",
-      "sha256": "170a0ee39bb7af1308fb2770bb0ee8489aca9f83d8c4218101cdece168e998dd"
+      "sha256": "60a3cc9c7e6320d3ae9c52303f1c6322edf3d1ca404819c141f3d805035e1bf0"
     },
     {
       "path": "comments.js",
-      "sha256": "a60a45747ad46ee38e51a4c70a986676d81af51d47214b4c43d771c268de0f16"
+      "sha256": "1593d2cf0b756fdc8338285daeb178c8d1077119a0621fa150ce7a6c3d659551"
     },
     {
       "path": "comments.css",
@@ -340,6 +340,10 @@
     {
       "path": "228k-background.png",
       "sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190"
+    },
+    {
+      "path": "feedback_status.json",
+      "sha256": "c263b3a8cee229fa2507532e3cce445aa9ca44aa2086d8a7c0270686fffc0e34"
     }
   ],
   "repaired_links": [],
@@ -353,16 +357,19 @@
     "provider": "giscus",
     "repository": "nterrel/early-earth-figures",
     "visibility": "public",
-    "storage": "GitHub Discussions; saves do not redeploy the website.",
-    "groups": 15
+    "storage": "GitHub Discussions; saves do not redeploy the website."
   },
   "gallery_presentation": {
     "background_source": "graveyard/references/Dissertation_figures/figures/228k_lines_fullscreen.png",
     "background_sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190",
     "background_opacity": 0.8,
     "image_dialog": "Escape-close, focus restoration, original download links",
-    "numbering_sha256": "b16b461ab8c6d615028c42f2e41019f668f16f851b17bd1d1ac371d4ae83f65f",
-    "displayed_panels": 0,
+    "numbering_sha256": "accc9e45a5320dba8b73924f5be796a2d97a95b477e4e66e0b35bc2ea5472125",
+    "displayed_panels": 15,
     "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
+  },
+  "amino_acid_review": {
+    "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
+    "previous_catalog_sha256": "47dbd59defad6ef16c9b52e37317e4432c4c3f960f8e1b4db64a511df32d24f7"
   }
 }

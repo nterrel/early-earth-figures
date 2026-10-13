@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "status": "provisional author review",
+  "source_map": "early_earth_analysis_v2/docs/records/AMINO_ACID_GALLERY_REVIEW_A40_A37_20261013.json",
+  "namespace": "Gallery; independent of manuscript/SI and internal F/G IDs",
+  "families": {
+    "1": "Energy",
+    "2": "Alanine geometry and conformations",
+    "3": "D/L alanine illustrations",
+    "4": "Amino-acid formation windows",
+    "5": "Scale/discovery/sampling",
+    "6": "Quench/fragment sizes",
+    "7": "Composition/recurrence/topology",
+    "8": "Methods/performance",
+    "9": "Development systems",
+    "10": "Simulation/model comparisons"
+  },
+  "panels": {
+    "paper-early-earth-chemistry-hero-run/figures/placed/dihedral_alanine": {
+      "label": "Gallery 2a",
+      "anchor": "gallery-alanine-quartet",
+      "approved_artwork_sha256": "504deae41e9da0c6f3e003c2bdf418088ce44942799de5fc11d59fb55bf5fc14"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/alanine_dihedrals_updated": {
+      "label": "Gallery 2b",
+      "anchor": "gallery-alanine-orientation",
+      "approved_artwork_sha256": "39aa8c98e718244268d8eba35e45c6aeba7826a4bf789f45957d2b17587d939d"
+    },
+    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/D_alanine_standard": {
+      "label": "Gallery 3a",
+      "anchor": "gallery-alanine-d",
+      "approved_artwork_sha256": "25a27e54d66faf7a8521a748bb2e88b758a038476c303ce6998fa075ca47b424"
+    },
+    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/L_alanine_standard": {
+      "label": "Gallery 3b",
+      "anchor": "gallery-alanine-l",
+      "approved_artwork_sha256": "2485b5e636f1d7d2d2f9078a5674bf595263d454a78ec9b49b79c66bd3223922"
+    },
+    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard": {
+      "label": "Gallery 4a",
+      "anchor": "gallery-formation-alanine",
+      "approved_artwork_sha256": "4c1b3b64becf5c60fbb74a94e3f1adc20dbdb00917b537eb198200910f0ca4ab"
+    },
+    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard": {
+      "label": "Gallery 4b",
+      "anchor": "gallery-formation-glycine",
+      "approved_artwork_sha256": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/228_kin_e": {
+      "label": "Gallery 1a",
+      "anchor": "gallery-2cce598d7128b117683a0f06",
+      "approved_artwork_sha256": "aa28ce3900fbb95249f2ecc574d2a912741057a198c2cf5d6d3db5347855fc7a"
+    },
+    "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms": {
+      "label": "Gallery 1b",
+      "anchor": "gallery-ef061a9d2d025224a1424a32",
+      "approved_artwork_sha256": "e982d95d94f4cc3f61581e3267cd53c9d33d42549c4bdaf8832a9443c2b77968"
+    },
+    "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms": {
+      "label": "Gallery 1c",
+      "anchor": "gallery-b38f20fcf088a87583acd1c0",
+      "approved_artwork_sha256": "440da5302f591dce52e967abf35048d39c6fc857a2c4ce1fc869fdcb3f514a96"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng": {
+      "label": "Gallery 1d",
+      "anchor": "gallery-abdadbe10d99a582c8cd00f7",
+      "approved_artwork_sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2"
+    },
+    "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw": {
+      "label": "Gallery 1e",
+      "anchor": "gallery-d7b0048f48a40abaa0f96d49",
+      "approved_artwork_sha256": "d2191688b512a6d934d8350dc2c3bf083f2318ebb9408f255ff4b7debe2d754b"
+    },
+    "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000": {
+      "label": "Gallery 1f",
+      "anchor": "gallery-eaf4567f8612fe7d27682763",
+      "approved_artwork_sha256": "7a9d972dbf07a66b8217de69bfdb525fb7972d3cafca689a094c374ae4e5fdea"
+    },
+    "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228": {
+      "label": "Gallery 1g",
+      "anchor": "gallery-2ac701d2dcb2a282ccc08759",
+      "approved_artwork_sha256": "84d2cc560713807d5eaeb978205a44197acd91701bdacdc2322b7472a0149618"
+    },
+    "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000": {
+      "label": "Gallery 1h",
+      "anchor": "gallery-82bd1f23c211a1e0577a2f74",
+      "approved_artwork_sha256": "3b49009438e3fd0c97f4fc4c32d82db832699cd520d5054cdcdd00628bcb47f9"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/steps_vs_temp_quench": {
+      "label": "Gallery 1i",
+      "anchor": "gallery-54371cfda4c0a002cdd452de",
+      "approved_artwork_sha256": "a86af85c3c52e7f7af0c39d105d0c6b66216fdb1807faeafc52a7f34d49ca962"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/228_tot_eng": {
+      "label": "Gallery 1j",
+      "anchor": "gallery-20fc8c27827970aaa761e85e",
+      "approved_artwork_sha256": "ece74b7025f43a242090ca651d86e50d51ec32e48b64a46c57b760cec9cc4dae"
+    },
+    "early_earth_analysis_v2/analysis/alanine_illustrations/results/recovered_XYZ_20261013/alanine_conformers_recovered_XYZ_standard": {
+      "label": "Gallery 2c",
+      "anchor": "gallery-9703ca714bd56c9784e0bf90",
+      "approved_artwork_sha256": "9d5d8ea456f4ac01558a43c774b407c4c7686518c31ba3c4362f058308b7793d"
+    },
+    "early_earth_analysis_v2/analysis/alanine_dihedral/results/F10_alanine_improper_torsion": {
+      "label": "Gallery 2d",
+      "anchor": "gallery-ddc5df70794061817688542c",
+      "approved_artwork_sha256": "521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3"
+    },
+    "Dissertation_figures/figures/d-ala": {
+      "label": "Gallery 2e",
+      "anchor": "gallery-3c0b2b7c719e121b53e924e3",
+      "approved_artwork_sha256": "3df7d734f79eb65ddf76acb16ec441f0a333ee8b5274e48bbcc0190c3649856d"
+    },
+    "Dissertation_figures/figures/l-ala": {
+      "label": "Gallery 2f",
+      "anchor": "gallery-abae5b66056513953e65b945",
+      "approved_artwork_sha256": "486d9457ea76675e52723852e685b299d01c55290a7ceedcc3f03263d3fefe52"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic": {
+      "label": "Gallery 2g",
+      "anchor": "gallery-d80695c3beafdeadeaf64ee5",
+      "approved_artwork_sha256": "7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae"
+    },
+    "early_earth_analysis_v2/figures/review_v1/F03": {
+      "label": "Gallery 5a",
+      "anchor": "gallery-8400e4cbd9942e9567212e91",
+      "approved_artwork_sha256": "dd46fc022132bd6c825e58e0082df69549e611428a6b531da623c380d3a52346"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time": {
+      "label": "Gallery 5b",
+      "anchor": "gallery-d757865368132c0a9f76a938",
+      "approved_artwork_sha256": "198bf3758d2bdf66af3788e9730ed68ea1895e0498adc976193c29c6cef02922"
+    },
+    "early_earth_analysis_v2/figures/review_v1/F02": {
+      "label": "Gallery 5c",
+      "anchor": "gallery-20f0c44f8c47646bcdebfac5",
+      "approved_artwork_sha256": "f1e7aad7fd844532917b4438bbe28e7273256ec28c146b6fc40f33c195d95879"
+    },
+    "early_earth_analysis_v2/figures/sampling_time/F06": {
+      "label": "Gallery 5d",
+      "anchor": "gallery-7c0e2b3fda9d8025c104963f",
+      "approved_artwork_sha256": "c901d3c2ed8181d78454b6636476eda98c7b7ee5f037262054d786c1eeeb9781"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G04_historical_delta_time_density": {
+      "label": "Gallery 6a",
+      "anchor": "gallery-c3ab2b3361cc26754deef365",
+      "approved_artwork_sha256": "d8d10c6fa80435b6da31af22dda10760a1198369ae75304cd6306df2ee6080ee"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation": {
+      "label": "Gallery 6b",
+      "anchor": "gallery-757e17f3fd878c50617904ad",
+      "approved_artwork_sha256": "aa42392465b35710de7f621ae4b3ef2325637357535deebcd8b91e1093b30dd9"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d": {
+      "label": "Gallery 6c",
+      "anchor": "gallery-4e8f12c68b262fdc9322866e",
+      "approved_artwork_sha256": "162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison": {
+      "label": "Gallery 6d",
+      "anchor": "gallery-a8a44aaea041739fccebe4ae",
+      "approved_artwork_sha256": "49bdeb38366d26e37de13ac948b7646f2b2ebaa9e8254ef2c2d6fb01860472ff"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_3d": {
+      "label": "Gallery 6e",
+      "anchor": "gallery-32aeb56e7aa81e246f2bbbf8",
+      "approved_artwork_sha256": "d25611ebc8d5ff0a5f151bb0d42348833a03c64484466cde90f3ce6cfafed309"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/96_atom_2d": {
+      "label": "Gallery 6f",
+      "anchor": "gallery-1080b4ecd97221345472665f",
+      "approved_artwork_sha256": "1c71589cf9d1f4e7016009633f7de8191300c45ef7ac6a560223c8c8daf3d320"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F14_same_atoms_connectivity": {
+      "label": "Gallery 6g",
+      "anchor": "gallery-100c0e8ec15a6d3a79371366",
+      "approved_artwork_sha256": "cfd81a2f9f1884a372863b9c21d63b241d398f77acb9cc5c9cdfff86697aded7"
+    },
+    "Dissertation_figures/early_earth/quench_analysis/gly-ala-before_after_quench": {
+      "label": "Gallery 6h",
+      "anchor": "gallery-e86849ca69a11a58cfc8970e",
+      "approved_artwork_sha256": "9c4fd523fd83ffd6856d1b033883322046c683905ffe23031fac6ad8255fc76d"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/new_415_quench_formula_vs_frame": {
+      "label": "Gallery 6i",
+      "anchor": "gallery-65b952f7047fab8549b22a4e",
+      "approved_artwork_sha256": "b8dfece0bd32ed37a9d8d9ef8e82a686934528d5cb148db6121bf187ef1ff063"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G09_production_bond_change_time_density": {
+      "label": "Gallery 6j",
+      "anchor": "gallery-22132a57e9574da70bf4897a",
+      "approved_artwork_sha256": "25955d2418adc811ef50770bbb1c65fbb91024b37eaf1101e1b291a2ab5e6694"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_excluding_H_only": {
+      "label": "Gallery 6k",
+      "anchor": "gallery-808fec96e3c3b26282ba4ee1",
+      "approved_artwork_sha256": "c154bb3857184884fe9588db17005e495b0ddf48bf1274c95e47cadb9ba64a25"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_filtered_mean_heavy_atoms_vs_frame_including_H_only": {
+      "label": "Gallery 6l",
+      "anchor": "gallery-bd0633e25f728c98b45b1992",
+      "approved_artwork_sha256": "b3b7efc605b10e3c82c819445865ac2b469a1bda37c7455e319d5f51cdb08d04"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/filtered_heavy_atom_mean_vs_frame": {
+      "label": "Gallery 6m",
+      "anchor": "gallery-37451dd5ed8c64a73fa5a8fd",
+      "approved_artwork_sha256": "6c659e6440eb06d91e6730d4f47aabdb4242f8a27a5dfa7a65d6f63f630df70c"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/advisor_figures": {
+      "label": "Gallery 6n",
+      "anchor": "gallery-f56551d64b4a217a6c8cf5fd",
+      "approved_artwork_sha256": "9339012f47bcf5ab9a7ce7a4f1c134499272e824c6cd11b510a06de657f135d1"
+    },
+    "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_fragment_sizes_preliminary": {
+      "label": "Gallery 6o",
+      "anchor": "gallery-cabed8067466d3b644216cf0",
+      "approved_artwork_sha256": "fe3c3c4c24e4573607bf0abeacad10bbf94c9b3ace2196b97abb3d12ea501306"
+    },
+    "early_earth_analysis_v2/figures/review_v1/F04": {
+      "label": "Gallery 6p",
+      "anchor": "gallery-f8923376c13e60d14dab3420",
+      "approved_artwork_sha256": "4162e0b1cfd5c1bd6580ccc46bcbf0f999af32a236d7f114633e99ba420ead52"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/figure_gallery": {
+      "label": "Gallery 6q",
+      "anchor": "gallery-adf2cd2327fb933511dd207a",
+      "approved_artwork_sha256": "4104103421e4df2fa0d45f73155c5ad54a7cfab2af1fd0683cb1a1becb2d9f9a"
+    },
+    "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram": {
+      "label": "Gallery 6r",
+      "anchor": "gallery-5103d269713be2bb39aa2bfd",
+      "approved_artwork_sha256": "d5a49664561d22d939eb4c5e1334384f6fe266ce3202b819df157f26f5745d09"
+    },
+    "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_log": {
+      "label": "Gallery 6s",
+      "anchor": "gallery-4257861d17aa2aebbf0ad2af",
+      "approved_artwork_sha256": "f75b9821743a0424ce6e923a044d7621acde9321358ceb7c9bdec250f00fe3ba"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G11_historical_production_distribution_comparison": {
+      "label": "Gallery 6t",
+      "anchor": "gallery-eeba26e7ad6f36425937faab",
+      "approved_artwork_sha256": "a9c7838b1244d9934a0df5d1a44db43e95e0c6f9c1d39abf998c991fee0a51b5"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_excluding_H_only": {
+      "label": "Gallery 6u",
+      "anchor": "gallery-27b4ea6964dbff1b7e971dcd",
+      "approved_artwork_sha256": "e48e5181aeffd69b85a2703f94c56e3a77d2978a42d5fc12b820896283ec7002"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_heavy_atom_frame_sizes": {
+      "label": "Gallery 6v",
+      "anchor": "gallery-e5b0b3b7a00321e8b3789a78",
+      "approved_artwork_sha256": "abeec6f2fe0665d81d2b7b775abaf4dc29b9212e07695cf04b048f35c4daa030"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame_including_H_only": {
+      "label": "Gallery 6w",
+      "anchor": "gallery-7dac296b5531635173086fe7",
+      "approved_artwork_sha256": "75899e28be9edb39c3377b99f8625f242a25d6416610cac906a79d02b370bb00"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_figures": {
+      "label": "Gallery 6x",
+      "anchor": "gallery-dd6d0191240aa94cfc2dec18",
+      "approved_artwork_sha256": "ca1f17b03220fc39096667ca69aa253e762420231158d95918994f0828f0709c"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/heavy_atom_mean_vs_frame": {
+      "label": "Gallery 6y",
+      "anchor": "gallery-9e4eebb2c97ce05143cc8ffe",
+      "approved_artwork_sha256": "37f973fae67d4b464f707e80c7dcad7c79ffc36a6c7d33e522a2092d16e27a32"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G08_production_transition_density": {
+      "label": "Gallery 6z",
+      "anchor": "gallery-1d275df366e956ab445675dc",
+      "approved_artwork_sha256": "5d5c560fef96e8bed59cf86e33286339fe925c67223b1c42f8ba42ff9896224c"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/updated_largest_mol_vs_time": {
+      "label": "Gallery 6aa",
+      "anchor": "gallery-9085f7f15176d563511b9ea3",
+      "approved_artwork_sha256": "af6fb175f10e90daa1d418552a846f256a032617f1e73176d46c0e3509ff120d"
+    },
+    "Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time": {
+      "label": "Gallery 6ab",
+      "anchor": "gallery-5b4efc89b36f597bb92fd9ba",
+      "approved_artwork_sha256": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G02_historical_largest_time_density": {
+      "label": "Gallery 6ac",
+      "anchor": "gallery-367e9f35a35152fe2b872dde",
+      "approved_artwork_sha256": "f0f3741cdc3c8e4f6fd0ca303b374a505fe19c818665b447f4673f65946dda80"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G01_historical_mean_size_time_density": {
+      "label": "Gallery 6ad",
+      "anchor": "gallery-d5c5e99f5be062eb293a0667",
+      "approved_artwork_sha256": "ad94441e260b43fbf62695b8dea617fe66378ed0a9502f26ef4359f295dffd88"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G06_production_mean_size_time_density": {
+      "label": "Gallery 6ae",
+      "anchor": "gallery-0f16e6ca905c270f7088bf6b",
+      "approved_artwork_sha256": "cf00432b859f846c908118f5a75bc4f83dfb7ee3d082531ea058b82a1916947e"
+    },
+    "Dissertation_figures/early_earth/figures/avg_mol_time": {
+      "label": "Gallery 6af",
+      "anchor": "gallery-496aec52a1c7168343b3a20e",
+      "approved_artwork_sha256": "7e46076e0ac500919924a3aa1fc2b7ee5b4c2abc3cf278ec177ebd519acf6c42"
+    },
+    "Dissertation_figures/early_earth/updated_avg_n-atoms": {
+      "label": "Gallery 6ag",
+      "anchor": "gallery-344cfe3666e7f93f7a5783cd",
+      "approved_artwork_sha256": "d9d2f9fb3b69fc4a97ef18f31d7d4fd048e5c0db50c3509c5db50fe399a0be79"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F19_mean_heavy_atoms_vs_frame": {
+      "label": "Gallery 6ah",
+      "anchor": "gallery-91122443fb1d3bfc2e7d3e46",
+      "approved_artwork_sha256": "a2bf6690814556cd7b2c89c4830cdb56abc861b91252111382939ca73ead2882"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F12_mean_size_vs_frame": {
+      "label": "Gallery 6ai",
+      "anchor": "gallery-9a24e077b9e17e1442d6f5dd",
+      "approved_artwork_sha256": "78eab1707b260c1ce7e3ec44d70b418fa72de4ecfd4a855768f7d4673e502ace"
+    },
+    "Dissertation_figures/early_earth/quench_analysis/mol_before-after_quench": {
+      "label": "Gallery 6aj",
+      "anchor": "gallery-1bdff66e785d820c8ad07156",
+      "approved_artwork_sha256": "f356b7df8c1ccb569356d4a5347d7df5ddaf8adef40a2b8baeb6b0be06d4112d"
+    },
+    "Dissertation_figures/early_earth/quench_analysis/violinplot-mol_counts-before-after-quench": {
+      "label": "Gallery 6ak",
+      "anchor": "gallery-ace99e636bab652b21e1bb58",
+      "approved_artwork_sha256": "ef1ea025f8c125a7fef680997899b49b7ef4298a39e80df6c6a21e62e4796d0f"
+    },
+    "Dissertation_figures/early_earth/quench_analysis/named_mols_before-after_quench": {
+      "label": "Gallery 6al",
+      "anchor": "gallery-1b5643d88e86f8019f94eec1",
+      "approved_artwork_sha256": "ee71110a9f61cd189019db850f09e400635399b982caba953918b177cbb800fb"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G05_historical_named_match_gallery": {
+      "label": "Gallery 6am",
+      "anchor": "gallery-c2fb4c1cd6873a09fb3545e6",
+      "approved_artwork_sha256": "6ccc2f33c194d033c2dd4c3e31c65b2efb7604a5fa2406ffe20c2f904c0f7d85"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/mol_before-after_quench": {
+      "label": "Gallery 6an",
+      "anchor": "gallery-9674874589c31ab1b7b9b338",
+      "approved_artwork_sha256": "5420dcd535c8f695a95c5cd928ace2692c9ffe14c111c04d61f7ba09200ff201"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/named_mols_before-after_quench": {
+      "label": "Gallery 6ao",
+      "anchor": "gallery-d30336713b8ece4eab279f88",
+      "approved_artwork_sha256": "6b25fc2d07f567e3c55bdd99824d08ef202f385cbab5a83a6ac427d95b3b464a"
+    },
+    "Dissertation_figures/early_earth/figures/hist2d_counts_natoms_highres": {
+      "label": "Gallery 6ap",
+      "anchor": "gallery-c63cea1edd6c59674a0062bd",
+      "approved_artwork_sha256": "0ef75eafc3b0d10846a73c669eb7e8951e1f6a3608d2b353bc94bc120217f8da"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G03_historical_paired_density": {
+      "label": "Gallery 6aq",
+      "anchor": "gallery-7dc14a2685514aacc9ca0b14",
+      "approved_artwork_sha256": "a779d33b93e8037a21d17d6a0409df57c86776e3cf479a1d7a01872b9288efdc"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/paired_size_comparison": {
+      "label": "Gallery 6ar",
+      "anchor": "gallery-5264db38d753e999628dafbf",
+      "approved_artwork_sha256": "b1e2c7915464825954b7186303cdbfce19cb6da031c84605fd993360a9b8535a"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G07_production_mean_size_pair_density": {
+      "label": "Gallery 6as",
+      "anchor": "gallery-b6d029a080da662293db0f21",
+      "approved_artwork_sha256": "e6cebc30bdd5accc5c26b80122fdd9725d7e680b397eb473007acb20f684f4e7"
+    },
+    "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_named_matches_paired": {
+      "label": "Gallery 6at",
+      "anchor": "gallery-dff83427338d7f551254caca",
+      "approved_artwork_sha256": "cefe929ba7aca844577e06712b33cc987d9a937f12d49d80c492753e3a23a5c8"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes": {
+      "label": "Gallery 6au",
+      "anchor": "gallery-57efb52dc05d41ceb3cdb4ef",
+      "approved_artwork_sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502"
+    },
+    "data/selected_events/quench/frame_0447_report/quenched": {
+      "label": "Gallery 6av",
+      "anchor": "gallery-b8f1ac57bd07c3000b83fff3",
+      "approved_artwork_sha256": "c364bc22c1bce121003e8abf27ff1866da5df65f78848e0c9a564d2caa45157c"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/updated_original_counts": {
+      "label": "Gallery 6aw",
+      "anchor": "gallery-17aae335f07a9b9b6de183f3",
+      "approved_artwork_sha256": "04a3ea44fc99a1ed16b6be898176ca354cdcfab9c6c7051b80b300264853bf03"
+    },
+    "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_small": {
+      "label": "Gallery 6ax",
+      "anchor": "gallery-1e59061ae12b59b8d0e98f99",
+      "approved_artwork_sha256": "f6f060e2024907606d448c2c6ef4b630e348a8a75fd3f0e1c520e8f51206a6c4"
+    },
+    "Dissertation_figures/early_earth/figures/richard_images/atom_count_histogram_small_log": {
+      "label": "Gallery 6ay",
+      "anchor": "gallery-bef5fb0bf04ce286fc7057ca",
+      "approved_artwork_sha256": "37d2214f9622f276c2845ac803c6446897936518b84ab2fdd1a8d9892e15983e"
+    },
+    "early_earth_analysis_v2/figures/publication_revision/F08": {
+      "label": "Gallery 6az",
+      "anchor": "gallery-14ebeb97dae75d3e8de68953",
+      "approved_artwork_sha256": "45367f0ac5c8cc5d33b0f81954f687a0618babc29b18e4722ea4f3415ce343d2"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/F14_coordinates_3d": {
+      "label": "Gallery 6ba",
+      "anchor": "gallery-2b881345bb2285026f66c713",
+      "approved_artwork_sha256": "4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/quench_formula_vs_frame": {
+      "label": "Gallery 6bb",
+      "anchor": "gallery-79e2d38718b029626f008773",
+      "approved_artwork_sha256": "e487625ac77dc9bd10d436a0d03f10125d090cd6bcd2ed6d00057715a3dc54bd"
+    },
+    "Dissertation_figures/early_earth/figures/counts_vs_time_CHN": {
+      "label": "Gallery 7a",
+      "anchor": "gallery-6baf4e3cabe1937f0a9a4d41",
+      "approved_artwork_sha256": "3d5535f9a0c369936a2841ca774236dbcb1a5eef75e789779e6a8ecb23521645"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_architecture_variety_abundance": {
+      "label": "Gallery 7b",
+      "anchor": "gallery-55b2c144e8c0c021241f9b85",
+      "approved_artwork_sha256": "a81b2e667fdce0729e503fcc94bb9cbcf87ba5d9ea09aa90ce87c387436505dc"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_composition_architecture": {
+      "label": "Gallery 7c",
+      "anchor": "gallery-af4a734cc1634ea9e3e2f9d3",
+      "approved_artwork_sha256": "2ef1fa9d8817e22ed28a2d36b4e423ecb12c6d0d2266412979429305c36e2c35"
+    },
+    "data/core/connectivity/stride100_analysis/census_overview": {
+      "label": "Gallery 7d",
+      "anchor": "gallery-f17d52a39ce226a9c03727f9",
+      "approved_artwork_sha256": "d9d5dcd7ab70b2bea9255f1910e1ba4fa8e9b384604f52e93627a2ba620e64be"
+    },
+    "data/core/connectivity/stride200_analysis/census_overview": {
+      "label": "Gallery 7e",
+      "anchor": "gallery-7519023d03562ef2bcecb6b6",
+      "approved_artwork_sha256": "9253e1d330620ad2d860fa8dff0177657f1f7bb35ea551596e3a201f497e5b95"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_composition_variety_abundance": {
+      "label": "Gallery 7f",
+      "anchor": "gallery-e10874d16419fffd57ba86be",
+      "approved_artwork_sha256": "65110ac4d3e6fd775fc8ebb33e2e496f0f51a324ac9edaca6aa2bfeb8debdd71"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F20_heavy_atom_variety_abundance": {
+      "label": "Gallery 7g",
+      "anchor": "gallery-5fde0c8416e0f86a92760e46",
+      "approved_artwork_sha256": "d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance": {
+      "label": "Gallery 7h",
+      "anchor": "gallery-232f7f8c88c45b738c2968e9",
+      "approved_artwork_sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e"
+    },
+    "Dissertation_figures/early_earth/molecule_flat": {
+      "label": "Gallery 7i",
+      "anchor": "gallery-c77bffc9cb0e8f9fb70e33d4",
+      "approved_artwork_sha256": "ce3f9e2cb37cf6c0b88648c358f53d5d5f56a562938c7ff419c693a88f0c77e5"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_connectivity_motifs": {
+      "label": "Gallery 7j",
+      "anchor": "gallery-9c9eaee2fea4917f978f41af",
+      "approved_artwork_sha256": "768c5656f6dea3846712984bfa74e5270f708cdeaadc751397b5686581c3e632"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_connectivity_motifs": {
+      "label": "Gallery 7k",
+      "anchor": "gallery-bf407270f523d5d65517c857",
+      "approved_artwork_sha256": "baca1aa51278312c19a1d5e2e5652581cae6f4d2fad2d7003d228c7ab7b109b4"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F18_recurrence_variety_abundance": {
+      "label": "Gallery 7l",
+      "anchor": "gallery-400f96ae0e1f6c12807b192b",
+      "approved_artwork_sha256": "eb60c231c197be07ff91ccef436e97dddd38d5fe21d85fc505dbdb15e05a423b"
+    },
+    "Dissertation_figures/early_earth/updated_graphmatcher": {
+      "label": "Gallery 7m",
+      "anchor": "gallery-0b65aa8349c6793f2f5ae962",
+      "approved_artwork_sha256": "5d4ca51ccd0f5208900c247e9e7439b05df2d159283092ebd02ee58c74326e43"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/connectivity_patterns/F18_recurrence_variety_abundance": {
+      "label": "Gallery 7n",
+      "anchor": "gallery-1a303710c28857c545bec43f",
+      "approved_artwork_sha256": "4632bfbe273f0170d032a0c3f267b1fc5a6bcff78ae000a9d99015900eba6406"
+    },
+    "early_earth_analysis_v2/figures/publication_revision/F05": {
+      "label": "Gallery 7o",
+      "anchor": "gallery-6111226902e9b61ff236a9e0",
+      "approved_artwork_sha256": "daa4d6304b50f29378a2ce4e7bb5d08dbeeaa3384eeb3ea67d9d47bf0f46b64c"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/exploration/G10_smiles_occurrence_density": {
+      "label": "Gallery 7p",
+      "anchor": "gallery-887ce986291c57e808aee50d",
+      "approved_artwork_sha256": "50d98653a6ec92282a7c215217f4d4b6e67a693447d56af01b9f9fa46defdbce"
+    },
+    "data/core/connectivity/stride200_analysis/diversity/chemical_diversity_overview": {
+      "label": "Gallery 7q",
+      "anchor": "gallery-f721740360fc2ab7fab5dacd",
+      "approved_artwork_sha256": "bc72a99d502989122ae1f0646d1520ca175fa475856ebd1fe0c95914d7282a24"
+    },
+    "Dissertation_figures/early_earth/figures/counts_vs_time_CHHHH": {
+      "label": "Gallery 7r",
+      "anchor": "gallery-d211e7d3e4fc2efbb56dac0e",
+      "approved_artwork_sha256": "b4d19b557d22ccf9a78c6ad217860d6ab92388ae7e4814424aca590fd4b76934"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/smiles_fragment_size/unique_smiles_by_fragment_size": {
+      "label": "Gallery 7s",
+      "anchor": "gallery-b1511371ca2c4c4d56a74019",
+      "approved_artwork_sha256": "46123c3e155f44b6a4d1fb108ff4be7a23b205e03b9100c8ca86ca7044fc43b7"
+    },
+    "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F16_unique_strings_by_size": {
+      "label": "Gallery 7t",
+      "anchor": "gallery-2b1d0cbb4bdc2b211e6439a4",
+      "approved_artwork_sha256": "3c44e545df404b04d68f9526974bfbaebc1bc263fc7298c2b9181ad807446969"
+    },
+    "early_earth_analysis_v2/figures/review_v1/F01": {
+      "label": "Gallery 8a",
+      "anchor": "gallery-9f235b669633724e1e60ec57",
+      "approved_artwork_sha256": "361245f373e6961ab1afdb93c526c7ac5578c3fdc27b254bde650c21ce997628"
+    },
+    "early_earth_analysis_v2/figures/publication_revision/F07": {
+      "label": "Gallery 8b",
+      "anchor": "gallery-b8be6a801a61b30188eb1ec7",
+      "approved_artwork_sha256": "8dc0bb472b2e662b91e004bf5d904b2cc3f3a5155417d0620b8c97101f559607"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/228000-after": {
+      "label": "Gallery 9a",
+      "anchor": "gallery-bb444073f205adf2e2c5cb69",
+      "approved_artwork_sha256": "ec4d579410b1226e977f507dbb51d10bc9b281ee8488631b2d55c177f5e1276f"
+    },
+    "Dissertation_figures/figures/228k_lines_fullscreen": {
+      "label": "Gallery 9b",
+      "anchor": "gallery-71f0ce59e543ef46e45e5da7",
+      "approved_artwork_sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190"
+    },
+    "Dissertation_figures/figures/228k_head_on": {
+      "label": "Gallery 9c",
+      "anchor": "gallery-18053f90a454bfd597f0cea0",
+      "approved_artwork_sha256": "5d72fd30a3a2d4350e86f09a9dd545703b5c05da08a15bb088fa37e806cdf51a"
+    },
+    "Dissertation_figures/early_earth/228": {
+      "label": "Gallery 9d",
+      "anchor": "gallery-04f7e2dd3517fd1bd043cfb4",
+      "approved_artwork_sha256": "fd6fb004dba461fe0f1dd88dd238982443a73d40cf5fb3b3e7fe5149fd125659"
+    },
+    "Dissertation_figures/figures/cropped_228_final": {
+      "label": "Gallery 9e",
+      "anchor": "gallery-bad1d60aa30a544ff3e8d065",
+      "approved_artwork_sha256": "14416e5d38e45bf2a3626649d3d988b5e62a3ee60e0a12551f16ed63a84579f2"
+    },
+    "Dissertation_figures/figures/cropped_228_initial": {
+      "label": "Gallery 9f",
+      "anchor": "gallery-46eab8fc276f6268a891a419",
+      "approved_artwork_sha256": "b858c17caa83d1b9a56ba1ab92811ce6b656dfece73a0d5cf43747d6925614af"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/placed/228000-start": {
+      "label": "Gallery 9g",
+      "anchor": "gallery-c0a28bcd8dabb98bd3595bf0",
+      "approved_artwork_sha256": "4e88a9051a08f7641caa7bed9aed94976b3be919ba2a52339b9157429d581b63"
+    },
+    "data/core/connectivity/stride200_analysis/representative_review/index": {
+      "label": "Gallery 10a",
+      "anchor": "gallery-e1958efcdec1a67daccc6738",
+      "approved_artwork_sha256": "327a84e3ed56a324c65ca1efc093e590dd26224b9d1b1a945e8982139949fbdf"
+    },
+    "data/selected_events/quench/frame_0447_report/hot": {
+      "label": "Gallery 10b",
+      "anchor": "gallery-dc0476da65261d4cb80af4f8",
+      "approved_artwork_sha256": "b23da7766f7734a75ac85867f59733bfd6c0f4b08f7b2d5cdd9e89f62cd00353"
+    },
+    "Dissertation_figures/early_earth/quench_analysis/updated_violins": {
+      "label": "Gallery 10c",
+      "anchor": "gallery-af73f9b65f88630721b8f095",
+      "approved_artwork_sha256": "bc04dd65f818df9b3e3df85ea95f1aabebf6a113085e7f80a4a1270cca389d33"
+    },
+    "Dissertation_figures/figures/ghost_atoms": {
+      "label": "Gallery 10d",
+      "anchor": "gallery-693120f5674f3ba4408945e5",
+      "approved_artwork_sha256": "07b57cd0b19bf0721ce98183e457f904d431b16ff8d137388afe012df6278e4e"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/new_415_violins": {
+      "label": "Gallery 10e",
+      "anchor": "gallery-fc79b84bc68b95e6a62c1f43",
+      "approved_artwork_sha256": "3777b422b4bc6e50db67473915ec872abb571d121974ff82ac27debe6436570d"
+    },
+    "paper-early-earth-chemistry-hero-run/figures/updated_violins": {
+      "label": "Gallery 10f",
+      "anchor": "gallery-aebeb3b02ab27b1fdc61feee",
+      "approved_artwork_sha256": "76a50fe6a932954b24ae4f1910164e8697fd5aff29c309ca6c69be2e3d219a50"
+    }
+  }
+}

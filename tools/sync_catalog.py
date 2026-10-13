@@ -225,6 +225,13 @@ def discovered_sources() -> list[str]:
                 source = source_root + '/' + relative
                 if not excluded(source):
                     found.add(source)
+    for source in collection_settings().get('additional_source_paths', []):
+        path = (PROJECT / source).resolve()
+        path.relative_to(PROJECT)
+        if not path.is_file() or path.suffix.lower() not in EXTENSIONS:
+            raise RuntimeError(f'Missing selected additional figure: {source}')
+        if not excluded(source):
+            found.add(source)
     return sorted(found)
 
 
@@ -236,10 +243,10 @@ def safe_filename(source: str) -> str:
     return slug + '__' + Path(source).name
 
 
-def make_records() -> list[dict]:
+def make_records(source_paths: list[str] | None = None) -> list[dict]:
     records = []
     editorial = captions()
-    for source in discovered_sources():
+    for source in discovered_sources() if source_paths is None else source_paths:
         caption_key = Path(source).with_suffix('').as_posix()
         if caption_key not in editorial:
             raise RuntimeError(f'Add a reader-facing caption in metadata before refreshing: {caption_key}')

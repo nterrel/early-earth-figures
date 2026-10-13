@@ -67,6 +67,10 @@ def attach(directory: Path, boundary: Path) -> dict:
     if 'gallery-comment-config' in text:
         raise RuntimeError('Comments already attached; use the unmodified snapshot')
     config = json.loads(CONFIG.read_text())
+    feedback_status = FIGURES / 'metadata/gallery_feedback_status.json'
+    if feedback_status.exists():
+        shutil.copy2(feedback_status, directory / 'feedback_status.json')
+        config['feedback_status_url'] = 'feedback_status.json'
     for field in ('repository', 'repository_id', 'category', 'category_id'):
         if not config.get(field):
             raise RuntimeError(f'Missing comment configuration: {field}')
@@ -106,7 +110,7 @@ def attach(directory: Path, boundary: Path) -> dict:
     config['figures'] = reviews
     serialized = json.dumps(config, separators=(',', ':'), ensure_ascii=True).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     markup = (f'<script type="application/json" id="gallery-comment-config">{serialized}</script>'
-              '<script src="comments.js" defer></script>')
+              '<script src="comments.js?v=' + export_share.digest(ASSETS/'comments.js')[:12] + '" defer></script>')
     text = text.replace('</style>', '</style><link rel="stylesheet" href="comments.css">', 1)
     text = text.replace('</html>', markup + '</html>')
     page.write_text(text)
@@ -130,6 +134,8 @@ def bind_generated(directory: Path, boundary: Path | None = None) -> None:
     generated = {entry['path']: entry for entry in manifest['generated_files']}
     for name in ('comments.js', 'comments.css'):
         generated[name] = {'path': name, 'sha256': export_share.digest(directory / name)}
+    if (directory / 'feedback_status.json').exists():
+        generated['feedback_status.json'] = {'path': 'feedback_status.json', 'sha256': export_share.digest(directory / 'feedback_status.json')}
     for entry in generated.values():
         entry['sha256'] = export_share.digest(directory / entry['path'])
     manifest['generated_files'] = list(generated.values())
