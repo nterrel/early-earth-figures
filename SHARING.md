@@ -31,8 +31,11 @@ the current staged gallery and unchanged proposed supplement figure membership.
 It preserves source figures, the existing Comments controls and download links.
 Click a figure image to enlarge it; Escape closes the popup and returns focus.
 The 228k system image supplies the background behind opaque cards.
-The local preview also displays A39's agreed Gallery 2a/2b and 3a/3b references
-with shareable anchors; these are separate from manuscript/SI numbering.
+The local preview also displays one primary Figure reference per card, with shareable anchors. Lettered
+sets contain two or three related figures; Galleries are broad topic sections.
+Search exact references such as Figure 6a; prior Gallery references remain search
+aliases. Figure details links only to files in this repository's site/ tree.
+Website references remain separate from manuscript/SI numbering.
 Public builds use an explicit 80%-opacity background layer and versioned CSS/JS
 URLs. Public star ratings remain deferred; public Comments retain giscus.
 

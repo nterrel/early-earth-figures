@@ -2,7 +2,7 @@
   "schema_version": 1,
   "exported_utc": "2026-10-10T22:03:03.962271+00:00",
   "catalog_sha256": "ed97c3bf83f6133185b6fb2c5323e4527d79c7e9512a3cc8af2328a7ecb8ed13",
-  "gallery_sha256": "6f3512bd7416fa379e6f76b8b0be3b4521b86cfd3eeaef3f84cdb37f41faa07c",
+  "gallery_sha256": "230da92295328e33909333a6f938bb5776f18c5304f37b9e5778c55d47490666",
   "asset_count": 29,
   "selection": {
     "title": "Early Earth \u2014 supplementary figures",
@@ -307,7 +307,7 @@
     },
     {
       "path": "START_HERE.html",
-      "sha256": "7ce3ff8d0d68ab9b561fef9fc3d2a8436c8f48cc84bd9e986380410f86488fbf"
+      "sha256": "c80169fe8d698226954aaef92d4b84393a5ab83671aa517a8164f3344beaca00"
     },
     {
       "path": "catalog.csv",
@@ -319,7 +319,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "60a3cc9c7e6320d3ae9c52303f1c6322edf3d1ca404819c141f3d805035e1bf0"
+      "sha256": "230da92295328e33909333a6f938bb5776f18c5304f37b9e5778c55d47490666"
     },
     {
       "path": "comments.js",
@@ -364,12 +364,18 @@
     "background_sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190",
     "background_opacity": 0.8,
     "image_dialog": "Escape-close, focus restoration, original download links",
-    "numbering_sha256": "accc9e45a5320dba8b73924f5be796a2d97a95b477e4e66e0b35bc2ea5472125",
+    "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 15,
     "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
     "previous_catalog_sha256": "47dbd59defad6ef16c9b52e37317e4432c4c3f960f8e1b4db64a511df32d24f7"
+  },
+  "alanine_camera_and_reader_revision": {
+    "record": "early_earth_analysis_v2/docs/records/ALANINE_CAMERA_FIGURE_REFERENCES_A37_A40_20261013.json",
+    "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard",
+    "figure_details": "Published file locations in GitHub repository only; scientific notes remain in catalog.",
+    "figure_namespace": "One primary Figure reference per card; broad Galleries selector."
   }
 }

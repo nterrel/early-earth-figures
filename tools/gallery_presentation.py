@@ -27,7 +27,7 @@ def write_json(path: Path, value: dict) -> None:
     path.write_text(json.dumps(value, indent=2) + '\n')
 
 
-def numbered_page(page: str, numbering: dict) -> str:
+def numbered_page(page: str, numbering: dict, relabel: bool = False) -> str:
     config = json.loads(re.search(r'id="gallery-comment-config">(.*?)</script>', page)[1])
 
     def label_card(match: re.Match) -> str:
@@ -41,15 +41,46 @@ def numbered_page(page: str, numbering: dict) -> str:
             raise RuntimeError('Artwork differs from the agreed numbering map; reconcile its selected version first')
         label = html.escape(panel['label'], quote=True)
         anchor = html.escape(panel['anchor'], quote=True)
+        if relabel:
+            opening, rest = card.split('>', 1)
+            opening = re.sub(r'\s(?:id|data-gallery-reference|data-figure-references)="[^"]*"', '', opening)
+            card = opening + '>' + rest
+            card = re.sub(r'<p class="gallery-reference">.*?</p>', '', card, count=1)
         if 'data-gallery-reference=' in card:
             if f'data-gallery-reference="{label}"' not in card or f'id="{anchor}"' not in card:
                 raise RuntimeError('Existing label differs from the agreed map')
             return card
-        card = card.replace('<article ', f'<article id="{anchor}" data-gallery-reference="{label}" ', 1)
+        references = '|'.join([panel['label'], *panel.get('search_aliases', [])]).lower()
+        card = card.replace('<article ', f'<article id="{anchor}" data-gallery-reference="{label}" data-figure-references="{html.escape(references, quote=True)}" ', 1)
         return card.replace('<div class="body">', '<div class="body">' +
-                            f'<p class="gallery-reference"><a href="#{anchor}" title="Gallery reference; separate from manuscript numbering">{label}</a></p>', 1)
+                            f'<p class="gallery-reference"><a href="#{anchor}" title="Website figure reference; manuscript numbering is separate">{label}</a></p>', 1)
 
     return re.sub(r'<article\b[^>]*>.*?</article>', label_card, page, flags=re.DOTALL)
+
+
+def public_reader(page: str, repository_prefix: str = 'site') -> str:
+    """Keep public file locations concise and make figure references searchable."""
+    config = json.loads(re.search(r'id="gallery-comment-config">(.*?)</script>', page)[1])
+
+    def concise_card(match):
+        card = match[0]
+        key = re.search(r'data-comment-key="([^"]+)"', card)[1]
+        links = []
+        for asset in config['figures'][key]['assets']:
+            path = asset['path']
+            label = Path(path).suffix[1:].upper() + ' in repository'
+            url = 'https://github.com/nterrel/early-earth-figures/blob/main/' + repository_prefix + '/' + path
+            links.append(f'<a href="{html.escape(url, quote=True)}">{label}</a>')
+        details = '<details><summary>Figure details</summary><p>' + ' · '.join(links) + '</p></details>'
+        return re.sub(r'<details>.*?</details>', lambda _: details, card, count=1, flags=re.DOTALL)
+
+    page = re.sub(r'<article\b[^>]*>.*?</article>', concise_card, page, flags=re.DOTALL)
+    page = page.replace('<label for="theme">Theme</label>', '<label for="theme">Gallery</label>').replace('All themes', 'All galleries')
+    page = page.replace('Choose a theme', 'Choose a gallery').replace('manuscript theme', 'gallery').replace('Gallery numbers are provisional', 'Website figure numbers are provisional')
+    page = page.replace('Search energy, alanine, heavy atoms…', 'Search Figure 4a, alanine, energy…')
+    script = '''const theme=document.querySelector('#theme'),search=document.querySelector('#search'),cards=[...document.querySelectorAll('article')];
+function filter(){let n=0;const q=search.value.toLowerCase().trim().replace(/\\s+/g,' ');const ref=q.match(/^(figure|gallery)\\s*(\\d+)([a-z]*)$/)||q.match(/^()(\\d+)([a-z]+)$/);for(const c of cards){const refs=(c.dataset.figureReferences||'').split('|');const wanted=ref?(ref[1]||'figure')+' '+ref[2]+ref[3]:'';const matches=ref?(ref[3]?refs.includes(wanted):refs.some(r=>new RegExp('^'+(ref[1]||'figure')+' '+ref[2]+'[a-z]*$').test(r))):(!q||c.dataset.search.includes(q));const show=(!!ref||!theme.value||c.dataset.theme===theme.value)&&matches;c.hidden=!show;if(show)n++}for(const section of document.querySelectorAll('main>section')){section.hidden=![...section.querySelectorAll('article')].some(c=>!c.hidden)}document.querySelector('#count').textContent=n+' figures'}theme.addEventListener('change',filter);search.addEventListener('input',filter);filter();'''
+    return re.sub(r"const theme=document\.querySelector\('#theme'\).*?filter\(\);", lambda _: script, page, count=1, flags=re.DOTALL)
 
 
 def attach(directory: Path) -> None:
@@ -59,6 +90,7 @@ def attach(directory: Path) -> None:
         raise RuntimeError('Presentation is already attached; prepare a fresh snapshot')
     numbering = json.loads(NUMBERING.read_text())
     page = numbered_page(page, numbering)
+    page = public_reader(page, 'site/supplement' if directory.name == 'supplement' else 'site')
     page = page.replace('<html lang="en">', '<html lang="en" data-rating-mode="deferred">', 1)
     page = page.replace('</style>', '</style><link rel="stylesheet" href="preview.css?v=' + export_share.digest(ASSETS / 'preview.css')[:12] + '">', 1)
     page = page.replace('</html>', '<script src="preview.js?v=' + export_share.digest(ASSETS / 'preview.js')[:12] + '" defer></script></html>')

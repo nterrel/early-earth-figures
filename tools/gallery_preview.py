@@ -29,29 +29,9 @@ def write_json(path: Path, value: dict) -> None:
     path.write_text(json.dumps(value, indent=2) + '\n')
 
 
-def numbered_page(page: str, numbering: dict) -> str:
-    config = json.loads(re.search(r'id="gallery-comment-config">(.*?)</script>', page)[1])
-
-    def label_card(match: re.Match) -> str:
-        card = match[0]
-        key = re.search(r'data-comment-key="([^"]+)"', card)[1]
-        review = config['figures'][key]
-        panel = numbering['panels'].get(review['source_group'])
-        if not panel:
-            return card
-        if review['version'] != panel['approved_artwork_sha256']:
-            raise RuntimeError('Artwork differs from the agreed numbering map; reconcile the selected version first')
-        label = html.escape(panel['label'], quote=True)
-        anchor = html.escape(panel['anchor'], quote=True)
-        if 'data-gallery-reference=' in card:
-            if f'data-gallery-reference="{label}"' not in card or f'id="{anchor}"' not in card:
-                raise RuntimeError('Existing label differs from the agreed map; prepare a fresh overlay')
-            return card
-        card = card.replace('<article ', f'<article id="{anchor}" data-gallery-reference="{label}" ', 1)
-        return card.replace('<div class="body">', '<div class="body">' +
-                            f'<p class="gallery-reference"><a href="#{anchor}" title="Gallery reference; separate from manuscript numbering">{label}</a></p>', 1)
-
-    return re.sub(r'<article\b[^>]*>.*?</article>', label_card, page, flags=re.DOTALL)
+def numbered_page(page: str, numbering: dict, repository_prefix: str = 'site') -> str:
+    import gallery_presentation
+    return gallery_presentation.public_reader(gallery_presentation.numbered_page(page, numbering), repository_prefix)
 
 
 def update_theme_counts(directory: Path, catalog: dict) -> None:
@@ -95,10 +75,10 @@ def prepare(destination: Path, source_directory: Path | None = None) -> dict:
                       page, flags=re.DOTALL)
         page = page.replace('</style>', '</style><link rel="stylesheet" href="preview.css?v=' + export_share.digest(INTERFACE / 'preview.css')[:12] + '">', 1)
         page = page.replace('</html>', '<script src="preview.js?v=' + export_share.digest(INTERFACE / 'preview.js')[:12] + '" defer></script></html>')
-        page = page.replace('<header>', '<header><p class="local-preview">Local review preview · provisional gallery numbers</p>', 1)
+        page = page.replace('<header>', '<header><p class="local-preview">Local review preview · provisional figure numbers</p>', 1)
         page = page.replace('Click a preview for full resolution', 'Click a preview to enlarge; original downloads remain below each card')
         numbering = json.loads(NUMBERING.read_text())
-        page = numbered_page(page, numbering)
+        page = numbered_page(page, numbering, 'site/supplement' if directory != destination else 'site')
         (directory / 'index.html').write_text(page)
         write_json(directory / 'catalog.json', catalog)
         update_theme_counts(directory, catalog)

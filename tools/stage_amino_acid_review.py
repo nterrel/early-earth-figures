@@ -68,41 +68,63 @@ def letters(index):
 
 
 def numbering(boundary, selection):
+    """Give individual figures one reference; reserve letters for small related sets."""
     versions, _ = gallery_comments.figure_versions(boundary)
     records = {record['caption_key']: record for package in (boundary, boundary/'supplement')
                for record in json.loads((package / 'catalog.json').read_text())['assets']}
     replacements = {change['old_group']: Path(change['sources'][0]).with_suffix('').as_posix() for change in selection['replacements']}
-    old = json.loads((FIGURES / 'metadata/gallery_numbering.json').read_text())
-    panels = {}
-    for group, panel in old['panels'].items():
-        selected = replacements.get(group, group)
-        if selected in versions:
-            panels[selected] = dict(panel, approved_artwork_sha256=versions[selected]['version'])
-    formation = [change for change in selection['replacements'] if 'F22_' in change['old_group']]
-    for index, change in enumerate(formation):
-        group = replacements[change['old_group']]
-        panels[group] = {'label': f'Gallery 4{letters(index)}', 'anchor': 'gallery-formation-' + ('alanine' if Path(group).name.startswith('F22_alanine') else 'glycine'),
-                         'approved_artwork_sha256': versions[group]['version']}
-    family_by_theme = {'01_energy_evolution':1, '02_alanine_and_conformations':2,
-        '03_scale_discovery_and_sampling':5, '04_quench_and_fragment_size':6,
-        '05_composition_recurrence_and_topology':7, '06_methods_and_performance':8,
-        '07_development_systems':9, '90_historical_and_other_context':10}
-    counts = {2:2}
+    previous = json.loads((FIGURES / 'metadata/gallery_numbering.json').read_text())
+    inherited = {replacements.get(group, group): panel for group, panel in previous['panels'].items()}
+    panels, families = {}, {}
+
+    def group_for(suffix):
+        matches = [group for group in versions if group.endswith(suffix)]
+        if len(matches) != 1:
+            raise RuntimeError(f'Expected one selected source for {suffix}: {matches}')
+        return matches[0]
+
+    def family(number, title, suffixes):
+        families[str(number)] = title
+        for index, suffix in enumerate(suffixes):
+            group = group_for(suffix)
+            prior = inherited.get(group, {})
+            label = f'Figure {number}' + (letters(index) if len(suffixes) > 1 else '')
+            aliases = prior.get('search_aliases', [])
+            if prior.get('label', '').startswith('Gallery '):
+                aliases = [*aliases, prior['label']]
+            panels[group] = {'label': label, 'anchor': prior.get('anchor', 'figure-' + versions[group]['key'][:24]),
+                'approved_artwork_sha256': versions[group]['version'], 'search_aliases': sorted(set(aliases))}
+
+    family(1, 'Temperature and energy histories across system sizes',
+        ['F09_workshop_schedule_subplot_228','F09_workshop_schedule_subplot_228000','F09_workshop_schedule_subplot_22800000'])
+    family(2, 'Alanine orientation analysis', ['placed/dihedral_alanine','placed/alanine_dihedrals_updated','F10_alanine_improper_torsion'])
+    family(3, 'D/L alanine structures', ['D_alanine_standard','L_alanine_standard'])
+    family(4, 'Amino-acid formation windows', ['F22_alanine_formation_standard','F22_glycine_formation_standard'])
+    family(5, 'Alanine conformations', ['alanine_conformers_recovered_XYZ_standard'])
+    family(6, 'Paired sizes and changes in the historical quench cohort', ['G04_historical_delta_time_density','G03_historical_paired_density'])
+    additional = [
+        ('96-atom views', ['F21_historical_96atom_rotation','F21_historical_96atom_topology_2d','F21_historical_96atom_comparison']),
+        ('Complete-run and hot-hold energy distributions', ['F09_full_run_potential_energy_time_histograms','F09_hot_hold_potential_energy_time_histograms']),
+        ('Fragment-size frequencies', ['richard_images/atom_count_histogram','richard_images/atom_count_histogram_log']),
+        ('Small-fragment frequencies', ['richard_images/atom_count_histogram_small','richard_images/atom_count_histogram_small_log']),
+        ('The same ten atoms', ['F14_coordinates_3d','F14_same_atoms_connectivity']),
+        ('Historical mean and largest fragment sizes', ['G01_historical_mean_size_time_density','G02_historical_largest_time_density']),
+        ('D/L alanine drawings', ['figures/d-ala','figures/l-ala']),
+        ('96-atom manuscript views', ['placed/96_atom_3d','placed/96_atom_2d']),
+    ]
+    number = 7
+    for title, suffixes in additional:
+        family(number, title, suffixes)
+        number += 1
     for group in sorted(versions, key=lambda g: (records[g]['theme'], records[g]['title'], g)):
-        if group in panels:
-            continue
-        family = family_by_theme[records[group]['theme']]
-        index = counts.get(family, 0)
-        panels[group] = {'label': f'Gallery {family}{letters(index)}', 'anchor': 'gallery-' + versions[group]['key'][:24],
-                         'approved_artwork_sha256': versions[group]['version']}
-        counts[family] = index + 1
+        if group not in panels:
+            family(number, records[group]['title'], [group])
+            number += 1
     result = {'schema_version':1, 'status':'provisional author review',
-              'source_map':'early_earth_analysis_v2/docs/records/AMINO_ACID_GALLERY_REVIEW_A40_A37_20261013.json',
-              'namespace':'Gallery; independent of manuscript/SI and internal F/G IDs',
-              'families':{'1':'Energy','2':'Alanine geometry and conformations','3':'D/L alanine illustrations',
-                          '4':'Amino-acid formation windows','5':'Scale/discovery/sampling','6':'Quench/fragment sizes',
-                          '7':'Composition/recurrence/topology','8':'Methods/performance','9':'Development systems',
-                          '10':'Simulation/model comparisons'}, 'panels':panels}
+        'source_map':'early_earth_analysis_v2/docs/records/ALANINE_CAMERA_FIGURE_REFERENCES_A37_A40_20261013.json',
+        'namespace':'Figure; one primary reference per source group, independent of manuscript/SI numbering',
+        'grouping':'Galleries are broad topic sections; lettered figure families have at most three related figures.',
+        'families':families, 'panels':panels}
     write_json(NUMBERING, result)
     return result
 

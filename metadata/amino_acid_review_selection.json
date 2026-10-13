@@ -26,11 +26,11 @@
     {
       "old_group": "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation",
       "sources": [
-        "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.gif",
-        "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.png"
+        "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.gif",
+        "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.png"
       ],
       "title": "Alanine \u2014 saved formation window and final 360\u00b0 view",
-      "description": "148 saved coordinate snapshots show the fragments containing the eventual alanine atoms, followed by a closer view and full rotation of the final saved conformation. The final saved structure reaches a shared viewing orientation before a full camera turn. Alanine\u2019s alpha\u2013beta carbon bond projects vertically beneath a horizontal nitrogen\u2013alpha-carbon\u2013carboxyl-carbon backbone.",
+      "description": "148 saved coordinate snapshots show the fragments containing the eventual alanine atoms, followed by a closer view and full rotation of the final saved conformation. Its nitrogen\u2013alpha-carbon\u2013carboxyl-carbon plane faces the viewer using the same camera alignment as the glycine formation view.",
       "note": "First named-match window in the saved tracking record, as identified by the author and tracking logs; global-first status and chemical assignment are not independently revalidated here. All real surrounding fragment atoms are shown; only explicitly labeled dummy sulfur anchors are omitted. Blue rings mark the eventual molecule atoms. Assembly camera follows fragment extent; atom sizes are schematic. Periodic images reconstructed using the retained 557.000008 \u00c5 orthorhombic reference cell. All tracked indices/types match topology under the source zero-based convention. Saved atomic motion is not interpolated; the final zoom and rotation move the camera only. Playback speed is illustrative, not a recovered physical timeline. Assembly frames 129\u2013147 play at 400\u20131,200 ms per snapshot, with additional approach slowing and faster dispersed-fragment playback; final rotation speed is unchanged. Sticks show distance-cutoff connectivity, not bond order or mechanism. Receipts: early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_MOVIES_20261005.json; current timing revision early_earth_analysis_v2/docs/records/FIRST_NAMED_FORMATION_TIMING_20261005.json. Saved formation/zoom pixels and timing are preserved exactly. The final alignment and turn are camera motion only."
     },
     {
@@ -59,8 +59,8 @@
     "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/D_alanine_standard.pdf",
     "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/L_alanine_standard.png",
     "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/L_alanine_standard.pdf",
-    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.gif",
-    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.png",
+    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.gif",
+    "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.png",
     "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard.gif",
     "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard.png",
     "early_earth_analysis_v2/analysis/alanine_illustrations/results/recovered_XYZ_20261013/alanine_conformers_recovered_XYZ_standard.gif",

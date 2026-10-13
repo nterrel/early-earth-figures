@@ -1,15 +1,14 @@
 {
   "schema_version": 1,
   "exported_utc": "2026-10-12T21:11:25.246153+00:00",
-  "catalog_sha256": "c6f9e4c077e65c40fa9bd9bba1d38ac81c0d594f8b96fdb738565fba3bb8ccaa",
-  "gallery_sha256": "3bccba5ade384a827fc543abcca104c217591a07dc5715a9761e37794b3f89b5",
+  "catalog_sha256": "e6a1ffad1a57c8e3fc8e0bba7952137ecc7bfc2c49a191f84530470e088ced19",
+  "gallery_sha256": "8c9c34dc4801ba4afd606f3e8762821d78525a45b72b52417676f82d39dc9c65",
   "asset_count": 152,
   "selection": {
     "title": "Early Earth figure library",
     "description": "Explore energy changes, molecular geometry, fragment populations, and structural diversity. Start with guided reading views and animations, then browse related figures by theme or search.",
     "purpose": "public-library",
     "source_paths": [
-      "Dissertation_figures/alanine/ala_conformers.gif",
       "Dissertation_figures/early_earth/228.gif",
       "Dissertation_figures/early_earth/alanine.png",
       "Dissertation_figures/early_earth/alanine_shaded.png",
@@ -32,8 +31,6 @@
       "Dissertation_figures/early_earth/updated_graphmatcher.png",
       "Dissertation_figures/figures/228k_head_on.png",
       "Dissertation_figures/figures/228k_lines_fullscreen.png",
-      "Dissertation_figures/figures/3d-d-ala.png",
-      "Dissertation_figures/figures/3d-l-ala.png",
       "Dissertation_figures/figures/cropped_228_final.png",
       "Dissertation_figures/figures/cropped_228_initial.png",
       "Dissertation_figures/figures/d-ala.png",
@@ -101,8 +98,32 @@
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_comparison.png",
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.gif",
       "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_rotation.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
+      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/recovered_XYZ_20261013/alanine_conformers_recovered_XYZ_standard.gif",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/recovered_XYZ_20261013/alanine_conformers_recovered_XYZ_standard.png",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/D_alanine_standard.pdf",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/D_alanine_standard.png",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.gif",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.png",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard.gif",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard.png",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/L_alanine_standard.pdf",
+      "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/L_alanine_standard.png",
       "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.pdf",
       "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.png",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.pdf",
+      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.png",
       "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_fragment_sizes_preliminary.png",
       "early_earth_analysis_v2/analysis/historical_415/results/F11_historical_415_named_matches_paired.png",
       "early_earth_analysis_v2/figures/publication_revision/F05.pdf",
@@ -139,28 +160,10 @@
       "paper-early-earth-chemistry-hero-run/figures/quench_formula_vs_frame.png",
       "paper-early-earth-chemistry-hero-run/figures/steps_vs_temp_quench.png",
       "paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time.png",
-      "paper-early-earth-chemistry-hero-run/figures/updated_violins.png",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.gif",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_alanine_formation.png",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.gif",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F22_glycine_formation.png",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.pdf",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F21_historical_96atom_topology_2d.png",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.pdf",
-      "early_earth_analysis_v2/analysis/advisor_figures/results/F23_alanine_matching_diagnostic.png",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.pdf",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228.png",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.pdf",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228000.png",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.pdf",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_22800000.png",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.pdf",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/full_run_time_energy_histograms_20261011/iteration1/F09_full_run_potential_energy_time_histograms.png",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.pdf",
-      "early_earth_analysis_v2/analysis/energy_hysteresis/results/hot_hold_time_energy_histograms_20261012/iteration1/F09_hot_hold_potential_energy_time_histograms.png"
+      "paper-early-earth-chemistry-hero-run/figures/updated_violins.png"
     ],
     "file": "/mnt/x/scratch/early_earth_publication_v1/figures/metadata/public_library_selection.json",
-    "sha256": "40dcf4769e2bb58e84c3f2e5daee5e2b249a6910a22d24a98b3e2037702df176"
+    "sha256": "0a52ec66e808469610b7c2c622077a228ff087773e5fd22ca7293da3c5b493a5"
   },
   "linked_dependency_count": 396,
   "local_html_links_checked": 894,
@@ -4506,22 +4509,6 @@
       "role": "catalog figure"
     },
     {
-      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.gif",
-      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_alanine_formation_standard.gif",
-      "source_sha256": "4c1b3b64becf5c60fbb74a94e3f1adc20dbdb00917b537eb198200910f0ca4ab",
-      "export_sha256": "4c1b3b64becf5c60fbb74a94e3f1adc20dbdb00917b537eb198200910f0ca4ab",
-      "export_bytes": 9115394,
-      "role": "catalog figure"
-    },
-    {
-      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_alanine_formation_standard.png",
-      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_alanine_formation_standard.png",
-      "source_sha256": "8e5fc495750e92b977cde3c9172c082e7d86a24b73c98e8268313e0928f648db",
-      "export_sha256": "8e5fc495750e92b977cde3c9172c082e7d86a24b73c98e8268313e0928f648db",
-      "export_bytes": 54261,
-      "role": "catalog figure"
-    },
-    {
       "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard.gif",
       "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_glycine_formation_standard.gif",
       "source_sha256": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52",
@@ -4551,6 +4538,22 @@
       "source_sha256": "2485b5e636f1d7d2d2f9078a5674bf595263d454a78ec9b49b79c66bd3223922",
       "export_sha256": "2485b5e636f1d7d2d2f9078a5674bf595263d454a78ec9b49b79c66bd3223922",
       "export_bytes": 54171,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.gif",
+      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013_backbone_plane_v2__F22_alanine_formation_standard.gif",
+      "source_sha256": "b8a827db1e38625ba2dd293c53e1a3aa2847b48b32db9ff6b98e6a2d16909340",
+      "export_sha256": "b8a827db1e38625ba2dd293c53e1a3aa2847b48b32db9ff6b98e6a2d16909340",
+      "export_bytes": 9106827,
+      "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard.png",
+      "export_path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013_backbone_plane_v2__F22_alanine_formation_standard.png",
+      "source_sha256": "6d68767e15de345188dc18e49d792eb5e622bf13e8a32e9e3e0e104e1f9b4005",
+      "export_sha256": "6d68767e15de345188dc18e49d792eb5e622bf13e8a32e9e3e0e104e1f9b4005",
+      "export_bytes": 56240,
       "role": "catalog figure"
     }
   ],
@@ -4597,7 +4600,7 @@
     },
     {
       "path": "START_HERE.html",
-      "sha256": "22ed01c34d03269621161a257d47ddf236f55bc06a4286e2b6fb66b4d429403e"
+      "sha256": "fb2014df3bdadeb562b5857a03bcdc7ffff5e835ab4ec9deace597f7646b8f27"
     },
     {
       "path": "_support/README.md",
@@ -4605,15 +4608,15 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "1c105c70b5a225d54163c4689518c379b046f086154911070719d8ebc67adbc6"
+      "sha256": "02c8eb363fe3718825b5637a92a17d368f59714e1a0f2bd84a1875e74e167cfb"
     },
     {
       "path": "catalog.json",
-      "sha256": "c6f9e4c077e65c40fa9bd9bba1d38ac81c0d594f8b96fdb738565fba3bb8ccaa"
+      "sha256": "e6a1ffad1a57c8e3fc8e0bba7952137ecc7bfc2c49a191f84530470e088ced19"
     },
     {
       "path": "index.html",
-      "sha256": "78f1c4e8cf61532492e924eb70bccdf040b17c135d3e3f4e7b9f496310a6bb1d"
+      "sha256": "8c9c34dc4801ba4afd606f3e8762821d78525a45b72b52417676f82d39dc9c65"
     },
     {
       "path": "comments.js",
@@ -6769,12 +6772,18 @@
     "background_sha256": "8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190",
     "background_opacity": 0.8,
     "image_dialog": "Escape-close, focus restoration, original download links",
-    "numbering_sha256": "accc9e45a5320dba8b73924f5be796a2d97a95b477e4e66e0b35bc2ea5472125",
+    "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 113,
     "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
     "previous_catalog_sha256": "f8bb9ca6c02611f25ef1bc4df90e8049fa161129d95fac6ba9f53999db592708"
+  },
+  "alanine_camera_and_reader_revision": {
+    "record": "early_earth_analysis_v2/docs/records/ALANINE_CAMERA_FIGURE_REFERENCES_A37_A40_20261013.json",
+    "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard",
+    "figure_details": "Published file locations in GitHub repository only; scientific notes remain in catalog.",
+    "figure_namespace": "One primary Figure reference per card; broad Galleries selector."
   }
 }

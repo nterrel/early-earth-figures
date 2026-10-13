@@ -12,7 +12,7 @@
     "asset_count": 29,
     "state": "proposed_for_author_review"
   },
-  "source_catalog_sha256": "c6f9e4c077e65c40fa9bd9bba1d38ac81c0d594f8b96fdb738565fba3bb8ccaa",
+  "source_catalog_sha256": "63ba2e092cb64445f54b918bbe124690dd4472e5cd85c823188c199480822a59",
   "selection_sha256": "611a258c07656098a178b4c4bd23072dca519d20c32d3688e53e512b94fd5ac3",
   "policy": "Static gallery publication with requested amino-acid presentation revisions and provisional Gallery numbers; original sources retained and scientific limits preserved.",
   "files": [
@@ -657,16 +657,6 @@
       "bytes": 183678
     },
     {
-      "path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_alanine_formation_standard.gif",
-      "sha256": "4c1b3b64becf5c60fbb74a94e3f1adc20dbdb00917b537eb198200910f0ca4ab",
-      "bytes": 9115394
-    },
-    {
-      "path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_alanine_formation_standard.png",
-      "sha256": "8e5fc495750e92b977cde3c9172c082e7d86a24b73c98e8268313e0928f648db",
-      "bytes": 54261
-    },
-    {
       "path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_glycine_formation_standard.gif",
       "sha256": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52",
       "bytes": 8404069
@@ -675,6 +665,16 @@
       "path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_glycine_formation_standard.png",
       "sha256": "385b4c672443d9e7a050bba4d6342a09f006cfb46a188b52fb2794d83634f6cf",
       "bytes": 55897
+    },
+    {
+      "path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013_backbone_plane_v2__F22_alanine_formation_standard.gif",
+      "sha256": "b8a827db1e38625ba2dd293c53e1a3aa2847b48b32db9ff6b98e6a2d16909340",
+      "bytes": 9106827
+    },
+    {
+      "path": "05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013_backbone_plane_v2__F22_alanine_formation_standard.png",
+      "sha256": "6d68767e15de345188dc18e49d792eb5e622bf13e8a32e9e3e0e104e1f9b4005",
+      "bytes": 56240
     },
     {
       "path": "05_composition_recurrence_and_topology/analysis-figures-publication_revision__F05.pdf",
@@ -833,8 +833,8 @@
     },
     {
       "path": "START_HERE.html",
-      "sha256": "22ed01c34d03269621161a257d47ddf236f55bc06a4286e2b6fb66b4d429403e",
-      "bytes": 1682
+      "sha256": "fb2014df3bdadeb562b5857a03bcdc7ffff5e835ab4ec9deace597f7646b8f27",
+      "bytes": 1694
     },
     {
       "path": "_support/README.md",
@@ -2823,13 +2823,13 @@
     },
     {
       "path": "catalog.csv",
-      "sha256": "1c105c70b5a225d54163c4689518c379b046f086154911070719d8ebc67adbc6",
-      "bytes": 220933
+      "sha256": "02c8eb363fe3718825b5637a92a17d368f59714e1a0f2bd84a1875e74e167cfb",
+      "bytes": 220937
     },
     {
       "path": "catalog.json",
-      "sha256": "c6f9e4c077e65c40fa9bd9bba1d38ac81c0d594f8b96fdb738565fba3bb8ccaa",
-      "bytes": 338697
+      "sha256": "e6a1ffad1a57c8e3fc8e0bba7952137ecc7bfc2c49a191f84530470e088ced19",
+      "bytes": 338707
     },
     {
       "path": "comments.css",
@@ -2843,8 +2843,8 @@
     },
     {
       "path": "export_manifest.json",
-      "sha256": "2ebf56e78225738dae8c10e9f3289278f3f9a1be79720db4620509ebd3098f43",
-      "bytes": 543942
+      "sha256": "1aa778c43af6e992d929be1efba855f85892c3658bc16e371729c3d2b764b594",
+      "bytes": 545378
     },
     {
       "path": "feedback_status.json",
@@ -2853,8 +2853,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "78f1c4e8cf61532492e924eb70bccdf040b17c135d3e3f4e7b9f496310a6bb1d",
-      "bytes": 381347
+      "sha256": "8c9c34dc4801ba4afd606f3e8762821d78525a45b72b52417676f82d39dc9c65",
+      "bytes": 350656
     },
     {
       "path": "preview.css",
@@ -3048,8 +3048,8 @@
     },
     {
       "path": "supplement/START_HERE.html",
-      "sha256": "7ce3ff8d0d68ab9b561fef9fc3d2a8436c8f48cc84bd9e986380410f86488fbf",
-      "bytes": 1782
+      "sha256": "c80169fe8d698226954aaef92d4b84393a5ab83671aa517a8164f3344beaca00",
+      "bytes": 1794
     },
     {
       "path": "supplement/catalog.csv",
@@ -3073,8 +3073,8 @@
     },
     {
       "path": "supplement/export_manifest.json",
-      "sha256": "aff08b9e7325735eaa0781d6e177dc193a75a8671c7b810e7bbe253911742d49",
-      "bytes": 22952
+      "sha256": "b45c927dc791827f6cddbba168bb4c43374e734d904994d553ed6486de4c66f6",
+      "bytes": 23477
     },
     {
       "path": "supplement/feedback_status.json",
@@ -3083,8 +3083,8 @@
     },
     {
       "path": "supplement/index.html",
-      "sha256": "60a3cc9c7e6320d3ae9c52303f1c6322edf3d1ca404819c141f3d805035e1bf0",
-      "bytes": 61662
+      "sha256": "230da92295328e33909333a6f938bb5776f18c5304f37b9e5778c55d47490666",
+      "bytes": 59292
     },
     {
       "path": "supplement/preview.css",
@@ -3115,6 +3115,6 @@
     "publication_authorization": "Nick: push ready website updates, 2026-10-12."
   },
   "asset_count": 152,
-  "review_selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
-  "review_numbering_sha256": "accc9e45a5320dba8b73924f5be796a2d97a95b477e4e66e0b35bc2ea5472125"
+  "review_selection_sha256": "83b9bb14a1cae7e965622373f49dff1fbdcff1d93201e2c4cd9553365b8d185e",
+  "review_numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b"
 }
