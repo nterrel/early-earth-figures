@@ -77,6 +77,14 @@ stable to retain votes. See the [A37 implementation record](../early_earth_analy
 
 ## Comments directly in the hosted gallery
 
+Discussion titles use the Figure reference and title, with a short version suffix
+when artwork changes. Full source/artwork identifiers stay in the hidden matching
+metadata. Existing threads are looked up first; ordinary captions/renumbering do
+not reset feedback. `metadata/gallery_discussion_titles.json` retains each assigned
+term. Run `python3 figures/tools/gallery_feedback.py rename-titles --use-git-credential`
+to update old titles while preserving bodies, replies and closure state.
+
+
 Choose **Comments** beneath a figure, sign in with GitHub, and leave feedback or
 reply in the gallery. Comments are public and stored in this repository's GitHub
 Discussions through giscus; saving does not require a commit or website rebuild.

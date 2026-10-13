@@ -4616,11 +4616,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "8c9c34dc4801ba4afd606f3e8762821d78525a45b72b52417676f82d39dc9c65"
+      "sha256": "bbae7134ae40eeb18364e17cb557b721d51146a39e00d0202e286ceb405cac85"
     },
     {
       "path": "comments.js",
-      "sha256": "1593d2cf0b756fdc8338285daeb178c8d1077119a0621fa150ce7a6c3d659551"
+      "sha256": "9479ffcace2ca59f5392c149e02cf5d3023d84ea3041961a53082c506800d5cf"
     },
     {
       "path": "comments.css",

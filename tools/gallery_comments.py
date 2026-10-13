@@ -77,6 +77,9 @@ def attach(directory: Path, boundary: Path) -> dict:
     versions, owners = figure_versions(boundary)
     records = {record['central_path']: record for record in payload(directory)['assets']}
     reviews = {}
+    import gallery_discussion_titles as titles
+    registry = titles.entries()
+    numbering = json.loads((FIGURES / "metadata/gallery_numbering.json").read_text())["panels"]
 
     def add_button(match: re.Match) -> str:
         card = match[0]
@@ -91,6 +94,7 @@ def attach(directory: Path, boundary: Path) -> dict:
         review = dict(versions[group])
         primary = next((record for record in selected if record['caption_key'] == group), selected[0])
         review['title'] = primary['title']
+        review = titles.register(review, numbering.get(group, {}).get('label', ''), registry)
         review['assets'] = [{'path': record['central_path'], 'sha256': record['sha256']}
                             for record in sorted(selected, key=lambda record: record['central_path'] != review['version_asset'])]
         key = review['key']
@@ -107,6 +111,7 @@ def attach(directory: Path, boundary: Path) -> dict:
     text = re.sub(r'<article\b[^>]*>.*?</article>', add_button, text, flags=re.DOTALL)
     if not reviews:
         raise RuntimeError('Gallery has no commentable figures')
+    titles.REGISTRY.write_text(json.dumps({'schema_version': 1, 'entries': registry}, indent=2, ensure_ascii=False) + '\n')
     config['figures'] = reviews
     serialized = json.dumps(config, separators=(',', ':'), ensure_ascii=True).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     markup = (f'<script type="application/json" id="gallery-comment-config">{serialized}</script>'

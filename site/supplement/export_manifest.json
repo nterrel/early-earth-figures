@@ -319,11 +319,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "230da92295328e33909333a6f938bb5776f18c5304f37b9e5778c55d47490666"
+      "sha256": "ed10edf87e49629a554c3875b65c376d9ec4e46709ba321a9b4a2930ce0ccbc7"
     },
     {
       "path": "comments.js",
-      "sha256": "1593d2cf0b756fdc8338285daeb178c8d1077119a0621fa150ce7a6c3d659551"
+      "sha256": "9479ffcace2ca59f5392c149e02cf5d3023d84ea3041961a53082c506800d5cf"
     },
     {
       "path": "comments.css",

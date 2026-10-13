@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import gallery_discussion_titles as titles
 
 FIGURES = Path(__file__).resolve().parents[1]
 REPOSITORY = 'nterrel/early-earth-figures'
@@ -45,7 +46,7 @@ def graphql(query, variables, environment):
 def discussions(environment):
     query = '''query($after:String){viewer{login} repository(owner:"nterrel",name:"early-earth-figures"){
       viewerPermission hasDiscussionsEnabled discussions(first:100,after:$after){
-      pageInfo{hasNextPage endCursor} nodes{id number title url closed viewerCanClose viewerCanReopen
+      pageInfo{hasNextPage endCursor} nodes{id number title body url closed viewerCanClose viewerCanReopen
       category{id name} comments{totalCount}}}}}'''
     items, cursor = [], None
     while True:
@@ -61,10 +62,10 @@ def discussions(environment):
 def write_status(items):
     category = json.loads(CONFIG.read_text())['category_id']
     selected = [item for item in items if item['category']['id'] == category
-                and re.fullmatch(r'Early Earth figure review \| [0-9a-f]{64} \| [0-9a-f]{64}', item['title'])]
+                and titles.identify(item)]
     record = {'schema_version': 1, 'repository': REPOSITORY,
               'checked_utc': datetime.now(timezone.utc).isoformat(),
-              'threads': {item['title']: {'number': item['number'], 'url': item['url'], 'closed': item['closed']}
+              'threads': {titles.identify(item): {'number': item['number'], 'url': item['url'], 'closed': item['closed']}
                           for item in selected}}
     STATUS.write_text(json.dumps(record, indent=2) + '\n')
     return selected
@@ -100,7 +101,7 @@ def read_thread(number, environment):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['list', 'read', 'sync', 'close', 'reopen'])
+    parser.add_argument('command', choices=['list', 'read', 'sync', 'close', 'reopen', 'rename-titles'])
     parser.add_argument('--number', type=int)
     parser.add_argument('--verified-change', help='Checked correction receipt or commit; required to close')
     parser.add_argument('--use-git-credential', action='store_true', help='Reuse signed-in Git credentials in memory')
@@ -124,8 +125,7 @@ def main():
         return
     if args.command in ('close', 'reopen'):
         item = next((item for item in items if item['number'] == args.number), None)
-        if not item or item['category']['id'] != json.loads(CONFIG.read_text())['category_id'] or not re.fullmatch(
-            r'Early Earth figure review \| [0-9a-f]{64} \| [0-9a-f]{64}', item['title']):
+        if not item or item['category']['id'] != json.loads(CONFIG.read_text())['category_id'] or not titles.identify(item):
             raise RuntimeError('Only exact version-bound figure review discussions can be changed')
         if args.command == 'close' and not args.verified_change:
             parser.error('--verified-change is required; close only after the correction is checked')
@@ -141,6 +141,20 @@ def main():
         with audit.open('a') as handle:
             handle.write(json.dumps({'utc':datetime.now(timezone.utc).isoformat(), 'action':args.command,
                                     'number':item['number'], 'term':item['title'], 'verified_change':args.verified_change})+'\n')
+        login, repository, items = discussions(environment)
+    if args.command == 'rename-titles':
+        registry = titles.entries()
+        category = json.loads(CONFIG.read_text())['category_id']
+        for item in items:
+            identity = titles.identify(item, registry)
+            if item['category']['id'] != category or identity not in registry:
+                continue
+            title = registry[identity]['title']
+            if title == item['title']:
+                continue
+            # Keep body, strict-match markers, replies, number and closure state.
+            graphql('mutation($id:ID!,$title:String!){updateDiscussion(input:{discussionId:$id,title:$title}){discussion{number title}}}',
+                    {'id': item['id'], 'title': title}, environment)
         login, repository, items = discussions(environment)
     selected = write_status(items) if args.command != 'list' else items
     if args.site and args.command != 'list':

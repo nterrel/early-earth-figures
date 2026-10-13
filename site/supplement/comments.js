@@ -61,16 +61,17 @@
     const params = new URLSearchParams({
       origin: cleanUrl(key).href, session, repo: config.repository,
       repoId: config.repository_id, category: config.category,
-      categoryId: config.category_id, term: review.term,
+      categoryId: config.category_id, term: review.identity_term || review.term,
       description: 'Figure: ' + review.title + '\nReviewed artwork SHA-256: ' + review.version +
-        '\nFiles: ' + review.assets.map(asset => asset.path).join(', '),
+        '\nFiles: ' + review.assets.map(asset => asset.path).join(', ') +
+        (review.identity_term ? '\n<!-- early-earth-review: ' + review.identity_term + ' -->\n<!-- sha1: ' + review.identity_sha1 + ' -->' : ''),
       backLink: cleanUrl(key).href, strict: '1', reactionsEnabled: '0',
       emitMetadata: '1', inputPosition: 'top', theme: 'light',
     });
     iframe.src = provider + '/en/widget?' + params;
     host.append(iframe);
     frameContainer.append(host);
-    const entry = {host, iframe, status, timer:null};
+    const entry = {host, iframe, status, timer:null, review, readableLookup:false};
     entry.timer = setTimeout(() => {
       status.hidden = false;
       status.textContent = 'Comments are taking longer to load. Check your connection and try again.';
@@ -114,7 +115,7 @@
         const response = await fetch(config.feedback_status_url, {cache: 'no-store', signal: AbortSignal.timeout(3000)});
         if (response.ok) {
           const state = await response.json();
-          if (state.repository === config.repository) resolved = state.threads?.[review.term];
+          if (state.repository === config.repository) resolved = state.threads?.[review.identity_term || review.term] || state.threads?.[review.term];
         }
       } catch (_) { /* Keep feedback available when the status snapshot cannot load. */ }
     }
@@ -156,7 +157,16 @@
     if (data.discussion || typeof data.error === 'string') clearTimeout(entry.timer);
     if (typeof data.error === 'string') {
       if (data.error.includes('Discussion not found')) {
-        entry.status.hidden = true; // A new thread is created on the first submission.
+        entry.status.hidden = true;
+        // First find legacy feedback, including readable threads carrying the
+        // original hidden strict-match marker. Only a confirmed absence permits
+        // the readable creation term. Other provider errors never switch identity.
+        if (entry.review.identity_term && !entry.readableLookup) {
+          entry.readableLookup = true;
+          const url = new URL(entry.iframe.src);
+          url.searchParams.set('term', entry.review.term);
+          entry.iframe.src = url.href;
+        }
       } else {
         entry.status.hidden = false;
         entry.status.textContent = 'Comments could not load. Please try again later.';

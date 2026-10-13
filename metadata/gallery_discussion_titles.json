@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "entries": {
+    "Early Earth figure review | f56551d64b4a217a6c8cf5fdc5b9f9b02e1ace0cf64cd83c297c345e6843b38d | 9339012f47bcf5ab9a7ce7a4f1c134499272e824c6cd11b510a06de657f135d1": {
+      "term": "Figure 31 — Four-figure advisor reading path",
+      "title": "Figure 31 — Four-figure advisor reading path"
+    },
+    "Early Earth figure review | adf2cd2327fb933511dd207a6a9a49fd6e1c9707a905729a35bb358e5a0f7a6a | 4104103421e4df2fa0d45f73155c5ad54a7cfab2af1fd0683cb1a1becb2d9f9a": {
+      "term": "Figure 34 — Fragment sizes, composition, and connectivity patterns",
+      "title": "Figure 34 — Fragment sizes, composition, and connectivity patterns"
+    },
+    "Early Earth figure review | 37451dd5ed8c64a73fa5a8fd3f17c3dd2a2a455a17cb8250da76a03aebf4f178 | 6c659e6440eb06d91e6730d4f47aabdb4242f8a27a5dfa7a65d6f63f630df70c": {
+      "term": "Figure 30 — Filtered heavy-atom trend comparison",
+      "title": "Figure 30 — Filtered heavy-atom trend comparison"
+    },
+    "Early Earth figure review | dd6d0191240aa94cfc2dec18c7b5803c306cac21e0fb10c30422d280f27efe5c | ca1f17b03220fc39096667ca69aa253e762420231158d95918994f0828f0709c": {
+      "term": "Figure 39 — Heavy-atom size and abundance supplement",
+      "title": "Figure 39 — Heavy-atom size and abundance supplement"
+    },
+    "Early Earth figure review | 9e4eebb2c97ce05143cc8ffeff3fa28715f577d701e04a234ec6fbfcba0daa36 | 37f973fae67d4b464f707e80c7dcad7c79ffc36a6c7d33e522a2092d16e27a32": {
+      "term": "Figure 40 — How H-only fragments change the heavy-size mean",
+      "title": "Figure 40 — How H-only fragments change the heavy-size mean"
+    },
+    "Early Earth figure review | b8f1ac57bd07c3000b83fff39ce997bd3f254a3e18220bbf84cdfc3cdf4581c8 | c364bc22c1bce121003e8abf27ff1866da5df65f78848e0c9a564d2caa45157c": {
+      "term": "Figure 60 — Quenched, 300 K endpoint graph gallery at frame 447",
+      "title": "Figure 60 — Quenched, 300 K endpoint graph gallery at frame 447"
+    },
+    "Early Earth figure review | e1958efcdec1a67daccc6738cd66b76b1f0a76868ffec1ed03810bcc9e721d7a | 327a84e3ed56a324c65ca1efc093e590dd26224b9d1b1a945e8982139949fbdf": {
+      "term": "Figure 93 — 198 representative connectivity graphs",
+      "title": "Figure 93 — 198 representative connectivity graphs"
+    },
+    "Early Earth figure review | dc0476da65261d4cb80af4f8f643c829761fe4f509172b8a93dca45c0ebe4969 | b23da7766f7734a75ac85867f59733bfd6c0f4b08f7b2d5cdd9e89f62cd00353": {
+      "term": "Figure 94 — Hot, 2500 K graph gallery at frame 447",
+      "title": "Figure 94 — Hot, 2500 K graph gallery at frame 447"
+    },
+    "Early Earth figure review | 04f7e2dd3517fd1bd043cfb4d259ca302479db1a56db93352325faaf0fbd21e0 | fd6fb004dba461fe0f1dd88dd238982443a73d40cf5fb3b3e7fe5149fd125659": {
+      "term": "Figure 89 — 228-atom development system — animation",
+      "title": "Figure 89 — 228-atom development system — animation"
+    },
+    "Early Earth figure review | c7fcc0d27b97bb4585edbb0b3b745a8c4f0351b71faa7f32ae2f18fc5f3339d3 | 859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52": {
+      "term": "Figure 4b — Glycine — saved formation window and final 360° view",
+      "title": "Figure 4b — Glycine — saved formation window and final 360° view"
+    },
+    "Early Earth figure review | 9703ca714bd56c9784e0bf90bbff8584bef161ec49c77e4b009d4a7b83ae58e4 | 9d5d8ea456f4ac01558a43c774b407c4c7686518c31ba3c4362f058308b7793d": {
+      "term": "Figure 5 — Alanine conformations — animation",
+      "title": "Figure 5 — Alanine conformations — animation"
+    },
+    "Early Earth figure review | 757e17f3fd878c50617904ad4cf3395a5c1e1198e849d84ff91289c7dce78ab2 | aa42392465b35710de7f621ae4b3ef2325637357535deebcd8b91e1093b30dd9": {
+      "term": "Figure 7a — 96 atom fragment, shown in 3D",
+      "title": "Figure 7a — 96 atom fragment, shown in 3D"
+    },
+    "Early Earth figure review | 20fc8c27827970aaa761e85e83f3786667a45fa4b14d8ac4e96c7e3e656c0a3b | ece74b7025f43a242090ca651d86e50d51ec32e48b64a46c57b760cec9cc4dae": {
+      "term": "Figure 19 — Total-energy distribution during heating and cooling",
+      "title": "Figure 19 — Total-energy distribution during heating and cooling"
+    },
+    "Early Earth figure review | 2cce598d7128b117683a0f06211501b6e6bfbe4a0bc1c9f626ba2193b53aeafa | aa28ce3900fbb95249f2ecc574d2a912741057a198c2cf5d6d3db5347855fc7a": {
+      "term": "Figure 15 — Kinetic energy versus temperature",
+      "title": "Figure 15 — Kinetic energy versus temperature"
+    },
+    "Early Earth figure review | abdadbe10d99a582c8cd00f764f0ee89372429f7bc4e90501cfbed77c031d5fe | e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2": {
+      "term": "Figure 16 — Potential-energy hysteresis during heating and cooling",
+      "title": "Figure 16 — Potential-energy hysteresis during heating and cooling"
+    },
+    "Early Earth figure review | d7b0048f48a40abaa0f96d49485049020fa570bad615182c2b045471a0adab44 | d2191688b512a6d934d8350dc2c3bf083f2318ebb9408f255ff4b7debe2d754b": {
+      "term": "Figure 17 — Temperature and potential-energy counts in the 22.8-million-atom run",
+      "title": "Figure 17 — Temperature and potential-energy counts in the 22.8-million-atom run"
+    },
+    "Early Earth figure review | 2ac701d2dcb2a282ccc08759d2b7ccbf01b24b8a20118f182c75545f4f55d0c4 | 84d2cc560713807d5eaeb978205a44197acd91701bdacdc2322b7472a0149618": {
+      "term": "Figure 1a — Temperature and potential-energy histories: 228 atoms",
+      "title": "Figure 1a — Temperature and potential-energy histories: 228 atoms"
+    },
+    "Early Earth figure review | 82bd1f23c211a1e0577a2f7432b5eb66e9710d27aca5ea879274533bfdab5cec | 3b49009438e3fd0c97f4fc4c32d82db832699cd520d5054cdcdd00628bcb47f9": {
+      "term": "Figure 1b — Temperature and potential-energy histories: 228,000 atoms",
+      "title": "Figure 1b — Temperature and potential-energy histories: 228,000 atoms"
+    },
+    "Early Earth figure review | eaf4567f8612fe7d27682763b9a14c816bd7629f3088d922fd6d6c61bf7e9c36 | 7a9d972dbf07a66b8217de69bfdb525fb7972d3cafca689a094c374ae4e5fdea": {
+      "term": "Figure 1c — Temperature and potential-energy histories: 22.8 million atoms",
+      "title": "Figure 1c — Temperature and potential-energy histories: 22.8 million atoms"
+    },
+    "Early Earth figure review | ef061a9d2d025224a1424a32fa1077b9fb3d3757af7c4d3f06dbed53e7c3c6a1 | e982d95d94f4cc3f61581e3267cd53c9d33d42549c4bdaf8832a9443c2b77968": {
+      "term": "Figure 8a — Potential energy versus time: complete simulations",
+      "title": "Figure 8a — Potential energy versus time: complete simulations"
+    },
+    "Early Earth figure review | b38f20fcf088a87583acd1c09ed69401cc87a3664f062f3ebf2bda70861cdc65 | 440da5302f591dce52e967abf35048d39c6fc857a2c4ce1fc869fdcb3f514a96": {
+      "term": "Figure 8b — Potential energy versus time: full 2500 K hold",
+      "title": "Figure 8b — Potential energy versus time: full 2500 K hold"
+    },
+    "Early Earth figure review | 54371cfda4c0a002cdd452de81d7e4993029f2823f78eaae1ca7841ebd608986 | a86af85c3c52e7f7af0c39d105d0c6b66216fdb1807faeafc52a7f34d49ca962": {
+      "term": "Figure 18 — Temperature relaxation during a quench",
+      "title": "Figure 18 — Temperature relaxation during a quench"
+    },
+    "Early Earth figure review | 7c84bbd791281ac5fabd20689f8968f759536e79bc68a4ea8c8a770cc01801af | 504deae41e9da0c6f3e003c2bdf418088ce44942799de5fc11d59fb55bf5fc14": {
+      "term": "Figure 2a — Alanine atom quartet for the orientation analysis",
+      "title": "Figure 2a — Alanine atom quartet for the orientation analysis"
+    },
+    "Early Earth figure review | 3fe589aabad494376cb345b30e1b43861d18379538a08da6ca8ad45f60dbad20 | 39aa8c98e718244268d8eba35e45c6aeba7826a4bf789f45957d2b17587d939d": {
+      "term": "Figure 2b — Alanine central-carbon orientation histogram",
+      "title": "Figure 2b — Alanine central-carbon orientation histogram"
+    },
+    "Early Earth figure review | b0188fd39ea265ac83ceb6285646ad966b75cadd05568edca547bd19e1dccdd7 | 25a27e54d66faf7a8521a748bb2e88b758a038476c303ce6998fa075ca47b424": {
+      "term": "Figure 3a — D-alanine — illustrative structure",
+      "title": "Figure 3a — D-alanine — illustrative structure"
+    },
+    "Early Earth figure review | 230e348ac7158d3350b7cbe07c500a09a2a159232a046cd33393c14e08871b65 | 2485b5e636f1d7d2d2f9078a5674bf595263d454a78ec9b49b79c66bd3223922": {
+      "term": "Figure 3b — L-alanine — illustrative structure",
+      "title": "Figure 3b — L-alanine — illustrative structure"
+    },
+    "Early Earth figure review | 3c0b2b7c719e121b53e924e3ecd7103ae0963aaf16c23ded9f6986b78d369416 | 3df7d734f79eb65ddf76acb16ec441f0a333ee8b5274e48bbcc0190c3649856d": {
+      "term": "Figure 13a — D-alanine — 2D stereochemical illustration",
+      "title": "Figure 13a — D-alanine — 2D stereochemical illustration"
+    },
+    "Early Earth figure review | abae5b66056513953e65b9459a649966a8ef9813eea95901768a2bb0fb7cbd31 | 486d9457ea76675e52723852e685b299d01c55290a7ceedcc3f03263d3fefe52": {
+      "term": "Figure 13b — L-alanine — 2D stereochemical illustration",
+      "title": "Figure 13b — L-alanine — 2D stereochemical illustration"
+    },
+    "Early Earth figure review | d80695c3beafdeadeaf64ee53e06855948a24ca0e758f34bf60ab578544e4de5 | 7717c355dabca43b0dfff03d0d4fb8f8e50e28ab38591f5be31fa3aa698690ae": {
+      "term": "Figure 20 — Why unlabeled graph matching misidentified alanine",
+      "title": "Figure 20 — Why unlabeled graph matching misidentified alanine"
+    },
+    "Early Earth figure review | d757865368132c0a9f76a93823b8699ee0bf9986c77d8fb21427885dd961e6fe | 198bf3758d2bdf66af3788e9730ed68ea1895e0498adc976193c29c6cef02922": {
+      "term": "Figure 22 — Molecular-signature detections across time",
+      "title": "Figure 22 — Molecular-signature detections across time"
+    },
+    "Early Earth figure review | 20f0c44f8c47646bcdebfac5bff3fd9d5f25311d389f5147fa042e86c7cb7da4 | f1e7aad7fd844532917b4438bbe28e7273256ec28c146b6fc40f33c195d95879": {
+      "term": "Figure 23 — Per-frame structural diversity across system sizes",
+      "title": "Figure 23 — Per-frame structural diversity across system sizes"
+    },
+    "Early Earth figure review | 8400e4cbd9942e9567212e916f185be2dca9b0f67c19697403611223fcd5fbd0 | dd46fc022132bd6c825e58e0082df69549e611428a6b531da623c380d3a52346": {
+      "term": "Figure 21 — How sampling cadence changes observed variety",
+      "title": "Figure 21 — How sampling cadence changes observed variety"
+    },
+    "Early Earth figure review | 7c0e2b3fda9d8025c104963ff68c1deaaba697a521cb3945f37be3ded159c498 | c901d3c2ed8181d78454b6636476eda98c7b7ee5f037262054d786c1eeeb9781": {
+      "term": "Figure 24 — Structural presence and first detections across size and time",
+      "title": "Figure 24 — Structural presence and first detections across size and time"
+    },
+    "Early Earth figure review | 2b881345bb2285026f66c713682c29d4471c2323ba3910f4f7d6eabef6d7da75 | 4beac7cbf66a8ec49bf51e45ab3ab4f7b23979601a06b5355d91faf84c1485d0": {
+      "term": "Figure 11a — The same ten atoms: aligned 3D comparison",
+      "title": "Figure 11a — The same ten atoms: aligned 3D comparison"
+    },
+    "Early Earth figure review | 100c0e8ec15a6d3a7937136615a93a99302de495fe11d2756ce36e86642e77b7 | cfd81a2f9f1884a372863b9c21d63b241d398f77acb9cc5c9cdfff86697aded7": {
+      "term": "Figure 11b — A ten-atom connectivity example before and after quench",
+      "title": "Figure 11b — A ten-atom connectivity example before and after quench"
+    },
+    "Early Earth figure review | 1080b4ecd97221345472665f3ee62235d7f6de9eb6262678f5095ff83f5d8472 | 1c71589cf9d1f4e7016009633f7de8191300c45ef7ac6a560223c8c8daf3d320": {
+      "term": "Figure 14b — A 96-atom fragment: two-dimensional depiction",
+      "title": "Figure 14b — A 96-atom fragment: two-dimensional depiction"
+    },
+    "Early Earth figure review | 32aeb56e7aa81e246f2bbbf8c6e1aa5627e306908778ea72968ce6e2018023a1 | d25611ebc8d5ff0a5f151bb0d42348833a03c64484466cde90f3ce6cfafed309": {
+      "term": "Figure 14a — A 96-atom fragment: three-dimensional geometry",
+      "title": "Figure 14a — A 96-atom fragment: three-dimensional geometry"
+    },
+    "Early Earth figure review | 5264db38d753e999628dafbf281844e2bd4ebd1786c762efcf13a095ea340364 | b1e2c7915464825954b7186303cdbfce19cb6da031c84605fd993360a9b8535a": {
+      "term": "Figure 56 — Paired means and maxima after quench",
+      "title": "Figure 56 — Paired means and maxima after quench"
+    },
+    "Early Earth figure review | 9674874589c31ab1b7b9b338eb932849392c752aa3f4c351a83fcd87b52cd572 | 5420dcd535c8f695a95c5cd928ace2692c9ffe14c111c04d61f7ba09200ff201": {
+      "term": "Figure 53 — Named-reference match occurrences before and after quench",
+      "title": "Figure 53 — Named-reference match occurrences before and after quench"
+    },
+    "Early Earth figure review | d30336713b8ece4eab279f8803fa3c978b3a7632e4faa7216262975cc4d47738 | 6b25fc2d07f567e3c55bdd99824d08ef202f385cbab5a83a6ac427d95b3b464a": {
+      "term": "Figure 54 — Named-reference matches across simulation time",
+      "title": "Figure 54 — Named-reference matches across simulation time"
+    },
+    "Early Earth figure review | 65b952f7047fab8549b22a4e51d0e7229cab64746dd72daad26ce660e485c1c5 | b8dfece0bd32ed37a9d8d9ef8e82a686934528d5cb148db6121bf187ef1ff063": {
+      "term": "Figure 26 — Approximate-signature richness before and after quench",
+      "title": "Figure 26 — Approximate-signature richness before and after quench"
+    },
+    "Early Earth figure review | 9085f7f15176d563511b9ea334825241c2771b7a2bfe0aea42737157f6c08e6f | af6fb175f10e90daa1d418552a846f256a032617f1e73176d46c0e3509ff120d": {
+      "term": "Figure 42 — Largest connected-fragment size over time",
+      "title": "Figure 42 — Largest connected-fragment size over time"
+    },
+    "Early Earth figure review | 17aae335f07a9b9b6de183f3b9f6c2b23e1f82b4e1b6d2c2b13f63d9081a40e1 | 04a3ea44fc99a1ed16b6be898176ca354cdcfab9c6c7051b80b300264853bf03": {
+      "term": "Figure 61 — Repeated named-reference match occurrences",
+      "title": "Figure 61 — Repeated named-reference match occurrences"
+    },
+    "Early Earth figure review | 79e2d38718b029626f00877368c6db88a88608a8f48cb5c5b2bf6f338574e203 | e487625ac77dc9bd10d436a0d03f10125d090cd6bcd2ed6d00057715a3dc54bd": {
+      "term": "Figure 63 — Unique-signature counts in paired states",
+      "title": "Figure 63 — Unique-signature counts in paired states"
+    },
+    "Early Earth figure review | 5b4efc89b36f597bb92fd9baa68c676d3fc473d4d92d5bfcf119f6f51f1d872e | c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff": {
+      "term": "Figure 43 — Largest fragment over time — blue trace",
+      "title": "Figure 43 — Largest fragment over time — blue trace"
+    },
+    "Early Earth figure review | 496aec52a1c7168343b3a20e0db4bd860a887a697dc7b0ed5a433902dbc61cc6 | 7e46076e0ac500919924a3aa1fc2b7ee5b4c2abc3cf278ec177ebd519acf6c42": {
+      "term": "Figure 45 — Mean fragment size — coarse time bins",
+      "title": "Figure 45 — Mean fragment size — coarse time bins"
+    },
+    "Early Earth figure review | c63cea1edd6c59674a0062bdadfed3145258305de622847eb8da2fc672d2f0f8 | 0ef75eafc3b0d10846a73c669eb7e8951e1f6a3608d2b353bc94bc120217f8da": {
+      "term": "Figure 55 — Occurrence count versus fragment size",
+      "title": "Figure 55 — Occurrence count versus fragment size"
+    },
+    "Early Earth figure review | 5103d269713be2bb39aa2bfde88d275ec0bede28af8f5184175717b49bcb752a | d5a49664561d22d939eb4c5e1334384f6fe266ce3202b819df157f26f5745d09": {
+      "term": "Figure 9a — Fragment-size distribution — linear frequency",
+      "title": "Figure 9a — Fragment-size distribution — linear frequency"
+    },
+    "Early Earth figure review | 4257861d17aa2aebbf0ad2aff3f15b3ce0f06b6606d1496001664f10dbe4952a | f75b9821743a0424ce6e923a044d7621acde9321358ceb7c9bdec250f00fe3ba": {
+      "term": "Figure 9b — Fragment-size distribution — logarithmic frequency",
+      "title": "Figure 9b — Fragment-size distribution — logarithmic frequency"
+    },
+    "Early Earth figure review | 1e59061ae12b59b8d0e98f9917d7fa0949ffeb79b8b7c874731e6af534843ea1 | f6f060e2024907606d448c2c6ef4b630e348a8a75fd3f0e1c520e8f51206a6c4": {
+      "term": "Figure 10a — Small-fragment distribution — linear frequency",
+      "title": "Figure 10a — Small-fragment distribution — linear frequency"
+    },
+    "Early Earth figure review | bef5fb0bf04ce286fc7057ca72850db4265a9bc9e566f14d3d19706466c69498 | 37d2214f9622f276c2845ac803c6446897936518b84ab2fdd1a8d9892e15983e": {
+      "term": "Figure 10b — Small-fragment distribution — logarithmic frequency",
+      "title": "Figure 10b — Small-fragment distribution — logarithmic frequency"
+    },
+    "Early Earth figure review | e86849ca69a11a58cfc8970eeec4f28e7ab05f128dac91ab6df52d1d1acb62cc | 9c4fd523fd83ffd6856d1b033883322046c683905ffe23031fac6ad8255fc76d": {
+      "term": "Figure 25 — Alanine and glycine counts before and after quenching",
+      "title": "Figure 25 — Alanine and glycine counts before and after quenching"
+    },
+    "Early Earth figure review | 1bdff66e785d820c8ad0715601a34d70b66cd55574a0d59a3da5fdc56e42642c | f356b7df8c1ccb569356d4a5347d7df5ddaf8adef40a2b8baeb6b0be06d4112d": {
+      "term": "Figure 49 — Named-query counts before and after quenching",
+      "title": "Figure 49 — Named-query counts before and after quenching"
+    },
+    "Early Earth figure review | 1b5643d88e86f8019f94eec12d9f640386a434ff0ef12ff272f560c4ce66d886 | ee71110a9f61cd189019db850f09e400635399b982caba953918b177cbb800fb": {
+      "term": "Figure 51 — Named-query detections over time — quench comparison",
+      "title": "Figure 51 — Named-query detections over time — quench comparison"
+    },
+    "Early Earth figure review | ace99e636bab652b21e1bb58a12adaa7cb7dd23199545a2d2f22dd4ba1696c59 | ef1ea025f8c125a7fef680997899b49b7ef4298a39e80df6c6a21e62e4796d0f": {
+      "term": "Figure 50 — Named-query counts per frame — earlier violins",
+      "title": "Figure 50 — Named-query counts per frame — earlier violins"
+    },
+    "Early Earth figure review | 344cfe3666e7f93f7a5783cdcad52668eef1f2b444a2e43ff8bc9cb146c1931f | d9d2f9fb3b69fc4a97ef18f31d7d4fd048e5c0db50c3509c5db50fe399a0be79": {
+      "term": "Figure 46 — Mean fragment size — revised purple view",
+      "title": "Figure 46 — Mean fragment size — revised purple view"
+    },
+    "Early Earth figure review | f8923376c13e60d14dab3420d1bffc83dc5db2236966d6c751abe92b689a08a3 | 4162e0b1cfd5c1bd6580ccc46bcbf0f999af32a236d7f114633e99ba420ead52": {
+      "term": "Figure 33 — Fragment membership changes after quench",
+      "title": "Figure 33 — Fragment membership changes after quench"
+    },
+    "Early Earth figure review | 14ebeb97dae75d3e8de68953421b340271e49ab29c7e976174fc8e3577e8ad35 | 45367f0ac5c8cc5d33b0f81954f687a0618babc29b18e4722ea4f3415ce343d2": {
+      "term": "Figure 62 — String discovery in hot and quenched states",
+      "title": "Figure 62 — String discovery in hot and quenched states"
+    },
+    "Early Earth figure review | cabed8067466d3b644216cf0a0962aaa9243a1d1fcbd9aad52f11ece273aa990 | fe3c3c4c24e4573607bf0abeacad10bbf94c9b3ace2196b97abb3d12ea501306": {
+      "term": "Figure 32 — Fragment means and maxima in 412 paired quenches",
+      "title": "Figure 32 — Fragment means and maxima in 412 paired quenches"
+    },
+    "Early Earth figure review | dff83427338d7f551254caca3e3b3743b79ed3822befb7018336777b264ceb28 | cefe929ba7aca844577e06712b33cc987d9a937f12d49d80c492753e3a23a5c8": {
+      "term": "Figure 58 — Paired reference matches in two search libraries",
+      "title": "Figure 58 — Paired reference matches in two search libraries"
+    },
+    "Early Earth figure review | 57efb52dc05d41ceb3cdb4ef18146dac1468c91619e83d6081e64c40673846f8 | c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502": {
+      "term": "Figure 59 — Quench changes mean and largest fragment sizes",
+      "title": "Figure 59 — Quench changes mean and largest fragment sizes"
+    },
+    "Early Earth figure review | 9a24e077b9e17e1442d6f5dd9425016b64e284ee9c4be1b7b93881a8d002d08b | 78eab1707b260c1ce7e3ec44d70b418fa72de4ecfd4a855768f7d4673e502ace": {
+      "term": "Figure 48 — Mean total fragment size by frame number",
+      "title": "Figure 48 — Mean total fragment size by frame number"
+    },
+    "Early Earth figure review | 808fec96e3c3b26282ba4ee18fe6957be24ae65f26156a4c9b88e2a753923d85 | c154bb3857184884fe9588db17005e495b0ddf48bf1274c95e47cadb9ba64a25": {
+      "term": "Figure 28 — Filtered heavy-atom means: H-only fragments excluded",
+      "title": "Figure 28 — Filtered heavy-atom means: H-only fragments excluded"
+    },
+    "Early Earth figure review | bd0633e25f728c98b45b199259070cc3e8eca977113cf8b1a4bd3e517123d34c | b3b7efc605b10e3c82c819445865ac2b469a1bda37c7455e319d5f51cdb08d04": {
+      "term": "Figure 29 — Filtered heavy-atom means: residual H-only fragments included",
+      "title": "Figure 29 — Filtered heavy-atom means: residual H-only fragments included"
+    },
+    "Early Earth figure review | e5b0b3b7a00321e8b3789a784a374da92b81da19b0ea0b9ee14c7a598acb810c | abeec6f2fe0665d81d2b7b775abaf4dc29b9212e07695cf04b048f35c4daa030": {
+      "term": "Figure 37 — Heavy-atom means and maxima across the run",
+      "title": "Figure 37 — Heavy-atom means and maxima across the run"
+    },
+    "Early Earth figure review | 91122443fb1d3bfc2e7d3e4659ae465741b0f939924c91788f9e6b4634d03e6d | a2bf6690814556cd7b2c89c4830cdb56abc861b91252111382939ca73ead2882": {
+      "term": "Figure 47 — Mean heavy-atom size across simulation frames",
+      "title": "Figure 47 — Mean heavy-atom size across simulation frames"
+    },
+    "Early Earth figure review | 27b4ea6964dbff1b7e971dcddf6d05aa58dfe9e53203857652abe0406cd8eb90 | e48e5181aeffd69b85a2703f94c56e3a77d2978a42d5fc12b820896283ec7002": {
+      "term": "Figure 36 — Heavy-atom means among heavy-bearing fragments",
+      "title": "Figure 36 — Heavy-atom means among heavy-bearing fragments"
+    },
+    "Early Earth figure review | 7dac296b5531635173086fe7a674cba77fc29d9cc0210c85850987af2b004083 | 75899e28be9edb39c3377b99f8625f242a25d6416610cac906a79d02b370bb00": {
+      "term": "Figure 38 — Heavy-atom means over all original fragments",
+      "title": "Figure 38 — Heavy-atom means over all original fragments"
+    },
+    "Early Earth figure review | a8a44aaea041739fccebe4aecc106821a3b815553fba75b0f95a85d11ac6b23f | 49bdeb38366d26e37de13ac948b7646f2b2ebaa9e8254ef2c2d6fb01860472ff": {
+      "term": "Figure 7c — 96-atom coordinates side by side",
+      "title": "Figure 7c — 96-atom coordinates side by side"
+    },
+    "Early Earth figure review | 4e8f12c68b262fdc9322866e2be943d700e154e64a36162f5cdbbcd3253029b5 | 162e9276916316e9df3c6fbdfd0dbd1063c1140694c9ea275dd3674e6fdda101": {
+      "term": "Figure 7b — 96-atom connectivity before and after quenching: true 2D",
+      "title": "Figure 7b — 96-atom connectivity before and after quenching: true 2D"
+    },
+    "Early Earth figure review | d5c5e99f5be062eb293a0667b6d9d1e685583b71a30ff59e4e96db71a8fc904d | ad94441e260b43fbf62695b8dea617fe66378ed0a9502f26ef4359f295dffd88": {
+      "term": "Figure 12a — Mean fragment size through the 250-fs quench cohort",
+      "title": "Figure 12a — Mean fragment size through the 250-fs quench cohort"
+    },
+    "Early Earth figure review | 367e9f35a35152fe2b872dde9958f25a83fbe4f1c4e43b439366470768e2ab14 | f0f3741cdc3c8e4f6fd0ca303b374a505fe19c818665b447f4673f65946dda80": {
+      "term": "Figure 12b — Largest fragments through the 250-fs quench cohort",
+      "title": "Figure 12b — Largest fragments through the 250-fs quench cohort"
+    },
+    "Early Earth figure review | 7dc14a2685514aacc9ca0b14ba40b33398d40d4019ff7b9c0a7e6e66b55f7a99 | a779d33b93e8037a21d17d6a0409df57c86776e3cf479a1d7a01872b9288efdc": {
+      "term": "Figure 6b — Paired mean and largest sizes after 250-fs quench",
+      "title": "Figure 6b — Paired mean and largest sizes after 250-fs quench"
+    },
+    "Early Earth figure review | c3ab2b3361cc26754deef365102f2b63de6b150be41a293fb317e0d19b680591 | d8d10c6fa80435b6da31af22dda10760a1198369ae75304cd6306df2ee6080ee": {
+      "term": "Figure 6a — 250-fs quench changes across simulation time",
+      "title": "Figure 6a — 250-fs quench changes across simulation time"
+    },
+    "Early Earth figure review | c2fb4c1cd6873a09fb3545e64994f385c84cd94efda0345b833c0de9981f3f98 | 6ccc2f33c194d033c2dd4c3e31c65b2efb7604a5fa2406ffe20c2f904c0f7d85": {
+      "term": "Figure 52 — Named-reference match distributions in two libraries",
+      "title": "Figure 52 — Named-reference match distributions in two libraries"
+    },
+    "Early Earth figure review | 0f16e6ca905c270f7088bf6bf0a65ba7c21caa1288b907561bd0d92011cc32e8 | cf00432b859f846c908118f5a75bc4f83dfb7ee3d082531ea058b82a1916947e": {
+      "term": "Figure 44 — Mean fragment size through the complete quench cohort",
+      "title": "Figure 44 — Mean fragment size through the complete quench cohort"
+    },
+    "Early Earth figure review | b6d029a080da662293db0f217f325a9e824de45a04a9678f1f24a4fd3742586a | e6cebc30bdd5accc5c26b80122fdd9725d7e680b397eb473007acb20f684f4e7": {
+      "term": "Figure 57 — Paired production mean fragment sizes",
+      "title": "Figure 57 — Paired production mean fragment sizes"
+    },
+    "Early Earth figure review | 1d275df366e956ab445675dcb7cb7b06b6ae8ab6ad3c1b62ccfefae3311f1f01 | 5d5c560fef96e8bed59cf86e33286339fe925c67223b1c42f8ba42ff9896224c": {
+      "term": "Figure 41 — How connectivity changes accompany size changes",
+      "title": "Figure 41 — How connectivity changes accompany size changes"
+    },
+    "Early Earth figure review | 22132a57e9574da70bf4897a77b0eee6ad50926353cce4eb2dbf56cee5255d7b | 25955d2418adc811ef50770bbb1c65fbb91024b37eaf1101e1b291a2ab5e6694": {
+      "term": "Figure 27 — Cutoff connections added and removed across time",
+      "title": "Figure 27 — Cutoff connections added and removed across time"
+    },
+    "Early Earth figure review | eeba26e7ad6f36425937faab8d772fcc1a387d4ac32a83e91825d9f8515194b2 | a9c7838b1244d9934a0df5d1a44db43e95e0c6f9c1d39abf998c991fee0a51b5": {
+      "term": "Figure 35 — Fragment-size distributions in two quench cohorts",
+      "title": "Figure 35 — Fragment-size distributions in two quench cohorts"
+    },
+    "Early Earth figure review | f17d52a39ce226a9c03727f9086eb765508149cddb8217c19fb5852eb8bb43a0 | d9d5dcd7ab70b2bea9255f1910e1ba4fa8e9b384604f52e93627a2ba620e64be": {
+      "term": "Figure 67 — Connectivity census at 1.25-ps sampling",
+      "title": "Figure 67 — Connectivity census at 1.25-ps sampling"
+    },
+    "Early Earth figure review | 7519023d03562ef2bcecb6b65e5a2c8b5180299b70fdf095d669bd1ebb87a4e5 | 9253e1d330620ad2d860fa8dff0177657f1f7bb35ea551596e3a201f497e5b95": {
+      "term": "Figure 68 — Connectivity census at 2.50-ps sampling",
+      "title": "Figure 68 — Connectivity census at 2.50-ps sampling"
+    },
+    "Early Earth figure review | f721740360fc2ab7fab5dacdc8edae5dbd45b2428827cb952931072c35cfe728 | bc72a99d502989122ae1f0646d1520ca175fa475856ebd1fe0c95914d7282a24": {
+      "term": "Figure 80 — Structural variety and abundance in the sparse census",
+      "title": "Figure 80 — Structural variety and abundance in the sparse census"
+    },
+    "Early Earth figure review | b1511371ca2c4c4d56a74019bd35090a59f38f60e26ade5e7410b95f6f289c4f | 46123c3e155f44b6a4d1fb108ff4be7a23b205e03b9100c8ca86ca7044fc43b7": {
+      "term": "Figure 82 — Unweighted string variety by total atom count",
+      "title": "Figure 82 — Unweighted string variety by total atom count"
+    },
+    "Early Earth figure review | d211e7d3e4fc2efbb56dac0ef1037fb4e822014a09e0791bd2fc3c4d4bcb627e | b4d19b557d22ccf9a78c6ad217860d6ab92388ae7e4814424aca590fd4b76934": {
+      "term": "Figure 81 — Two formula-count traces over time",
+      "title": "Figure 81 — Two formula-count traces over time"
+    },
+    "Early Earth figure review | 6baf4e3cabe1937f0a9a4d4198242aa4d28404d91345db6dcb5dbc7b220c7a77 | 3d5535f9a0c369936a2841ca774236dbcb1a5eef75e789779e6a8ecb23521645": {
+      "term": "Figure 64 — CHN formula counts over time",
+      "title": "Figure 64 — CHN formula counts over time"
+    },
+    "Early Earth figure review | c77bffc9cb0e8f9fb70e33d4d5498ddb6d9e089f1d6965fbdd891c402483b97a | ce3f9e2cb37cf6c0b88648c358f53d5d5f56a562938c7ff419c693a88f0c77e5": {
+      "term": "Figure 72 — Largest fragment — flat drawing",
+      "title": "Figure 72 — Largest fragment — flat drawing"
+    },
+    "Early Earth figure review | 0b65aa8349c6793f2f5ae962e66b891d269d1290c0eabfe15968ec8743c5575e | 5d4ca51ccd0f5208900c247e9e7439b05df2d159283092ebd02ee58c74326e43": {
+      "term": "Figure 76 — Named-query counts with graph matching",
+      "title": "Figure 76 — Named-query counts with graph matching"
+    },
+    "Early Earth figure review | 6111226902e9b61ff236a9e0ac044ece0fe677b0736e15ec55f18570cbf7d59b | daa4d6304b50f29378a2ce4e7bb5d08dbeeaa3384eeb3ea67d9d47bf0f46b64c": {
+      "term": "Figure 78 — Reference connectivity coverage and temporal presence",
+      "title": "Figure 78 — Reference connectivity coverage and temporal presence"
+    },
+    "Early Earth figure review | 2b1d0cbb4bdc2b211e6439a460e1778068fe12bd82427b929ec7bb210b2700f4 | 3c44e545df404b04d68f9526974bfbaebc1bc263fc7298c2b9181ad807446969": {
+      "term": "Figure 83 — Which total sizes supply the most string variety?",
+      "title": "Figure 83 — Which total sizes supply the most string variety?"
+    },
+    "Early Earth figure review | 232f7f8c88c45b738c2968e9acd369bb4325e59d5babac233da70ee222d63e9b | b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e": {
+      "term": "Figure 71 — Large string variety, small-fragment abundance",
+      "title": "Figure 71 — Large string variety, small-fragment abundance"
+    },
+    "Early Earth figure review | af4a734cc1634ea9e3e2f9d3836860dd85bc1df51a3688487767b8e790747570 | 2ef1fa9d8817e22ed28a2d36b4e423ecb12c6d0d2266412979429305c36e2c35": {
+      "term": "Figure 66 — Composition and architecture of the string catalog",
+      "title": "Figure 66 — Composition and architecture of the string catalog"
+    },
+    "Early Earth figure review | bf407270f523d5d65517c85703088c287c42c1d34013dccd009a455a6909cb20 | baca1aa51278312c19a1d5e2e5652581cae6f4d2fad2d7003d228c7ab7b109b4": {
+      "term": "Figure 74 — Local element-neighbor motifs in both states",
+      "title": "Figure 74 — Local element-neighbor motifs in both states"
+    },
+    "Early Earth figure review | 400f96ae0e1f6c12807b192b5c8744fb8ad7a75f719dd426c7a98964d70de583 | eb60c231c197be07ff91ccef436e97dddd38d5fe21d85fc505dbdb15e05a423b": {
+      "term": "Figure 75 — Most varieties are rare; most occurrences are recurrent",
+      "title": "Figure 75 — Most varieties are rare; most occurrences are recurrent"
+    },
+    "Early Earth figure review | 55b2c144e8c0c021241f9b85c0e14c66f37c0d9b958ebd89c21a0fc214b8915e | a81b2e667fdce0729e503fcc94bb9cbcf87ba5d9ea09aa90ce87c387436505dc": {
+      "term": "Figure 65 — Carbon-containing connectivity architectures",
+      "title": "Figure 65 — Carbon-containing connectivity architectures"
+    },
+    "Early Earth figure review | e10874d16419fffd57ba86bea9402e4cee0f8b83a6dfdf263f5f15c6ebf1edbd | 65110ac4d3e6fd775fc8ebb33e2e496f0f51a324ac9edaca6aa2bfeb8debdd71": {
+      "term": "Figure 69 — Element composition: variety versus abundance",
+      "title": "Figure 69 — Element composition: variety versus abundance"
+    },
+    "Early Earth figure review | 9c9eaee2fea4917f978f41afc037db5afd5bcd0982f63c427437b24669da204b | 768c5656f6dea3846712984bfa74e5270f708cdeaadc751397b5686581c3e632": {
+      "term": "Figure 73 — Local connectivity motifs before and after quench",
+      "title": "Figure 73 — Local connectivity motifs before and after quench"
+    },
+    "Early Earth figure review | 1a303710c28857c545bec43f8b27e6e85ebb7b6c837d7dd63635aaff5c3b6e2b | 4632bfbe273f0170d032a0c3f267b1fc5a6bcff78ae000a9d99015900eba6406": {
+      "term": "Figure 77 — Rare strings, recurrent fragment occurrences",
+      "title": "Figure 77 — Rare strings, recurrent fragment occurrences"
+    },
+    "Early Earth figure review | 5fde0c8416e0f86a92760e46ab8c23e52a3bef82bf49bbb84697cd76a1150a36 | d4e0376d7af9f59144e731c6be09170b8d8ddc98c072c40873029de2e59302fb": {
+      "term": "Figure 70 — Heavy-atom variety versus fragment abundance",
+      "title": "Figure 70 — Heavy-atom variety versus fragment abundance"
+    },
+    "Early Earth figure review | 887ce986291c57e808aee50d9a75012dafa372745b6c40474ce4dc41252c4ee2 | 50d98653a6ec92282a7c215217f4d4b6e67a693447d56af01b9f9fa46defdbce": {
+      "term": "Figure 79 — String occurrences, recurrence, and temporal span",
+      "title": "Figure 79 — String occurrences, recurrence, and temporal span"
+    },
+    "Early Earth figure review | 9f235b669633724e1e60ec5793da5d002768ba7df8d48422eadc386c3ec5f68a | 361245f373e6961ab1afdb93c526c7ac5578c3fdc27b254bde650c21ce997628": {
+      "term": "Figure 84 — From reactive dynamics to connectivity comparisons",
+      "title": "Figure 84 — From reactive dynamics to connectivity comparisons"
+    },
+    "Early Earth figure review | b8be6a801a61b30188eb1ec7c391427b18b5673d7e5086b7a625d26cb0fd74ab | 8dc0bb472b2e662b91e004bf5d904b2cc3f3a5155417d0620b8c97101f559607": {
+      "term": "Figure 85 — Starting-frame analysis time and memory",
+      "title": "Figure 85 — Starting-frame analysis time and memory"
+    },
+    "Early Earth figure review | 46eab8fc276f6268a891a419dfb52a6d62d49dddbfdad96f019386add5bd118d | b858c17caa83d1b9a56ba1ab92811ce6b656dfece73a0d5cf43747d6925614af": {
+      "term": "Figure 91 — 228-atom system — starting configuration",
+      "title": "Figure 91 — 228-atom system — starting configuration"
+    },
+    "Early Earth figure review | bad1d60aa30a544ff3e8d0657b543b0e4fd4b83e44112b9b4c0608bc331d0397 | 14416e5d38e45bf2a3626649d3d988b5e62a3ee60e0a12551f16ed63a84579f2": {
+      "term": "Figure 90 — 228-atom system — evolved configuration",
+      "title": "Figure 90 — 228-atom system — evolved configuration"
+    },
+    "Early Earth figure review | 18053f90a454bfd597f0cea0714d76c5e28cf39bb586020311c2732fb7243736 | 5d72fd30a3a2d4350e86f09a9dd545703b5c05da08a15bb088fa37e806cdf51a": {
+      "term": "Figure 88 — 228,000-atom system — head-on view",
+      "title": "Figure 88 — 228,000-atom system — head-on view"
+    },
+    "Early Earth figure review | 71f0ce59e543ef46e45e5da7e5f94c02c67a40b3862a0aec06a7c9d193061fb7 | 8e61745eb6c60570176e5ffe9be638d4e36610a1983a6eb63bc5a41888c1c190": {
+      "term": "Figure 87 — 228,000-atom system — full-frame line rendering",
+      "title": "Figure 87 — 228,000-atom system — full-frame line rendering"
+    },
+    "Early Earth figure review | bb444073f205adf2e2c5cb69d23457fa58e3b9ba0bd2b2f1c4162a5f52e74450 | ec4d579410b1226e977f507dbb51d10bc9b281ee8488631b2d55c177f5e1276f": {
+      "term": "Figure 86 — 228,000-atom system after reactive dynamics",
+      "title": "Figure 86 — 228,000-atom system after reactive dynamics"
+    },
+    "Early Earth figure review | c0a28bcd8dabb98bd3595bf01686b88f7cf18f714730f99e3c9f1161ccd6225a | 4e88a9051a08f7641caa7bed9aed94976b3be919ba2a52339b9157429d581b63": {
+      "term": "Figure 92 — Initial 228,000-atom system",
+      "title": "Figure 92 — Initial 228,000-atom system"
+    },
+    "Early Earth figure review | fc79b84bc68b95e6a62c1f434e03f771331436aef0f52901129d98a28f3c273a | 3777b422b4bc6e50db67473915ec872abb571d121974ff82ac27debe6436570d": {
+      "term": "Figure 97 — Reference-match distributions on the higher-count scale",
+      "title": "Figure 97 — Reference-match distributions on the higher-count scale"
+    },
+    "Early Earth figure review | aebeb3b02ab27b1fdc61feee8f4030524df0e7e947c67a468bce1818f591c4c7 | 76a50fe6a932954b24ae4f1910164e8697fd5aff29c309ca6c69be2e3d219a50": {
+      "term": "Figure 98 — Reference-match distributions on the lower-count scale",
+      "title": "Figure 98 — Reference-match distributions on the lower-count scale"
+    },
+    "Early Earth figure review | af73f9b65f88630721b8f09559ccaddc930a63d55ebd6e38a68e1e66bc74bb5c | bc04dd65f818df9b3e3df85ea95f1aabebf6a113085e7f80a4a1270cca389d33": {
+      "term": "Figure 95 — Named-query counts per frame — revised violins",
+      "title": "Figure 95 — Named-query counts per frame — revised violins"
+    },
+    "Early Earth figure review | 693120f5674f3ba4408945e5b784bce12cbb3fd91a5f1c28cd36e1e72d6add60 | 07b57cd0b19bf0721ce98183e457f904d431b16ff8d137388afe012df6278e4e": {
+      "term": "Figure 96 — Periodic ghost atoms — schematic",
+      "title": "Figure 96 — Periodic ghost atoms — schematic"
+    },
+    "Early Earth figure review | 5907a2241b640317610340a5d4469f762ee8a63f4df205bb315a01b5a9054c91 | b8a827db1e38625ba2dd293c53e1a3aa2847b48b32db9ff6b98e6a2d16909340": {
+      "term": "Figure 4a — Alanine — saved formation window and final 360° view",
+      "title": "Figure 4a — Alanine — saved formation window and final 360° view"
+    },
+    "Early Earth figure review | ddc5df70794061817688542c9ebf3b820b2fe0e929a3c3dab7300890963904e5 | 521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3": {
+      "term": "Figure 2c — Alanine improper-torsion distribution",
+      "title": "Figure 2c — Alanine improper-torsion distribution"
+    }
+  }
+}
