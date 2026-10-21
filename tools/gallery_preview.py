@@ -109,7 +109,7 @@ def prepare(destination: Path, source_directory: Path | None = None) -> dict:
             'baseline_catalog_sha256': export_share.digest(source / directory.relative_to(destination) / 'catalog.json'),
             'excluded_source_groups': sorted(EXCLUSIONS) if directory == destination else [],
             'ratings': 'Local authenticated reviewer service; SQLite; one editable vote per reviewer/artwork version.',
-            'meeting': 'Local saved discussion set (30 max, 9 priorities), ordering, reversible hiding, reviewer notes and exports.',
+            'meeting': 'Local saved discussion set, ordering, reversible hiding, reviewer notes and exports; about 20–30 high-value figures is an eventual goal, not a hard limit.',
             'hosting': 'Pending A36/D25; static hosting alone cannot save ratings.',
             'background': {'source': str(BACKGROUND.relative_to(PROJECT)), 'sha256': export_share.digest(BACKGROUND)},
             'numbering': {'metadata_sha256': export_share.digest(NUMBERING), 'source_map': numbering['source_map'],
@@ -163,7 +163,7 @@ def main() -> None:
             page_path.write_text(page)
             manifest['local_review']['numbering'] = {'metadata_sha256': export_share.digest(NUMBERING),
                 'source_map': numbering['source_map'], 'displayed_panels': page.count('data-gallery-reference=')}
-            manifest['local_review']['meeting'] = 'Local saved discussion set (30 max, 9 priorities), ordering, reversible hiding, reviewer notes and exports.'
+            manifest['local_review']['meeting'] = 'Local saved discussion set, ordering, reversible hiding, reviewer notes and exports; about 20–30 high-value figures is an eventual goal, not a hard limit.'
             for name in ('preview.js', 'preview.css', 'meeting.js'):
                 shutil.copy2(INTERFACE / name, package / name)
             if not any(entry['path'] == 'meeting.js' for entry in manifest['generated_files']):

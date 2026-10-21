@@ -10,7 +10,7 @@ import discussion_review as review
 class ReviewTests(unittest.TestCase):
     def setUp(self):
         self.figures = {str(i): {'term': 'term-' + str(i), 'source_group': 'source-' + str(i), 'version': 'art-' + str(i), 'title': 'Figure ' + str(i)} for i in range(35)}
-        self.policy = {'repository': 'nterrel/early-earth-figures', 'curators': ['nterrel', 'roitberg'], 'limits': {'priority': 9, 'discussion': 30}}
+        self.policy = {'repository': 'nterrel/early-earth-figures', 'curators': ['nterrel', 'roitberg'], 'selection_goal': {'discussion': 'about 20–30', 'enforced': False}}
         self.source = {'repository': self.policy['repository'], 'threads': []}
 
     def post(self, key, body, author='roitberg', updated=None, minimized=False):
@@ -41,18 +41,19 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual(data['state'], 'priority')
         self.assertEqual([n['body'] for n in data['notes']], ['A useful public note', 'Explain the panel.'])
 
-    def test_capacity_and_priority_demotion(self):
-        for i in range(10):
+    def test_goals_do_not_block_selection_and_demotion(self):
+        for i in range(12):
             self.post(str(i), 'Meeting: priority')
         data = self.result()
-        self.assertEqual(sum(e['state'] == 'priority' for e in data['figures'].values()), 9)
-        self.assertEqual(len(data['ignored']), 1)
-        for i in range(9, 31):
+        self.assertEqual(sum(e['state'] == 'priority' for e in data['figures'].values()), 12)
+        self.assertEqual(len(data['ignored']), 0)
+        for i in range(12, 35):
             self.post(str(i), 'Meeting: discuss')
-        self.assertEqual(sum(e['state'] in ('priority', 'discuss') for e in self.result()['figures'].values()), 30)
+        self.assertEqual(sum(e['state'] in ('priority', 'discuss') for e in self.result()['figures'].values()), 35)
+        self.assertFalse(self.result()['selection_goal']['enforced'])
         self.post('0', 'Meeting: later')
-        self.post('30', 'Meeting: priority')
-        self.assertEqual(self.result()['figures']['30']['state'], 'priority')
+        self.post('34', 'Meeting: priority')
+        self.assertEqual(self.result()['figures']['34']['state'], 'priority')
 
     def test_same_second_ratings_use_numeric_comment_order(self):
         for _ in range(12):

@@ -28,8 +28,9 @@ publication plan.
 
 Nick selected the public model on 2026-10-21. The shared review interface uses
 the existing **Comments** beneath each figure, with GitHub sign-in. It has a
-discussion set of up to 30 figures, including at most nine priorities; the full
-library remains searchable in pages of 30. **Later** and **Hidden / restore**
+discussion set and a smaller priority set. The eventual goal is to agree on about
+20–30 high-value figures; this is not a page limit or an enforced selection cap.
+All matching library cards appear together. **Later** and **Hidden / restore**
 set cards aside without deleting any artwork. Alanine/glycine formation cards
 provide MP4 pause, seek and full-screen controls, plus original GIF/PNG downloads.
 
@@ -52,8 +53,8 @@ Nick (`nterrel`) and Adrian (`roitberg`) curate the shared selection and order.
 Signed-in GitHub reviewers can add ordinary notes and 1–5 ratings; each reviewer’s
 latest valid rating replaces their earlier one for that artwork version. New
 artwork starts a separate population. PNG/PDF and matching supplement cards share
-the existing exact artwork identity. Selection requests over the limits or from
-other accounts remain in GitHub but are not applied; the gallery links the reason.
+the existing exact artwork identity. Selection requests from other accounts
+remain in GitHub but are not applied; the gallery links the reason.
 Editing/deleting a command recomputes the saved view from remaining comments.
 Closed threads keep the existing history/hidden-composer behavior; the owner can
 reopen their discussion on GitHub when further feedback is needed.
@@ -99,8 +100,9 @@ choose **Set up local reviewer** on first use. The existing feedback database an
 ratings are retained. Choose **Browse library**, then set cards to **Priority**,
 **Discuss**, **Later** or **Hidden**. **Discussion set** shows the ordered meeting
 selection; **Priorities only** isolates the most important figures. The shared
-local set allows 30 discussion figures including at most nine priorities. Other
-library views show 30 cards per page; search still covers the complete collection.
+local set has no enforced size cap. About 20–30 high-value figures and a smaller
+priority set are eventual selection goals. Newly generated previews show all
+matching cards together, without pagination.
 **Hidden / restore** restores set-aside cards without deleting their files or notes.
 
 Expand **Meeting notes**, type, and choose **Save note**. Notes are append-only,

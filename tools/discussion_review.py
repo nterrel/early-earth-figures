@@ -140,19 +140,13 @@ def compile_review(figures, source, policy):
                         for position, selected_key in enumerate(ordered, 1):
                             entries[selected_key]['position'] = position
             else:
-                others = [value['state'] for k, value in entries.items() if k != key]
-                overflow = (target == 'priority' and others.count('priority') >= policy['limits']['priority']) or (
-                    target in ('priority', 'discuss') and sum(s in ('priority', 'discuss') for s in others) >= policy['limits']['discussion'])
-                if overflow:
-                    ignored.append({'key': key, 'url': comment['url'], 'reason': 'Selection limit reached; set another figure aside first.'})
-                else:
-                    if target != entry['state']:
-                        rank = max([rank, *(v['position'] for v in entries.values())]) + 1
-                        entry['position'] = rank
-                    entry['state'] = target
-                    entry['updated_by'] = author
-                    entry['updated'] = datetime.fromisoformat(comment['updatedAt'].replace('Z', '+00:00')).timestamp()
-                    entry['selection_url'] = comment['url']
+                if target != entry['state']:
+                    rank = max([rank, *(v['position'] for v in entries.values())]) + 1
+                    entry['position'] = rank
+                entry['state'] = target
+                entry['updated_by'] = author
+                entry['updated'] = datetime.fromisoformat(comment['updatedAt'].replace('Z', '+00:00')).timestamp()
+                entry['selection_url'] = comment['url']
         elif state_match:
             ignored.append({'key': key, 'url': comment['url'], 'reason': 'Only configured curators change the shared selection.'})
         if rating_match:
@@ -169,7 +163,7 @@ def compile_review(figures, source, policy):
         entry['rating'] = {'count': len(values), 'average': sum(values) / len(values) if values else None}
     source_hash = hashlib.sha256(json.dumps(source, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
     return {'schema_version': 1, 'repository': policy['repository'], 'revision': source_hash,
-            'generated_utc': datetime.now(timezone.utc).isoformat(), 'limits': policy['limits'],
+            'generated_utc': datetime.now(timezone.utc).isoformat(), 'selection_goal': policy['selection_goal'],
             'curators': policy['curators'], 'figures': entries, 'threads': threads, 'ignored': ignored,
             'metadata': {key: {'source_group': value['source_group'], 'artwork_sha256': value['version'],
                               'title': value['title'], 'reference': value.get('discussion_title', value['title'])}

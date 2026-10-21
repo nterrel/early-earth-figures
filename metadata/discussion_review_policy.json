@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repository": "nterrel/early-earth-figures",
   "curators": ["nterrel", "roitberg"],
-  "limits": {"discussion": 30, "priority": 9},
+  "selection_goal": {"discussion": "about 20–30 high-value figures eventually", "priority": "a smaller set, ideally fewer than 10", "enforced": false},
   "selection_prefix": "Meeting:",
   "rating_prefix": "Rating:",
   "decision": "D25: Nick selected public review using GitHub Discussions on 2026-10-21."

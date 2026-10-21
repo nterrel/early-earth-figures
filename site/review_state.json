@@ -2,10 +2,11 @@
   "schema_version": 1,
   "repository": "nterrel/early-earth-figures",
   "revision": "1f224241e1a612f9af7a164d9929d7e10aeb517ca958f3a9b4cf76f067ec9cfd",
-  "generated_utc": "2026-10-21T18:27:12.272362+00:00",
-  "limits": {
-    "discussion": 30,
-    "priority": 9
+  "generated_utc": "2026-10-21T20:59:19.862347+00:00",
+  "selection_goal": {
+    "discussion": "about 20\u201330 high-value figures eventually",
+    "priority": "a smaller set, ideally fewer than 10",
+    "enforced": false
   },
   "curators": [
     "nterrel",

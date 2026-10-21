@@ -7,12 +7,12 @@
   const items = cards.map(card => ({card, key: card.querySelector('[data-comment-key]')?.dataset.commentKey,
     home: card.parentElement})).filter(item => item.key);
   const controls = new Map();
-  let snapshot = null, busy = false, page = 0, signedIn = false;
+  let snapshot = null, busy = false, signedIn = false;
   const labels = {unreviewed: 'Not reviewed', priority: 'Priority', discuss: 'Discuss', later: 'Later', hidden: 'Hidden'};
   const panel = document.createElement('section');
   panel.className = 'meeting-panel';
   panel.setAttribute('aria-label', 'Figure meeting workspace');
-  panel.innerHTML = '<h2>Figure meeting</h2><p>Build a discussion set of up to 30 figures, with fewer than 10 priorities. Selections and notes are saved on this computer for the configured reviewers.</p><div class="meeting-toolbar"><label>View <select class="meeting-view"><option value="meeting">Discussion set</option><option value="priority">Priorities only</option><option value="library">Browse library</option><option value="unreviewed">Not reviewed</option><option value="later">Later</option><option value="hidden">Hidden / restore</option></select></label><button type="button" class="meeting-refresh">Refresh saved review</button><button type="button" class="meeting-json">Export JSON</button><button type="button" class="meeting-markdown">Export notes</button></div><p class="meeting-summary"></p><p class="meeting-status" role="status">Sign in above to save a meeting selection or note.</p><div class="meeting-pages"><button type="button" class="meeting-prev">Previous 30</button><span></span><button type="button" class="meeting-next">Next 30</button></div>';
+  panel.innerHTML = '<h2>Figure meeting</h2><p>Work toward about 20–30 high-value figures, with a smaller priority set; these are goals, not enforced limits. Selections and notes are saved on this computer for the configured reviewers.</p><div class="meeting-toolbar"><label>View <select class="meeting-view"><option value="meeting">Discussion set</option><option value="priority">Priorities only</option><option value="library">Browse library</option><option value="unreviewed">Not reviewed</option><option value="later">Later</option><option value="hidden">Hidden / restore</option></select></label><button type="button" class="meeting-refresh">Refresh saved review</button><button type="button" class="meeting-json">Export JSON</button><button type="button" class="meeting-markdown">Export notes</button></div><p class="meeting-summary"></p><p class="meeting-status" role="status">Sign in above to save a meeting selection or note.</p><p class="meeting-empty"></p>';
   const main = document.querySelector('main');
   main.insertBefore(panel, main.querySelector('section'));
   const view = panel.querySelector('select');
@@ -20,7 +20,7 @@
   const rejected = document.createElement('ul'); rejected.className = 'meeting-rejections'; rejected.hidden = true; panel.append(rejected);
   if (publicMode) {
     panel.querySelector('h2').textContent = 'Shared figure review';
-    panel.querySelector('h2 + p').textContent = 'Build a discussion set of up to 30 figures, with fewer than 10 priorities. Post selections, ratings and notes through Comments with GitHub. Nick and Adrian curate the shared set. Refresh after the site updates.';
+    panel.querySelector('h2 + p').textContent = 'Help converge on about 20–30 high-value figures, with a smaller priority set. This is a selection goal; browsing and selections have no hard count limit. Post selections, ratings and notes through Comments with GitHub. Nick and Adrian curate the shared set. Refresh after the site updates.';
     status.textContent = 'Loading saved GitHub review…';
   }
   const groups = {};
@@ -50,8 +50,7 @@
       matching.sort((a, b) => (entry(a.key).state === 'priority' ? 0 : 1) - (entry(b.key).state === 'priority' ? 0 : 1) ||
         entry(a.key).position - entry(b.key).position);
     }
-    const pages = Math.max(1, Math.ceil(matching.length / 30)); page = Math.min(page, pages - 1);
-    const visible = new Set(matching.slice(page * 30, page * 30 + 30));
+    const visible = new Set(matching);
     for (const item of items) item.card.hidden = !visible.has(item);
     // Move only cards whose presentation order changed. Notes and ratings do
     // not detach a playing video from its existing card.
@@ -69,8 +68,8 @@
       if (section !== panel) section.hidden = ![...section.querySelectorAll('article')].some(card => !card.hidden);
     }
     const all = Object.values(snapshot?.figures || {});
-    panel.querySelector('.meeting-summary').textContent = all.filter(e => e.state === 'priority').length + '/9 priorities · ' +
-      all.filter(e => selected(e.state)).length + '/30 discussion figures · ' + all.filter(e => e.state === 'hidden').length + ' hidden';
+    panel.querySelector('.meeting-summary').textContent = all.filter(e => e.state === 'priority').length + ' priorities · ' +
+      all.filter(e => selected(e.state)).length + ' discussion figures · ' + all.filter(e => e.state === 'hidden').length + ' hidden';
     if (publicMode) {
       rejected.replaceChildren();
       for (const issue of snapshot?.ignored || []) {
@@ -81,10 +80,8 @@
       }
       rejected.hidden = !rejected.children.length;
     }
-    panel.querySelector('.meeting-pages span').textContent = matching.length ? `Page ${page + 1} of ${pages} · ${matching.length} matching figures` :
+    panel.querySelector('.meeting-empty').textContent = matching.length ? '' :
       mode === 'meeting' ? 'No discussion figures yet. Choose Browse library and select Priority or Discuss on a card.' : 'No matching figures.';
-    panel.querySelector('.meeting-prev').disabled = page === 0;
-    panel.querySelector('.meeting-next').disabled = page + 1 >= pages;
     document.querySelector('#count').textContent = `${visible.size} shown · ${matching.length} match this view`;
     for (const button of panel.querySelectorAll('.meeting-refresh,.meeting-json,.meeting-markdown')) button.disabled = !signedIn || busy;
     for (const [key, control] of controls) {
@@ -206,9 +203,8 @@
     };
     card.querySelector('.figure-comments-button').before(block);
   }
-  view.onchange = () => {page = 0; apply();};
-  for (const [selector, delta] of [['.meeting-prev', -1], ['.meeting-next', 1]]) panel.querySelector(selector).onclick = () => {page += delta; apply(); panel.scrollIntoView({block: 'start'});};
-  for (const selector of ['#search', '#theme']) document.querySelector(selector).addEventListener(selector === '#search' ? 'input' : 'change', () => {page = 0; apply();});
+  view.onchange = apply;
+  for (const selector of ['#search', '#theme']) document.querySelector(selector).addEventListener(selector === '#search' ? 'input' : 'change', apply);
   panel.querySelector('.meeting-refresh').onclick = refresh;
   async function download(markdown) {
     try {
@@ -248,8 +244,7 @@
     if (location.hash) {
       const target = items.find(item => '#' + item.card.id === location.hash);
       if (target) {view.value = entry(target.key).state === 'hidden' ? 'hidden' : 'library';
-        const matching = items.filter(item => view.value === 'hidden' ? entry(item.key).state === 'hidden' : entry(item.key).state !== 'hidden');
-        page = Math.floor(matching.indexOf(target) / 30); apply(); target.card.scrollIntoView();}
+        apply(); target.card.scrollIntoView();}
     } else if (!snapshot || !Object.values(snapshot.figures).some(e => selected(e.state))) {view.value = 'library'; apply();}
   });
 })();

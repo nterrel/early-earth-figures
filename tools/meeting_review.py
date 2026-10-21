@@ -37,7 +37,8 @@ class MeetingReview:
             by_identity.setdefault((group, version), []).append({'id': note_id, 'reviewer': author, 'body': body, 'created': created})
         figures = {key: {**entries.get(identity, {'state': 'unreviewed', 'position': 0}),
                          'notes': by_identity.get(identity, [])} for key, identity in self.store.groups.items()}
-        return {'revision': revision, 'limits': {'discussion': 30, 'priority': 9}, 'figures': figures}
+        return {'revision': revision, 'selection_goal': {'discussion': 'about 20–30 high-value figures eventually',
+                'priority': 'a smaller set, ideally fewer than 10', 'enforced': False}, 'figures': figures}
 
     def update(self, data, reviewer):
         key, revision = data.get('key'), data.get('revision')
@@ -62,13 +63,6 @@ class MeetingReview:
                 target = data.get('state')
                 if target not in self.STATES:
                     raise ValueError('Choose a meeting selection')
-                active = set(self.store.groups.values())
-                rows = connection.execute('SELECT source_group,artwork_sha256,state FROM meeting_figures').fetchall()
-                others = [s for g, v, s in rows if (g, v) in active and (g, v) != (group, version)]
-                if target == 'priority' and others.count('priority') >= 9:
-                    raise ValueError('Keep fewer than 10 priorities. Move another priority to Discuss or Later first.')
-                if target in ('priority', 'discuss') and sum(s in ('priority', 'discuss') for s in others) >= 30:
-                    raise ValueError('Keep at most 30 discussion figures, including priorities. Set another figure aside first.')
                 if target != state:
                     position = connection.execute('SELECT COALESCE(MAX(position),0)+1 FROM meeting_figures').fetchone()[0]
                 connection.execute('''INSERT INTO meeting_figures VALUES (?,?,?,?,?,?)
@@ -99,7 +93,7 @@ class MeetingReview:
         # Only current versions are exported. Old artwork records remain in SQLite.
         return {'schema_version': 1, 'scope': 'Local meeting review; provisional selections, not manuscript approval',
                 'exported_unix': time.time(), 'revision': snapshot['revision'],
-                'limits': snapshot['limits'],
+                'selection_goal': snapshot['selection_goal'],
                 'figures': [{'key': key, 'source_group': self.store.groups[key][0],
                              'artwork_sha256': self.store.groups[key][1],
                              'title': self.store.figures[key]['title'],

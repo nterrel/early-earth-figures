@@ -4616,7 +4616,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "ec746cc110f201ec18c5b632ba96106f28a4dcb6031b79dc292f7c9f0de9278e"
+      "sha256": "df3ccc15420a5173e6cb8c2fda742e4e3fd16d62d5dcf84190d6d307a1ebe435"
     },
     {
       "path": "comments.js",
@@ -4632,7 +4632,7 @@
     },
     {
       "path": "preview.css",
-      "sha256": "f88fd22cc69b8511a5091a4b7665e57408d6f40669b1d344b246be5867a8b179"
+      "sha256": "3eca2623d3b03ea592bf4016c1f2d4ad70a0291b77da6acbbed6241f1b055e0c"
     },
     {
       "path": "228k-background.png",
@@ -4640,11 +4640,11 @@
     },
     {
       "path": "feedback_status.json",
-      "sha256": "b36bc193e6b3760a636a8dd02dbde21e8670974c44f630e444d8352fb61238ea"
+      "sha256": "934418373c85636efb4d6d103d9f9fac6d62d178b7466118b6fcac6ba24cb461"
     },
     {
       "path": "meeting.js",
-      "sha256": "c277c0d9a1dcef3b37c081343eedf268f2d36d3dffa7d5357aad377464ba4949"
+      "sha256": "0c9a645198e574e9dd29f6d7acc0132d4df3074ad33f8343b737981b443de6e5"
     },
     {
       "path": "review-media/alanine_formation.mp4",
@@ -4656,7 +4656,7 @@
     },
     {
       "path": "review_state.json",
-      "sha256": "1ae124703df0db9e7f7ae3a434b14f20f7bccf080d338af84d03826fd5ddeeb2"
+      "sha256": "fb15897c05e5d046911b5b9b654f8d7e04647ac9012dd5e97d478ad304e77189"
     }
   ],
   "repaired_links": [
@@ -6804,7 +6804,7 @@
   },
   "discussion_review": {
     "provider": "public GitHub Discussions",
-    "policy_sha256": "4cc74c9843b87e1c92434c20f47b7cb791ef4fd39664a5987081c894afb809eb",
+    "policy_sha256": "a138cfd0bda47597148e3e5bafd265b5d08e13201e6b0bb553558cf7b3146830",
     "movie_provenance": {
       "receipt_sha256": "322de60178a8503ff994aecc153b5ccbb5fb83186d0ac874c23d2ce460fca17b",
       "files": [
@@ -6822,7 +6822,12 @@
         }
       ]
     },
-    "snapshot": "review_state.json"
+    "snapshot": "review_state.json",
+    "selection_goal": {
+      "discussion": "about 20\u201330 high-value figures eventually",
+      "priority": "a smaller set, ideally fewer than 10",
+      "enforced": false
+    }
   },
   "reading_navigation": {
     "version": 1,
