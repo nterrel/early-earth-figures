@@ -6,7 +6,7 @@
   "asset_count": 152,
   "selection": {
     "title": "Early Earth figure library",
-    "description": "Explore energy changes, molecular geometry, fragment populations, and structural diversity. Start with guided reading views and animations, then browse related figures by theme or search.",
+    "description": "Start with the current advisor review, then browse fragment/molecule galleries and the full figure collection.",
     "purpose": "public-library",
     "source_paths": [
       "Dissertation_figures/early_earth/228.gif",
@@ -163,7 +163,8 @@
       "paper-early-earth-chemistry-hero-run/figures/updated_violins.png"
     ],
     "file": "/mnt/x/scratch/early_earth_publication_v1/figures/metadata/public_library_selection.json",
-    "sha256": "0a52ec66e808469610b7c2c622077a228ff087773e5fd22ca7293da3c5b493a5"
+    "sha256": "2713859375793b07d65b8e4ca355ccd09ccd0adc870040466c23d1bc43db4c0d",
+    "advisor_review_selection": "metadata/advisor_review_selection.json"
   },
   "linked_dependency_count": 396,
   "local_html_links_checked": 894,
@@ -4555,6 +4556,126 @@
       "export_sha256": "6d68767e15de345188dc18e49d792eb5e622bf13e8a32e9e3e0e104e1f9b4005",
       "export_bytes": 56240,
       "role": "catalog figure"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/energy_historical.png",
+      "export_path": "advisor-review/assets/energy_historical.png",
+      "source_sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
+      "export_sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
+      "export_bytes": 137849,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/energy_raw.png",
+      "export_path": "advisor-review/assets/energy_raw.png",
+      "source_sha256": "d2191688b512a6d934d8350dc2c3bf083f2318ebb9408f255ff4b7debe2d754b",
+      "export_sha256": "d2191688b512a6d934d8350dc2c3bf083f2318ebb9408f255ff4b7debe2d754b",
+      "export_bytes": 558056,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_historical.png",
+      "export_path": "advisor-review/assets/largest_historical.png",
+      "source_sha256": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
+      "export_sha256": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
+      "export_bytes": 1104076,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_current.png",
+      "export_path": "advisor-review/assets/largest_current.png",
+      "source_sha256": "4a513348a584aa5418adb57ebf704eb64860cd8b987c2e70fd908af11231168a",
+      "export_sha256": "4a513348a584aa5418adb57ebf704eb64860cd8b987c2e70fd908af11231168a",
+      "export_bytes": 163978,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_historical.png",
+      "export_path": "advisor-review/assets/chn_historical.png",
+      "source_sha256": "3d5535f9a0c369936a2841ca774236dbcb1a5eef75e789779e6a8ecb23521645",
+      "export_sha256": "3d5535f9a0c369936a2841ca774236dbcb1a5eef75e789779e6a8ecb23521645",
+      "export_bytes": 30546,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_source.png",
+      "export_path": "advisor-review/assets/chn_source.png",
+      "source_sha256": "b2cce1635b49b36d82a0f7970e986b21e83ecdcbc4cda9aea5b048a0ef00d997",
+      "export_sha256": "b2cce1635b49b36d82a0f7970e986b21e83ecdcbc4cda9aea5b048a0ef00d997",
+      "export_bytes": 126486,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery.png",
+      "export_path": "advisor-review/assets/discovery_png.png",
+      "source_sha256": "5e3e96ccd80d45434a6b1b330a9038b71b59ce3a9266b53a401eb7c51652fabb",
+      "export_sha256": "5e3e96ccd80d45434a6b1b330a9038b71b59ce3a9266b53a401eb7c51652fabb",
+      "export_bytes": 133517,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery.pdf",
+      "export_path": "advisor-review/assets/discovery_pdf.pdf",
+      "source_sha256": "a5a15e6444b7916f6365e5ba5b9707722eac899f31634f7edde5775eaf0d2527",
+      "export_sha256": "a5a15e6444b7916f6365e5ba5b9707722eac899f31634f7edde5775eaf0d2527",
+      "export_bytes": 14938,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery.csv",
+      "export_path": "advisor-review/assets/discovery_counts.csv",
+      "source_sha256": "e787bb60ecbcb9a5fde5eaee014df0e0f42e5252adb5ccf6ac49ebbe340bf3c2",
+      "export_sha256": "e787bb60ecbcb9a5fde5eaee014df0e0f42e5252adb5ccf6ac49ebbe340bf3c2",
+      "export_bytes": 127047,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "figures/site/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.png",
+      "export_path": "advisor-review/assets/variety.png",
+      "source_sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "export_sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "export_bytes": 208265,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "figures/site/04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.png",
+      "export_path": "advisor-review/assets/quench.png",
+      "source_sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "export_sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "export_bytes": 1038647,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "figures/site/review-media/alanine_formation.mp4",
+      "export_path": "advisor-review/assets/alanine_movie.mp4",
+      "source_sha256": "fc9a4fef263b33bcaa8d3d1cff1ebe65905836fff097db6ba1ab542e2ae2c9ed",
+      "export_sha256": "fc9a4fef263b33bcaa8d3d1cff1ebe65905836fff097db6ba1ab542e2ae2c9ed",
+      "export_bytes": 1267550,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "figures/site/05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013_backbone_plane_v2__F22_alanine_formation_standard.png",
+      "export_path": "advisor-review/assets/alanine_poster.png",
+      "source_sha256": "6d68767e15de345188dc18e49d792eb5e622bf13e8a32e9e3e0e104e1f9b4005",
+      "export_sha256": "6d68767e15de345188dc18e49d792eb5e622bf13e8a32e9e3e0e104e1f9b4005",
+      "export_bytes": 56240,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "figures/site/review-media/glycine_formation.mp4",
+      "export_path": "advisor-review/assets/glycine_movie.mp4",
+      "source_sha256": "2bdcec917f81a48702c4c22208b9be57ba8978df2717908fd0f28c4d70eb7c54",
+      "export_sha256": "2bdcec917f81a48702c4c22208b9be57ba8978df2717908fd0f28c4d70eb7c54",
+      "export_bytes": 1248000,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
+    },
+    {
+      "source_path": "figures/site/05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_glycine_formation_standard.png",
+      "export_path": "advisor-review/assets/glycine_poster.png",
+      "source_sha256": "385b4c672443d9e7a050bba4d6342a09f006cfb46a188b52fb2794d83634f6cf",
+      "export_sha256": "385b4c672443d9e7a050bba4d6342a09f006cfb46a188b52fb2794d83634f6cf",
+      "export_bytes": 55897,
+      "role": "Selected advisor-review display dependency; canonical catalog unchanged"
     }
   ],
   "generated_files": [
@@ -4616,7 +4737,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "df3ccc15420a5173e6cb8c2fda742e4e3fd16d62d5dcf84190d6d307a1ebe435"
+      "sha256": "50b5fff67a973e1219305dd59fa3263cb5775c07b382194e0cbb2245ebf00068"
     },
     {
       "path": "comments.js",
@@ -4632,7 +4753,7 @@
     },
     {
       "path": "preview.css",
-      "sha256": "3eca2623d3b03ea592bf4016c1f2d4ad70a0291b77da6acbbed6241f1b055e0c"
+      "sha256": "b65df8586808aa31e41d902bbebff9781d01831f5c0cd7f8266e1fa6891763d9"
     },
     {
       "path": "228k-background.png",
@@ -4644,7 +4765,7 @@
     },
     {
       "path": "meeting.js",
-      "sha256": "0c9a645198e574e9dd29f6d7acc0132d4df3074ad33f8343b737981b443de6e5"
+      "sha256": "2b9d423cc3a270a780b66652dbc54900d69e73afa68e410a3de062ce97674bea"
     },
     {
       "path": "review-media/alanine_formation.mp4",
@@ -4656,7 +4777,15 @@
     },
     {
       "path": "review_state.json",
-      "sha256": "fb15897c05e5d046911b5b9b654f8d7e04647ac9012dd5e97d478ad304e77189"
+      "sha256": "9bab5ab0f2d57c0511a3fc11059bb58d369166323a665b611c01b4ebb0ea2ec1"
+    },
+    {
+      "path": "advisor-review/index.html",
+      "sha256": "b59a4a6cd856d3b8a4264afcad431aa88b8e89dde9b490eb329374ce82da8cf7"
+    },
+    {
+      "path": "advisor-review/source_manifest.json",
+      "sha256": "a45b420a5c908a0e36c8be04cd6bb06b26a61e4adce76e18977f124578cf2cb1"
     }
   ],
   "repaired_links": [
@@ -6830,19 +6959,25 @@
     }
   },
   "reading_navigation": {
-    "version": 1,
-    "reader": "f56551d64b4a217a6c8cf5fd",
+    "version": 2,
+    "reader": "advisor-review/index.html",
     "structure_galleries": [
       "b8f1ac57bd07c3000b83fff3",
       "dc0476da65261d4cb80af4f8",
       "e1958efcdec1a67daccc6738"
     ],
-    "previous_exports": [
-      "adf2cd2327fb933511dd207a",
-      "37451dd5ed8c64a73fa5a8fd",
-      "dd6d0191240aa94cfc2dec18",
-      "9e4eebb2c97ce05143cc8ffe"
+    "previous_exports": 5,
+    "policy": "One maintained current brief; original document bytes and discussions retained."
+  },
+  "advisor_review": {
+    "selection_sha256": "87bc7095397b80887c044ebef78fffd9018b78c46151d87906fe32907d147611",
+    "questions": 7,
+    "new_review_candidates": [
+      "a9de940f6d94a41667fc1244-5e3e96ccd80d4543",
+      "54fce0fd99e968ea156d43a8-4a513348a584aa54",
+      "1c3dda96bc14686326218eac-b2cce1635b49b36d"
     ],
-    "policy": "Navigation only; all catalog assets, document URLs and feedback identities retained."
+    "canonical_catalog_assets_unchanged": 152,
+    "display_dependencies": 15
   }
 }

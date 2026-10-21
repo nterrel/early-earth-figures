@@ -319,7 +319,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "0f8f68b046241b529edb6b1b2b20fb99935efd22040c217eb4669957f04152ca"
+      "sha256": "3365b51e28b04841a292defe752de00cdaed2e8bd0e7b1ba56ee1d820c76ed9b"
     },
     {
       "path": "comments.js",
@@ -335,7 +335,7 @@
     },
     {
       "path": "preview.css",
-      "sha256": "3eca2623d3b03ea592bf4016c1f2d4ad70a0291b77da6acbbed6241f1b055e0c"
+      "sha256": "b65df8586808aa31e41d902bbebff9781d01831f5c0cd7f8266e1fa6891763d9"
     },
     {
       "path": "228k-background.png",
@@ -347,7 +347,7 @@
     },
     {
       "path": "meeting.js",
-      "sha256": "0c9a645198e574e9dd29f6d7acc0132d4df3074ad33f8343b737981b443de6e5"
+      "sha256": "2b9d423cc3a270a780b66652dbc54900d69e73afa68e410a3de062ce97674bea"
     }
   ],
   "repaired_links": [],

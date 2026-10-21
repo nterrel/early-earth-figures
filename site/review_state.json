@@ -1047,6 +1047,33 @@
         "count": 0,
         "average": null
       }
+    },
+    "a9de940f6d94a41667fc1244-5e3e96ccd80d4543": {
+      "state": "unreviewed",
+      "position": 0,
+      "notes": [],
+      "rating": {
+        "count": 0,
+        "average": null
+      }
+    },
+    "54fce0fd99e968ea156d43a8-4a513348a584aa54": {
+      "state": "unreviewed",
+      "position": 0,
+      "notes": [],
+      "rating": {
+        "count": 0,
+        "average": null
+      }
+    },
+    "1c3dda96bc14686326218eac-b2cce1635b49b36d": {
+      "state": "unreviewed",
+      "position": 0,
+      "notes": [],
+      "rating": {
+        "count": 0,
+        "average": null
+      }
     }
   },
   "threads": {
@@ -1741,6 +1768,24 @@
       "artwork_sha256": "521aa86c3d0909df09b7b001ce485f24d3b6f340fe07189b736ff2a196b370a3",
       "title": "Alanine improper-torsion distribution",
       "reference": "Figure 2c \u2014 Alanine improper-torsion distribution"
+    },
+    "a9de940f6d94a41667fc1244-5e3e96ccd80d4543": {
+      "source_group": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery",
+      "artwork_sha256": "5e3e96ccd80d45434a6b1b330a9038b71b59ce3a9266b53a401eb7c51652fabb",
+      "title": "Discovery counts excluding starting species",
+      "reference": "Figure 99 \u2014 Discovery counts excluding starting species"
+    },
+    "54fce0fd99e968ea156d43a8-4a513348a584aa54": {
+      "source_group": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_current",
+      "artwork_sha256": "4a513348a584aa5418adb57ebf704eb64860cd8b987c2e70fd908af11231168a",
+      "title": "Largest hot fragments in the complete sparse cohort",
+      "reference": "Figure 100 \u2014 Largest hot fragments in the complete sparse cohort"
+    },
+    "1c3dda96bc14686326218eac-b2cce1635b49b36d": {
+      "source_group": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_source",
+      "artwork_sha256": "b2cce1635b49b36d82a0f7970e986b21e83ecdcbc4cda9aea5b048a0ef00d997",
+      "title": "CHN counts from the retained historical table",
+      "reference": "Figure 101 \u2014 CHN counts from the retained historical table"
     }
   }
 }

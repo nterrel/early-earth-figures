@@ -1,6 +1,6 @@
 {
   "title": "Early Earth figure library",
-  "description": "Explore energy changes, molecular geometry, fragment populations, and structural diversity. Start with guided reading views and animations, then browse related figures by theme or search.",
+  "description": "Start with the current advisor review, then browse fragment/molecule galleries and the full figure collection.",
   "purpose": "public-library",
   "source_paths": [
     "Dissertation_figures/early_earth/228.gif",
@@ -155,5 +155,6 @@
     "paper-early-earth-chemistry-hero-run/figures/steps_vs_temp_quench.png",
     "paper-early-earth-chemistry-hero-run/figures/unique_signature_vs_time.png",
     "paper-early-earth-chemistry-hero-run/figures/updated_violins.png"
-  ]
+  ],
+  "advisor_review_selection": "metadata/advisor_review_selection.json"
 }

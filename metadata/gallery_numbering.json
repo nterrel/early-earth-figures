@@ -102,7 +102,10 @@
     "95": "Named-query counts per frame \u2014 revised violins",
     "96": "Periodic ghost atoms \u2014 schematic",
     "97": "Reference-match distributions on the higher-count scale",
-    "98": "Reference-match distributions on the lower-count scale"
+    "98": "Reference-match distributions on the lower-count scale",
+    "99": "Discovery counts excluding starting species",
+    "100": "Largest hot fragments in the complete sparse cohort",
+    "101": "CHN counts from the retained historical table"
   },
   "panels": {
     "early_earth_analysis_v2/analysis/energy_hysteresis/results/potential_energy_fluctuations_20261011/iteration3/F09_workshop_schedule_subplot_228": {
@@ -1016,6 +1019,25 @@
       "search_aliases": [
         "Gallery 10f"
       ]
+    },
+    "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery": {
+      "label": "Figure 99",
+      "anchor": "gallery-a9de940f6d94a41667fc1244",
+      "approved_artwork_sha256": "5e3e96ccd80d45434a6b1b330a9038b71b59ce3a9266b53a401eb7c51652fabb",
+      "search_aliases": []
+    },
+    "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_current": {
+      "label": "Figure 100",
+      "anchor": "gallery-54fce0fd99e968ea156d43a8",
+      "approved_artwork_sha256": "4a513348a584aa5418adb57ebf704eb64860cd8b987c2e70fd908af11231168a",
+      "search_aliases": []
+    },
+    "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_source": {
+      "label": "Figure 101",
+      "anchor": "gallery-1c3dda96bc14686326218eac",
+      "approved_artwork_sha256": "b2cce1635b49b36d82a0f7970e986b21e83ecdcbc4cda9aea5b048a0ef00d997",
+      "search_aliases": []
     }
-  }
+  },
+  "advisor_review_source": "early_earth_analysis_v2/docs/records/ADVISOR_REVIEW_REFRESH_A37_A38_20261021.json"
 }

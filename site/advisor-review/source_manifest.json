@@ -1,0 +1,197 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-21",
+  "purpose": "Current advisor review; figure choices are proposals, not manuscript acceptance.",
+  "selection_sha256": "87bc7095397b80887c044ebef78fffd9018b78c46151d87906fe32907d147611",
+  "template_sha256": "8876678cd57a7c07087d81aea9df3bdcb3a9fb4be3c6617c8082b4b205eadaa0",
+  "producer_sha256": "3078580807d43b837ad6e2de4ea2b1960282b4f3af1556c6d2638fd65f138e95",
+  "assets": {
+    "energy_historical": {
+      "source": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/energy_historical.png",
+      "sha256": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
+      "file": "energy_historical.png"
+    },
+    "energy_raw": {
+      "source": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/energy_raw.png",
+      "sha256": "d2191688b512a6d934d8350dc2c3bf083f2318ebb9408f255ff4b7debe2d754b",
+      "file": "energy_raw.png"
+    },
+    "largest_historical": {
+      "source": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_historical.png",
+      "sha256": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
+      "file": "largest_historical.png"
+    },
+    "largest_current": {
+      "source": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_current.png",
+      "sha256": "4a513348a584aa5418adb57ebf704eb64860cd8b987c2e70fd908af11231168a",
+      "file": "largest_current.png"
+    },
+    "chn_historical": {
+      "source": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_historical.png",
+      "sha256": "3d5535f9a0c369936a2841ca774236dbcb1a5eef75e789779e6a8ecb23521645",
+      "file": "chn_historical.png"
+    },
+    "chn_source": {
+      "source": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_source.png",
+      "sha256": "b2cce1635b49b36d82a0f7970e986b21e83ecdcbc4cda9aea5b048a0ef00d997",
+      "file": "chn_source.png"
+    },
+    "discovery_png": {
+      "source": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery.png",
+      "sha256": "5e3e96ccd80d45434a6b1b330a9038b71b59ce3a9266b53a401eb7c51652fabb",
+      "file": "discovery_png.png"
+    },
+    "discovery_pdf": {
+      "source": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery.pdf",
+      "sha256": "a5a15e6444b7916f6365e5ba5b9707722eac899f31634f7edde5775eaf0d2527",
+      "file": "discovery_pdf.pdf"
+    },
+    "discovery_counts": {
+      "source": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery.csv",
+      "sha256": "e787bb60ecbcb9a5fde5eaee014df0e0f42e5252adb5ccf6ac49ebbe340bf3c2",
+      "file": "discovery_counts.csv"
+    },
+    "variety": {
+      "source": "figures/site/05_composition_recurrence_and_topology/advisor_figures-notebook-exports__F17_variety_vs_abundance.png",
+      "sha256": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "file": "variety.png"
+    },
+    "quench": {
+      "source": "figures/site/04_quench_and_fragment_size/advisor_figures-notebook-exports__F12_F13_quench_fragment_sizes.png",
+      "sha256": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "file": "quench.png"
+    },
+    "alanine_movie": {
+      "source": "figures/site/review-media/alanine_formation.mp4",
+      "sha256": "fc9a4fef263b33bcaa8d3d1cff1ebe65905836fff097db6ba1ab542e2ae2c9ed",
+      "file": "alanine_movie.mp4"
+    },
+    "alanine_poster": {
+      "source": "figures/site/05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013_backbone_plane_v2__F22_alanine_formation_standard.png",
+      "sha256": "6d68767e15de345188dc18e49d792eb5e622bf13e8a32e9e3e0e104e1f9b4005",
+      "file": "alanine_poster.png"
+    },
+    "glycine_movie": {
+      "source": "figures/site/review-media/glycine_formation.mp4",
+      "sha256": "2bdcec917f81a48702c4c22208b9be57ba8978df2717908fd0f28c4d70eb7c54",
+      "file": "glycine_movie.mp4"
+    },
+    "glycine_poster": {
+      "source": "figures/site/05_composition_recurrence_and_topology/alanine_illustrations-results-standard_orientation_20261013__F22_glycine_formation_standard.png",
+      "sha256": "385b4c672443d9e7a050bba4d6342a09f006cfb46a188b52fb2794d83634f6cf",
+      "file": "glycine_poster.png"
+    }
+  },
+  "evidence": [
+    {
+      "path": "early_earth_analysis_v2/drafts/historical_review_20261018/asset_validation.json",
+      "sha256": "8f16d97feeb67d60ab3da1b7b90192c01432fb2ea37795fd7c6fe8d6464c1c0c"
+    },
+    {
+      "path": "early_earth_analysis_v2/drafts/historical_review_20261018/validation.json",
+      "sha256": "e30a60a39afa43b91398a58f8f3efdedecba40f6b951dc816398a0361a5922b1"
+    },
+    {
+      "path": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/validation.json",
+      "sha256": "47670d7e5d6be3976c9a8bd77bced03a9c0d738c5979af55c7bfa2b1233415db"
+    },
+    {
+      "path": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exploration/advisor_requests/preparation_validation.json",
+      "sha256": "ba6916a129a4f070e9bd751f73f80d7c9614817fcd3db1bb5ab36ffbf1d90333"
+    },
+    {
+      "path": "early_earth_analysis_v2/analysis/alanine_illustrations/results/review_movies_20261021/movies.json",
+      "sha256": "322de60178a8503ff994aecc153b5ccbb5fb83186d0ac874c23d2ce460fca17b"
+    },
+    {
+      "path": "retained-inputs/release/paper/evidence/claims.csv",
+      "sha256": "abde29c7087c847d9b9472166a2bd35dcf1ec78887dcd0804eb2ba2e638b6165"
+    },
+    {
+      "path": "retained-inputs/release/paper/evidence/PAPER_EVIDENCE_MAP.md",
+      "sha256": "d04bbdec85d20bec1cc10d4b331a2978b07dd31bccf8d7a06bae79b17c0e9dbb"
+    },
+    {
+      "path": "retained-inputs/release/paper/evidence/PAPER_CORE_MANIFEST.json",
+      "sha256": "73743da2731dfcc58fe80862766354c2b7ae9b5c674e2fa49e1232d778982855"
+    }
+  ],
+  "working_claims": [
+    "SMILES-STATE-DISCOVERY-001",
+    "SMILES-SIZE-ABUNDANCE-001"
+  ],
+  "frozen_context_claims": [
+    "METHOD-CONNECTIVITY-001",
+    "CENSUS-STRIDE100-001",
+    "QUENCH-PRODUCTION-001"
+  ],
+  "boundary": "Existing accepted renderings only; no scientific recomputation or manuscript acceptance.",
+  "feedback": {
+    "discovery_png": {
+      "key": "a9de940f6d94a41667fc1244-5e3e96ccd80d4543",
+      "source_group": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery",
+      "version": "5e3e96ccd80d45434a6b1b330a9038b71b59ce3a9266b53a401eb7c51652fabb",
+      "reference": "Figure 99 \u2014 Discovery counts excluding starting species"
+    },
+    "largest_current": {
+      "key": "54fce0fd99e968ea156d43a8-4a513348a584aa54",
+      "source_group": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_current",
+      "version": "4a513348a584aa5418adb57ebf704eb64860cd8b987c2e70fd908af11231168a",
+      "reference": "Figure 100 \u2014 Largest hot fragments in the complete sparse cohort"
+    },
+    "chn_source": {
+      "key": "1c3dda96bc14686326218eac-b2cce1635b49b36d",
+      "source_group": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_source",
+      "version": "b2cce1635b49b36d82a0f7970e986b21e83ecdcbc4cda9aea5b048a0ef00d997",
+      "reference": "Figure 101 \u2014 CHN counts from the retained historical table"
+    },
+    "energy_historical": {
+      "key": "abdadbe10d99a582c8cd00f7-e2e2fa11f1957616",
+      "source_group": "paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng",
+      "version": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
+      "reference": "Figure 16 \u2014 Potential-energy hysteresis during heating and cooling"
+    },
+    "energy_raw": {
+      "key": "d7b0048f48a40abaa0f96d49-d2191688b512a6d9",
+      "source_group": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw",
+      "version": "d2191688b512a6d934d8350dc2c3bf083f2318ebb9408f255ff4b7debe2d754b",
+      "reference": "Figure 17 \u2014 Temperature and potential-energy counts in the 22.8-million-atom run"
+    },
+    "largest_historical": {
+      "key": "5b4efc89b36f597bb92fd9ba-c3423e0416e30a8e",
+      "source_group": "Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time",
+      "version": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
+      "reference": "Figure 43 \u2014 Largest fragment over time \u2014 blue trace"
+    },
+    "chn_historical": {
+      "key": "6baf4e3cabe1937f0a9a4d41-3d5535f9a0c36993",
+      "source_group": "Dissertation_figures/early_earth/figures/counts_vs_time_CHN",
+      "version": "3d5535f9a0c369936a2841ca774236dbcb1a5eef75e789779e6a8ecb23521645",
+      "reference": "Figure 64 \u2014 CHN formula counts over time"
+    },
+    "variety": {
+      "key": "232f7f8c88c45b738c2968e9-b2a3aaa821f622a2",
+      "source_group": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance",
+      "version": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
+      "reference": "Figure 71 \u2014 Large string variety, small-fragment abundance"
+    },
+    "quench": {
+      "key": "57efb52dc05d41ceb3cdb4ef-c4948f9508dd592e",
+      "source_group": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes",
+      "version": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
+      "reference": "Figure 59 \u2014 Quench changes mean and largest fragment sizes"
+    },
+    "alanine_movie": {
+      "key": "5907a2241b640317610340a5-b8a827db1e38625b",
+      "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard",
+      "version": "b8a827db1e38625ba2dd293c53e1a3aa2847b48b32db9ff6b98e6a2d16909340",
+      "reference": "Figure 4a \u2014 Alanine \u2014 saved formation window and final 360\u00b0 view"
+    },
+    "glycine_movie": {
+      "key": "c7fcc0d27b97bb4585edbb0b-859868a5a40e52b7",
+      "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard",
+      "version": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52",
+      "reference": "Figure 4b \u2014 Glycine \u2014 saved formation window and final 360\u00b0 view"
+    }
+  }
+}

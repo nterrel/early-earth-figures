@@ -21,6 +21,7 @@ dialog::backdrop{background:rgba(9,25,35,.82)}
 .review-login{width:min(460px,94vw)}.review-login label{display:block;margin:.8rem 0}.review-login input{display:block;width:100%;box-sizing:border-box;min-width:0;margin-top:.3rem}
 button:focus-visible,a:focus-visible{outline:3px solid #76549b;outline-offset:3px}
 .meeting-panel{background:#fff;padding:1rem;border:1px solid #b6cad4;border-radius:.6rem;scroll-margin-top:7rem}
+.advisor-review-entry{background:#fff;border:1px solid #b6cad4;border-radius:.6rem;padding:1rem}.advisor-review-entry a{display:inline-block;padding:.7rem 1rem;background:#16475f;color:white;border-radius:.35rem;font-weight:650;text-decoration:none}
 .meeting-panel h2{margin:0;padding:0}.meeting-panel>p{max-width:75ch;line-height:1.5}
 .meeting-toolbar,.meeting-order{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
 .meeting-toolbar button,.meeting-card button{font:inherit;padding:.5rem .7rem;background:#f4f8fa;color:#16475f;border:1px solid #9cb7c5;border-radius:.35rem;cursor:pointer}

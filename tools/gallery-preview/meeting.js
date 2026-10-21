@@ -65,7 +65,7 @@
       children.forEach((item, index) => {if (parent.children[index] !== item.card) parent.insertBefore(item.card, parent.children[index] || null);});
     }
     for (const section of main.querySelectorAll(':scope > section')) {
-      if (section !== panel) section.hidden = ![...section.querySelectorAll('article')].some(card => !card.hidden);
+      if (section !== panel) section.hidden = section.hasAttribute('data-reading-entry') ? false : ![...section.querySelectorAll('article')].some(card => !card.hidden);
     }
     const all = Object.values(snapshot?.figures || {});
     panel.querySelector('.meeting-summary').textContent = all.filter(e => e.state === 'priority').length + ' priorities · ' +

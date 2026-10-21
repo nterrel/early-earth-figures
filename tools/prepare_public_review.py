@@ -10,6 +10,7 @@ import discussion_review
 import export_share
 import prepare_pages
 import reading_navigation
+import advisor_review
 
 FIGURES = Path(__file__).resolve().parents[1]
 
@@ -60,6 +61,8 @@ def prepare(source, destination, feedback_source):
     snapshot = discussion_review.compile_review(figures, json.loads(feedback_source.read_text()), json.loads(discussion_review.POLICY.read_text()))
     discussion_review.bind_snapshot(destination, snapshot)
     reading_navigation.apply(destination)
+    if advisor_review.SELECTION.exists():
+        advisor_review.attach(destination)
     if any(p.suffix in ('.sqlite', '.db') for p in destination.rglob('*')):
         raise ValueError('Local account/feedback storage must never enter publication')
     return prepare_pages.check(destination, verify_sources=False)

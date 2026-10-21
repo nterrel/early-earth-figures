@@ -34,11 +34,16 @@ All matching library cards appear together. **Later** and **Hidden / restore**
 set cards aside without deleting any artwork. Alanine/glycine formation cards
 provide MP4 pause, seek and full-screen controls, plus original GIF/PNG downloads.
 
-Start with **Adrian’s review**, the single four-figure reading document. The
+Start with **Adrian’s review**, the current seven-question document. It brings
+the historical Energy/Size/CHN choices, labeled alternatives, formation movies,
+initial-species-excluded discovery counts, and quench/abundance companions together. The
 hot/quenched frame-447 and representative graph galleries have their own section.
-Four overlapping notebook exports are under **Previous notebook reading exports**
+Five previous notebook exports are under **Previous notebook reading exports**
 at the bottom, with their original links, references and Comments preserved.
-All figure artwork remains in the library; this navigation change removes no assets.
+All previous artwork and feedback identities remain. Three newly linked review
+candidates have their own versioned cards (Figures 99–101); they are separately
+manifested display dependencies. The canonical 152-asset catalog and 29-asset
+supplement remain unchanged.
 
 Choose a card’s meeting selection or rating. The Comments dialog prepares short
 text for you: choose **Copy text**, paste it into the comment box and post with
@@ -339,3 +344,20 @@ staging. CI does not need the private analysis repository, logs, scientific Pyth
 packages or symlinks into another checkout. `site/` is deliberately tracked;
 `build/` remains ignored. Notebook/cache/input receipts stay in the private
 analysis repository and selected manuscript files remain separately controlled.
+
+
+## Refresh the current advisor brief
+
+The selected sources and evidence hashes are in `metadata/advisor_review_selection.json`.
+`tools/advisor_review.py` uses the current A38 template and accepted artwork; it
+adds display dependencies without syncing unrelated local catalog changes:
+
+```bash
+python3 figures/tools/advisor_review.py --source figures/site --output figures/build/FRESH_REVIEW --handoff advisor-handoff
+python3 figures/tools/prepare_pages.py --check figures/build/FRESH_REVIEW --portable
+```
+
+A fresh public preparation also applies the selected advisor brief automatically.
+Keep the complete `advisor-review/` folder for its portable figures, movies and
+source manifest. Feedback and library curation require the hosted site. Saved
+notebook exports retain their original URLs and discussion identities.
