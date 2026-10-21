@@ -33,6 +33,12 @@ library remains searchable in pages of 30. **Later** and **Hidden / restore**
 set cards aside without deleting any artwork. Alanine/glycine formation cards
 provide MP4 pause, seek and full-screen controls, plus original GIF/PNG downloads.
 
+Start with **Adrian’s review**, the single four-figure reading document. The
+hot/quenched frame-447 and representative graph galleries have their own section.
+Four overlapping notebook exports are under **Previous notebook reading exports**
+at the bottom, with their original links, references and Comments preserved.
+All figure artwork remains in the library; this navigation change removes no assets.
+
 Choose a card’s meeting selection or rating. The Comments dialog prepares short
 text for you: choose **Copy text**, paste it into the comment box and post with
 GitHub. **Post note in Comments** prepares your written note in the same way.
@@ -68,6 +74,10 @@ meeting snapshot, then run `figures/tools/prepare_public_review.py --source
 LOCAL_SNAPSHOT --output FRESH_PUBLIC_DIRECTORY --feedback-source SOURCE_JSON`.
 Fetch current feedback with `discussion_review.fetch_source` or use the owning
 source snapshot; the publishing workflow always fetches current comments again.
+The public preparation command applies the consolidated navigation automatically.
+For an existing prepared bundle, run `python3 figures/tools/reading_navigation.py
+--site PREPARED_DIRECTORY`, then verify it with `prepare_pages.py --check
+PREPARED_DIRECTORY --portable` before publishing.
 Use this overlay step after catalog/Pages regeneration to retain the shared
 review controls. Verify it with `prepare_pages.py --check DIRECTORY --portable`.
 The [owning record](../early_earth_analysis_v2/docs/WEBSITE_PREVIEW_A37_20261012.md#2026-10-21--public-discussions-selected-for-shared-review)

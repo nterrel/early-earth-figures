@@ -4616,7 +4616,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "e19ab171dd38c65a8986c68fe0a0f4a6f58be4316443c560ae3b3802a4e17742"
+      "sha256": "ec746cc110f201ec18c5b632ba96106f28a4dcb6031b79dc292f7c9f0de9278e"
     },
     {
       "path": "comments.js",
@@ -6823,5 +6823,21 @@
       ]
     },
     "snapshot": "review_state.json"
+  },
+  "reading_navigation": {
+    "version": 1,
+    "reader": "f56551d64b4a217a6c8cf5fd",
+    "structure_galleries": [
+      "b8f1ac57bd07c3000b83fff3",
+      "dc0476da65261d4cb80af4f8",
+      "e1958efcdec1a67daccc6738"
+    ],
+    "previous_exports": [
+      "adf2cd2327fb933511dd207a",
+      "37451dd5ed8c64a73fa5a8fd",
+      "dd6d0191240aa94cfc2dec18",
+      "9e4eebb2c97ce05143cc8ffe"
+    ],
+    "policy": "Navigation only; all catalog assets, document URLs and feedback identities retained."
   }
 }
