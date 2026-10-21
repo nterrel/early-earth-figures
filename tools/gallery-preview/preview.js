@@ -63,6 +63,7 @@
     return data;
   }
   function render(data) {
+    const previousReviewer = reviewer;
     reviewer = data.reviewer;
     setupRequired = Boolean(data.setup_required);
     access.querySelector('span').textContent = reviewer ? 'Rating as ' + reviewer + ' · saved on this computer' : setupRequired ? 'Local ratings · create your first reviewer account' : 'Local ratings · sign in with a configured reviewer account';
@@ -76,6 +77,7 @@
         button.textContent = Number(button.dataset.value) <= (rating.mine || 0) ? '★' : '☆';
       }
     }
+    if (reviewer !== previousReviewer) window.dispatchEvent(new CustomEvent('gallery-reviewer', {detail: {reviewer}}));
   }
   async function refresh() {render(await api('ratings'));}
   access.querySelector('button').onclick = async () => {

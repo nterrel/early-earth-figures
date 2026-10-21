@@ -38,6 +38,14 @@
   const title = dialog.querySelector('h2');
   const version = dialog.querySelector('.comment-version');
   const frameContainer = dialog.querySelector('.comment-frames');
+  const prepared = document.createElement('div');
+  prepared.className = 'comment-prepared'; prepared.hidden = true;
+  prepared.innerHTML = '<p>Copy this text, paste it into the comment box below, then post with GitHub. The shared gallery view updates after publication.</p><textarea readonly aria-label="Prepared review comment" rows="3" style="box-sizing:border-box;width:100%"></textarea><button type="button">Copy text</button><p role="status"></p>';
+  frameContainer.before(prepared);
+  prepared.querySelector('button').onclick = async () => {
+    try {await navigator.clipboard.writeText(prepared.querySelector('textarea').value); prepared.querySelector('[role=status]').textContent = 'Copied. Paste into the comment box below and post.';}
+    catch (_) {prepared.querySelector('textarea').select(); prepared.querySelector('[role=status]').textContent = 'Select and copy the text, then paste into the comment box below.';}
+  };
 
   function cleanUrl(key) {
     const url = new URL(location.href);
@@ -91,10 +99,13 @@
     return entry;
   }
 
-  async function openComments(key, button) {
+  async function openComments(key, button, draft = '') {
     const review = config.figures[key];
     if (!review) return;
     activeKey = key;
+    prepared.hidden = !draft;
+    prepared.querySelector('textarea').value = draft;
+    prepared.querySelector('[role=status]').textContent = '';
     returnFocus = button || returnFocus;
     title.textContent = review.title;
     version.replaceChildren(document.createTextNode('Feedback on this figure version · '));
@@ -200,6 +211,10 @@
     button.addEventListener('click', () => openComments(key, button));
   }
   const initialKey = location.hash.startsWith('#comments-') ? location.hash.slice(10) : '';
+  window.addEventListener('gallery-open-comments', event => {
+    const {key, draft} = event.detail || {};
+    if (buttons.has(key) && typeof draft === 'string') openComments(key, buttons.get(key), draft);
+  });
   if (buttons.has(initialKey)) openComments(initialKey, buttons.get(initialKey));
   window.addEventListener('hashchange', () => {
     const key = location.hash.startsWith('#comments-') ? location.hash.slice(10) : '';

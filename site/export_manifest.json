@@ -4596,7 +4596,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c98bd84c835643ac91b25e97c1400fc5424a46d7a97424f5019c29bfc667aacc"
+      "sha256": "5b649324caeb8471926ab88fa6aaf19d51c0f0780f528c786841963003b611e7"
     },
     {
       "path": "START_HERE.html",
@@ -4616,11 +4616,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "bbae7134ae40eeb18364e17cb557b721d51146a39e00d0202e286ceb405cac85"
+      "sha256": "e19ab171dd38c65a8986c68fe0a0f4a6f58be4316443c560ae3b3802a4e17742"
     },
     {
       "path": "comments.js",
-      "sha256": "9479ffcace2ca59f5392c149e02cf5d3023d84ea3041961a53082c506800d5cf"
+      "sha256": "7c435b8f97c7d479f14295569f904ff7fa3e2ddb887e795804b40b0a08eeaf20"
     },
     {
       "path": "comments.css",
@@ -4628,11 +4628,11 @@
     },
     {
       "path": "preview.js",
-      "sha256": "f2675828d85a2aa45f91643a56123529d936ac4a56955bbdb520b7eddfce4c73"
+      "sha256": "315d55d1ff19075c529adf679f2d436f9390fbbc52d7b13db8d012c7983b1d0d"
     },
     {
       "path": "preview.css",
-      "sha256": "4533892ff9df20b2501308a9edea3c3e7bb8ca33a950bc9e53d7380ba5a3d4b0"
+      "sha256": "f88fd22cc69b8511a5091a4b7665e57408d6f40669b1d344b246be5867a8b179"
     },
     {
       "path": "228k-background.png",
@@ -4640,7 +4640,23 @@
     },
     {
       "path": "feedback_status.json",
-      "sha256": "c263b3a8cee229fa2507532e3cce445aa9ca44aa2086d8a7c0270686fffc0e34"
+      "sha256": "b36bc193e6b3760a636a8dd02dbde21e8670974c44f630e444d8352fb61238ea"
+    },
+    {
+      "path": "meeting.js",
+      "sha256": "c277c0d9a1dcef3b37c081343eedf268f2d36d3dffa7d5357aad377464ba4949"
+    },
+    {
+      "path": "review-media/alanine_formation.mp4",
+      "sha256": "fc9a4fef263b33bcaa8d3d1cff1ebe65905836fff097db6ba1ab542e2ae2c9ed"
+    },
+    {
+      "path": "review-media/glycine_formation.mp4",
+      "sha256": "2bdcec917f81a48702c4c22208b9be57ba8978df2717908fd0f28c4d70eb7c54"
+    },
+    {
+      "path": "review_state.json",
+      "sha256": "1ae124703df0db9e7f7ae3a434b14f20f7bccf080d338af84d03826fd5ddeeb2"
     }
   ],
   "repaired_links": [
@@ -6774,7 +6790,7 @@
     "image_dialog": "Escape-close, focus restoration, original download links",
     "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 113,
-    "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
+    "ratings": "Public GitHub Discussions; latest 1\u20135 vote per reviewer/artwork, with arithmetic average and reviewer count."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
@@ -6785,5 +6801,27 @@
     "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard",
     "figure_details": "Published file locations in GitHub repository only; scientific notes remain in catalog.",
     "figure_namespace": "One primary Figure reference per card; broad Galleries selector."
+  },
+  "discussion_review": {
+    "provider": "public GitHub Discussions",
+    "policy_sha256": "4cc74c9843b87e1c92434c20f47b7cb791ef4fd39664a5987081c894afb809eb",
+    "movie_provenance": {
+      "receipt_sha256": "322de60178a8503ff994aecc153b5ccbb5fb83186d0ac874c23d2ce460fca17b",
+      "files": [
+        {
+          "key": "5907a2241b640317610340a5-b8a827db1e38625b",
+          "path": "review-media/alanine_formation.mp4",
+          "sha256": "fc9a4fef263b33bcaa8d3d1cff1ebe65905836fff097db6ba1ab542e2ae2c9ed",
+          "source_sha256": "b8a827db1e38625ba2dd293c53e1a3aa2847b48b32db9ff6b98e6a2d16909340"
+        },
+        {
+          "key": "c7fcc0d27b97bb4585edbb0b-859868a5a40e52b7",
+          "path": "review-media/glycine_formation.mp4",
+          "sha256": "2bdcec917f81a48702c4c22208b9be57ba8978df2717908fd0f28c4d70eb7c54",
+          "source_sha256": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52"
+        }
+      ]
+    },
+    "snapshot": "review_state.json"
   }
 }

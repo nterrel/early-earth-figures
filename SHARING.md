@@ -24,7 +24,99 @@ source hashes, share-copy hashes and repaired links. Comments should identify th
 figure ID, title and exact download filename; final selection remains in the
 publication plan.
 
+## Shared public review through GitHub Discussions
+
+Nick selected the public model on 2026-10-21. The shared review interface uses
+the existing **Comments** beneath each figure, with GitHub sign-in. It has a
+discussion set of up to 30 figures, including at most nine priorities; the full
+library remains searchable in pages of 30. **Later** and **Hidden / restore**
+set cards aside without deleting any artwork. Alanine/glycine formation cards
+provide MP4 pause, seek and full-screen controls, plus original GIF/PNG downloads.
+
+Choose a card’s meeting selection or rating. The Comments dialog prepares short
+text for you: choose **Copy text**, paste it into the comment box and post with
+GitHub. **Post note in Comments** prepares your written note in the same way.
+Preparing/copying text does not save a comment. Notes appear in the discussion
+immediately after posting. The shared selection, rating summary and note preview
+update after the automatic Pages rebuild; choose **Refresh saved review** to load
+the latest snapshot. Its synchronization time is displayed. A retained note draft
+can be cleared with **Clear draft** once posted.
+
+Nick (`nterrel`) and Adrian (`roitberg`) curate the shared selection and order.
+Signed-in GitHub reviewers can add ordinary notes and 1–5 ratings; each reviewer’s
+latest valid rating replaces their earlier one for that artwork version. New
+artwork starts a separate population. PNG/PDF and matching supplement cards share
+the existing exact artwork identity. Selection requests over the limits or from
+other accounts remain in GitHub but are not applied; the gallery links the reason.
+Editing/deleting a command recomputes the saved view from remaining comments.
+Closed threads keep the existing history/hidden-composer behavior; the owner can
+reopen their discussion on GitHub when further feedback is needed.
+
+**Export JSON** and **Export notes** download the latest shared review. Selections
+are provisional and do not approve manuscript panels. Existing local reviewer
+accounts, passwords and ratings are not uploaded or converted into public posts.
+
+The [workflow](.github/workflows/publish-library.yml) reads Discussions after
+discussion/comment changes and before publication, verifies the complete artifact
+and deploys it. It has read access to Discussions, holds its token only in the
+runner, and neither posts feedback nor writes commits. A failed read/check retains
+the previous deployment. GitHub documents the supported
+[discussion/comment events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#discussion_comment).
+
+To prepare another selected public overlay, first prepare the desired local
+meeting snapshot, then run `figures/tools/prepare_public_review.py --source
+LOCAL_SNAPSHOT --output FRESH_PUBLIC_DIRECTORY --feedback-source SOURCE_JSON`.
+Fetch current feedback with `discussion_review.fetch_source` or use the owning
+source snapshot; the publishing workflow always fetches current comments again.
+Use this overlay step after catalog/Pages regeneration to retain the shared
+review controls. Verify it with `prepare_pages.py --check DIRECTORY --portable`.
+The [owning record](../early_earth_analysis_v2/docs/WEBSITE_PREVIEW_A37_20261012.md#2026-10-21--public-discussions-selected-for-shared-review)
+holds release/validation evidence.
+
 ## A37 local ratings and enlarged previews
+
+### Saved figure meeting workspace (2026-10-21)
+
+The newest local preview adds a saved discussion set, priorities, ordered cards,
+reviewer notes and reversible hiding. Start it from the project root:
+
+```bash
+python3 figures/tools/serve_gallery_preview.py --directory figures/build/meeting-review-20261021 --port 8772
+```
+
+Open `http://127.0.0.1:8772/` and use the existing local reviewer account, or
+choose **Set up local reviewer** on first use. The existing feedback database and
+ratings are retained. Choose **Browse library**, then set cards to **Priority**,
+**Discuss**, **Later** or **Hidden**. **Discussion set** shows the ordered meeting
+selection; **Priorities only** isolates the most important figures. The shared
+local set allows 30 discussion figures including at most nine priorities. Other
+library views show 30 cards per page; search still covers the complete collection.
+**Hidden / restore** restores set-aside cards without deleting their files or notes.
+
+Expand **Meeting notes**, type, and choose **Save note**. Notes are append-only,
+attributed to the signed-in reviewer and tied to the artwork version. Refresh
+loads changes from another local page; conflicting writes preserve note drafts.
+**Export JSON** and **Export notes** download selections and notes with source and
+artwork identifiers. These are exports, not an import/synchronization service.
+They contain no passwords or sessions. Meeting selection is provisional and
+does not approve manuscript panels.
+
+Alanine and glycine formation cards in this preview use MP4 players with pause,
+seeking and full-screen controls. Original GIF/PNG downloads remain available.
+The [movie receipt](../early_earth_analysis_v2/analysis/alanine_illustrations/results/review_movies_20261021/movies.json)
+binds the unchanged source GIFs, all frame-transition comparisons and exact timing.
+
+Selections, notes and stars persist on this computer for configured local
+reviewers. They are not yet shared remotely with Adrian. Existing public giscus
+Comments remain available; D25 still owns shared hosting/access. The public
+site and original A37 snapshot are unchanged. See the
+[owning implementation record](../early_earth_analysis_v2/docs/WEBSITE_PREVIEW_A37_20261012.md#2026-10-21--saved-figure-meeting-and-movie-preview).
+
+To rebuild in a fresh directory, run `gallery_preview.py --output NEW_DIRECTORY`,
+then `stage_review_movies.py --directory NEW_DIRECTORY --movies
+early_earth_analysis_v2/analysis/alanine_illustrations/results/review_movies_20261021/movies.json`
+(both scripts are under `figures/tools/`). Do not run the public Pages producer
+to prepare this local review overlay.
 
 The original local A37 preview is a retained review snapshot. New previews use
 the current staged gallery and unchanged proposed supplement figure membership.

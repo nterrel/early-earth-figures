@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  discussion:
+    types: [created, edited, deleted, category_changed, locked, unlocked]
+  discussion_comment:
+    types: [created, edited, deleted]
 
 permissions:
   contents: read
@@ -17,13 +21,25 @@ jobs:
     permissions:
       contents: read
       pages: read
+      discussions: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - name: Verify staged bytes, membership and local links
+        run: python tools/prepare_pages.py --check site --portable
+      - name: Test public feedback rules
+        run: python -m unittest discover -s tools -p test_discussion_review.py
+      - name: Refresh shared review from public Discussions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/discussion_review.py --site site
+      - name: Verify the complete review artifact
         run: python tools/prepare_pages.py --check site --portable
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

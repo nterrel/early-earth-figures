@@ -303,7 +303,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c60420b837ff7645303aa3642d9977cc62886fa665533e708209ac30f1da3a1a"
+      "sha256": "e958352fd8d348048ae29dc9326fd8b98163eb96375f684a19e5663d5a536834"
     },
     {
       "path": "START_HERE.html",
@@ -319,11 +319,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "ed10edf87e49629a554c3875b65c376d9ec4e46709ba321a9b4a2930ce0ccbc7"
+      "sha256": "3ff62932818415e3d6487bb9d37cfa86d5e08bae45cf1f9b1745b0057b78c33a"
     },
     {
       "path": "comments.js",
-      "sha256": "9479ffcace2ca59f5392c149e02cf5d3023d84ea3041961a53082c506800d5cf"
+      "sha256": "7c435b8f97c7d479f14295569f904ff7fa3e2ddb887e795804b40b0a08eeaf20"
     },
     {
       "path": "comments.css",
@@ -331,11 +331,11 @@
     },
     {
       "path": "preview.js",
-      "sha256": "f2675828d85a2aa45f91643a56123529d936ac4a56955bbdb520b7eddfce4c73"
+      "sha256": "315d55d1ff19075c529adf679f2d436f9390fbbc52d7b13db8d012c7983b1d0d"
     },
     {
       "path": "preview.css",
-      "sha256": "4533892ff9df20b2501308a9edea3c3e7bb8ca33a950bc9e53d7380ba5a3d4b0"
+      "sha256": "f88fd22cc69b8511a5091a4b7665e57408d6f40669b1d344b246be5867a8b179"
     },
     {
       "path": "228k-background.png",
@@ -343,7 +343,11 @@
     },
     {
       "path": "feedback_status.json",
-      "sha256": "c263b3a8cee229fa2507532e3cce445aa9ca44aa2086d8a7c0270686fffc0e34"
+      "sha256": "b36bc193e6b3760a636a8dd02dbde21e8670974c44f630e444d8352fb61238ea"
+    },
+    {
+      "path": "meeting.js",
+      "sha256": "c277c0d9a1dcef3b37c081343eedf268f2d36d3dffa7d5357aad377464ba4949"
     }
   ],
   "repaired_links": [],
@@ -366,7 +370,7 @@
     "image_dialog": "Escape-close, focus restoration, original download links",
     "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 15,
-    "ratings": "Deferred pending D25 shared access/backend selection; public page makes no local API requests."
+    "ratings": "Public GitHub Discussions; latest 1\u20135 vote per reviewer/artwork, with arithmetic average and reviewer count."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
@@ -377,5 +381,11 @@
     "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard",
     "figure_details": "Published file locations in GitHub repository only; scientific notes remain in catalog.",
     "figure_namespace": "One primary Figure reference per card; broad Galleries selector."
+  },
+  "discussion_review": {
+    "provider": "public GitHub Discussions",
+    "policy_sha256": "4cc74c9843b87e1c92434c20f47b7cb791ef4fd39664a5987081c894afb809eb",
+    "movie_provenance": null,
+    "snapshot": "../review_state.json"
   }
 }

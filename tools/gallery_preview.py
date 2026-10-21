@@ -60,8 +60,10 @@ def prepare(destination: Path, source_directory: Path | None = None) -> dict:
         # A published baseline already carries the shared interface. Local copies
         # enable the local service and replace these assets once, without doubles.
         page = page.replace(' data-rating-mode="deferred"', '')
+        page = re.sub(r' data-meeting-(?:mode|url)="[^"]*"', '', page)
         page = re.sub(r'<link rel="stylesheet" href="preview\.css(?:\?[^"]*)?">', '', page)
         page = re.sub(r'<script src="preview\.js(?:\?[^"]*)?" defer></script>', '', page)
+        page = re.sub(r'<script src="meeting\.js(?:\?[^"]*)?" defer></script>', '', page)
         config_match = re.search(r'(<script type="application/json" id="gallery-comment-config">)(.*?)(</script>)', page)
         if not config_match:
             raise RuntimeError('Expected the current version-bound comments baseline')
@@ -75,6 +77,7 @@ def prepare(destination: Path, source_directory: Path | None = None) -> dict:
                       page, flags=re.DOTALL)
         page = page.replace('</style>', '</style><link rel="stylesheet" href="preview.css?v=' + export_share.digest(INTERFACE / 'preview.css')[:12] + '">', 1)
         page = page.replace('</html>', '<script src="preview.js?v=' + export_share.digest(INTERFACE / 'preview.js')[:12] + '" defer></script></html>')
+        page = page.replace('</html>', '<script src="meeting.js?v=' + export_share.digest(INTERFACE / 'meeting.js')[:12] + '" defer></script></html>')
         page = page.replace('<header>', '<header><p class="local-preview">Local review preview · provisional figure numbers</p>', 1)
         page = page.replace('Click a preview for full resolution', 'Click a preview to enlarge; original downloads remain below each card')
         numbering = json.loads(NUMBERING.read_text())
@@ -83,10 +86,10 @@ def prepare(destination: Path, source_directory: Path | None = None) -> dict:
         write_json(directory / 'catalog.json', catalog)
         update_theme_counts(directory, catalog)
         with (directory / 'catalog.csv').open('w', newline='') as stream:
-            writer = csv.DictWriter(stream, fieldnames=list(catalog['assets'][0]))
+            writer = csv.DictWriter(stream, fieldnames=list(catalog['assets'][0]), lineterminator='\n')
             writer.writeheader()
             writer.writerows(catalog['assets'])
-        for name in ('preview.js', 'preview.css'):
+        for name in ('preview.js', 'preview.css', 'meeting.js'):
             shutil.copy2(INTERFACE / name, directory / name)
         shutil.copy2(BACKGROUND, directory / '228k-background.png')
         manifest_path = directory / 'export_manifest.json'
@@ -97,7 +100,7 @@ def prepare(destination: Path, source_directory: Path | None = None) -> dict:
             (directory / path).unlink()
         manifest['asset_count'] = len(catalog['assets'])
         generated = {entry['path']: entry for entry in manifest['generated_files']}
-        for name in ('preview.js', 'preview.css', '228k-background.png'):
+        for name in ('preview.js', 'preview.css', 'meeting.js', '228k-background.png'):
             generated[name] = {'path': name}
         for entry in generated.values():
             entry['sha256'] = export_share.digest(directory / entry['path'])
@@ -106,6 +109,7 @@ def prepare(destination: Path, source_directory: Path | None = None) -> dict:
             'baseline_catalog_sha256': export_share.digest(source / directory.relative_to(destination) / 'catalog.json'),
             'excluded_source_groups': sorted(EXCLUSIONS) if directory == destination else [],
             'ratings': 'Local authenticated reviewer service; SQLite; one editable vote per reviewer/artwork version.',
+            'meeting': 'Local saved discussion set (30 max, 9 priorities), ordering, reversible hiding, reviewer notes and exports.',
             'hosting': 'Pending A36/D25; static hosting alone cannot save ratings.',
             'background': {'source': str(BACKGROUND.relative_to(PROJECT)), 'sha256': export_share.digest(BACKGROUND)},
             'numbering': {'metadata_sha256': export_share.digest(NUMBERING), 'source_map': numbering['source_map'],
@@ -151,15 +155,25 @@ def main() -> None:
             update_theme_counts(package, json.loads((package / 'catalog.json').read_text()))
             page_path = package / 'index.html'
             numbering = json.loads(NUMBERING.read_text())
-            page = numbered_page(page_path.read_text(), numbering)
+            page = numbered_page(page_path.read_text(), numbering, 'site/supplement' if package != directory else 'site')
+            page = re.sub(r'<script src="meeting\.js(?:\?[^"]*)?" defer></script>', '', page)
+            page = page.replace('</html>', '<script src="meeting.js?v=' + export_share.digest(INTERFACE / 'meeting.js')[:12] + '" defer></script></html>')
+            for name in ('preview.js', 'preview.css'):
+                page = re.sub(r'(' + re.escape(name) + r')(?:\?[^"<>]*)?', lambda match: name + '?v=' + export_share.digest(INTERFACE / name)[:12], page)
             page_path.write_text(page)
             manifest['local_review']['numbering'] = {'metadata_sha256': export_share.digest(NUMBERING),
                 'source_map': numbering['source_map'], 'displayed_panels': page.count('data-gallery-reference=')}
-            for name in ('preview.js', 'preview.css'):
+            manifest['local_review']['meeting'] = 'Local saved discussion set (30 max, 9 priorities), ordering, reversible hiding, reviewer notes and exports.'
+            for name in ('preview.js', 'preview.css', 'meeting.js'):
                 shutil.copy2(INTERFACE / name, package / name)
+            if not any(entry['path'] == 'meeting.js' for entry in manifest['generated_files']):
+                manifest['generated_files'].append({'path': 'meeting.js'})
             for entry in manifest['generated_files']:
                 entry['sha256'] = export_share.digest(package / entry['path'])
             write_json(manifest_path, manifest)
+        for name in ('meeting.js', 'supplement/meeting.js'):
+            if not any(entry['path'] == name for entry in master['files']):
+                master['files'].append({'path': name})
         for entry in master['files']:
             path = directory / entry['path']
             entry.update(sha256=export_share.digest(path), bytes=path.stat().st_size)

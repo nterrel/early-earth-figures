@@ -25,3 +25,5 @@ views load external MathJax/RequireJS libraries and need internet access.
 
 The maintained gallery sources are in
 [nterrel/early-earth-figures](https://github.com/nterrel/early-earth-figures).
+
+Shared review uses public GitHub Discussions. Nick and Adrian curate the discussion set; signed-in GitHub users can add notes and ratings. Prepare a selection/rating/note in the gallery, copy it into Comments, and post. The shared view updates after GitHub Pages republishes. Refresh to load the latest snapshot. This does not approve manuscript panels.

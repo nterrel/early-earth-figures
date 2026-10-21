@@ -20,4 +20,15 @@ dialog::backdrop{background:rgba(9,25,35,.82)}
 .image-original{display:inline-block;margin:.5rem 0}.image-close{flex-shrink:0}
 .review-login{width:min(460px,94vw)}.review-login label{display:block;margin:.8rem 0}.review-login input{display:block;width:100%;box-sizing:border-box;min-width:0;margin-top:.3rem}
 button:focus-visible,a:focus-visible{outline:3px solid #76549b;outline-offset:3px}
+.meeting-panel{background:#fff;padding:1rem;border:1px solid #b6cad4;border-radius:.6rem;scroll-margin-top:7rem}
+.meeting-panel h2{margin:0;padding:0}.meeting-panel>p{max-width:75ch;line-height:1.5}
+.meeting-toolbar,.meeting-pages,.meeting-order{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+.meeting-toolbar button,.meeting-pages button,.meeting-card button{font:inherit;padding:.5rem .7rem;background:#f4f8fa;color:#16475f;border:1px solid #9cb7c5;border-radius:.35rem;cursor:pointer}
+.meeting-panel button:disabled,.meeting-card button:disabled{opacity:.5;cursor:default}
+.meeting-summary{font-weight:650}.meeting-status,.meeting-note-status{color:#465968;font-size:.85rem}
+.meeting-card{border-top:1px solid #d8e0e8;margin-top:1rem;padding-top:.75rem}
+.meeting-card select{width:100%;margin:.3rem 0 .5rem;box-sizing:border-box}.meeting-order{margin-bottom:.7rem}
+.meeting-card textarea{display:block;width:100%;box-sizing:border-box;font:inherit;margin:.5rem 0;resize:vertical}
+.meeting-notes{max-height:18rem;overflow:auto}.meeting-notes p{white-space:pre-wrap;overflow-wrap:anywhere}
+.meeting-card label{display:block}.meeting-pages span{font-size:.85rem}.meeting-panel select{max-width:100%}
 @media(max-width:500px){main{padding:1rem}.image-dialog{padding:.65rem}.image-dialog img{max-height:68dvh}nav{position:static}body{background-attachment:scroll}.links{flex-wrap:wrap}.review-access{font-size:.85rem}}
