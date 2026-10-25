@@ -2938,8 +2938,8 @@
     },
     {
       "path": "export_manifest.json",
-      "sha256": "2b82099b5e6474e99a39fafc00e1955103973602e3cb574e66c0f15df3ce0f8c",
-      "bytes": 557886
+      "sha256": "261370727501cac79a638e7f3b5005b030a892ad4b6815be32fa6223f87e82a5",
+      "bytes": 570049
     },
     {
       "path": "feedback_status.json",
@@ -2953,8 +2953,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "914eb03de9baea2692452f9f563f2beb85df062fd655269c16e3fdb931502eff",
-      "bytes": 382768
+      "sha256": "9b4dd7776670768d8cab399dcca7162dd1bdf3365105293c4b9a2cd8a95d29c8",
+      "bytes": 383077
     },
     {
       "path": "media.css",
@@ -2975,6 +2975,316 @@
       "path": "preview.js",
       "sha256": "233eade4a2595db2c709bc488d7a25653651a48245572e9a76a6d2b74ca5d157",
       "bytes": 10815
+    },
+    {
+      "path": "quenched-atlas/atlas.css",
+      "sha256": "bbd06c9dafa7f2f23c434f1b622f578e7ca7bc1634ad9b226eca9010b0c369ee",
+      "bytes": 1825
+    },
+    {
+      "path": "quenched-atlas/atlas.js",
+      "sha256": "8086b1ace9d20b6d32720ba147d1386aff6994acacfefa4a535faf2a2187216f",
+      "bytes": 6731
+    },
+    {
+      "path": "quenched-atlas/catalog_preview.json",
+      "sha256": "bab0081b23601386367d7d5ed2305858ff56384ab6e96ea5cb7e3b5b0bc81370",
+      "bytes": 202307
+    },
+    {
+      "path": "quenched-atlas/examples/00000241c1359f6495719b150f5928986e461d4aefdef8998e88c687d5ed0d01.json",
+      "sha256": "2ab6b8e0fa57216a2aefe67f6283d404fe4589655b32b8cca870db1d2074666b",
+      "bytes": 9179
+    },
+    {
+      "path": "quenched-atlas/examples/00000241c1359f6495719b150f5928986e461d4aefdef8998e88c687d5ed0d01.xyz",
+      "sha256": "381fdaff0b1a6ef50eb4bd2abf00c4b0a16bfd644cd955095bb21c9ed2fdefcc",
+      "bytes": 1622
+    },
+    {
+      "path": "quenched-atlas/examples/000003f75b7279495ef87bba76e12fe38d79505141fcba3a9dd85963931e93a4.json",
+      "sha256": "1925b00e4445259aba63a02f9c41a9a616c2ad38aff40648218a85d71338790c",
+      "bytes": 7758
+    },
+    {
+      "path": "quenched-atlas/examples/000003f75b7279495ef87bba76e12fe38d79505141fcba3a9dd85963931e93a4.xyz",
+      "sha256": "8040651c7a1a092df9301eed83852a4817bd596e33cb4f99dffaccd1f85ad796",
+      "bytes": 1399
+    },
+    {
+      "path": "quenched-atlas/examples/0000077db2f64a833c880c1b1be7c1788c22912c6e15acc921592ff344e3904e.json",
+      "sha256": "788ce417f3d548e5101f4c9c29fa23ea914aef3f5d7d2d1f24e4ff42e3cff4a8",
+      "bytes": 12665
+    },
+    {
+      "path": "quenched-atlas/examples/0000077db2f64a833c880c1b1be7c1788c22912c6e15acc921592ff344e3904e.xyz",
+      "sha256": "956ca329486dff182a451613ac45ff2549bd17a4552d8a67c0600e22577d1c0e",
+      "bytes": 2377
+    },
+    {
+      "path": "quenched-atlas/examples/00000c764fd641331f8af9b6d5fe505a5dff1a0ca77d9f01b28d6eebb6d5160a.json",
+      "sha256": "68690a6176d5931669d769da5acbddf632838e860c58123ddc9cf04dc636e471",
+      "bytes": 10741
+    },
+    {
+      "path": "quenched-atlas/examples/00000c764fd641331f8af9b6d5fe505a5dff1a0ca77d9f01b28d6eebb6d5160a.xyz",
+      "sha256": "7cec8e3f8eb77b67feab4a986fa1cea231f14e7be54df01d1ba8faea30a6bc24",
+      "bytes": 2016
+    },
+    {
+      "path": "quenched-atlas/examples/0075aeb0a517a9ad1686552d9668372b2da14d7c6bfb9e285e5156326f256399.json",
+      "sha256": "246ff4537b98c46d0670153a3a9bb2cafa1d9031b8fa43ddb8f550464de94400",
+      "bytes": 4996
+    },
+    {
+      "path": "quenched-atlas/examples/0075aeb0a517a9ad1686552d9668372b2da14d7c6bfb9e285e5156326f256399.xyz",
+      "sha256": "e01207c855baa25ef83d1f9a8235f492685d1df81728007f180449f8097669b1",
+      "bytes": 816
+    },
+    {
+      "path": "quenched-atlas/examples/007a179f1f0e5eb323c8b7e9658a63f74101aff92b778061bec6ec6f682603d4.json",
+      "sha256": "ee038d8ba10bdd8da0786ce143854f7107d822dfcec90584eaf09dbcd5e0273e",
+      "bytes": 8039
+    },
+    {
+      "path": "quenched-atlas/examples/007a179f1f0e5eb323c8b7e9658a63f74101aff92b778061bec6ec6f682603d4.xyz",
+      "sha256": "08746d8766d5d287c3dc1efa576b63520b0feb2087c2ee062475a8bc36bf0649",
+      "bytes": 1461
+    },
+    {
+      "path": "quenched-atlas/examples/008a9322356b9d797f89ee96e68552f4320cc0ec6373963e334f698b0da36cf0.json",
+      "sha256": "fb7d73061eba6625b9273879b6e70fe05bb47cf5dc9e06fc178abad918893d21",
+      "bytes": 8016
+    },
+    {
+      "path": "quenched-atlas/examples/008a9322356b9d797f89ee96e68552f4320cc0ec6373963e334f698b0da36cf0.xyz",
+      "sha256": "317d9d55744b252e677b680f308bef14b7022c45c2a4f9a2102a7858bdbaf1eb",
+      "bytes": 1428
+    },
+    {
+      "path": "quenched-atlas/examples/0b526502971dad6cb936809939b1a9e19fecaef6d20c7bee265c2c4029314976.json",
+      "sha256": "dacb4c9925632d74528fcd18ae3a0599e4ef9b51716253d843e191571a17d6c0",
+      "bytes": 16362
+    },
+    {
+      "path": "quenched-atlas/examples/0b526502971dad6cb936809939b1a9e19fecaef6d20c7bee265c2c4029314976.xyz",
+      "sha256": "2c940716e766d5dcf926b66cedcf14aef76bd46abbe6c9c23a4255c5a7a68fcf",
+      "bytes": 3023
+    },
+    {
+      "path": "quenched-atlas/examples/301a93d0dfe069f13542e6b8ec04f6df0c3f5d1936d00ae3965881b1755c589c.json",
+      "sha256": "3125ab7e7bdb5b7d13cf9f2f345dfedd4fbbf2d97f59e969b234a1724c351a8d",
+      "bytes": 2824
+    },
+    {
+      "path": "quenched-atlas/examples/301a93d0dfe069f13542e6b8ec04f6df0c3f5d1936d00ae3965881b1755c589c.xyz",
+      "sha256": "aa52fb6ae2113b05e257ad472bec44ea1c0a2e06e9347708eb1e4ab09123b542",
+      "bytes": 356
+    },
+    {
+      "path": "quenched-atlas/examples/338c11938185c32e2ba7177a6ffe2a416ab60a5eb48172ac500a93542bbd41aa.json",
+      "sha256": "5d39a39f3fe405489ab2fe92efe3f6e34393522210404b6e98d5ee0a085d97e4",
+      "bytes": 18618
+    },
+    {
+      "path": "quenched-atlas/examples/338c11938185c32e2ba7177a6ffe2a416ab60a5eb48172ac500a93542bbd41aa.xyz",
+      "sha256": "dd2d4af3a95f14ebecb5dc05cbc0770854da849c786faef04252ea378298761e",
+      "bytes": 3553
+    },
+    {
+      "path": "quenched-atlas/examples/40c688e26147db2d75f9ee0a7dc6714cdb578a6d53003db0bc66ea624526d119.json",
+      "sha256": "fd2159992af62cb2469f8158c643dce80f39dec05b2d4d571d3d5132c074e41d",
+      "bytes": 26923
+    },
+    {
+      "path": "quenched-atlas/examples/40c688e26147db2d75f9ee0a7dc6714cdb578a6d53003db0bc66ea624526d119.xyz",
+      "sha256": "7740a68ecd26d61e35193c03301d6517d53f65053b7543fd54743b724eb4bef3",
+      "bytes": 5291
+    },
+    {
+      "path": "quenched-atlas/examples/54275ffed08372924dc37538ba7a9a1174cc5bac56e479e465a64aeb3eb6f9d6.json",
+      "sha256": "592ec1c4fb1c157871283e6a5d51efaaa416f2d10860aa4a5ebf8b7a8433eb82",
+      "bytes": 19809
+    },
+    {
+      "path": "quenched-atlas/examples/54275ffed08372924dc37538ba7a9a1174cc5bac56e479e465a64aeb3eb6f9d6.xyz",
+      "sha256": "bcd8ce9675f9162ed57245c334fa30881b00f7b594076abd95bfd669121dbe9e",
+      "bytes": 3749
+    },
+    {
+      "path": "quenched-atlas/examples/65c573237823b134ea63b04ac62671ec64a5d789e9498b2cbc3487296ab42681.json",
+      "sha256": "f980c651bfdcd757f840c187d5f4faee0c7b02a028ecd0c5fec5577546fb1c4f",
+      "bytes": 3100
+    },
+    {
+      "path": "quenched-atlas/examples/65c573237823b134ea63b04ac62671ec64a5d789e9498b2cbc3487296ab42681.xyz",
+      "sha256": "262392baac5f1f91ea36d2a4ccdc83a7bf326e89eb67483b735f36498e9ab6f9",
+      "bytes": 419
+    },
+    {
+      "path": "quenched-atlas/examples/670a885b772df9c749b81137953c56b9bb02f15968688310c9c9e899e3c123cc.json",
+      "sha256": "9240894f0540a4206b515320b51808bfb2da1ff3f305c673b7933f254b89ae0f",
+      "bytes": 8252
+    },
+    {
+      "path": "quenched-atlas/examples/670a885b772df9c749b81137953c56b9bb02f15968688310c9c9e899e3c123cc.xyz",
+      "sha256": "942e3f9e01afc459fb0189b62ed7e71638cb53b75dd3e5e8ed80b0e881019958",
+      "bytes": 1469
+    },
+    {
+      "path": "quenched-atlas/examples/886e079c352491239c084f83ffd6412813c09bba26bb841969bf384c94d29568.json",
+      "sha256": "3f311dfcfaf4927e6361181b8a3c29056d591539c58a8882a8b70797afa95be3",
+      "bytes": 3888
+    },
+    {
+      "path": "quenched-atlas/examples/886e079c352491239c084f83ffd6412813c09bba26bb841969bf384c94d29568.xyz",
+      "sha256": "4dde58ed93d171ea306612e42d82689355547e109bf619ef558183b489a7d4b1",
+      "bytes": 579
+    },
+    {
+      "path": "quenched-atlas/examples/a749d042d87ba254ddf7052277a0f9a98b074bb403e3201df7a10ad0d9d1d7d2.json",
+      "sha256": "ddd059a295821bfda481f3e7315fa25dc8d23d3e241945a0b440911442c27f85",
+      "bytes": 2562
+    },
+    {
+      "path": "quenched-atlas/examples/a749d042d87ba254ddf7052277a0f9a98b074bb403e3201df7a10ad0d9d1d7d2.xyz",
+      "sha256": "1edb7084ab3939c1e7e72d87a444239b7015285fb7e3336f620ca8ed277623d7",
+      "bytes": 304
+    },
+    {
+      "path": "quenched-atlas/examples/aca14cbe5ccedb5e23849e3377cc2addc2428d516d90d9aa45e0ae97bf9f2472.json",
+      "sha256": "9c4ad0e98c9a6d4ea24027dacdb3699aaab601bd650cb231e3a080eb52637048",
+      "bytes": 14714
+    },
+    {
+      "path": "quenched-atlas/examples/aca14cbe5ccedb5e23849e3377cc2addc2428d516d90d9aa45e0ae97bf9f2472.xyz",
+      "sha256": "8f2462a52561debdfddc4e508aadc850ef1a08cd4371cfa4ed13c243024aa633",
+      "bytes": 2678
+    },
+    {
+      "path": "quenched-atlas/examples/bed1d802adfb09db489352cf964381692cf167fcfd95ccadf7a58195352850ac.json",
+      "sha256": "3f97a4aa1171585dadd000dcb2700c08d4916f68eb1b341bf4c87ba5d76b7f45",
+      "bytes": 24471
+    },
+    {
+      "path": "quenched-atlas/examples/bed1d802adfb09db489352cf964381692cf167fcfd95ccadf7a58195352850ac.xyz",
+      "sha256": "d8992f5d131b38dcc38da26350a216ec76eb7b63edbd1314ba6fb2b08e6bf768",
+      "bytes": 4685
+    },
+    {
+      "path": "quenched-atlas/examples/c3a063673aea5c1ac26fe01f1e6096fcfce3594e349ddc88eff15825f010aaf0.json",
+      "sha256": "56697db027d5c97ce68b9b7a2e45839a78499f59553a98da9443cce924ae37b9",
+      "bytes": 4430
+    },
+    {
+      "path": "quenched-atlas/examples/c3a063673aea5c1ac26fe01f1e6096fcfce3594e349ddc88eff15825f010aaf0.xyz",
+      "sha256": "4b3a37ec9c569129afed929268fbaa43a06f47d0e9bcf896ea677f8f310b0260",
+      "bytes": 701
+    },
+    {
+      "path": "quenched-atlas/examples/c8f091b6084cd1d8120100225261565b5cd36090b15167f0ecf0470a22e8319a.json",
+      "sha256": "514689abf067553e24cfbb141eb40b71d99ef2adeedd9fae029d62cacc3bc59b",
+      "bytes": 3898
+    },
+    {
+      "path": "quenched-atlas/examples/c8f091b6084cd1d8120100225261565b5cd36090b15167f0ecf0470a22e8319a.xyz",
+      "sha256": "404ed67787b7930ecb371226d886ceb30c6a5f7f2fab9e93527b4c4782744691",
+      "bytes": 598
+    },
+    {
+      "path": "quenched-atlas/examples/d11e7183143dfd0263f1f4e1f225bbfb95e44d10e0bd3a5317f15add79642c6e.json",
+      "sha256": "92e5cf4bb0c4c6000b08335d21962ede22149ff1ac17e1748759a8b056843a0b",
+      "bytes": 3885
+    },
+    {
+      "path": "quenched-atlas/examples/d11e7183143dfd0263f1f4e1f225bbfb95e44d10e0bd3a5317f15add79642c6e.xyz",
+      "sha256": "372d9f48fc8a97c8a545fedd51906130bdb096049ab57ffa68012d710335474b",
+      "bytes": 577
+    },
+    {
+      "path": "quenched-atlas/examples/d2de155a3fefcc9d5c8a81b913331c57987ef46955249889c232403a4d49af52.json",
+      "sha256": "b2bc017a7ca063dbc816b458bbd78d78bdf18f067ab3d1229737f1f0811eaaf7",
+      "bytes": 8248
+    },
+    {
+      "path": "quenched-atlas/examples/d2de155a3fefcc9d5c8a81b913331c57987ef46955249889c232403a4d49af52.xyz",
+      "sha256": "66305186b327116c4890d20bde67162976795da2cb3f6bb086403a8415048265",
+      "bytes": 1454
+    },
+    {
+      "path": "quenched-atlas/examples/f003768d608ed5f26cad4fbfe154f91ef6e8ec1e25523a82140671f5d7d127d4.json",
+      "sha256": "ef66161dc92d290cbde93c5ca3676ec22472092d824ecbdd12506e08475e85d7",
+      "bytes": 2283
+    },
+    {
+      "path": "quenched-atlas/examples/f003768d608ed5f26cad4fbfe154f91ef6e8ec1e25523a82140671f5d7d127d4.xyz",
+      "sha256": "3fc9da585de8cd57e554110edf4901074dde3b2de219952aabb3bc8519503d85",
+      "bytes": 240
+    },
+    {
+      "path": "quenched-atlas/examples/index.json",
+      "sha256": "0a7815fd200e19e7b385c073ff9e62547126a6e11bd5e3f9ff52593ea2e6b067",
+      "bytes": 12852
+    },
+    {
+      "path": "quenched-atlas/figures/abundance.pdf",
+      "sha256": "e13394512e44b259cbd8d5cabc83e1a3b07d6b1227eae3aeba42726f06e6427c",
+      "bytes": 21331
+    },
+    {
+      "path": "quenched-atlas/figures/abundance.png",
+      "sha256": "9698eb07780410322bb91fc156271f515195976994456bc204f3585517ae6159",
+      "bytes": 90908
+    },
+    {
+      "path": "quenched-atlas/figures/architecture.pdf",
+      "sha256": "89f38d89ca63b1b51af96eea8d7b343071ccc23b1a0cc71c7814eea44b449eb1",
+      "bytes": 57431
+    },
+    {
+      "path": "quenched-atlas/figures/architecture.png",
+      "sha256": "4e0f0b5428b6aefb3e17b3e7204e24e605dcb738943c653d8fe6ca4281eea6ab",
+      "bytes": 200382
+    },
+    {
+      "path": "quenched-atlas/figures/composition.pdf",
+      "sha256": "e9a566ddb436cc8362da6002477a3c1e66923cf9942686516826b6a4c6b19b0d",
+      "bytes": 35603
+    },
+    {
+      "path": "quenched-atlas/figures/composition.png",
+      "sha256": "ee32f00d713d33fe26dbdfd47e501a14aba27923c7f761ef5f294ab7a5d7e2e0",
+      "bytes": 91611
+    },
+    {
+      "path": "quenched-atlas/figures/observed_examples.pdf",
+      "sha256": "8d64ffe09569cb0d0974bc1f13e07de829a09be81ad8864308af63ff9a896f55",
+      "bytes": 185469
+    },
+    {
+      "path": "quenched-atlas/figures/observed_examples.png",
+      "sha256": "eccd7b0b86addbc58133c36a82968c0a3deff8703cc72f12b45c96d66610fed5",
+      "bytes": 510494
+    },
+    {
+      "path": "quenched-atlas/figures/recurrence.pdf",
+      "sha256": "e367c75c896bfb45c02f48dc7c931883f083d4b5612b6cb0fbf301f3890c7e44",
+      "bytes": 36652
+    },
+    {
+      "path": "quenched-atlas/figures/recurrence.png",
+      "sha256": "37ea48092e6d737cd2fcfba61daaabf0be5fbe937259bf2f2dc17e601c175a6d",
+      "bytes": 100555
+    },
+    {
+      "path": "quenched-atlas/index.html",
+      "sha256": "c7e300ee7b7724a0e8390facfe2c57b4c01f7648e8bad0026f77ed7ee3d636ba",
+      "bytes": 3693
+    },
+    {
+      "path": "quenched-atlas/source_manifest.json",
+      "sha256": "6167cc490a287df000bcee76df3e2f490b4f662abaae7598f6421ea9699af21a",
+      "bytes": 12573
     },
     {
       "path": "review-media/alanine_formation.mp4",

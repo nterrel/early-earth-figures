@@ -1,0 +1,265 @@
+{
+  "canonical_atomic_numbers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    6,
+    6
+  ],
+  "canonical_edges": [
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "canonical_payload": "{\"atomic_numbers\":[1,1,1,1,1,1,6,6],\"edges\":[[0,6],[1,6],[2,6],[3,7],[4,7],[5,7],[6,7]],\"version\":\"connectivity-v1-rdkit-canonical-rank-singlebond\"}",
+  "cell_matrix_angstrom": [
+    [
+      557.0,
+      0.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      557.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      -2.434724592603743e-05,
+      557.0
+    ]
+  ],
+  "coordinate_cohort": "quenched_canonical_p1000",
+  "coordinate_export_max_error_angstrom": 0.0,
+  "coordinate_order_to_canonical_permutation": [
+    0,
+    3,
+    1,
+    6,
+    2,
+    4,
+    5,
+    7
+  ],
+  "edge_image_shifts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "element_inventory_match": true,
+  "graph_id": "886e079c352491239c084f83ffd6412813c09bba26bb841969bf384c94d29568",
+  "graph_id_reproduced": true,
+  "logical_frame": 3519,
+  "no_omitted_external_edges": true,
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "quenched_shard": "/blue/roitberg/nterrel/EARLY_EARTH_STRIDE100_20260725/quenched_release/shards/shard-35/quenched_stride100.shard-35.p1000.xtc",
+  "receipt_sha256": "23972687b2f4cc69f14a2e2350b4d5db8847ac081b599dbc0de8392560506e18",
+  "record_serialization_version": "sorted-json-compact-ascii-v1",
+  "shard_local_frame": 19,
+  "shard_sha256": "db11a115bf061e32e92173873e21dc02efdc442872c98c82ea197ac4247efcb4",
+  "source_atom_ids_one_based": [
+    29,
+    637849,
+    4137035,
+    8960139,
+    11658298,
+    14943366,
+    17602472,
+    18426641
+  ],
+  "source_atomic_numbers": [
+    1,
+    1,
+    1,
+    6,
+    1,
+    1,
+    1,
+    6
+  ],
+  "source_edges": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "source_frame": 351900,
+  "source_positions_angstrom": [
+    [
+      101.760009765625,
+      414.4000244140625,
+      337.59002685546875
+    ],
+    [
+      101.2300033569336,
+      416.6200256347656,
+      338.82000732421875
+    ],
+    [
+      100.72000122070312,
+      413.52001953125,
+      338.57000732421875
+    ],
+    [
+      100.91999816894531,
+      414.510009765625,
+      338.22003173828125
+    ],
+    [
+      100.05000305175781,
+      414.6100158691406,
+      337.5
+    ],
+    [
+      100.34000396728516,
+      415.67999267578125,
+      340.0100402832031
+    ],
+    [
+      102.02999877929688,
+      415.32000732421875,
+      339.7200012207031
+    ],
+    [
+      101.09000396728516,
+      415.59002685546875,
+      339.2200012207031
+    ]
+  ],
+  "topology_sha256": "5e0dfcdfcbdf3cecac3e2ceb142e081a9edf0ab969bcf314d84622deab088646",
+  "unwrap_lattice_offsets": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "unwrap_status": "finite_unwrapped",
+  "whole_frame_component_membership_checked": true,
+  "xyz_view": "finite_unwrapped",
+  "archive_record_sha256": "572bbd31724d97bd44b313346c3b3665704174656ec3fc62491e91f5dec7bb74",
+  "xyz_file_sha256": "4dde58ed93d171ea306612e42d82689355547e109bf619ef558183b489a7d4b1"
+}

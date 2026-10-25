@@ -1,0 +1,103 @@
+{
+  "canonical_atomic_numbers": [
+    6,
+    8
+  ],
+  "canonical_edges": [
+    [
+      0,
+      1
+    ]
+  ],
+  "canonical_payload": "{\"atomic_numbers\":[6,8],\"edges\":[[0,1]],\"version\":\"connectivity-v1-rdkit-canonical-rank-singlebond\"}",
+  "cell_matrix_angstrom": [
+    [
+      557.0,
+      0.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      557.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      -2.434724592603743e-05,
+      557.0
+    ]
+  ],
+  "coordinate_cohort": "quenched_canonical_p1000",
+  "coordinate_export_max_error_angstrom": 0.0,
+  "coordinate_order_to_canonical_permutation": [
+    0,
+    1
+  ],
+  "edge_image_shifts": [
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "element_inventory_match": true,
+  "graph_id": "f003768d608ed5f26cad4fbfe154f91ef6e8ec1e25523a82140671f5d7d127d4",
+  "graph_id_reproduced": true,
+  "logical_frame": 1,
+  "no_omitted_external_edges": true,
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "quenched_shard": "/blue/roitberg/nterrel/EARLY_EARTH_STRIDE100_20260725/quenched_release/shards/shard-00/quenched_stride100.shard-00.p1000.xtc",
+  "receipt_sha256": "59c42ca5a6b675bd00862ef891b99ebcdfd131851a78e2fa231df651d550bb1a",
+  "record_serialization_version": "sorted-json-compact-ascii-v1",
+  "shard_local_frame": 1,
+  "shard_sha256": "ae52d1e9ac1c2c749a7864a542945555a17032c43cd376fcb114f1551bc3c809",
+  "source_atom_ids_one_based": [
+    7400001,
+    7400002
+  ],
+  "source_atomic_numbers": [
+    6,
+    8
+  ],
+  "source_edges": [
+    [
+      0,
+      1
+    ]
+  ],
+  "source_frame": 100,
+  "source_positions_angstrom": [
+    [
+      471.7900085449219,
+      365.030029296875,
+      104.80000305175781
+    ],
+    [
+      472.489990234375,
+      364.760009765625,
+      105.65000915527344
+    ]
+  ],
+  "topology_sha256": "5e0dfcdfcbdf3cecac3e2ceb142e081a9edf0ab969bcf314d84622deab088646",
+  "unwrap_lattice_offsets": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "unwrap_status": "finite_unwrapped",
+  "whole_frame_component_membership_checked": true,
+  "xyz_view": "finite_unwrapped",
+  "archive_record_sha256": "61217ee3f4b3ea7167b671845a6228e9a9734b9acc2c6847dbd3bcb3ecf8546b",
+  "xyz_file_sha256": "3fc9da585de8cd57e554110edf4901074dde3b2de219952aabb3bc8519503d85"
+}

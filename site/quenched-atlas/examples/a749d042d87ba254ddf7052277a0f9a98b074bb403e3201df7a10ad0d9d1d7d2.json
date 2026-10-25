@@ -1,0 +1,130 @@
+{
+  "canonical_atomic_numbers": [
+    8,
+    8,
+    6
+  ],
+  "canonical_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "canonical_payload": "{\"atomic_numbers\":[8,8,6],\"edges\":[[0,2],[1,2]],\"version\":\"connectivity-v1-rdkit-canonical-rank-singlebond\"}",
+  "cell_matrix_angstrom": [
+    [
+      557.0,
+      0.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      557.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      -2.434724592603743e-05,
+      557.0
+    ]
+  ],
+  "coordinate_cohort": "quenched_canonical_p1000",
+  "coordinate_export_max_error_angstrom": 0.0,
+  "coordinate_order_to_canonical_permutation": [
+    0,
+    1,
+    2
+  ],
+  "edge_image_shifts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "element_inventory_match": true,
+  "graph_id": "a749d042d87ba254ddf7052277a0f9a98b074bb403e3201df7a10ad0d9d1d7d2",
+  "graph_id_reproduced": true,
+  "logical_frame": 3499,
+  "no_omitted_external_edges": true,
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "quenched_shard": "/blue/roitberg/nterrel/EARLY_EARTH_STRIDE100_20260725/quenched_release/shards/shard-34/quenched_stride100.shard-34.p1000.xtc",
+  "receipt_sha256": "158975613421baa276c0f2abaf15ad5dec6c1594c63fbd662cd502a5e8a13732",
+  "record_serialization_version": "sorted-json-compact-ascii-v1",
+  "shard_local_frame": 99,
+  "shard_sha256": "61b54eacf031947366a6f7d1475967dd7f036eabeb72af0f92db1e828d1ce8d3",
+  "source_atom_ids_one_based": [
+    3200019,
+    7864744,
+    8276251
+  ],
+  "source_atomic_numbers": [
+    8,
+    8,
+    6
+  ],
+  "source_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "source_frame": 349900,
+  "source_positions_angstrom": [
+    [
+      19.340002059936523,
+      96.32000732421875,
+      156.79000854492188
+    ],
+    [
+      20.690000534057617,
+      98.15000915527344,
+      157.4300079345703
+    ],
+    [
+      19.96000099182129,
+      97.31001281738281,
+      157.05999755859375
+    ]
+  ],
+  "topology_sha256": "5e0dfcdfcbdf3cecac3e2ceb142e081a9edf0ab969bcf314d84622deab088646",
+  "unwrap_lattice_offsets": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "unwrap_status": "finite_unwrapped",
+  "whole_frame_component_membership_checked": true,
+  "xyz_view": "finite_unwrapped",
+  "archive_record_sha256": "ab504d9e3364230da236f2eb3921dc0b4b92ce3e3532f18cfeae41936d3e8614",
+  "xyz_file_sha256": "1edb7084ab3939c1e7e72d87a444239b7015285fb7e3336f620ca8ed277623d7"
+}

@@ -1,0 +1,265 @@
+{
+  "canonical_atomic_numbers": [
+    1,
+    1,
+    1,
+    8,
+    8,
+    6,
+    6,
+    7
+  ],
+  "canonical_edges": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "canonical_payload": "{\"atomic_numbers\":[1,1,1,8,8,6,6,7],\"edges\":[[0,5],[1,7],[2,7],[3,5],[4,6],[5,6],[6,7]],\"version\":\"connectivity-v1-rdkit-canonical-rank-singlebond\"}",
+  "cell_matrix_angstrom": [
+    [
+      557.0,
+      0.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      557.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      -2.434724592603743e-05,
+      557.0
+    ]
+  ],
+  "coordinate_cohort": "quenched_canonical_p1000",
+  "coordinate_export_max_error_angstrom": 0.0,
+  "coordinate_order_to_canonical_permutation": [
+    0,
+    1,
+    5,
+    3,
+    6,
+    4,
+    2,
+    7
+  ],
+  "edge_image_shifts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "element_inventory_match": true,
+  "graph_id": "d11e7183143dfd0263f1f4e1f225bbfb95e44d10e0bd3a5317f15add79642c6e",
+  "graph_id_reproduced": true,
+  "logical_frame": 136,
+  "no_omitted_external_edges": true,
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "quenched_shard": "/blue/roitberg/nterrel/EARLY_EARTH_STRIDE100_20260725/quenched_release/shards/shard-01/quenched_stride100.shard-01.p1000.xtc",
+  "receipt_sha256": "75e56a04924fc870d036410a6ca22483b376f287ec1fae090ec1a8fb24e0968a",
+  "record_serialization_version": "sorted-json-compact-ascii-v1",
+  "shard_local_frame": 36,
+  "shard_sha256": "cafa9bd629dfe5bb55a4968b22a600f45ccd6bdc2434551d937abdcb51bf4986",
+  "source_atom_ids_one_based": [
+    267,
+    3532970,
+    7922189,
+    7922190,
+    8302179,
+    8302180,
+    12606068,
+    13980913
+  ],
+  "source_atomic_numbers": [
+    1,
+    1,
+    6,
+    8,
+    6,
+    8,
+    1,
+    7
+  ],
+  "source_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "source_frame": 13600,
+  "source_positions_angstrom": [
+    [
+      469.3500061035156,
+      457.6300048828125,
+      191.50001525878906
+    ],
+    [
+      468.47003173828125,
+      454.6400146484375,
+      191.260009765625
+    ],
+    [
+      468.52001953125,
+      456.9500427246094,
+      191.82000732421875
+    ],
+    [
+      468.48004150390625,
+      456.5,
+      192.94000244140625
+    ],
+    [
+      467.6500244140625,
+      456.3900451660156,
+      190.72999572753906
+    ],
+    [
+      467.0500183105469,
+      457.1300048828125,
+      189.9000244140625
+    ],
+    [
+      467.36004638671875,
+      454.55999755859375,
+      189.91000366210938
+    ],
+    [
+      467.69000244140625,
+      455.0400085449219,
+      190.72000122070312
+    ]
+  ],
+  "topology_sha256": "5e0dfcdfcbdf3cecac3e2ceb142e081a9edf0ab969bcf314d84622deab088646",
+  "unwrap_lattice_offsets": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "unwrap_status": "finite_unwrapped",
+  "whole_frame_component_membership_checked": true,
+  "xyz_view": "finite_unwrapped",
+  "archive_record_sha256": "bd50f333e8812212883c2c38ee4936d8bd8db79d4e36af853e913bef7a03a5d8",
+  "xyz_file_sha256": "372d9f48fc8a97c8a545fedd51906130bdb096049ab57ffa68012d710335474b"
+}

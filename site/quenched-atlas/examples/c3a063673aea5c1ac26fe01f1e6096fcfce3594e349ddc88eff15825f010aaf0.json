@@ -1,0 +1,319 @@
+{
+  "canonical_atomic_numbers": [
+    1,
+    1,
+    1,
+    1,
+    8,
+    8,
+    6,
+    6,
+    7,
+    7
+  ],
+  "canonical_edges": [
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      9
+    ]
+  ],
+  "canonical_payload": "{\"atomic_numbers\":[1,1,1,1,8,8,6,6,7,7],\"edges\":[[0,8],[1,8],[2,9],[3,9],[4,6],[5,7],[6,7],[6,8],[7,9]],\"version\":\"connectivity-v1-rdkit-canonical-rank-singlebond\"}",
+  "cell_matrix_angstrom": [
+    [
+      557.0,
+      0.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      557.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      -2.434724592603743e-05,
+      557.0
+    ]
+  ],
+  "coordinate_cohort": "quenched_canonical_p1000",
+  "coordinate_export_max_error_angstrom": 0.0,
+  "coordinate_order_to_canonical_permutation": [
+    2,
+    0,
+    1,
+    6,
+    4,
+    7,
+    5,
+    9,
+    3,
+    8
+  ],
+  "edge_image_shifts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "element_inventory_match": true,
+  "graph_id": "c3a063673aea5c1ac26fe01f1e6096fcfce3594e349ddc88eff15825f010aaf0",
+  "graph_id_reproduced": true,
+  "logical_frame": 128,
+  "no_omitted_external_edges": true,
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "quenched_shard": "/blue/roitberg/nterrel/EARLY_EARTH_STRIDE100_20260725/quenched_release/shards/shard-01/quenched_stride100.shard-01.p1000.xtc",
+  "receipt_sha256": "e91987d51b1ca25215901ef287ffa9e4a96b88c0f4dbf768cb74bf062ed1ee69",
+  "record_serialization_version": "sorted-json-compact-ascii-v1",
+  "shard_local_frame": 28,
+  "shard_sha256": "cafa9bd629dfe5bb55a4968b22a600f45ccd6bdc2434551d937abdcb51bf4986",
+  "source_atom_ids_one_based": [
+    93901,
+    3484874,
+    7227358,
+    8538857,
+    8538858,
+    9702551,
+    9702552,
+    12116737,
+    12837751,
+    14320901
+  ],
+  "source_atomic_numbers": [
+    1,
+    1,
+    1,
+    6,
+    8,
+    6,
+    8,
+    7,
+    1,
+    7
+  ],
+  "source_edges": [
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "source_frame": 12800,
+  "source_positions_angstrom": [
+    [
+      126.15000915527344,
+      172.32000732421875,
+      352.300048828125
+    ],
+    [
+      128.98001098632812,
+      171.94000244140625,
+      353.33001708984375
+    ],
+    [
+      129.20001220703125,
+      171.6999969482422,
+      355.0500183105469
+    ],
+    [
+      127.58000183105469,
+      170.75,
+      354.260009765625
+    ],
+    [
+      126.99000549316406,
+      170.27999877929688,
+      355.3500061035156
+    ],
+    [
+      126.97000122070312,
+      170.52000427246094,
+      352.8700256347656
+    ],
+    [
+      127.30000305175781,
+      169.66001892089844,
+      352.07000732421875
+    ],
+    [
+      125.9000015258789,
+      171.37001037597656,
+      352.60003662109375
+    ],
+    [
+      125.2800064086914,
+      170.97000122070312,
+      351.8699951171875
+    ],
+    [
+      128.5600128173828,
+      171.6400146484375,
+      354.2200012207031
+    ]
+  ],
+  "topology_sha256": "5e0dfcdfcbdf3cecac3e2ceb142e081a9edf0ab969bcf314d84622deab088646",
+  "unwrap_lattice_offsets": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "unwrap_status": "finite_unwrapped",
+  "whole_frame_component_membership_checked": true,
+  "xyz_view": "finite_unwrapped",
+  "archive_record_sha256": "6488ee79ff87a93059068206cd35ab7b6b21a048740430a93e51bbd6ee5176f9",
+  "xyz_file_sha256": "4b3a37ec9c569129afed929268fbaa43a06f47d0e9bcf896ea677f8f310b0260"
+}

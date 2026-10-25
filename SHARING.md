@@ -25,6 +25,18 @@ loads it. **Clear prepared score** clears only the unsent/prepared UI state, not
 posted vote. The [owning packet](../early_earth_analysis_v2/analysis/gallery_cleanup_20261025/README.md)
 records verification, source preservation and remaining acceptance limits.
 
+## Observed quenched structure atlas — 25 October 2026
+
+The [structure atlas](https://nterrel.github.io/early-earth-figures/quenched-atlas/index.html)
+combines complete returned-cohort composition, architecture, recurrence and
+abundance landscapes with 23 deterministic, rotatable observed examples.
+Public search covers those 23 examples. The complete 6,504,990-graph indexed
+browser runs locally; the 7 GB input package and SQLite index are not uploaded.
+Names and electronic assignments remain unassessed. These are review candidates,
+separate from manuscript acceptance. The [local runbook](../early_earth_analysis_v2/analysis/quenched_fragment_catalog/ATLAS_RUNBOOK.md)
+and [intake evidence](../early_earth_analysis_v2/analysis/quenched_fragment_catalog/intake_20261025/README.md)
+record definitions, input bindings, complete count checks and current limits.
+
 ## Share a review snapshot now
 
 From the project root, create a new package and ZIP:

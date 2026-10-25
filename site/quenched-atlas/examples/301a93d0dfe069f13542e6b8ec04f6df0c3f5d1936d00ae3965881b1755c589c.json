@@ -1,0 +1,157 @@
+{
+  "canonical_atomic_numbers": [
+    1,
+    8,
+    6,
+    7
+  ],
+  "canonical_edges": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "canonical_payload": "{\"atomic_numbers\":[1,8,6,7],\"edges\":[[0,3],[1,2],[2,3]],\"version\":\"connectivity-v1-rdkit-canonical-rank-singlebond\"}",
+  "cell_matrix_angstrom": [
+    [
+      557.0,
+      0.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      557.0,
+      0.0
+    ],
+    [
+      -2.4347244107048027e-05,
+      -2.434724592603743e-05,
+      557.0
+    ]
+  ],
+  "coordinate_cohort": "quenched_canonical_p1000",
+  "coordinate_export_max_error_angstrom": 0.0,
+  "coordinate_order_to_canonical_permutation": [
+    0,
+    2,
+    1,
+    3
+  ],
+  "edge_image_shifts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "element_inventory_match": true,
+  "graph_id": "301a93d0dfe069f13542e6b8ec04f6df0c3f5d1936d00ae3965881b1755c589c",
+  "graph_id_reproduced": true,
+  "logical_frame": 176,
+  "no_omitted_external_edges": true,
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "quenched_shard": "/blue/roitberg/nterrel/EARLY_EARTH_STRIDE100_20260725/quenched_release/shards/shard-01/quenched_stride100.shard-01.p1000.xtc",
+  "receipt_sha256": "22246b19f202fcf3151279e7ea5ab458639296a49b5c462327ed958d526855d0",
+  "record_serialization_version": "sorted-json-compact-ascii-v1",
+  "shard_local_frame": 76,
+  "shard_sha256": "cafa9bd629dfe5bb55a4968b22a600f45ccd6bdc2434551d937abdcb51bf4986",
+  "source_atom_ids_one_based": [
+    328,
+    9452523,
+    9452524,
+    11587993
+  ],
+  "source_atomic_numbers": [
+    1,
+    6,
+    8,
+    7
+  ],
+  "source_edges": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "source_frame": 17600,
+  "source_positions_angstrom": [
+    [
+      380.84002685546875,
+      200.69000244140625,
+      191.02999877929688
+    ],
+    [
+      381.5400390625,
+      199.92001342773438,
+      189.44000244140625
+    ],
+    [
+      382.4000244140625,
+      199.47000122070312,
+      188.760009765625
+    ],
+    [
+      380.6199951171875,
+      200.05001831054688,
+      190.23001098632812
+    ]
+  ],
+  "topology_sha256": "5e0dfcdfcbdf3cecac3e2ceb142e081a9edf0ab969bcf314d84622deab088646",
+  "unwrap_lattice_offsets": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "unwrap_status": "finite_unwrapped",
+  "whole_frame_component_membership_checked": true,
+  "xyz_view": "finite_unwrapped",
+  "archive_record_sha256": "3a04d859bd6a0e0f4e306a34be01d495d116234930be842e1d051a2f9c9c0875",
+  "xyz_file_sha256": "aa52fb6ae2113b05e257ad472bec44ea1c0a2e06e9347708eb1e4ab09123b542"
+}
