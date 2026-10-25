@@ -2918,8 +2918,8 @@
     },
     {
       "path": "cleanup-audit.html",
-      "sha256": "28f8898d8ebe7fd557cd1989ff12827d801c9a21f7b578dc804968ce91ccbe59",
-      "bytes": 87917
+      "sha256": "2d2aae9ceffd41606f3203adcdf09264b6d8d371ca4ae7401ea82b2b0401bacb",
+      "bytes": 89095
     },
     {
       "path": "comments.css",
@@ -2938,8 +2938,8 @@
     },
     {
       "path": "export_manifest.json",
-      "sha256": "7b39336819e2ba85555da31ae7df8babe369a3dd13546c780cd5f92d2f6d30e6",
-      "bytes": 557657
+      "sha256": "2b82099b5e6474e99a39fafc00e1955103973602e3cb574e66c0f15df3ce0f8c",
+      "bytes": 557886
     },
     {
       "path": "feedback_status.json",
@@ -2947,9 +2947,14 @@
       "bytes": 439
     },
     {
+      "path": "gallery_curation.json",
+      "sha256": "a1f2885eda7c3d36073d73a383c219708ea2d60ae808349314a453b98b760589",
+      "bytes": 1475
+    },
+    {
       "path": "index.html",
-      "sha256": "c86b05a86d4e369b3f2331636b449a63b3efb8504d92c0d4b842720d5e6c36dd",
-      "bytes": 382071
+      "sha256": "914eb03de9baea2692452f9f563f2beb85df062fd655269c16e3fdb931502eff",
+      "bytes": 382768
     },
     {
       "path": "media.css",
@@ -2958,8 +2963,8 @@
     },
     {
       "path": "meeting.js",
-      "sha256": "7ff6c6d52a694c8b8d3d348c8bd101762ed99300aea51cbc0d4ba8a74ee64ee7",
-      "bytes": 19916
+      "sha256": "1eda4f204ba0876415fdcabeda4766c5a02cd61c3b89706e3f2efea5d09a2788",
+      "bytes": 20365
     },
     {
       "path": "preview.css",
@@ -3243,8 +3248,8 @@
     },
     {
       "path": "supplement/export_manifest.json",
-      "sha256": "fca95e52c9529f815d4a531e7d9644e58788130206f18c8c36462ce12de204cf",
-      "bytes": 24244
+      "sha256": "c7067353800a80a90a0471bc2f8e7e5fe07b55c18916e6119bf5e0a08eb8ec32",
+      "bytes": 24253
     },
     {
       "path": "supplement/feedback_status.json",
@@ -3253,7 +3258,7 @@
     },
     {
       "path": "supplement/index.html",
-      "sha256": "290de451b6b8413c03453aaa0dba1fe9b6e4a8eb7507f80e097a56067aa30124",
+      "sha256": "102c1151d6c263cb962d7c070e2cee4b7be159e86099ea703e4f07894d3657d9",
       "bytes": 63548
     },
     {
@@ -3263,8 +3268,8 @@
     },
     {
       "path": "supplement/meeting.js",
-      "sha256": "7ff6c6d52a694c8b8d3d348c8bd101762ed99300aea51cbc0d4ba8a74ee64ee7",
-      "bytes": 19916
+      "sha256": "1eda4f204ba0876415fdcabeda4766c5a02cd61c3b89706e3f2efea5d09a2788",
+      "bytes": 20365
     },
     {
       "path": "supplement/preview.css",

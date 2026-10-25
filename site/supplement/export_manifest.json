@@ -5,7 +5,7 @@
   "gallery_sha256": "230da92295328e33909333a6f938bb5776f18c5304f37b9e5778c55d47490666",
   "asset_count": 29,
   "selection": {
-    "title": "Early Earth — supplementary figures",
+    "title": "Early Earth \u2014 supplementary figures",
     "description": "A proposed collection showing energy changes, alanine geometry, and fragment populations before and after quenching.",
     "publication_state": "proposed_for_author_review",
     "source_paths": [
@@ -319,7 +319,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "290de451b6b8413c03453aaa0dba1fe9b6e4a8eb7507f80e097a56067aa30124"
+      "sha256": "102c1151d6c263cb962d7c070e2cee4b7be159e86099ea703e4f07894d3657d9"
     },
     {
       "path": "comments.js",
@@ -347,7 +347,7 @@
     },
     {
       "path": "meeting.js",
-      "sha256": "7ff6c6d52a694c8b8d3d348c8bd101762ed99300aea51cbc0d4ba8a74ee64ee7"
+      "sha256": "1eda4f204ba0876415fdcabeda4766c5a02cd61c3b89706e3f2efea5d09a2788"
     },
     {
       "path": "media.css",
@@ -374,7 +374,7 @@
     "image_dialog": "Escape-close, focus restoration, original download links",
     "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 15,
-    "ratings": "Public GitHub Discussions; latest 1–5 vote per reviewer/artwork, with arithmetic average and reviewer count."
+    "ratings": "Public GitHub Discussions; latest 1\u20135 vote per reviewer/artwork, with arithmetic average and reviewer count."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
@@ -392,7 +392,7 @@
     "movie_provenance": null,
     "snapshot": "../review_state.json",
     "selection_goal": {
-      "discussion": "about 20–30 high-value figures eventually",
+      "discussion": "about 20\u201330 high-value figures eventually",
       "priority": "a smaller set, ideally fewer than 10",
       "enforced": false
     }

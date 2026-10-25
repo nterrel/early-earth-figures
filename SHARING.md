@@ -5,9 +5,12 @@ The [public figure library](https://nterrel.github.io/early-earth-figures/) is l
 ## Current caption, media and cleanup review — 25 October 2026
 
 [Figure cleanup audit](https://nterrel.github.io/early-earth-figures/cleanup-audit.html)
-provides ten proposed keep/hide groups and a grouped 26-figure discussion set.
-Choices there are browser-local drafts: export decisions to return them to Codex.
-No removal follows from preparing the page or selecting an option in that draft.
+records Nick’s returned choices: nine approved groups move twelve alternate cards
+out of the main view, leaving 99 main cards. All twelve remain under **View →
+Hidden / restore**, with original assets and feedback intact. Mean-fragment traces
+45/46 stay visible pending a revised grouping. Further audit edits are browser-local
+drafts and require export before application. The grouped 26-figure discussion set
+remains a proposal, separate from manuscript acceptance.
 
 All five gallery animations now use MP4 pause/seek players. Choose **Enlarge
 animation** for the same clean popup as static figures; Escape closes it and

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-25",
+  "scope": "Author audit draft; no site changes applied",
+  "decisions": [
+    {
+      "group": "named-bars",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "named-time",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "size-histogram",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "recurrence",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "motifs",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "mean-traces",
+      "decision": "revise"
+    },
+    {
+      "group": "quench-overviews",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "largest-legacy",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "cell-renderings",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "violin-alternates",
+      "decision": "hide-candidates"
+    }
+  ]
+}

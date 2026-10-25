@@ -4737,7 +4737,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "c86b05a86d4e369b3f2331636b449a63b3efb8504d92c0d4b842720d5e6c36dd"
+      "sha256": "914eb03de9baea2692452f9f563f2beb85df062fd655269c16e3fdb931502eff"
     },
     {
       "path": "comments.js",
@@ -4765,7 +4765,7 @@
     },
     {
       "path": "meeting.js",
-      "sha256": "7ff6c6d52a694c8b8d3d348c8bd101762ed99300aea51cbc0d4ba8a74ee64ee7"
+      "sha256": "1eda4f204ba0876415fdcabeda4766c5a02cd61c3b89706e3f2efea5d09a2788"
     },
     {
       "path": "review-media/alanine_formation.mp4",
@@ -4793,7 +4793,7 @@
     },
     {
       "path": "cleanup-audit.html",
-      "sha256": "28f8898d8ebe7fd557cd1989ff12827d801c9a21f7b578dc804968ce91ccbe59"
+      "sha256": "2d2aae9ceffd41606f3203adcdf09264b6d8d371ca4ae7401ea82b2b0401bacb"
     },
     {
       "path": "display_cleanup.json",
@@ -4838,6 +4838,10 @@
     {
       "path": "review-media/clean/b8a827db1e38625b.png",
       "sha256": "7da820b7073171071ea9843b2598adcd6de00f4f0ca001bed700c3bc987fbd4c"
+    },
+    {
+      "path": "gallery_curation.json",
+      "sha256": "a1f2885eda7c3d36073d73a383c219708ea2d60ae808349314a453b98b760589"
     }
   ],
   "repaired_links": [
@@ -6971,7 +6975,7 @@
     "image_dialog": "Escape-close, focus restoration, original download links",
     "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 113,
-    "ratings": "Public GitHub Discussions; latest 1–5 vote per reviewer/artwork, with arithmetic average and reviewer count."
+    "ratings": "Public GitHub Discussions; latest 1\u20135 vote per reviewer/artwork, with arithmetic average and reviewer count."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
@@ -7005,7 +7009,7 @@
     },
     "snapshot": "review_state.json",
     "selection_goal": {
-      "discussion": "about 20–30 high-value figures eventually",
+      "discussion": "about 20\u201330 high-value figures eventually",
       "priority": "a smaller set, ideally fewer than 10",
       "enforced": false
     }
@@ -7035,5 +7039,9 @@
   "display_cleanup": {
     "date": "2026-10-25",
     "record": "display_cleanup.json"
+  },
+  "author_curation": {
+    "record": "gallery_curation.json",
+    "main_cards": 99
   }
 }

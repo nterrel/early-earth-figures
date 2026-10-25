@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-25",
+  "author": "Nick",
+  "decision_file_sha256": "793f5c62d3f061e96fa7a199ebdfaba21740887b9ebf6164a857e81d952d9333",
+  "options_sha256": "56362a8e15cc25190d3c6fa6e7d0821bb229364067ae573504d68b21eb66d9b8",
+  "source_homepage_sha256": "c86b05a86d4e369b3f2331636b449a63b3efb8504d92c0d4b842720d5e6c36dd",
+  "decisions": [
+    {
+      "group": "named-bars",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "named-time",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "size-histogram",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "recurrence",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "motifs",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "mean-traces",
+      "decision": "revise"
+    },
+    {
+      "group": "quench-overviews",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "largest-legacy",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "cell-renderings",
+      "decision": "hide-candidates"
+    },
+    {
+      "group": "violin-alternates",
+      "decision": "hide-candidates"
+    }
+  ],
+  "hidden_references": [
+    "43",
+    "44",
+    "48",
+    "49",
+    "51",
+    "57",
+    "73",
+    "77",
+    "82",
+    "87",
+    "88",
+    "95"
+  ],
+  "all_cards": 111,
+  "main_cards": 99,
+  "policy": "Author-selected browse defaults; public curator comments override them. All artwork, feedback and catalog membership are retained."
+}

@@ -37,7 +37,14 @@
   }
   // Keep the two meeting sections in their presentation order.
   groups.priority.section.after(groups.discuss.section);
-  function entry(key) {return snapshot?.figures[key] || {state: 'unreviewed', position: 0, notes: []};}
+  const authorAlternates = new Set(items.filter(item => item.card.dataset.curationHidden === 'true').map(item => item.key));
+  function entry(key) {
+    const data = snapshot?.figures[key] || {state: 'unreviewed', position: 0, notes: []};
+    // A public curator command, including an explicit restore to unreviewed,
+    // overrides the author audit default. Ordinary notes/ratings do not undo it.
+    return authorAlternates.has(key) && data.state === 'unreviewed' && !data.selection_url && !data.updated_by ?
+      {...data, state: 'hidden'} : data;
+  }
   function selected(state) {return state === 'priority' || state === 'discuss';}
   function apply() {
     // Reuse the existing exact Figure/Gallery reference and topic search.
@@ -70,7 +77,7 @@
     for (const section of main.querySelectorAll(':scope > section')) {
       if (section !== panel) section.hidden = section.hasAttribute('data-reading-entry') ? false : ![...section.querySelectorAll('article')].some(card => !card.hidden);
     }
-    const all = Object.values(snapshot?.figures || {});
+    const all = items.map(item => entry(item.key));
     panel.querySelector('.meeting-summary').textContent = all.filter(e => e.state === 'priority').length + ' priorities · ' +
       all.filter(e => selected(e.state)).length + ' discussion figures · ' + all.filter(e => e.state === 'hidden').length + ' hidden';
     if (publicMode) {
