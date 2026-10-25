@@ -4845,7 +4845,7 @@
     },
     {
       "path": "quenched-atlas/atlas.css",
-      "sha256": "bbd06c9dafa7f2f23c434f1b622f578e7ca7bc1634ad9b226eca9010b0c369ee"
+      "sha256": "6690873e6354c452303e7e89ac85512d4adfc15cf9034c11502e376fb6b54efa"
     },
     {
       "path": "quenched-atlas/atlas.js",
@@ -5089,7 +5089,7 @@
     },
     {
       "path": "quenched-atlas/source_manifest.json",
-      "sha256": "6167cc490a287df000bcee76df3e2f490b4f662abaae7598f6421ea9699af21a"
+      "sha256": "728fad5c976fefad5413019044505aeb384f8bec1d2223af040c2ec2a3e6cc3c"
     }
   ],
   "repaired_links": [
