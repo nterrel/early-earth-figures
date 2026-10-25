@@ -46,12 +46,20 @@ class ObservedMoleculeViewer {
  makeSphere(){const p=[],n=[],i=[],lat=20,lon=32;for(let y=0;y<=lat;y++){const a=y*Math.PI/lat;for(let x=0;x<=lon;x++){const b=x*2*Math.PI/lon,v=[Math.sin(a)*Math.cos(b),Math.cos(a),Math.sin(a)*Math.sin(b)];p.push(...v);n.push(...v);}}for(let y=0;y<lat;y++)for(let x=0;x<lon;x++){const k=y*(lon+1)+x;i.push(k,k+1,k+lon+1,k+1,k+lon+2,k+lon+1);}return this.mesh(p,n,i);}
  makeCylinder(){const p=[],n=[],i=[],segments=24;for(let y=0;y<2;y++)for(let x=0;x<=segments;x++){const a=x*2*Math.PI/segments;p.push(Math.cos(a),y-.5,Math.sin(a));n.push(Math.cos(a),0,Math.sin(a));}for(let x=0;x<segments;x++)i.push(x,x+1,x+segments+1,x+1,x+segments+2,x+segments+1);return this.mesh(p,n,i);}
  reset(){this.angleX=.35;this.angleY=.5;this.zoom=1;this.render();}
- setGeometry(geometry){this.geometry=geometry;const points=geometry.positions;this.center=[0,1,2].map(j=>points.reduce((s,p)=>s+p[j],0)/points.length);this.extent=Math.max(1,...points.map(p=>Math.hypot(...p.map((v,j)=>v-this.center[j]))+.5));this.reset();}
+ setGeometry(geometry){this.bondOrders=null;this.geometry=geometry;const points=geometry.positions;this.center=[0,1,2].map(j=>points.reduce((s,p)=>s+p[j],0)/points.length);this.extent=Math.max(1,...points.map(p=>Math.hypot(...p.map((v,j)=>v-this.center[j]))+.5));this.reset();}
+ setBondOrders(candidate){
+  if(!candidate){this.bondOrders=null;this.render();return;}
+  if(!this.geometry)throw Error('Select an observed geometry first.');
+  const key=(a,b)=>[a,b].sort((x,y)=>x-y).join(':');
+  const orders=new Map(candidate.bond_orders.map(([a,b,order])=>[key(a,b),order]));
+  if(orders.size!==this.geometry.edges.length||this.geometry.edges.some(([a,b])=>![1,2,3].includes(orders.get(key(a,b)))))throw Error('Inferred orders must preserve every stored edge.');
+  this.bondOrders=orders;this.render();
+ }
  setSpinning(enabled){this.spinning=enabled;cancelAnimationFrame(this.animation);let previous;const tick=time=>{if(!this.spinning)return;if(previous)this.angleY+=Math.min(time-previous,50)*.00035;previous=time;this.render();this.animation=requestAnimationFrame(tick);};if(enabled)this.animation=requestAnimationFrame(tick);}
  drawMesh(mesh,center,basis,color){const gl=this.gl;gl.uniform3fv(this.uniform.Center,center);gl.uniformMatrix3fv(this.uniform.Basis,false,basis);gl.uniform3fv(this.uniform.Color,color);
   for(const [buffer,attribute] of [[mesh.positions,this.position],[mesh.normals,this.normal]]){gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.vertexAttribPointer(attribute,3,gl.FLOAT,false,0,0);gl.enableVertexAttribArray(attribute);}gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,mesh.indices);gl.drawElements(gl.TRIANGLES,mesh.count,gl.UNSIGNED_SHORT,0);}
  render(){const gl=this.gl;if(!gl||gl.isContextLost())return;const canvas=this.canvas,dpr=Math.min(devicePixelRatio||1,2),width=Math.max(1,Math.round(canvas.clientWidth*dpr)),height=Math.round(width*.7);
-  if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}gl.viewport(0,0,width,height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);canvas.dataset.projection=this.perspective?'perspective':'orthographic';
+  if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}gl.viewport(0,0,width,height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);canvas.dataset.projection=this.perspective?'perspective':'orthographic';canvas.dataset.bondOrderMode=this.bondOrders?'inferred':'connectivity';
   if(!this.geometry)return;if(this.geometry.view!=='finite_unwrapped'){this.message.textContent='Periodic winding: inspect the stored cell and image shifts; no finite molecule is displayed.';return;}
   const ready='3D spheres and bonds · lighting and depth occlusion enabled';if(this.message.textContent!==ready)this.message.textContent=ready;
   const cy=Math.cos(this.angleY),sy=Math.sin(this.angleY),cx=Math.cos(this.angleX),sx=Math.sin(this.angleX),distance=this.extent*3.5/this.zoom;
@@ -61,10 +69,29 @@ class ObservedMoleculeViewer {
   else{const half=distance*Math.tan(Math.PI/8);projection=[1/(half*aspect),0,0,0,0,1/half,0,0,0,0,-2/(far-near),0,0,0,-(far+near)/(far-near),1];}
   gl.useProgram(this.program);gl.uniformMatrix4fv(this.uniform.View,false,view);gl.uniformMatrix4fv(this.uniform.Projection,false,new Float32Array(projection));
   const points=this.geometry.positions.map(p=>p.map((v,j)=>v-this.center[j])),visible=i=>this.hydrogens||this.geometry.atomic_numbers[i]!==1;
-  // Cylinders end at the source atom centers; spheres hide their interior ends.
-  for(const [a,b] of this.geometry.edges){if(!visible(a)||!visible(b))continue;const vector=points[b].map((v,j)=>v-points[a][j]),length=Math.hypot(...vector);if(length<1e-8)continue;
-   const direction=vector.map(v=>v/length),helper=Math.abs(direction[1])<.9?[0,1,0]:[1,0,0],cross=(u,v)=>[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],u=cross(direction,helper),norm=Math.hypot(...u),side=u.map(v=>v/norm),other=cross(side,direction);
-   this.drawMesh(this.cylinder,points[a].map((v,j)=>(v+points[b][j])/2),[...side.map(v=>v*ALANINE_VIEW_STYLE.bondRadius),...vector,...other.map(v=>v*ALANINE_VIEW_STYLE.bondRadius)],ALANINE_VIEW_STYLE.bondColor.map(v=>v/255));}
+  // Offset multiple cylinders across the screen-facing bond normal so they
+  // remain distinguishable while rotating. Original centers/edges stay fixed.
+  let cylinderCount=0;
+  for(const [a,b] of this.geometry.edges){
+   if(!visible(a)||!visible(b))continue;
+   const vector=points[b].map((v,j)=>v-points[a][j]),length=Math.hypot(...vector);
+   if(length<1e-8)continue;
+   const direction=vector.map(v=>v/length);
+   const cross=(u,v)=>[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]];
+   let side=cross(direction,[-cx*sy,sx,cx*cy]);
+   if(Math.hypot(...side)<1e-8)side=cross(direction,Math.abs(direction[1])<.9?[0,1,0]:[1,0,0]);
+   const norm=Math.hypot(...side);side=side.map(v=>v/norm);
+   const other=cross(side,direction),center=points[a].map((v,j)=>(v+points[b][j])/2);
+   const order=this.bondOrders?.get([a,b].sort((x,y)=>x-y).join(':'))||1;
+   const offsets=order===3?[-.17,0,.17]:order===2?[-.11,.11]:[0];
+   const radius=order===1?ALANINE_VIEW_STYLE.bondRadius:order===2?.055:.045;
+   const basis=[...side.map(v=>v*radius),...vector,...other.map(v=>v*radius)];
+   for(const offset of offsets){
+    this.drawMesh(this.cylinder,center.map((v,j)=>v+side[j]*offset),basis,ALANINE_VIEW_STYLE.bondColor.map(v=>v/255));
+    cylinderCount++;
+   }
+  }
+  canvas.dataset.bondCylinders=cylinderCount;
   const style=ALANINE_VIEW_STYLE;
   for(let i=0;i<points.length;i++){if(!visible(i))continue;const z=this.geometry.atomic_numbers[i],radius=style.radii[z]||.35;this.drawMesh(this.sphere,points[i],[radius,0,0,0,radius,0,0,0,radius],(style.colors[z]||[140,94,176]).map(v=>v/255));}
  }

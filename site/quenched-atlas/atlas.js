@@ -1,7 +1,8 @@
 'use strict';
-let offset=0,rows=[],geometry=null,viewer=null;
+let offset=0,rows=[],geometry=null,viewer=null,selectionGeneration=0;
 const form=document.querySelector('#search'),status=document.querySelector('#status'),canvas=document.querySelector('canvas');
 try{viewer=new ObservedMoleculeViewer(canvas,document.querySelector('#viewer-status'));}catch(error){document.querySelector('#viewer-status').textContent=error.message;}
+const bondControls=new BondOrderControls(viewer,gid=>select(gid));
 const previewMode=document.documentElement.dataset.atlasMode==='selected';
 const previewData=previewMode?fetch('catalog_preview.json').then(r=>r.json()):null;
 async function request(url){
@@ -20,11 +21,11 @@ async function search(){status.textContent='Searching…';const query=new URLSea
  for(const row of rows){const tr=document.createElement('tr');tr.tabIndex=0;for(const value of [row.formula,row.n_heavy,row.observations.toLocaleString(),row.frames_present.toLocaleString(),row.cycles_heavy,row.graph_id.slice(0,16)+'…']){const td=document.createElement('td');td.textContent=value;tr.append(td);}tr.onclick=()=>select(row.graph_id);tr.onkeydown=e=>{if(e.key==='Enter')select(row.graph_id)};tr.dataset.graphId=row.graph_id;body.append(tr);}
  status.textContent=rows.length?`${previewMode?'Selected public examples · ':''}Rows ${offset+1}–${offset+rows.length}. Select a structure to inspect its observed geometry.`:previewMode?'No matching selected example. The full catalog browser runs locally.':'No matching structures.';document.querySelector('#previous').disabled=offset===0;document.querySelector('#next').disabled=rows.length<40;
  }catch(error){status.textContent=error.message;}}
-async function select(gid){document.querySelector('#selection').textContent='Loading observed geometry…';try{geometry=await request('/api/structure/'+gid);const m=geometry.metadata;
+async function select(gid){const generation=++selectionGeneration;document.querySelector('#selection').textContent='Loading observed geometry…';try{const loaded=await request('/api/structure/'+gid);if(generation!==selectionGeneration)return;geometry=loaded;const m=geometry.metadata;
  document.querySelector('#selection').textContent=`${m.formula} · ${m.n_atoms} explicit atoms · ${m.observation_count.toLocaleString()} appearances · ${m.frames_present.toLocaleString()} occupied frames`;
  document.querySelector('#metadata').textContent=`Graph ID: ${gid}\nRepresentative endpoint: ${m.coordinate_logical_frame}; source frame: ${m.coordinate_source_frame}\nGeometry: ${geometry.view}\nAssignment: ${m.assignment_status}; name: ${m.name_status}\nConnectivity SMILES: ${m.SMILES}\nCoordinate record SHA-256: ${m.coordinate_record_sha256}`;
  for(const row of document.querySelectorAll('tbody tr'))row.setAttribute('aria-selected',String(row.dataset.graphId===gid));
- if(viewer)viewer.setGeometry(geometry);document.querySelector('#detail').scrollIntoView({block:'start',behavior:'smooth'});
+ if(viewer)viewer.setGeometry(geometry);bondControls.setGeometry(geometry);document.querySelector('#detail').scrollIntoView({block:'start',behavior:'smooth'});
  }catch(error){document.querySelector('#selection').textContent=error.message;}}
 document.querySelector('#reset').onclick=()=>viewer?.reset();
 document.querySelector('#hydrogens').onchange=e=>{if(viewer){viewer.hydrogens=e.target.checked;viewer.render();}};

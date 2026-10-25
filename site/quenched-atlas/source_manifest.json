@@ -8,13 +8,23 @@
   "files": [
     {
       "path": "atlas.css",
-      "sha256": "1a7b8308840c88f6a8681f7db0b646efa69ea996d49528109232219c43e3dadb",
-      "bytes": 2126
+      "sha256": "959172919cd51b08c4a1d01fb20dff986d130a647d591b52bdbf5f89d602e51f",
+      "bytes": 2607
     },
     {
       "path": "atlas.js",
-      "sha256": "206b71849a942a02e6f0fd9fb767103d55f2be5f7bef4b4308c5c1cf28fd6692",
-      "bytes": 5119
+      "sha256": "b79e41cf938510ba5c55e7f7ace7e76625045932157642dc64a1b7fa4d9ac568",
+      "bytes": 5345
+    },
+    {
+      "path": "bond-order-controls.js",
+      "sha256": "06b59096f5065564672a16edc2633113e0285c36cd863643f15c1f2a0453c029",
+      "bytes": 7208
+    },
+    {
+      "path": "bond_order_demo.json",
+      "sha256": "69cad7ea249d4ce784d0e1fd7050495c3731df86a53c25bf548c7a69f943f1cd",
+      "bytes": 334289
     },
     {
       "path": "catalog_preview.json",
@@ -308,13 +318,19 @@
     },
     {
       "path": "index.html",
-      "sha256": "b5c35c823bc033c7c7275340116fdadd60dfff0fbdf85f52e22903831e92264b",
-      "bytes": 4132
+      "sha256": "eda99d4686c2dcb617d7058835d20123e23d5471b70446c2b0af262339c8eb48",
+      "bytes": 4845
     },
     {
       "path": "molecule-viewer.js",
-      "sha256": "56e1c5c0bc01b019db1a8a57cb72beb529e064908382609b54489ef9b03aef53",
-      "bytes": 8905
+      "sha256": "d59e6791c7572e3950da1e42c1cff10897badf808819f58d9e18e0920287f0d3",
+      "bytes": 10082
     }
-  ]
+  ],
+  "bond_order_demo": {
+    "graphs": 23,
+    "scope": "Provisional valence-based candidates under declared charge/radical configurations; observed distances reported without scoring. No catalog-wide chemical assignments.",
+    "selection_manifest_sha256": "ad49dc9d1cbbc26b10a0649b3137bcc6250c5cfc0058ade527ec26e86923e98e",
+    "validation_sha256": "4764bb49af30dd6c7d91e23c5ff1a351dcada54e12677de4ed254e5b39d0398d"
+  }
 }
