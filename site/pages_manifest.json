@@ -2938,8 +2938,8 @@
     },
     {
       "path": "export_manifest.json",
-      "sha256": "8e59951ec812a332fd4144d1aa6b55356946a2cf9fbdf23859dcf1bc487b0eee",
-      "bytes": 570049
+      "sha256": "cac4345b22b5cc8915779c77fe7925078c5a0654614cd97681bae33f03ef63ab",
+      "bytes": 570196
     },
     {
       "path": "feedback_status.json",
@@ -2978,13 +2978,13 @@
     },
     {
       "path": "quenched-atlas/atlas.css",
-      "sha256": "6690873e6354c452303e7e89ac85512d4adfc15cf9034c11502e376fb6b54efa",
-      "bytes": 1886
+      "sha256": "1a7b8308840c88f6a8681f7db0b646efa69ea996d49528109232219c43e3dadb",
+      "bytes": 2126
     },
     {
       "path": "quenched-atlas/atlas.js",
-      "sha256": "8086b1ace9d20b6d32720ba147d1386aff6994acacfefa4a535faf2a2187216f",
-      "bytes": 6731
+      "sha256": "206b71849a942a02e6f0fd9fb767103d55f2be5f7bef4b4308c5c1cf28fd6692",
+      "bytes": 5119
     },
     {
       "path": "quenched-atlas/catalog_preview.json",
@@ -3278,13 +3278,18 @@
     },
     {
       "path": "quenched-atlas/index.html",
-      "sha256": "c7e300ee7b7724a0e8390facfe2c57b4c01f7648e8bad0026f77ed7ee3d636ba",
-      "bytes": 3693
+      "sha256": "b5c35c823bc033c7c7275340116fdadd60dfff0fbdf85f52e22903831e92264b",
+      "bytes": 4132
+    },
+    {
+      "path": "quenched-atlas/molecule-viewer.js",
+      "sha256": "56e1c5c0bc01b019db1a8a57cb72beb529e064908382609b54489ef9b03aef53",
+      "bytes": 8905
     },
     {
       "path": "quenched-atlas/source_manifest.json",
-      "sha256": "728fad5c976fefad5413019044505aeb384f8bec1d2223af040c2ec2a3e6cc3c",
-      "bytes": 12573
+      "sha256": "fdc5b06ddfb32aef077734dc80624dbbbb40e459c400ef389a14c4066b4a5cfb",
+      "bytes": 12726
     },
     {
       "path": "review-media/alanine_formation.mp4",

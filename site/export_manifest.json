@@ -4845,11 +4845,11 @@
     },
     {
       "path": "quenched-atlas/atlas.css",
-      "sha256": "6690873e6354c452303e7e89ac85512d4adfc15cf9034c11502e376fb6b54efa"
+      "sha256": "1a7b8308840c88f6a8681f7db0b646efa69ea996d49528109232219c43e3dadb"
     },
     {
       "path": "quenched-atlas/atlas.js",
-      "sha256": "8086b1ace9d20b6d32720ba147d1386aff6994acacfefa4a535faf2a2187216f"
+      "sha256": "206b71849a942a02e6f0fd9fb767103d55f2be5f7bef4b4308c5c1cf28fd6692"
     },
     {
       "path": "quenched-atlas/catalog_preview.json",
@@ -5085,11 +5085,15 @@
     },
     {
       "path": "quenched-atlas/index.html",
-      "sha256": "c7e300ee7b7724a0e8390facfe2c57b4c01f7648e8bad0026f77ed7ee3d636ba"
+      "sha256": "b5c35c823bc033c7c7275340116fdadd60dfff0fbdf85f52e22903831e92264b"
     },
     {
       "path": "quenched-atlas/source_manifest.json",
-      "sha256": "728fad5c976fefad5413019044505aeb384f8bec1d2223af040c2ec2a3e6cc3c"
+      "sha256": "fdc5b06ddfb32aef077734dc80624dbbbb40e459c400ef389a14c4066b4a5cfb"
+    },
+    {
+      "path": "quenched-atlas/molecule-viewer.js",
+      "sha256": "56e1c5c0bc01b019db1a8a57cb72beb529e064908382609b54489ef9b03aef53"
     }
   ],
   "repaired_links": [
