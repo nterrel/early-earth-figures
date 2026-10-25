@@ -5,7 +5,7 @@
   "gallery_sha256": "230da92295328e33909333a6f938bb5776f18c5304f37b9e5778c55d47490666",
   "asset_count": 29,
   "selection": {
-    "title": "Early Earth \u2014 supplementary figures",
+    "title": "Early Earth — supplementary figures",
     "description": "A proposed collection showing energy changes, alanine geometry, and fragment populations before and after quenching.",
     "publication_state": "proposed_for_author_review",
     "source_paths": [
@@ -319,11 +319,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "3365b51e28b04841a292defe752de00cdaed2e8bd0e7b1ba56ee1d820c76ed9b"
+      "sha256": "290de451b6b8413c03453aaa0dba1fe9b6e4a8eb7507f80e097a56067aa30124"
     },
     {
       "path": "comments.js",
-      "sha256": "7c435b8f97c7d479f14295569f904ff7fa3e2ddb887e795804b40b0a08eeaf20"
+      "sha256": "de81fbf63d8fc607597893ca635adb73ddbf38ee6eddef9d17f85f6fb0ed5270"
     },
     {
       "path": "comments.css",
@@ -331,11 +331,11 @@
     },
     {
       "path": "preview.js",
-      "sha256": "315d55d1ff19075c529adf679f2d436f9390fbbc52d7b13db8d012c7983b1d0d"
+      "sha256": "233eade4a2595db2c709bc488d7a25653651a48245572e9a76a6d2b74ca5d157"
     },
     {
       "path": "preview.css",
-      "sha256": "b65df8586808aa31e41d902bbebff9781d01831f5c0cd7f8266e1fa6891763d9"
+      "sha256": "5bb3896de922dad1542941297da9de5f1a6d313a9dd59b68a0c9a5a82fd70e85"
     },
     {
       "path": "228k-background.png",
@@ -347,7 +347,11 @@
     },
     {
       "path": "meeting.js",
-      "sha256": "2b9d423cc3a270a780b66652dbc54900d69e73afa68e410a3de062ce97674bea"
+      "sha256": "7ff6c6d52a694c8b8d3d348c8bd101762ed99300aea51cbc0d4ba8a74ee64ee7"
+    },
+    {
+      "path": "media.css",
+      "sha256": "02b2627bcaf23f6d15680d6b75656d684abc483a4864dae36bfa4c5df151da76"
     }
   ],
   "repaired_links": [],
@@ -370,7 +374,7 @@
     "image_dialog": "Escape-close, focus restoration, original download links",
     "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 15,
-    "ratings": "Public GitHub Discussions; latest 1\u20135 vote per reviewer/artwork, with arithmetic average and reviewer count."
+    "ratings": "Public GitHub Discussions; latest 1–5 vote per reviewer/artwork, with arithmetic average and reviewer count."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
@@ -388,9 +392,13 @@
     "movie_provenance": null,
     "snapshot": "../review_state.json",
     "selection_goal": {
-      "discussion": "about 20\u201330 high-value figures eventually",
+      "discussion": "about 20–30 high-value figures eventually",
       "priority": "a smaller set, ideally fewer than 10",
       "enforced": false
     }
+  },
+  "display_cleanup": {
+    "date": "2026-10-25",
+    "record": "../display_cleanup.json"
   }
 }

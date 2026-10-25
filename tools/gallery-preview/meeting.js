@@ -20,7 +20,10 @@
   const rejected = document.createElement('ul'); rejected.className = 'meeting-rejections'; rejected.hidden = true; panel.append(rejected);
   if (publicMode) {
     panel.querySelector('h2').textContent = 'Shared figure review';
-    panel.querySelector('h2 + p').textContent = 'Help converge on about 20–30 high-value figures, with a smaller priority set. This is a selection goal; browsing and selections have no hard count limit. Post selections, ratings and notes through Comments with GitHub. Nick and Adrian curate the shared set. Refresh after the site updates.';
+    panel.querySelector('h2 + p').textContent = 'Rate how useful each figure is for discussion: 1 = not useful, 2 = needs work, 3 = useful, 4 = strong, 5 = essential. Ratings are separate from the discussion set and manuscript approval. Nick and Adrian curate the shared set.';
+    const instructions = document.createElement('details'); instructions.className = 'review-instructions';
+    instructions.innerHTML = '<summary>How to save a rating or selection</summary><ol><li>Choose a score or meeting selection on a figure. This prepares a comment; it does not save yet.</li><li>In the dialog, choose <strong>Copy rating text</strong> (or Copy text), paste it into the GitHub comment box, sign in if prompted, and post.</li><li>Your comment is saved on GitHub immediately. The shared score updates after the website rebuilds; choose <strong>Refresh saved review</strong> to load it.</li></ol><p>Each reviewer has one score per artwork version; their latest posted score replaces their earlier one. The summary shows the average and reviewer count. Preparing or copying text alone never changes a score.</p>';
+    panel.querySelector('h2 + p').after(instructions);
     status.textContent = 'Loading saved GitHub review…';
   }
   const groups = {};
@@ -108,6 +111,8 @@
       if (control.rating) {
         const rating = data.rating || {count: 0, average: null};
         control.rating.textContent = rating.count ? `${rating.average.toFixed(1)}/5 from ${rating.count} reviewer${rating.count === 1 ? '' : 's'}` : 'No shared ratings yet';
+        control.ratingHelp.textContent = control.pendingRating ? `Prepared: ${control.pendingRating}/5. Posting is not confirmed here. Paste and post it in Comments, refresh after the website updates, then clear this prepared score.` : 'Choose a score to prepare a GitHub comment. It is saved only after you post.';
+        for (const star of control.stars.children) star.setAttribute('aria-pressed', String(Number(star.dataset.value) === control.pendingRating));
       }
     }
   }
@@ -143,6 +148,7 @@
     if (publicMode) {
       const draft = changes.action === 'note' ? changes.body : changes.action === 'rating' ? 'Rating: ' + changes.value :
         'Meeting: ' + (changes.action === 'move' ? changes.direction : changes.state);
+      if (changes.action === 'rating') control.pendingRating = changes.value;
       window.dispatchEvent(new CustomEvent('gallery-open-comments', {detail: {key, draft}}));
       status.textContent = 'Prepared for Comments. Paste and post with GitHub to save; Refresh this view after the site updates.';
       apply(); return;
@@ -176,20 +182,25 @@
     text.setAttribute('aria-label', 'Meeting note for ' + config.figures[key].title); noteLabel.append(text);
     const saveButton = document.createElement('button'); saveButton.type = 'button'; saveButton.textContent = publicMode ? 'Post note in Comments' : 'Save note';
     const noteStatus = document.createElement('p'); noteStatus.className = 'meeting-note-status'; noteStatus.setAttribute('role', 'status');
-    text.addEventListener('input', () => {noteStatus.textContent = text.value ? 'Draft — choose Save note to keep it.' : '';});
+    text.addEventListener('input', () => {noteStatus.textContent = text.value ? (publicMode ? 'Draft — choose Post note in Comments, then paste and post with GitHub.' : 'Draft — choose Save note to keep it.') : '';});
     details.append(count, notes, noteLabel, saveButton, noteStatus); block.append(label, order, details);
     const control = {block, select, up, down, notes, text, count}; controls.set(key, control);
     if (publicMode) {
       const ratingBlock = document.createElement('div'); ratingBlock.className = 'figure-rating';
       const rating = document.createElement('p'); rating.className = 'rating-summary'; control.rating = rating;
       const stars = document.createElement('div'); stars.className = 'rating-stars';
+      stars.setAttribute('role', 'group'); stars.setAttribute('aria-label', 'Prepare a usefulness rating'); control.stars = stars;
+      const meanings = ['Not useful', 'Needs work', 'Useful', 'Strong', 'Essential'];
       for (let value = 1; value <= 5; value++) {
-        const star = document.createElement('button'); star.type = 'button'; star.className = 'rating-star'; star.textContent = value + '★';
-        star.setAttribute('aria-label', `Post ${value} star rating for ${config.figures[key].title}`);
+        const star = document.createElement('button'); star.type = 'button'; star.className = 'rating-star'; star.textContent = value + ' · ' + meanings[value - 1]; star.dataset.value = value;
+        star.setAttribute('aria-label', `Prepare ${value} of 5: ${meanings[value - 1]} for ${config.figures[key].title}`);
+        star.setAttribute('aria-pressed', 'false');
         star.onclick = () => save(key, {action: 'rating', value}, control); stars.append(star);
       }
-      const help = document.createElement('p'); help.className = 'rating-status'; help.textContent = 'Post with GitHub. Your latest rating replaces your earlier rating.';
-      ratingBlock.append(rating, stars, help); block.prepend(ratingBlock);
+      const help = document.createElement('p'); help.className = 'rating-status'; help.setAttribute('role', 'status'); control.ratingHelp = help;
+      const clearScore = document.createElement('button'); clearScore.type = 'button'; clearScore.textContent = 'Clear prepared score';
+      clearScore.onclick = () => {control.pendingRating = null; apply();};
+      ratingBlock.append(rating, stars, help, clearScore); block.prepend(ratingBlock);
       const clear = document.createElement('button'); clear.type = 'button'; clear.textContent = 'Clear draft';
       clear.onclick = () => {text.value = ''; noteStatus.textContent = '';}; details.append(clear);
     }

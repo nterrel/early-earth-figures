@@ -131,67 +131,77 @@
       "key": "a9de940f6d94a41667fc1244-5e3e96ccd80d4543",
       "source_group": "early_earth_analysis_v2/figures/publication_revision/discovery_curve/F08_cumulative_discovery",
       "version": "5e3e96ccd80d45434a6b1b330a9038b71b59ce3a9266b53a401eb7c51652fabb",
-      "reference": "Figure 99 \u2014 Discovery counts excluding starting species"
+      "reference": "Figure 99 — Discovery counts excluding starting species"
     },
     "largest_current": {
       "key": "54fce0fd99e968ea156d43a8-4a513348a584aa54",
       "source_group": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/largest_current",
       "version": "4a513348a584aa5418adb57ebf704eb64860cd8b987c2e70fd908af11231168a",
-      "reference": "Figure 100 \u2014 Largest hot fragments in the complete sparse cohort"
+      "reference": "Figure 100 — Largest hot fragments in the complete sparse cohort"
     },
     "chn_source": {
       "key": "1c3dda96bc14686326218eac-b2cce1635b49b36d",
       "source_group": "early_earth_analysis_v2/drafts/historical_review_20261018/packet/assets/chn_source",
       "version": "b2cce1635b49b36d82a0f7970e986b21e83ecdcbc4cda9aea5b048a0ef00d997",
-      "reference": "Figure 101 \u2014 CHN counts from the retained historical table"
+      "reference": "Figure 101 — CHN counts from the retained historical table"
     },
     "energy_historical": {
       "key": "abdadbe10d99a582c8cd00f7-e2e2fa11f1957616",
       "source_group": "paper-early-earth-chemistry-hero-run/figures/placed/228_pot_eng",
       "version": "e2e2fa11f195761688f5f48e031079fc4acb24732b36849564b818ca0a0dcdb2",
-      "reference": "Figure 16 \u2014 Potential-energy hysteresis during heating and cooling"
+      "reference": "Figure 16 — Potential-energy hysteresis during heating and cooling"
     },
     "energy_raw": {
       "key": "d7b0048f48a40abaa0f96d49-d2191688b512a6d9",
       "source_group": "early_earth_analysis_v2/analysis/energy_hysteresis/results/F09_energy_hysteresis_raw",
       "version": "d2191688b512a6d934d8350dc2c3bf083f2318ebb9408f255ff4b7debe2d754b",
-      "reference": "Figure 17 \u2014 Temperature and potential-energy counts in the 22.8-million-atom run"
+      "reference": "Figure 17 — Temperature and potential-energy counts in the 22.8-million-atom run"
     },
     "largest_historical": {
       "key": "5b4efc89b36f597bb92fd9ba-c3423e0416e30a8e",
       "source_group": "Dissertation_figures/early_earth/figures/adjusted_largest_mol_vs_time",
       "version": "c3423e0416e30a8e17e732147d801a3de5447f6d7fc463522159e187873181ff",
-      "reference": "Figure 43 \u2014 Largest fragment over time \u2014 blue trace"
+      "reference": "Figure 43 — Largest fragment over time — blue trace"
     },
     "chn_historical": {
       "key": "6baf4e3cabe1937f0a9a4d41-3d5535f9a0c36993",
       "source_group": "Dissertation_figures/early_earth/figures/counts_vs_time_CHN",
       "version": "3d5535f9a0c369936a2841ca774236dbcb1a5eef75e789779e6a8ecb23521645",
-      "reference": "Figure 64 \u2014 CHN formula counts over time"
+      "reference": "Figure 64 — CHN formula counts over time"
     },
     "variety": {
       "key": "232f7f8c88c45b738c2968e9-b2a3aaa821f622a2",
       "source_group": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F17_variety_vs_abundance",
       "version": "b2a3aaa821f622a27fa0b968a6842239958f645a4a8ed37364c85f559b6f640e",
-      "reference": "Figure 71 \u2014 Large string variety, small-fragment abundance"
+      "reference": "Figure 71 — Large string variety, small-fragment abundance"
     },
     "quench": {
       "key": "57efb52dc05d41ceb3cdb4ef-c4948f9508dd592e",
       "source_group": "early_earth_analysis_v2/analysis/advisor_figures/notebook/exports/F12_F13_quench_fragment_sizes",
       "version": "c4948f9508dd592e09d380acb38c6d918b64ca14aae43ebbfddba45c6784b502",
-      "reference": "Figure 59 \u2014 Quench changes mean and largest fragment sizes"
+      "reference": "Figure 59 — Quench changes mean and largest fragment sizes"
     },
     "alanine_movie": {
       "key": "5907a2241b640317610340a5-b8a827db1e38625b",
       "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013_backbone_plane_v2/F22_alanine_formation_standard",
       "version": "b8a827db1e38625ba2dd293c53e1a3aa2847b48b32db9ff6b98e6a2d16909340",
-      "reference": "Figure 4a \u2014 Alanine \u2014 saved formation window and final 360\u00b0 view"
+      "reference": "Figure 4a — Alanine — saved formation window and final 360° view"
     },
     "glycine_movie": {
       "key": "c7fcc0d27b97bb4585edbb0b-859868a5a40e52b7",
       "source_group": "early_earth_analysis_v2/analysis/alanine_illustrations/results/standard_orientation_20261013/F22_glycine_formation_standard",
       "version": "859868a5a40e52b75d69998a096f5eb67bb9892db57aa42165530908e2965e52",
-      "reference": "Figure 4b \u2014 Glycine \u2014 saved formation window and final 360\u00b0 view"
+      "reference": "Figure 4b — Glycine — saved formation window and final 360° view"
     }
+  },
+  "presentation_followup": {
+    "date": "2026-10-25",
+    "author_feedback": {
+      "energy": "Author feedback, 25 October: keep A and B as complementary gallery displays. The original A is favored for paper discussion because the behavior is easier to see; final placement remains open.",
+      "largest": "Author feedback, 25 October: keep both displays. Neither is selected for the paper yet; a supplemental sampling comparison is a possibility requiring its own scoped evidence.",
+      "chn": "Author feedback, 25 October: B is the preferred CHN presentation. Final manuscript acceptance remains open."
+    },
+    "entry_sha256": "e3de761c779a916cf224e3aa0d8f468ac5c454b376562823823a15e442d72a80",
+    "display_policy": "Caption-only margins handled by CSS viewports; source bytes retained. Animation display derivatives are bound by display_cleanup.json."
   }
 }

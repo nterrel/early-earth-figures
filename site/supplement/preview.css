@@ -12,12 +12,17 @@ section>h2,.section-description,footer{background:#fff;color:#202d39;padding:.65
 .rating-stars{display:flex;gap:.25rem;flex-wrap:wrap}.rating-star{font-size:1.4rem;line-height:1;padding:.5rem;color:#69511a}
 .rating-star[aria-pressed=true]{background:#fff1bd;border-color:#9a7115}.rating-star:disabled{cursor:default;opacity:.55}
 .rating-summary,.rating-status{font-size:.82rem;color:#465968;margin:.4rem 0}
+.meeting-card .rating-star{font-size:.85rem;line-height:1.3}.review-instructions{max-width:75ch;margin:1rem 0}.review-instructions summary{cursor:pointer;font-weight:650}.review-instructions li{margin:.6rem 0}
 .gallery-reference{margin:0 0 .5rem;font-weight:650}.gallery-reference a{color:#62417f}article[id]{scroll-margin-top:100px}
 .image-dialog,.review-login{box-sizing:border-box;border:1px solid #aabcc7;border-radius:.6rem;background:white;color:#202d39;width:min(96vw,1200px);max-height:94dvh;padding:1rem;overflow:auto}
 dialog::backdrop{background:rgba(9,25,35,.82)}
-.image-heading{display:flex;gap:1rem;align-items:start;justify-content:space-between}.image-heading h2{margin:0;font-size:1.1rem}
-.image-dialog img{display:block;max-width:100%;max-height:72dvh;width:auto;height:auto;object-fit:contain;margin:1rem auto}
-.image-original{display:inline-block;margin:.5rem 0}.image-close{flex-shrink:0}
+.image-dialog{width:fit-content;max-width:98vw;max-height:96dvh;padding:2.6rem .5rem .5rem;overflow:hidden}
+.image-dialog img,.image-dialog video{display:block;max-width:96vw;max-height:calc(94dvh - 3rem);width:auto;height:auto;object-fit:contain;margin:0 auto;background:white}
+.image-dialog [hidden]{display:none}.image-close{position:absolute;right:.4rem;top:.3rem;font-size:1.3rem;line-height:1;padding:.35rem .65rem}
+.caption-free{position:relative;overflow:hidden;max-width:100%;margin:auto}.caption-free img,.image-dialog .caption-free img{position:absolute;top:0;left:0;width:100%;height:auto;max-height:none;max-width:none;margin:0}
+.preview a:has(.caption-free){display:block}.image-canvas:not(.caption-free){width:fit-content;margin:auto}
+.enlarge-video{display:block;margin:.4rem auto;font:inherit;font-size:.85rem;padding:.4rem .7rem;background:white;color:#16475f;border:1px solid #9cb7c5;border-radius:.35rem;cursor:pointer}
+.preview:has(video){display:flex;flex-direction:column;justify-content:center}.preview video{min-height:0}
 .review-login{width:min(460px,94vw)}.review-login label{display:block;margin:.8rem 0}.review-login input{display:block;width:100%;box-sizing:border-box;min-width:0;margin-top:.3rem}
 button:focus-visible,a:focus-visible{outline:3px solid #76549b;outline-offset:3px}
 .meeting-panel{background:#fff;padding:1rem;border:1px solid #b6cad4;border-radius:.6rem;scroll-margin-top:7rem}
@@ -32,4 +37,4 @@ button:focus-visible,a:focus-visible{outline:3px solid #76549b;outline-offset:3p
 .meeting-card textarea{display:block;width:100%;box-sizing:border-box;font:inherit;margin:.5rem 0;resize:vertical}
 .meeting-notes{max-height:18rem;overflow:auto}.meeting-notes p{white-space:pre-wrap;overflow-wrap:anywhere}
 .meeting-card label{display:block}.meeting-panel select{max-width:100%}
-@media(max-width:500px){main{padding:1rem}.image-dialog{padding:.65rem}.image-dialog img{max-height:68dvh}nav{position:static}body{background-attachment:scroll}.links{flex-wrap:wrap}.review-access{font-size:.85rem}}
+@media(max-width:500px){main{padding:1rem}nav{position:static}body{background-attachment:scroll}.links{flex-wrap:wrap}.review-access{font-size:.85rem}}

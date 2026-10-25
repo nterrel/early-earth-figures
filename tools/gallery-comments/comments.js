@@ -40,10 +40,10 @@
   const frameContainer = dialog.querySelector('.comment-frames');
   const prepared = document.createElement('div');
   prepared.className = 'comment-prepared'; prepared.hidden = true;
-  prepared.innerHTML = '<p>Copy this text, paste it into the comment box below, then post with GitHub. The shared gallery view updates after publication.</p><textarea readonly aria-label="Prepared review comment" rows="3" style="box-sizing:border-box;width:100%"></textarea><button type="button">Copy text</button><p role="status"></p>';
+  prepared.innerHTML = '<p><strong>Not saved yet.</strong> 1. Copy the text. 2. Paste it into the GitHub comment box below. 3. Sign in and post. The comment saves immediately; the gallery summary updates after the website rebuilds.</p><textarea readonly aria-label="Prepared review comment" rows="3" style="box-sizing:border-box;width:100%"></textarea><button type="button">Copy text</button><p role="status"></p>';
   frameContainer.before(prepared);
   prepared.querySelector('button').onclick = async () => {
-    try {await navigator.clipboard.writeText(prepared.querySelector('textarea').value); prepared.querySelector('[role=status]').textContent = 'Copied. Paste into the comment box below and post.';}
+    try {await navigator.clipboard.writeText(prepared.querySelector('textarea').value); prepared.querySelector('[role=status]').textContent = 'Copied, not saved. Paste into the comment box below and post with GitHub.';}
     catch (_) {prepared.querySelector('textarea').select(); prepared.querySelector('[role=status]').textContent = 'Select and copy the text, then paste into the comment box below.';}
   };
 
@@ -105,6 +105,7 @@
     activeKey = key;
     prepared.hidden = !draft;
     prepared.querySelector('textarea').value = draft;
+    prepared.querySelector('button').textContent = /^Rating: [1-5]$/.test(draft) ? 'Copy rating text' : 'Copy text';
     prepared.querySelector('[role=status]').textContent = '';
     returnFocus = button || returnFocus;
     title.textContent = review.title;

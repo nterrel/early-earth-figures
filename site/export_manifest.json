@@ -4737,11 +4737,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "50b5fff67a973e1219305dd59fa3263cb5775c07b382194e0cbb2245ebf00068"
+      "sha256": "c86b05a86d4e369b3f2331636b449a63b3efb8504d92c0d4b842720d5e6c36dd"
     },
     {
       "path": "comments.js",
-      "sha256": "7c435b8f97c7d479f14295569f904ff7fa3e2ddb887e795804b40b0a08eeaf20"
+      "sha256": "de81fbf63d8fc607597893ca635adb73ddbf38ee6eddef9d17f85f6fb0ed5270"
     },
     {
       "path": "comments.css",
@@ -4749,11 +4749,11 @@
     },
     {
       "path": "preview.js",
-      "sha256": "315d55d1ff19075c529adf679f2d436f9390fbbc52d7b13db8d012c7983b1d0d"
+      "sha256": "233eade4a2595db2c709bc488d7a25653651a48245572e9a76a6d2b74ca5d157"
     },
     {
       "path": "preview.css",
-      "sha256": "b65df8586808aa31e41d902bbebff9781d01831f5c0cd7f8266e1fa6891763d9"
+      "sha256": "5bb3896de922dad1542941297da9de5f1a6d313a9dd59b68a0c9a5a82fd70e85"
     },
     {
       "path": "228k-background.png",
@@ -4765,7 +4765,7 @@
     },
     {
       "path": "meeting.js",
-      "sha256": "2b9d423cc3a270a780b66652dbc54900d69e73afa68e410a3de062ce97674bea"
+      "sha256": "7ff6c6d52a694c8b8d3d348c8bd101762ed99300aea51cbc0d4ba8a74ee64ee7"
     },
     {
       "path": "review-media/alanine_formation.mp4",
@@ -4781,11 +4781,63 @@
     },
     {
       "path": "advisor-review/index.html",
-      "sha256": "b59a4a6cd856d3b8a4264afcad431aa88b8e89dde9b490eb329374ce82da8cf7"
+      "sha256": "e3de761c779a916cf224e3aa0d8f468ac5c454b376562823823a15e442d72a80"
     },
     {
       "path": "advisor-review/source_manifest.json",
-      "sha256": "a45b420a5c908a0e36c8be04cd6bb06b26a61e4adce76e18977f124578cf2cb1"
+      "sha256": "20f8eeaa761396c45e7927afcd4ef6657c11264e12ad5b51e6e0e250be2eddd1"
+    },
+    {
+      "path": "media.css",
+      "sha256": "02b2627bcaf23f6d15680d6b75656d684abc483a4864dae36bfa4c5df151da76"
+    },
+    {
+      "path": "cleanup-audit.html",
+      "sha256": "28f8898d8ebe7fd557cd1989ff12827d801c9a21f7b578dc804968ce91ccbe59"
+    },
+    {
+      "path": "display_cleanup.json",
+      "sha256": "18ce0af1d456032c3c311d0c8804b5fb5cfdec1f6ad7579212c426b4bf479934"
+    },
+    {
+      "path": "review-media/clean/fd6fb004dba461fe.mp4",
+      "sha256": "4fa6eb020e03371b3d760624842b2b12570776aa37e1d2f7acfc68047bbe518e"
+    },
+    {
+      "path": "review-media/clean/fd6fb004dba461fe.png",
+      "sha256": "e7fe87a730667f6ef0ac6b1221f147208b5607660e79250ef21ccaa04aee9e70"
+    },
+    {
+      "path": "review-media/clean/aa42392465b35710.mp4",
+      "sha256": "9edd2def6c350d3ca484c8b108c12ee515378cd2185ae86984a8135a9e0ccaad"
+    },
+    {
+      "path": "review-media/clean/aa42392465b35710.png",
+      "sha256": "d8d6c8747cd9a25daf7f67545b486b2b96cf36f666935d2c2b31b486388186ff"
+    },
+    {
+      "path": "review-media/clean/9d5d8ea456f4ac01.mp4",
+      "sha256": "7fbad57150d1f52d186a5f2a09e80bf9a0ecd317a69140a09ca762dcbcb70f5e"
+    },
+    {
+      "path": "review-media/clean/9d5d8ea456f4ac01.png",
+      "sha256": "68d2f24c97dfae83941dbe402820dea2949976dffa590c7d3f2c21cd4dc84d08"
+    },
+    {
+      "path": "review-media/clean/859868a5a40e52b7.mp4",
+      "sha256": "252748a3ee586a943a484171c318bb122db774959119a0003f86076c69791c6a"
+    },
+    {
+      "path": "review-media/clean/859868a5a40e52b7.png",
+      "sha256": "5deb2363be8425bd1cb5a95adbda0b70e774831024d3c219a38ca6fcba726040"
+    },
+    {
+      "path": "review-media/clean/b8a827db1e38625b.mp4",
+      "sha256": "43c7b068873bf4bbd35b67da0fd272683b85cf872209c476c04a97afe38d5b58"
+    },
+    {
+      "path": "review-media/clean/b8a827db1e38625b.png",
+      "sha256": "7da820b7073171071ea9843b2598adcd6de00f4f0ca001bed700c3bc987fbd4c"
     }
   ],
   "repaired_links": [
@@ -6919,7 +6971,7 @@
     "image_dialog": "Escape-close, focus restoration, original download links",
     "numbering_sha256": "cfb355e267e47a72d2af3d702447effd58ff62c7a4e7d8f6a4aef65257ec8c2b",
     "displayed_panels": 113,
-    "ratings": "Public GitHub Discussions; latest 1\u20135 vote per reviewer/artwork, with arithmetic average and reviewer count."
+    "ratings": "Public GitHub Discussions; latest 1–5 vote per reviewer/artwork, with arithmetic average and reviewer count."
   },
   "amino_acid_review": {
     "selection_sha256": "e62d5668a6c1f49d5fc5419da581df467e609fa6881e981048848733137a9fbe",
@@ -6953,7 +7005,7 @@
     },
     "snapshot": "review_state.json",
     "selection_goal": {
-      "discussion": "about 20\u201330 high-value figures eventually",
+      "discussion": "about 20–30 high-value figures eventually",
       "priority": "a smaller set, ideally fewer than 10",
       "enforced": false
     }
@@ -6979,5 +7031,9 @@
     ],
     "canonical_catalog_assets_unchanged": 152,
     "display_dependencies": 15
+  },
+  "display_cleanup": {
+    "date": "2026-10-25",
+    "record": "display_cleanup.json"
   }
 }

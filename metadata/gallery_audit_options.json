@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-25",
+  "purpose": "Proposed display curation for the next author audit; no removals are applied.",
+  "protected": [
+    "16",
+    "17",
+    "42",
+    "100"
+  ],
+  "working_set": [
+    "16",
+    "17",
+    "1a",
+    "1b",
+    "1c",
+    "2a",
+    "2b",
+    "3a",
+    "3b",
+    "4a",
+    "4b",
+    "5",
+    "7a",
+    "7b",
+    "7c",
+    "42",
+    "100",
+    "101",
+    "99",
+    "71",
+    "59",
+    "33",
+    "23",
+    "21",
+    "78",
+    "84"
+  ],
+  "groups": [
+    {
+      "id": "named-bars",
+      "title": "Named-reference occurrence bars",
+      "keep": [
+        "53"
+      ],
+      "candidates": [
+        "49"
+      ],
+      "reason": "The same displayed count pattern appears in both presentations. Keep the specifically described cohort view; move the other presentation out of the main browse view. This is a visual redundancy recommendation, not a new numerical-equivalence finding."
+    },
+    {
+      "id": "named-time",
+      "title": "Named-reference time traces",
+      "keep": [
+        "54"
+      ],
+      "candidates": [
+        "51"
+      ],
+      "reason": "The two filled traces look nearly identical. Prefer the explicitly described quench-cohort card; retain the alternate and its provenance in the full library."
+    },
+    {
+      "id": "size-histogram",
+      "title": "Total-size string-variety histogram",
+      "keep": [
+        "83"
+      ],
+      "candidates": [
+        "82"
+      ],
+      "reason": "Both captions describe the full 10,259,647-string union and the same 1–92-atom range/mode. Prefer the annotated mode presentation."
+    },
+    {
+      "id": "recurrence",
+      "title": "Recurrence presentations",
+      "keep": [
+        "75"
+      ],
+      "candidates": [
+        "77"
+      ],
+      "reason": "Both captions state the same carbon-string recurrence summary. Use one primary presentation; keep the alternate available for detailed review."
+    },
+    {
+      "id": "motifs",
+      "title": "Local motif comparisons",
+      "keep": [
+        "74"
+      ],
+      "candidates": [
+        "73"
+      ],
+      "reason": "The state-weighting definitions differ. Prefer the both-state view for browsing; retain the original-weight variant as a specialist companion. These are not numerically interchangeable."
+    },
+    {
+      "id": "mean-traces",
+      "title": "Mean-fragment trace alternatives",
+      "keep": [
+        "46"
+      ],
+      "candidates": [
+        "45"
+      ],
+      "reason": "Two historical presentations occupy separate cards. Prefer the revised view for browsing; keep source/sampling qualifications accessible. Do not infer identical reductions from visual similarity."
+    },
+    {
+      "id": "quench-overviews",
+      "title": "Quench mean/maximum companions",
+      "keep": [
+        "59"
+      ],
+      "candidates": [
+        "48",
+        "44",
+        "57"
+      ],
+      "reason": "The four-panel overview carries the mean and maximum comparison. Move the single-statistic/density companions into an expandable group unless they answer a specific discussion question; their plotting/statistical views remain distinct."
+    },
+    {
+      "id": "largest-legacy",
+      "title": "Additional historical largest-fragment trace",
+      "keep": [
+        "42",
+        "100"
+      ],
+      "candidates": [
+        "43"
+      ],
+      "reason": "Keep both author-requested dense and sparse products. The extra blue historical rendering can move out of the main view; no equivalence of the dense and sparse products is implied."
+    },
+    {
+      "id": "cell-renderings",
+      "title": "Dense-system renderings",
+      "keep": [
+        "86",
+        "92"
+      ],
+      "candidates": [
+        "87",
+        "88"
+      ],
+      "reason": "The initial/after pair supplies a clear comparison. The two dense close/head-on renderings add less at thumbnail size and can move to a development-system detail group."
+    },
+    {
+      "id": "violin-alternates",
+      "title": "Historical named-query violins",
+      "keep": [
+        "98"
+      ],
+      "candidates": [
+        "95"
+      ],
+      "reason": "The lower-count views are visually close. Prefer one browse card and retain the other as an alternate. Figure 97 uses a different count scale and is deliberately not called a duplicate; review its definition separately."
+    }
+  ],
+  "working_groups": [
+    {
+      "title": "Energy: complementary displays and system schedules",
+      "figures": [
+        "16",
+        "17",
+        "1a",
+        "1b",
+        "1c"
+      ]
+    },
+    {
+      "title": "Geometry and animations",
+      "figures": [
+        "2a",
+        "2b",
+        "3a",
+        "3b",
+        "4a",
+        "4b",
+        "5",
+        "7a",
+        "7b",
+        "7c"
+      ]
+    },
+    {
+      "title": "Fragment size and quench response",
+      "figures": [
+        "42",
+        "100",
+        "59",
+        "33"
+      ]
+    },
+    {
+      "title": "Composition, discovery and abundance",
+      "figures": [
+        "101",
+        "99",
+        "71"
+      ]
+    },
+    {
+      "title": "Cross-size sampling context",
+      "figures": [
+        "23",
+        "21",
+        "78"
+      ]
+    },
+    {
+      "title": "Workflow context",
+      "figures": [
+        "84"
+      ]
+    }
+  ]
+}

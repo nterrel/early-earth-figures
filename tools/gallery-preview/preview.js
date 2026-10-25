@@ -1,26 +1,40 @@
 (() => {
   'use strict';
-  const configNode = document.getElementById('gallery-comment-config');
-  if (!configNode) return;
-  const config = JSON.parse(configNode.textContent);
-  const widgets = new Map();
-  let reviewer = null;
-  let pending = false;
-  let setupRequired = false;
-
   const imageDialog = document.createElement('dialog');
   imageDialog.className = 'image-dialog';
-  imageDialog.setAttribute('aria-labelledby', 'image-title');
-  imageDialog.innerHTML = '<div class="image-heading"><h2 id="image-title"></h2><button class="image-close" type="button">Close</button></div><img alt=""><a class="image-original" target="_blank" rel="noopener">Open original image</a>';
+  imageDialog.setAttribute('aria-label', 'Enlarged figure');
+  imageDialog.innerHTML = '<button class="image-close" type="button" aria-label="Close enlarged figure">×</button><div class="image-canvas"><img alt=""></div><video controls playsinline preload="metadata" hidden></video>';
   document.body.append(imageDialog);
-  let imageFocus;
+  let imageFocus, sourceVideo;
+  const enlargedVideo = imageDialog.querySelector('video');
   function openImage(anchor, img) {
     imageFocus = anchor;
-    const reference = anchor.closest('article')?.dataset.galleryReference;
-    imageDialog.querySelector('h2').textContent = (reference ? reference + ' — ' : '') + img.alt;
+    imageDialog.setAttribute('aria-label', img.alt || 'Enlarged figure');
+    const canvas = imageDialog.querySelector('.image-canvas'); canvas.hidden = false;
+    const crop = img.closest('[data-display-crop]');
+    if (crop) {
+      canvas.classList.add('caption-free');
+      canvas.style.cssText = crop.style.cssText;
+      const [width, height] = crop.dataset.displayCrop.split(',').map(Number);
+      canvas.style.width = `min(${width}px, 96vw, calc((94dvh - 3rem) * ${width / height}))`;
+      imageDialog.querySelector('img').style.cssText = img.style.cssText;
+    } else {canvas.classList.remove('caption-free'); canvas.removeAttribute('style'); imageDialog.querySelector('img').removeAttribute('style');}
+    enlargedVideo.hidden = true;
     imageDialog.querySelector('img').src = img.src;
     imageDialog.querySelector('img').alt = img.alt;
-    imageDialog.querySelector('a').href = anchor.href;
+    imageDialog.showModal();
+    imageDialog.querySelector('button').focus();
+  }
+  function openVideo(button, video) {
+    imageFocus = button; sourceVideo = video;
+    video.pause();
+    imageDialog.setAttribute('aria-label', video.getAttribute('aria-label') || 'Enlarged animation');
+    imageDialog.querySelector('.image-canvas').hidden = true;
+    enlargedVideo.hidden = false;
+    enlargedVideo.poster = video.poster;
+    enlargedVideo.src = video.currentSrc || video.src;
+    const time = video.currentTime;
+    enlargedVideo.onloadedmetadata = () => {enlargedVideo.currentTime = time;};
     imageDialog.showModal();
     imageDialog.querySelector('button').focus();
   }
@@ -29,8 +43,13 @@
     const rect = imageDialog.getBoundingClientRect();
     if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) imageDialog.close();
   }});
-  imageDialog.addEventListener('close', () => {imageDialog.querySelector('img').removeAttribute('src'); imageFocus?.focus();});
-  for (const anchor of document.querySelectorAll('.preview a')) {
+  imageDialog.addEventListener('close', () => {
+    if (sourceVideo && Number.isFinite(enlargedVideo.currentTime)) sourceVideo.currentTime = enlargedVideo.currentTime;
+    enlargedVideo.pause(); enlargedVideo.onloadedmetadata = null;
+    enlargedVideo.removeAttribute('src'); enlargedVideo.load(); sourceVideo = null;
+    imageDialog.querySelector('img').removeAttribute('src'); imageFocus?.focus();
+  });
+  for (const anchor of document.querySelectorAll('.preview a, figure a')) {
     const img = anchor.querySelector('img');
     if (!img) continue;
     anchor.setAttribute('aria-haspopup', 'dialog');
@@ -40,6 +59,21 @@
       event.preventDefault(); openImage(anchor, img);
     });
   }
+  for (const video of document.querySelectorAll('.preview video, .movie-grid video, figure video')) {
+    const button = document.createElement('button'); button.type = 'button'; button.className = 'enlarge-video';
+    button.textContent = 'Enlarge animation'; button.setAttribute('aria-haspopup', 'dialog');
+    button.setAttribute('aria-label', 'Enlarge ' + (video.getAttribute('aria-label') || 'animation'));
+    video.after(button); button.onclick = () => openVideo(button, video);
+    video.addEventListener('dblclick', () => openVideo(button, video));
+  }
+
+  const configNode = document.getElementById('gallery-comment-config');
+  if (!configNode) return;
+  const config = JSON.parse(configNode.textContent);
+  const widgets = new Map();
+  let reviewer = null;
+  let pending = false;
+  let setupRequired = false;
 
   // A static publication has no local ratings service. D25 owns shared storage/access.
   if (document.documentElement.dataset.ratingMode === 'deferred') return;

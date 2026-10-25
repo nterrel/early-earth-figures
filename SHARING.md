@@ -2,6 +2,26 @@
 
 The [public figure library](https://nterrel.github.io/early-earth-figures/) is live, with a link to the [proposed supplement](https://nterrel.github.io/early-earth-figures/supplement/). Share those addresses with collaborators. The local `localhost` preview works on Nick's computer; ZIPs provide a fixed downloadable snapshot.
 
+## Current caption, media and cleanup review — 25 October 2026
+
+[Figure cleanup audit](https://nterrel.github.io/early-earth-figures/cleanup-audit.html)
+provides ten proposed keep/hide groups and a grouped 26-figure discussion set.
+Choices there are browser-local drafts: export decisions to return them to Codex.
+No removal follows from preparing the page or selecting an option in that draft.
+
+All five gallery animations now use MP4 pause/seek players. Choose **Enlarge
+animation** for the same clean popup as static figures; Escape closes it and
+returns the paused position to the card. Caption-only image margins are displayed
+as HTML underneath, preserving original artwork/downloads and feedback identities.
+Axes, legends and meaningful frame annotations stay with the visual.
+
+Ratings now label the 1–5 usefulness scale. Choose a score, **Copy rating text**,
+paste into Comments, sign in and post with GitHub. Preparing/copying is not saving;
+the shared score updates after the website rebuild, then **Refresh saved review**
+loads it. **Clear prepared score** clears only the unsent/prepared UI state, not a
+posted vote. The [owning packet](../early_earth_analysis_v2/analysis/gallery_cleanup_20261025/README.md)
+records verification, source preservation and remaining acceptance limits.
+
 ## Share a review snapshot now
 
 From the project root, create a new package and ZIP:
