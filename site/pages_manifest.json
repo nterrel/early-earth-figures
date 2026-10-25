@@ -2938,7 +2938,7 @@
     },
     {
       "path": "export_manifest.json",
-      "sha256": "bc3176256737bbc2984ce13dcb17615356d05e79b8c55781ccbdf70524211569",
+      "sha256": "a74a6d2c4472b2aee603776d4486ee11242a7616113e3c7bfae0ecc72a0ad093",
       "bytes": 570496
     },
     {
@@ -2983,8 +2983,8 @@
     },
     {
       "path": "quenched-atlas/atlas.js",
-      "sha256": "b79e41cf938510ba5c55e7f7ace7e76625045932157642dc64a1b7fa4d9ac568",
-      "bytes": 5345
+      "sha256": "d851947c9355cd185d229067f0dc370ab59137a6ef335bf1e45c0dd5b4fc9712",
+      "bytes": 5353
     },
     {
       "path": "quenched-atlas/bond-order-controls.js",
@@ -3288,8 +3288,8 @@
     },
     {
       "path": "quenched-atlas/index.html",
-      "sha256": "eda99d4686c2dcb617d7058835d20123e23d5471b70446c2b0af262339c8eb48",
-      "bytes": 4845
+      "sha256": "c2bb90b955c81daf75668747b5ff835036b9f26e8fb4f0f94e59bbd4d832e7d6",
+      "bytes": 4900
     },
     {
       "path": "quenched-atlas/molecule-viewer.js",
@@ -3298,7 +3298,7 @@
     },
     {
       "path": "quenched-atlas/source_manifest.json",
-      "sha256": "4985610bcecec8ca8636a64bdae2a9b8523a262d62caef0457fcc5c6eba83700",
+      "sha256": "65a92f984a320ac873a9ec4696a660ba76946bcf2b2f0084cd400b0424c1a036",
       "bytes": 13462
     },
     {

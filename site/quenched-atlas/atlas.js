@@ -23,7 +23,7 @@ async function search(){status.textContent='Searching…';const query=new URLSea
  }catch(error){status.textContent=error.message;}}
 async function select(gid){const generation=++selectionGeneration;document.querySelector('#selection').textContent='Loading observed geometry…';try{const loaded=await request('/api/structure/'+gid);if(generation!==selectionGeneration)return;geometry=loaded;const m=geometry.metadata;
  document.querySelector('#selection').textContent=`${m.formula} · ${m.n_atoms} explicit atoms · ${m.observation_count.toLocaleString()} appearances · ${m.frames_present.toLocaleString()} occupied frames`;
- document.querySelector('#metadata').textContent=`Graph ID: ${gid}\nRepresentative endpoint: ${m.coordinate_logical_frame}; source frame: ${m.coordinate_source_frame}\nGeometry: ${geometry.view}\nAssignment: ${m.assignment_status}; name: ${m.name_status}\nConnectivity SMILES: ${m.SMILES}\nCoordinate record SHA-256: ${m.coordinate_record_sha256}`;
+ document.querySelector('#metadata').textContent=`Graph ID: ${gid}\nRepresentative endpoint: ${m.coordinate_logical_frame}; source frame: ${m.coordinate_source_frame}\nGeometry: ${geometry.view}\nCatalog assignment: ${m.assignment_status}; name: ${m.name_status}\nConnectivity SMILES: ${m.SMILES}\nCoordinate record SHA-256: ${m.coordinate_record_sha256}`;
  for(const row of document.querySelectorAll('tbody tr'))row.setAttribute('aria-selected',String(row.dataset.graphId===gid));
  if(viewer)viewer.setGeometry(geometry);bondControls.setGeometry(geometry);document.querySelector('#detail').scrollIntoView({block:'start',behavior:'smooth'});
  }catch(error){document.querySelector('#selection').textContent=error.message;}}
